@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(11, 34, 33, 0.761);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container-login{
+    padding: 10px;
+}
+
+#form{
+    background-color: #fff;
+    overflow: hidden;
+    width: 600px;
+    height: 100%;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: rgba(7, 74, 85, 0.7);
+    line-height: 40px;
+    height: 40px;
+}
+.image{
+    padding: 10px;
+    text-align: center;
+}
+.allinput{
+    width: 100%;
+}
+.input-text{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.123);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    transition: border 0.5s ease;
+    cursor: text;
+}
+.input-text:hover{
+    border: 2px solid rgba(7, 74, 85, 0.7);
+}
+
+label{
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    cursor: text;
+}
+
+input[type="text"], input[type="password"]{
+    outline: none;
+    border: 0;
+    width: 100%;
+}
+
+
+.login_submit {
+    padding: 30px 0px;
+    margin: 0px 0;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.123);
+    border-radius: 0;
+    width: 100%;
+    font-weight: 800;
+    cursor: pointer;
+    color: rgba(7, 74, 85, 0.7);
+    transition: background-color 0.5s ease, color 0.5s ease, font-size 0.5s ease;
+}
+.login_submit:hover {
+    background-color: rgba(7, 74, 85, 0.7);
+    color: #fff;
+    font-size: 1.05em;
+}
+
+.login_submit.btn-disabled {
+    background-color: #b6b6b6;
+    cursor: not-allowed;
+}
+.login_submit:hover.btn-disabled {
+    color: rgba(7, 74, 85, 0.7);
+    font-size: 1.0em;
+}
+
+
+@media only screen and (max-width: 760px) {
+    body{
+        display: block;
+    }
+    .container{
+        padding: 0px;
+    }
+    #form{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    .image{
+        padding: 15px;
+    }
+}
+

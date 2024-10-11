@@ -1,0 +1,7 @@
+{
+  "AllowedHosts": "*",
+  "dbServerIP": "127.0.0.1",
+  "dbUsername": "admin",
+  "dbPassword": "Pmn67QoY34",
+  "dbPort": "1526"
+}

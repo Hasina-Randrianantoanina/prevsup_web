@@ -1,0 +1,36 @@
+.container-AppInfo{
+    /* text-align: center; */
+}
+.container-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+.Controls {
+    border: 1px solid grey;
+    width: 50vw;
+    text-align: left;
+    padding: 10px;
+}
+.container-AppInfo button {
+    font-size: calc(4px + 1vmin);
+    margin: 0 2px;
+    width: 50px;
+    background-color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+.Text {
+    font-size: calc(5px + 2vmin);
+    width: 50vw;
+    padding: 10px;
+}
+.appInfoContentEditable{
+    width: auto;
+    height: 200px;
+    border: 1px solid rgb(14, 13, 13);
+    padding: 5px;
+}

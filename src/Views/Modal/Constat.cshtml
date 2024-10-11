@@ -1,0 +1,112 @@
+﻿<style>
+	#newConstat .modal-content {
+		border-radius: 5px;
+		border: 0px;
+	}
+
+	#newConstat .modal-body {
+		font-size: 0.9em;
+	}
+
+		#newConstat .modal-body input {
+			outline: none;
+			border: 0px solid #000;
+			background-color: #F4F4F4;
+			padding: 10px;
+			font-weight: lighter;
+			border-bottom: 1px solid #000;
+			width: 100%;
+		}
+
+		#newConstat .modal-body select {
+			outline: none;
+			border: 0px solid #000;
+			background-color: #F4F4F4;
+			padding: 10px;
+			font-weight: lighter;
+			border-bottom: 1px solid #000;
+			width: 100%;
+		}
+</style>
+
+<!--NewConstat-->
+<div class="modal fade" id="newConstat" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Nouveau Constat</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+
+				<div class="mb-3">
+					<div>Nom du constat</div>
+					<input class="form-control" type="text" onkeypress="normalizes(event)" id="nc_nom" value="" placeholder="Entrez un nom pour le constat..." />
+				</div>
+
+				<div class="mb-3">
+					<div>Année de départ (min:2010)</div>
+					<input class="form-control" type="number" id="nc_depAnnee" value="2010" min="2010" placeholder="2010" />
+				</div>
+
+				<div class="mb-3">
+					<div>Année de fin</div>
+					<input class="form-control" type="number" id="nc_finAnnee" value="2019" min="2010" placeholder="2019" />
+				</div>
+
+				<div class="mb-3">
+					<div>Constat à créer sur la base de : </div>
+					<select class="form-select" id="nc_selectNew">
+						<option value="0" selected>Données académiques</option>
+						<option value="1">Constat existant</option>
+					</select>
+				</div>
+
+				<div class="mb-3 visually-hidden" id="nc_constats">
+					<div>Liste des Constats </div>
+					<select id="nc_list" style="width: 100%">
+					</select>
+				</div>
+
+				<div class="mb-3" id="nc_academies">
+					<div>Choix de l'academie </div>
+					<select id="nc_list_aca" style="width: 100%">
+					</select>
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+				<button type="button" class="btn btn-primary" onclick="new_submit('Constat', 'nc_')" id="nc_valider" data-bs-dismiss="modal">Valider</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Fin NewConstat-->
+<!--OuvrirConstat-->
+<div class="modal fade" id="openConstat" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Ouvrir un Constat</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="mb-2">Constat enregistrés :</div>
+
+					<!-- Dropdown -->
+					<select id="oc_list" style="width: 100%">
+					</select>
+
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+				<button type="button" class="btn btn-primary" onclick="open_submit('Constat', 'oc_')" id="oc_valider" data-bs-dismiss="modal">Valider</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Fin OuvrirConstat-->

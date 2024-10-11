@@ -1,0 +1,529 @@
+<Variables Label="Hypothèses">
+  <Var DisplayLabel="EFF_N5_J" Label="EFF_N5_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N5_100" Label="EFF_N5_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N5_101" Label="EFF_N5_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N5_102" Label="EFF_N5_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N5_111" Label="EFF_N5_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_121" Label="EFF_N5_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_131" Label="EFF_N5_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_141" Label="EFF_N5_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_150" Label="EFF_N5_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_160" Label="EFF_N5_J_160" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_165" Label="EFF_N5_J_165" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_167" Label="EFF_N5_J_167" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_169" Label="EFF_N5_J_169" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_170" Label="EFF_N5_J_170" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_181" Label="EFF_N5_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N5_104" Label="EFF_N5_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N5_114" Label="EFF_N5_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_124" Label="EFF_N5_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_134" Label="EFF_N5_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_144" Label="EFF_N5_J_144" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_166" Label="EFF_N5_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N5_500" Label="EFF_N5_J_500" Type="Sum">
+      <Var DisplayLabel="EFF_N5_501" Label="EFF_N5_J_501" Type="Calc" />
+      <Var DisplayLabel="EFF_N5_504" Label="EFF_N5_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N5_600" Label="EFF_N5_J_600" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_700" Label="EFF_N5_J_700" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_800" Label="EFF_N5_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_810" Label="EFF_N5_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_450" Label="EFF_N5_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="T_DEJA_N6_J" Label="T_DEJA_N6_J_900" Type="Calc" Display="Percent">
+    <Var DisplayLabel="T_DEJA_N6_100" Label="T_DEJA_N6_J_100" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_DEJA_N6_101" Label="T_DEJA_N6_J_101" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_DEJA_N6_102" Label="T_DEJA_N6_J_102" Type="Calc" Display="Percent">
+          <Var DisplayLabel="T_DEJA_N6_111" Label="T_DEJA_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_121" Label="T_DEJA_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_131" Label="T_DEJA_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_141" Label="T_DEJA_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_150" Label="T_DEJA_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_160" Label="T_DEJA_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_165" Label="T_DEJA_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_167" Label="T_DEJA_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_169" Label="T_DEJA_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_170" Label="T_DEJA_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DEJA_N6_181" Label="T_DEJA_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="T_DEJA_N6_104" Label="T_DEJA_N6_J_104" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_DEJA_N6_114" Label="T_DEJA_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DEJA_N6_124" Label="T_DEJA_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DEJA_N6_134" Label="T_DEJA_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DEJA_N6_144" Label="T_DEJA_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DEJA_N6_166" Label="T_DEJA_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="T_DEJA_N6_500" Label="T_DEJA_N6_J_500" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_DEJA_N6_501" Label="T_DEJA_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="T_DEJA_N6_504" Label="T_DEJA_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="T_DEJA_N6_600" Label="T_DEJA_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DEJA_N6_700" Label="T_DEJA_N6_J_700" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DEJA_N6_800" Label="T_DEJA_N6_J_800" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DEJA_N6_810" Label="T_DEJA_N6_J_810" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DEJA_N6_450" Label="T_DEJA_N6_J_450" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="T_RED_N6_J" Label="T_RED_N6_J_900" Type="Calc" Display="Percent">
+    <Var DisplayLabel="T_RED_N6_100" Label="T_RED_N6_J_100" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_RED_N6_101" Label="T_RED_N6_J_101" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_RED_N6_102" Label="T_RED_N6_J_102" Type="Calc" Display="Percent">
+          <Var DisplayLabel="T_RED_N6_111" Label="T_RED_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_121" Label="T_RED_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_131" Label="T_RED_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_141" Label="T_RED_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_150" Label="T_RED_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_160" Label="T_RED_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_165" Label="T_RED_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_167" Label="T_RED_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_169" Label="T_RED_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_170" Label="T_RED_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_RED_N6_181" Label="T_RED_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="T_RED_N6_104" Label="T_RED_N6_J_104" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_RED_N6_114" Label="T_RED_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_RED_N6_124" Label="T_RED_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_RED_N6_134" Label="T_RED_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_RED_N6_144" Label="T_RED_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_RED_N6_166" Label="T_RED_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="T_RED_N6_500" Label="T_RED_N6_J_500" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_RED_N6_501" Label="T_RED_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="T_RED_N6_504" Label="T_RED_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="T_RED_N6_600" Label="T_RED_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_RED_N6_700" Label="T_RED_N6_J_700" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_RED_N6_800" Label="T_RED_N6_J_800" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_RED_N6_810" Label="T_RED_N6_J_810" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_RED_N6_450" Label="T_RED_N6_J_450" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="ACC_N6_J" Label="ACC_N6_J_900" Type="Sum">
+    <Var DisplayLabel="ACC_N6_100" Label="ACC_N6_J_100" Type="Sum">
+      <Var DisplayLabel="ACC_N6_101" Label="ACC_N6_J_101" Type="Sum">
+        <Var DisplayLabel="ACC_N6_102" Label="ACC_N6_J_102" Type="Sum">
+          <Var DisplayLabel="ACC_N6_111" Label="ACC_N6_J_111" Type="Data" />
+          <Var DisplayLabel="ACC_N6_121" Label="ACC_N6_J_121" Type="Data" />
+          <Var DisplayLabel="ACC_N6_131" Label="ACC_N6_J_131" Type="Data" />
+          <Var DisplayLabel="ACC_N6_141" Label="ACC_N6_J_141" Type="Data" />
+          <Var DisplayLabel="ACC_N6_150" Label="ACC_N6_J_150" Type="Data" />
+          <Var DisplayLabel="ACC_N6_160" Label="ACC_N6_J_160" Type="Data" />
+          <Var DisplayLabel="ACC_N6_165" Label="ACC_N6_J_165" Type="Data" />
+          <Var DisplayLabel="ACC_N6_167" Label="ACC_N6_J_167" Type="Data" />
+          <Var DisplayLabel="ACC_N6_169" Label="ACC_N6_J_169" Type="Data" />
+          <Var DisplayLabel="ACC_N6_170" Label="ACC_N6_J_170" Type="Data" />
+          <Var DisplayLabel="ACC_N6_181" Label="ACC_N6_J_181" Type="Data" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="ACC_N6_104" Label="ACC_N6_J_104" Type="Sum">
+        <Var DisplayLabel="ACC_N6_114" Label="ACC_N6_J_114" Type="Data" />
+        <Var DisplayLabel="ACC_N6_124" Label="ACC_N6_J_124" Type="Data" />
+        <Var DisplayLabel="ACC_N6_134" Label="ACC_N6_J_134" Type="Data" />
+        <Var DisplayLabel="ACC_N6_144" Label="ACC_N6_J_144" Type="Data" />
+        <Var DisplayLabel="ACC_N6_166" Label="ACC_N6_J_166" Type="Data" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="ACC_N6_500" Label="ACC_N6_J_500" Type="Sum">
+      <Var DisplayLabel="ACC_N6_501" Label="ACC_N6_J_501" Type="Data" />
+      <Var DisplayLabel="ACC_N6_504" Label="ACC_N6_J_504" Type="Data" />
+    </Var>
+    <Var DisplayLabel="ACC_N6_600" Label="ACC_N6_J_600" Type="Data" />
+    <Var DisplayLabel="ACC_N6_700" Label="ACC_N6_J_700" Type="Data" />
+    <Var DisplayLabel="ACC_N6_800" Label="ACC_N6_J_800" Type="Data" />
+    <Var DisplayLabel="ACC_N6_810" Label="ACC_N6_J_810" Type="Data" />
+    <Var DisplayLabel="ACC_N6_450" Label="ACC_N6_J_450" Type="Data" />
+  </Var>
+  <Var DisplayLabel="ARR_N6_J" Label="ARR_N6_J_900" Type="Sum">
+    <Var DisplayLabel="ARR_N6_100" Label="ARR_N6_J_100" Type="Sum">
+      <Var DisplayLabel="ARR_N6_101" Label="ARR_N6_J_101" Type="Sum">
+        <Var DisplayLabel="ARR_N6_102" Label="ARR_N6_J_102" Type="Sum">
+          <Var DisplayLabel="ARR_N6_111" Label="ARR_N6_J_111" Type="Data" />
+          <Var DisplayLabel="ARR_N6_121" Label="ARR_N6_J_121" Type="Data" />
+          <Var DisplayLabel="ARR_N6_131" Label="ARR_N6_J_131" Type="Data" />
+          <Var DisplayLabel="ARR_N6_141" Label="ARR_N6_J_141" Type="Data" />
+          <Var DisplayLabel="ARR_N6_150" Label="ARR_N6_J_150" Type="Data" />
+          <Var DisplayLabel="ARR_N6_160" Label="ARR_N6_J_160" Type="Data" />
+          <Var DisplayLabel="ARR_N6_165" Label="ARR_N6_J_165" Type="Data" />
+          <Var DisplayLabel="ARR_N6_167" Label="ARR_N6_J_167" Type="Data" />
+          <Var DisplayLabel="ARR_N6_169" Label="ARR_N6_J_169" Type="Data" />
+          <Var DisplayLabel="ARR_N6_170" Label="ARR_N6_J_170" Type="Data" />
+          <Var DisplayLabel="ARR_N6_181" Label="ARR_N6_J_181" Type="Data" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="ARR_N6_104" Label="ARR_N6_J_104" Type="Sum">
+        <Var DisplayLabel="ARR_N6_114" Label="ARR_N6_J_114" Type="Data" />
+        <Var DisplayLabel="ARR_N6_124" Label="ARR_N6_J_124" Type="Data" />
+        <Var DisplayLabel="ARR_N6_134" Label="ARR_N6_J_134" Type="Data" />
+        <Var DisplayLabel="ARR_N6_144" Label="ARR_N6_J_144" Type="Data" />
+        <Var DisplayLabel="ARR_N6_166" Label="ARR_N6_J_166" Type="Data" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="ARR_N6_500" Label="ARR_N6_J_500" Type="Sum">
+      <Var DisplayLabel="ARR_N6_501" Label="ARR_N6_J_501" Type="Data" />
+      <Var DisplayLabel="ARR_N6_504" Label="ARR_N6_J_504" Type="Data" />
+    </Var>
+    <Var DisplayLabel="ARR_N6_600" Label="ARR_N6_J_600" Type="Data" />
+    <Var DisplayLabel="ARR_N6_700" Label="ARR_N6_J_700" Type="Data" />
+    <Var DisplayLabel="ARR_N6_800" Label="ARR_N6_J_800" Type="Data" />
+    <Var DisplayLabel="ARR_N6_810" Label="ARR_N6_J_810" Type="Data" />
+    <Var DisplayLabel="ARR_N6_450" Label="ARR_N6_J_450" Type="Data" />
+  </Var>
+  <Var DisplayLabel="REO_N6_J" Label="REO_N6_J_900" Type="Sum">
+    <Var DisplayLabel="REO_N6_100" Label="REO_N6_J_100" Type="Sum">
+      <Var DisplayLabel="REO_N6_101" Label="REO_N6_J_101" Type="Sum">
+        <Var DisplayLabel="REO_N6_102" Label="REO_N6_J_102" Type="Sum">
+          <Var DisplayLabel="REO_N6_111" Label="REO_N6_J_111" Type="Data" />
+          <Var DisplayLabel="REO_N6_121" Label="REO_N6_J_121" Type="Data" />
+          <Var DisplayLabel="REO_N6_131" Label="REO_N6_J_131" Type="Data" />
+          <Var DisplayLabel="REO_N6_141" Label="REO_N6_J_141" Type="Data" />
+          <Var DisplayLabel="REO_N6_150" Label="REO_N6_J_150" Type="Data" />
+          <Var DisplayLabel="REO_N6_160" Label="REO_N6_J_160" Type="Data" />
+          <Var DisplayLabel="REO_N6_165" Label="REO_N6_J_165" Type="Data" />
+          <Var DisplayLabel="REO_N6_167" Label="REO_N6_J_167" Type="Data" />
+          <Var DisplayLabel="REO_N6_169" Label="REO_N6_J_169" Type="Data" />
+          <Var DisplayLabel="REO_N6_170" Label="REO_N6_J_170" Type="Data" />
+          <Var DisplayLabel="REO_N6_181" Label="REO_N6_J_181" Type="Data" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="REO_N6_104" Label="REO_N6_J_104" Type="Sum">
+        <Var DisplayLabel="REO_N6_114" Label="REO_N6_J_114" Type="Data" />
+        <Var DisplayLabel="REO_N6_124" Label="REO_N6_J_124" Type="Data" />
+        <Var DisplayLabel="REO_N6_134" Label="REO_N6_J_134" Type="Data" />
+        <Var DisplayLabel="REO_N6_144" Label="REO_N6_J_144" Type="Data" />
+        <Var DisplayLabel="REO_N6_166" Label="REO_N6_J_166" Type="Data" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="REO_N6_500" Label="REO_N6_J_500" Type="Sum">
+      <Var DisplayLabel="REO_N6_501" Label="REO_N6_J_501" Type="Data" />
+      <Var DisplayLabel="REO_N6_504" Label="REO_N6_J_504" Type="Data" />
+    </Var>
+    <Var DisplayLabel="REO_N6_600" Label="REO_N6_J_600" Type="Data" />
+    <Var DisplayLabel="REO_N6_700" Label="REO_N6_J_700" Type="Data" />
+    <Var DisplayLabel="REO_N6_800" Label="REO_N6_J_800" Type="Data" />
+    <Var DisplayLabel="REO_N6_810" Label="REO_N6_J_810" Type="Data" />
+    <Var DisplayLabel="REO_N6_450" Label="REO_N6_J_450" Type="Data" />
+  </Var>
+  <Var DisplayLabel="REP_N6_J" Label="REP_N6_J_900" Type="Sum">
+    <Var DisplayLabel="REP_N6_100" Label="REP_N6_J_100" Type="Sum">
+      <Var DisplayLabel="REP_N6_101" Label="REP_N6_J_101" Type="Sum">
+        <Var DisplayLabel="REP_N6_102" Label="REP_N6_J_102" Type="Sum">
+          <Var DisplayLabel="REP_N6_111" Label="REP_N6_J_111" Type="Data" />
+          <Var DisplayLabel="REP_N6_121" Label="REP_N6_J_121" Type="Data" />
+          <Var DisplayLabel="REP_N6_131" Label="REP_N6_J_131" Type="Data" />
+          <Var DisplayLabel="REP_N6_141" Label="REP_N6_J_141" Type="Data" />
+          <Var DisplayLabel="REP_N6_150" Label="REP_N6_J_150" Type="Data" />
+          <Var DisplayLabel="REP_N6_160" Label="REP_N6_J_160" Type="Data" />
+          <Var DisplayLabel="REP_N6_165" Label="REP_N6_J_165" Type="Data" />
+          <Var DisplayLabel="REP_N6_167" Label="REP_N6_J_167" Type="Data" />
+          <Var DisplayLabel="REP_N6_169" Label="REP_N6_J_169" Type="Data" />
+          <Var DisplayLabel="REP_N6_170" Label="REP_N6_J_170" Type="Data" />
+          <Var DisplayLabel="REP_N6_181" Label="REP_N6_J_181" Type="Data" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="REP_N6_104" Label="REP_N6_J_104" Type="Sum">
+        <Var DisplayLabel="REP_N6_114" Label="REP_N6_J_114" Type="Data" />
+        <Var DisplayLabel="REP_N6_124" Label="REP_N6_J_124" Type="Data" />
+        <Var DisplayLabel="REP_N6_134" Label="REP_N6_J_134" Type="Data" />
+        <Var DisplayLabel="REP_N6_144" Label="REP_N6_J_144" Type="Data" />
+        <Var DisplayLabel="REP_N6_166" Label="REP_N6_J_166" Type="Data" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="REP_N6_500" Label="REP_N6_J_500" Type="Sum">
+      <Var DisplayLabel="REP_N6_501" Label="REP_N6_J_501" Type="Data" />
+      <Var DisplayLabel="REP_N6_504" Label="REP_N6_J_504" Type="Data" />
+    </Var>
+    <Var DisplayLabel="REP_N6_600" Label="REP_N6_J_600" Type="Data" />
+    <Var DisplayLabel="REP_N6_700" Label="REP_N6_J_700" Type="Data" />
+    <Var DisplayLabel="REP_N6_800" Label="REP_N6_J_800" Type="Data" />
+    <Var DisplayLabel="REP_N6_810" Label="REP_N6_J_810" Type="Data" />
+    <Var DisplayLabel="REP_N6_450" Label="REP_N6_J_450" Type="Data" />
+  </Var>
+  <Var DisplayLabel="T_PASS_N6_J" Label="T_PASS_N6_J_900" Type="Calc" Display="Percent">
+    <Var DisplayLabel="T_PASS_N6_100" Label="T_PASS_N6_J_100" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_PASS_N6_101" Label="T_PASS_N6_J_101" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_PASS_N6_102" Label="T_PASS_N6_J_102" Type="Calc" Display="Percent">
+          <Var DisplayLabel="T_PASS_N6_111" Label="T_PASS_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_121" Label="T_PASS_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_131" Label="T_PASS_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_141" Label="T_PASS_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_150" Label="T_PASS_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_160" Label="T_PASS_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_165" Label="T_PASS_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_167" Label="T_PASS_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_169" Label="T_PASS_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_170" Label="T_PASS_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_PASS_N6_181" Label="T_PASS_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="T_PASS_N6_104" Label="T_PASS_N6_J_104" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_PASS_N6_114" Label="T_PASS_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_PASS_N6_124" Label="T_PASS_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_PASS_N6_134" Label="T_PASS_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_PASS_N6_144" Label="T_PASS_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_PASS_N6_166" Label="T_PASS_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="T_PASS_N6_500" Label="T_PASS_N6_J_500" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_PASS_N6_501" Label="T_PASS_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="T_PASS_N6_504" Label="T_PASS_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="T_PASS_N6_600" Label="T_PASS_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_PASS_N6_700" Label="T_PASS_N6_J_700" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_PASS_N6_800" Label="T_PASS_N6_J_800" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_PASS_N6_810" Label="T_PASS_N6_J_810" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_PASS_N6_450" Label="T_PASS_N6_J_450" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="X_N6_J" Label="X_N6_J_900" Type="Sum">
+    <Var DisplayLabel="X_N6_100" Label="X_N6_J_100" Type="Sum">
+      <Var DisplayLabel="X_N6_101" Label="X_N6_J_101" Type="Sum">
+        <Var DisplayLabel="X_N6_102" Label="X_N6_J_102" Type="Sum">
+          <Var DisplayLabel="X_N6_111" Label="X_N6_J_111" Type="Data" />
+          <Var DisplayLabel="X_N6_121" Label="X_N6_J_121" Type="Data" />
+          <Var DisplayLabel="X_N6_131" Label="X_N6_J_131" Type="Data" />
+          <Var DisplayLabel="X_N6_141" Label="X_N6_J_141" Type="Data" />
+          <Var DisplayLabel="X_N6_150" Label="X_N6_J_150" Type="Data" />
+          <Var DisplayLabel="X_N6_160" Label="X_N6_J_160" Type="Data" />
+          <Var DisplayLabel="X_N6_165" Label="X_N6_J_165" Type="Data" />
+          <Var DisplayLabel="X_N6_167" Label="X_N6_J_167" Type="Data" />
+          <Var DisplayLabel="X_N6_169" Label="X_N6_J_169" Type="Data" />
+          <Var DisplayLabel="X_N6_170" Label="X_N6_J_170" Type="Data" />
+          <Var DisplayLabel="X_N6_181" Label="X_N6_J_181" Type="Data" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="X_N6_104" Label="X_N6_J_104" Type="Sum">
+        <Var DisplayLabel="X_N6_114" Label="X_N6_J_114" Type="Data" />
+        <Var DisplayLabel="X_N6_124" Label="X_N6_J_124" Type="Data" />
+        <Var DisplayLabel="X_N6_134" Label="X_N6_J_134" Type="Data" />
+        <Var DisplayLabel="X_N6_144" Label="X_N6_J_144" Type="Data" />
+        <Var DisplayLabel="X_N6_166" Label="X_N6_J_166" Type="Data" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="X_N6_500" Label="X_N6_J_500" Type="Sum">
+      <Var DisplayLabel="X_N6_501" Label="X_N6_J_501" Type="Data" />
+      <Var DisplayLabel="X_N6_504" Label="X_N6_J_504" Type="Data" />
+    </Var>
+    <Var DisplayLabel="X_N6_600" Label="X_N6_J_600" Type="Data" />
+    <Var DisplayLabel="X_N6_700" Label="X_N6_J_700" Type="Data" />
+    <Var DisplayLabel="X_N6_800" Label="X_N6_J_800" Type="Data" />
+    <Var DisplayLabel="X_N6_810" Label="X_N6_J_810" Type="Data" />
+    <Var DisplayLabel="X_N6_450" Label="X_N6_J_450" Type="Data" />
+  </Var>
+  <Var DisplayLabel="M_N6_J" Label="M_N6_J_900" Type="Sum">
+    <Var DisplayLabel="M_N6_100" Label="M_N6_J_100" Type="Sum">
+      <Var DisplayLabel="M_N6_101" Label="M_N6_J_101" Type="Sum">
+        <Var DisplayLabel="M_N6_102" Label="M_N6_J_102" Type="Sum">
+          <Var DisplayLabel="M_N6_111" Label="M_N6_J_111" Type="Data" />
+          <Var DisplayLabel="M_N6_121" Label="M_N6_J_121" Type="Data" />
+          <Var DisplayLabel="M_N6_131" Label="M_N6_J_131" Type="Data" />
+          <Var DisplayLabel="M_N6_141" Label="M_N6_J_141" Type="Data" />
+          <Var DisplayLabel="M_N6_150" Label="M_N6_J_150" Type="Data" />
+          <Var DisplayLabel="M_N6_160" Label="M_N6_J_160" Type="Data" />
+          <Var DisplayLabel="M_N6_165" Label="M_N6_J_165" Type="Data" />
+          <Var DisplayLabel="M_N6_167" Label="M_N6_J_167" Type="Data" />
+          <Var DisplayLabel="M_N6_169" Label="M_N6_J_169" Type="Data" />
+          <Var DisplayLabel="M_N6_170" Label="M_N6_J_170" Type="Data" />
+          <Var DisplayLabel="M_N6_181" Label="M_N6_J_181" Type="Data" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="M_N6_104" Label="M_N6_J_104" Type="Sum">
+        <Var DisplayLabel="M_N6_114" Label="M_N6_J_114" Type="Data" />
+        <Var DisplayLabel="M_N6_124" Label="M_N6_J_124" Type="Data" />
+        <Var DisplayLabel="M_N6_134" Label="M_N6_J_134" Type="Data" />
+        <Var DisplayLabel="M_N6_144" Label="M_N6_J_144" Type="Data" />
+        <Var DisplayLabel="M_N6_166" Label="M_N6_J_166" Type="Data" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="M_N6_500" Label="M_N6_J_500" Type="Sum">
+      <Var DisplayLabel="M_N6_501" Label="M_N6_J_501" Type="Data" />
+      <Var DisplayLabel="M_N6_504" Label="M_N6_J_504" Type="Data" />
+    </Var>
+    <Var DisplayLabel="M_N6_600" Label="M_N6_J_600" Type="Data" />
+    <Var DisplayLabel="M_N6_700" Label="M_N6_J_700" Type="Data" />
+    <Var DisplayLabel="M_N6_800" Label="M_N6_J_800" Type="Data" />
+    <Var DisplayLabel="M_N6_810" Label="M_N6_J_810" Type="Data" />
+    <Var DisplayLabel="M_N6_450" Label="M_N6_J_450" Type="Data" />
+  </Var>
+  <Var DisplayLabel=" " Label=" " Type="Calc" Display="Hide" />
+  <Var DisplayLabel="T_DIP_N6_J" Label="T_DIP_N6_J_900" Type="Calc" Display="Percent">
+    <Var DisplayLabel="T_DIP_N6_100" Label="T_DIP_N6_J_100" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_DIP_N6_101" Label="T_DIP_N6_J_101" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_DIP_N6_102" Label="T_DIP_N6_J_102" Type="Calc" Display="Percent">
+          <Var DisplayLabel="T_DIP_N6_111" Label="T_DIP_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_121" Label="T_DIP_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_131" Label="T_DIP_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_141" Label="T_DIP_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_150" Label="T_DIP_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_160" Label="T_DIP_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_165" Label="T_DIP_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_167" Label="T_DIP_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_169" Label="T_DIP_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_170" Label="T_DIP_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DIP_N6_181" Label="T_DIP_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="T_DIP_N6_104" Label="T_DIP_N6_J_104" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_DIP_N6_114" Label="T_DIP_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DIP_N6_124" Label="T_DIP_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DIP_N6_134" Label="T_DIP_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DIP_N6_144" Label="T_DIP_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DIP_N6_166" Label="T_DIP_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="T_DIP_N6_500" Label="T_DIP_N6_J_500" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_DIP_N6_501" Label="T_DIP_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="T_DIP_N6_504" Label="T_DIP_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="T_DIP_N6_600" Label="T_DIP_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DIP_N6_700" Label="T_DIP_N6_J_700" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DIP_N6_800" Label="T_DIP_N6_J_800" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DIP_N6_810" Label="T_DIP_N6_J_810" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DIP_N6_450" Label="T_DIP_N6_J_450" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="T_MASTER_N6_J" Label="T_MASTER_N6_J_900" Type="Calc" Display="Percent">
+    <Var DisplayLabel="T_MASTER_N6_100" Label="T_MASTER_N6_J_100" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_MASTER_N6_101" Label="T_MASTER_N6_J_101" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_MASTER_N6_102" Label="T_MASTER_N6_J_102" Type="Calc" Display="Percent">
+          <Var DisplayLabel="T_MASTER_N6_111" Label="T_MASTER_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_121" Label="T_MASTER_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_131" Label="T_MASTER_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_141" Label="T_MASTER_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_150" Label="T_MASTER_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_160" Label="T_MASTER_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_165" Label="T_MASTER_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_167" Label="T_MASTER_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_169" Label="T_MASTER_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_170" Label="T_MASTER_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_MASTER_N6_181" Label="T_MASTER_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="T_MASTER_N6_104" Label="T_MASTER_N6_J_104" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_MASTER_N6_114" Label="T_MASTER_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_MASTER_N6_124" Label="T_MASTER_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_MASTER_N6_134" Label="T_MASTER_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_MASTER_N6_144" Label="T_MASTER_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_MASTER_N6_166" Label="T_MASTER_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="T_MASTER_N6_500" Label="T_MASTER_N6_J_500" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_MASTER_N6_501" Label="T_MASTER_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="T_MASTER_N6_504" Label="T_MASTER_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="T_MASTER_N6_600" Label="T_MASTER_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_MASTER_N6_700" Label="T_MASTER_N6_J_700" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_MASTER_N6_800" Label="T_MASTER_N6_J_800" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_MASTER_N6_810" Label="T_MASTER_N6_J_810" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_MASTER_N6_450" Label="T_MASTER_N6_J_450" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel=" " Label=" " Type="Calc" Display="Hide" />
+  <Var DisplayLabel="ANCBAC_N6_J" Label="ANCBAC_N6_J_900" Type="Calc" Display="Float">
+    <Var DisplayLabel="ANCBAC_N6_100" Label="ANCBAC_N6_J_100" Type="Calc" Display="Float">
+      <Var DisplayLabel="ANCBAC_N6_101" Label="ANCBAC_N6_J_101" Type="Calc" Display="Float">
+        <Var DisplayLabel="ANCBAC_N6_102" Label="ANCBAC_N6_J_102" Type="Calc" Display="Float">
+          <Var DisplayLabel="ANCBAC_N6_111" Label="ANCBAC_N6_J_111" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_121" Label="ANCBAC_N6_J_121" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_131" Label="ANCBAC_N6_J_131" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_141" Label="ANCBAC_N6_J_141" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_150" Label="ANCBAC_N6_J_150" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_160" Label="ANCBAC_N6_J_160" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_165" Label="ANCBAC_N6_J_165" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_167" Label="ANCBAC_N6_J_167" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_169" Label="ANCBAC_N6_J_169" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_170" Label="ANCBAC_N6_J_170" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCBAC_N6_181" Label="ANCBAC_N6_J_181" Type="Data" Display="Float" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="ANCBAC_N6_104" Label="ANCBAC_N6_J_104" Type="Calc" Display="Float">
+        <Var DisplayLabel="ANCBAC_N6_114" Label="ANCBAC_N6_J_114" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCBAC_N6_124" Label="ANCBAC_N6_J_124" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCBAC_N6_134" Label="ANCBAC_N6_J_134" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCBAC_N6_144" Label="ANCBAC_N6_J_144" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCBAC_N6_166" Label="ANCBAC_N6_J_166" Type="Data" Display="Float" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="ANCBAC_N6_500" Label="ANCBAC_N6_J_500" Type="Calc" Display="Float">
+      <Var DisplayLabel="ANCBAC_N6_501" Label="ANCBAC_N6_J_501" Type="Data" Display="Float" />
+      <Var DisplayLabel="ANCBAC_N6_504" Label="ANCBAC_N6_J_504" Type="Data" Display="Float" />
+    </Var>
+    <Var DisplayLabel="ANCBAC_N6_600" Label="ANCBAC_N6_J_600" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCBAC_N6_700" Label="ANCBAC_N6_J_700" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCBAC_N6_800" Label="ANCBAC_N6_J_800" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCBAC_N6_810" Label="ANCBAC_N6_J_810" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCBAC_N6_450" Label="ANCBAC_N6_J_450" Type="Data" Display="Float" />
+  </Var>
+  <Var DisplayLabel="ANCINSC_N6_J" Label="ANCINSC_N6_J_900" Type="Calc" Display="Float">
+    <Var DisplayLabel="ANCINSC_N6_100" Label="ANCINSC_N6_J_100" Type="Calc" Display="Float">
+      <Var DisplayLabel="ANCINSC_N6_101" Label="ANCINSC_N6_J_101" Type="Calc" Display="Float">
+        <Var DisplayLabel="ANCINSC_N6_102" Label="ANCINSC_N6_J_102" Type="Calc" Display="Float">
+          <Var DisplayLabel="ANCINSC_N6_111" Label="ANCINSC_N6_J_111" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_121" Label="ANCINSC_N6_J_121" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_131" Label="ANCINSC_N6_J_131" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_141" Label="ANCINSC_N6_J_141" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_150" Label="ANCINSC_N6_J_150" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_160" Label="ANCINSC_N6_J_160" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_165" Label="ANCINSC_N6_J_165" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_167" Label="ANCINSC_N6_J_167" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_169" Label="ANCINSC_N6_J_169" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_170" Label="ANCINSC_N6_J_170" Type="Data" Display="Float" />
+          <Var DisplayLabel="ANCINSC_N6_181" Label="ANCINSC_N6_J_181" Type="Data" Display="Float" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="ANCINSC_N6_104" Label="ANCINSC_N6_J_104" Type="Calc" Display="Float">
+        <Var DisplayLabel="ANCINSC_N6_114" Label="ANCINSC_N6_J_114" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCINSC_N6_124" Label="ANCINSC_N6_J_124" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCINSC_N6_134" Label="ANCINSC_N6_J_134" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCINSC_N6_144" Label="ANCINSC_N6_J_144" Type="Data" Display="Float" />
+        <Var DisplayLabel="ANCINSC_N6_166" Label="ANCINSC_N6_J_166" Type="Data" Display="Float" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="ANCINSC_N6_500" Label="ANCINSC_N6_J_500" Type="Calc" Display="Float">
+      <Var DisplayLabel="ANCINSC_N6_501" Label="ANCINSC_N6_J_501" Type="Data" Display="Float" />
+      <Var DisplayLabel="ANCINSC_N6_504" Label="ANCINSC_N6_J_504" Type="Data" Display="Float" />
+    </Var>
+    <Var DisplayLabel="ANCINSC_N6_600" Label="ANCINSC_N6_J_600" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCINSC_N6_700" Label="ANCINSC_N6_J_700" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCINSC_N6_800" Label="ANCINSC_N6_J_800" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCINSC_N6_810" Label="ANCINSC_N6_J_810" Type="Data" Display="Float" />
+    <Var DisplayLabel="ANCINSC_N6_450" Label="ANCINSC_N6_J_450" Type="Data" Display="Float" />
+  </Var>
+  <Var DisplayLabel="T_DOC_N6_J" Label="T_DOC_N6_J_900" Type="Calc" Display="Percent">
+    <Var DisplayLabel="T_DOC_N6_100" Label="T_DOC_N6_J_100" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_DOC_N6_101" Label="T_DOC_N6_J_101" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_DOC_N6_102" Label="T_DOC_N6_J_102" Type="Calc" Display="Percent">
+          <Var DisplayLabel="T_DOC_N6_111" Label="T_DOC_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_121" Label="T_DOC_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_131" Label="T_DOC_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_141" Label="T_DOC_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_150" Label="T_DOC_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_160" Label="T_DOC_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_165" Label="T_DOC_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_167" Label="T_DOC_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_169" Label="T_DOC_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_170" Label="T_DOC_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="T_DOC_N6_181" Label="T_DOC_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="T_DOC_N6_104" Label="T_DOC_N6_J_104" Type="Calc" Display="Percent">
+        <Var DisplayLabel="T_DOC_N6_114" Label="T_DOC_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DOC_N6_124" Label="T_DOC_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DOC_N6_134" Label="T_DOC_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DOC_N6_144" Label="T_DOC_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="T_DOC_N6_166" Label="T_DOC_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="T_DOC_N6_500" Label="T_DOC_N6_J_500" Type="Calc" Display="Percent">
+      <Var DisplayLabel="T_DOC_N6_501" Label="T_DOC_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="T_DOC_N6_504" Label="T_DOC_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="T_DOC_N6_600" Label="T_DOC_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DOC_N6_700" Label="T_DOC_N6_J_700" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DOC_N6_800" Label="T_DOC_N6_J_800" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DOC_N6_810" Label="T_DOC_N6_J_810" Type="Data" Display="Percent" />
+    <Var DisplayLabel="T_DOC_N6_450" Label="T_DOC_N6_J_450" Type="Data" Display="Percent" />
+  </Var>
+</Variables>

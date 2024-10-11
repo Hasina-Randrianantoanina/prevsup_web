@@ -1,0 +1,32 @@
+# IGNORE FOR ASP.NET CORE
+src/bin
+test/prevsup_unit_testing/bin
+src/obj
+test/prevsup_unit_testing/obj
+src/*.bak
+src/.vs/**
+test/prevsup_unit_testing/.vs/**
+## IGNORE FOR REACT APP
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+src/ClientApp/node_modules
+src/ClientApp/.pnp
+src/ClientApp/ClientApp.pnp.js
+
+# testing
+src/coverage
+
+# production
+src/ClientApp/build
+
+# misc
+src/ClientApp/.DS_Store
+src/ClientApp/.env.local
+src/ClientApp/.env.development.local
+src/ClientApp/.env.test.local
+src/ClientApp/.env.production.local
+
+src/ClientApp/npm-debug.log*
+src/ClientApp/yarn-debug.log*
+src/ClientApp/yarn-error.log*

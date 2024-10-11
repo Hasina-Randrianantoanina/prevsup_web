@@ -1,0 +1,216 @@
+﻿<style>
+    #newUser .modal-content {
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    #newUser .modal-body {
+        font-size: 0.9em;
+    }
+
+        #newUser .modal-body input {
+            outline: none;
+            border: 0px solid #000;
+            background-color: #F4F4F4;
+            padding: 10px;
+            font-weight: lighter;
+            border-bottom: 1px solid #000;
+            width: 100%;
+        }
+
+        #newUser .modal-body select {
+            outline: none;
+            border: 0px solid #000;
+            background-color: #F4F4F4;
+            padding: 10px;
+            font-weight: lighter;
+            border-bottom: 1px solid #000;
+            width: 100%;
+        }
+</style>
+
+<!--newUser-->
+<div class="modal fade" id="newUser" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Nouvel utilisateur</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <div>Login</div>
+                    <input class="form-control" type="text" onkeypress="normalizes(event)" id="nu_login" value="" placeholder="Entrez le login..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Nom</div>
+                    <input class="form-control" type="text" onkeypress="normalizes(event)" id="nu_nom" value="" placeholder="Entrez le nom..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Mot de passe</div>
+                    <input class="form-control" type="password" onkeypress="normalizes(event)" id="nu_password" value="" placeholder="Entrez le mot de passe..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Confirmer le mot de passse</div>
+                    <input class="form-control" type="password" onkeypress="normalizes(event)" id="nu_password2" value="" placeholder="Confirmez le mot de passe..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Profil : </div>
+                    <select class="form-select" id="nu_profile">
+                        <option value="Prévisionniste SSA" selected>Prévisionniste SSA</option>
+                        <option value="Administrateur">Administrateur</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <div>Académies : </div>
+                    <select multiple class="form-select" id="nu_academy">
+                    </select>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="new_user(this)" id="nu_valider">Valider</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin newUser-->
+<!--OuvrirUser-->
+<div class="modal fade" id="openUser" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modifier un utilisateur</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="mb-2">Sélectionner un utilisateur :</div>
+
+                    <!-- Dropdown -->
+                    <select id="ou_list" style="width: 100%">
+                    </select>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="open_update_user('User', 'ou_')" id="ou_valider" data-bs-dismiss="modal">Valider</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="openUserForDelete" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Supprimer un utilisateur</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="mb-2">Sélectionner un utilisateur :</div>
+
+                    <!-- Dropdown -->
+                    <select id="ou_list_delete" style="width: 100%">
+                    </select>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="open_delete_user('User', 'ou_')" id="ou_valider" data-bs-dismiss="modal">Valider</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin OuvrirUser-->
+<!--ModifierUser-->
+<div class="modal fade" id="updateUser" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modification utilisateur</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <div>Login</div>
+                    <input class="form-control" type="text" onkeypress="normalizes(event)" id="uu_login" value="" placeholder="Entrez le login..." readonly />
+                </div>
+
+                <div class="mb-3">
+                    <div>Nom</div>
+                    <input class="form-control" type="text" onkeypress="normalizes(event)" id="uu_nom" value="" placeholder="Entrez le nom..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Académies : </div>
+                    <select multiple class="form-select" id="uu_academies">
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <div>Nouveau mot de passe</div>
+                    <input class="form-control" type="password" onkeypress="normalizes(event)" id="uu_password" value="" placeholder="Entrez le mot de passe..." />
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="return update_user('#updateUser')" id="uu_valider" data-bs-dismiss-xxx="modal">Valider</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin ModifierUser-->
+
+<!--ModifierPassword-->
+<div class="modal fade" id="changeUserPassword" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modification mot de passe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <div>Login</div>
+                    <input class="form-control" type="text" id="pu_login" value="" readonly />
+                </div>
+
+                <div class="mb-3">
+                    <div>Ancien mot de passe</div>
+                    <input class="form-control" type="password" onkeypress="normalizes(event)" id="pu_old_password" value="" placeholder="Entrez votre ancien mot de passe..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Nouveau mot de passe</div>
+                    <input class="form-control" type="password" onkeypress="normalizes(event)" id="pu_new_password" value="" placeholder="Entrez le nouveau mot de passe..." />
+                </div>
+
+                <div class="mb-3">
+                    <div>Confirmer le nouveau mot de passe</div>
+                    <input class="form-control" type="password" onkeypress="normalizes(event)" id="pu_new_password2" value="" placeholder="Confirmer le nouveau mot de passe..." />
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="update_user_pass()" id="uu_valider">Valider</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin ModifierPassword-->

@@ -1,0 +1,32 @@
+
+.archive-style {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    margin-left: 20px;
+    
+}
+.archive-style i{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2px;
+}
+
+.configuration-style {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+.configuration-style i{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2px;
+}
+
+.header-prev .ui.segment {
+    margin: 0 !important;
+}

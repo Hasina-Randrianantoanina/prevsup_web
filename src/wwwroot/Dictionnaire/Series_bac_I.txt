@@ -1,0 +1,17 @@
+1;Littéraire (L)
+2;Économique et social (ES)
+3;Scientifique (S)
+4;Sciences et techniques industrielles et développement durable (STI2D [ex STI])
+5;Sciences et techniques de management et gestion (STMG [ex STG, STT])
+6;Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…)
+7;Séries professionnelles
+9;Indéterminé
+3:1;Séries générales
+6:4;Séries technologiques
+1:9;Ensemble
+D1;Doublettes droit/lettres
+D2;Doublettes sciences/prod
+D3;Doublettes santé/STAPS
+D4;Doublettes éco/services
+D5;Doublettes culture
+D6;Doublettes autre

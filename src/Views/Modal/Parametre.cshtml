@@ -1,0 +1,73 @@
+﻿
+
+<!--Interface-->
+<div class="modal fade" id="InterfaceUI" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Interface d'utilisateur</h5>
+				<i type="button" class="fa fa-times dismiss" data-bs-dismiss="modal" aria-label="Close"></i>
+			</div>
+            <div class="modal-body">
+				<table width="100%" class="ecart">
+					<tr>
+						<td><label>Interface</label></td>
+						<td>Actuelle</td>
+						<td><label>Défaut</label></td>
+					</tr>
+					<tr>
+						<td><label>Séparateur vertical	</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_separator" value="#ff0a11" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#ff0a11" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données (arriére plan)</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_back" value="#ffffff" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#ffffff" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données calculées (arrière plan)</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_calcback" value="#dbb9b9" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#dbb9b9" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données calculées de constat </label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_constatdata" value="#000000" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#000000" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données de constat</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_calcconst" value="#000000" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#000000" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données calculées de scenario</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_calcscen" value="#000000" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#000000" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données calculées de scenario (arrière plan)</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_scenback" value="#dbb9b9" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#dbb9b9" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Données de scenario</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_scendata" value="#000000" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#000000" disabled /></td>
+					</tr>
+					<tr>
+						<td><label>Séléction de données</label></td>
+						<td><input type="color" class="form-control form-control-color palette" id="ui_active" value="#0db4ea" /></td>
+						<td><input type="color" class="form-control form-control-color" value="#0db4ea" disabled /></td>
+					</tr>
+				</table>  
+            </div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal"><i class="fa fa-ban"></i> Annuler</button>
+				<button type="button" class="btnbtn-sm btn-secondary" onclick="usercolor(true)" id="p_reset"><i class="fa fa-sync-alt"></i> Réinitialiser</button>
+				<button type="button" class="btn btn-sm btn-success" onclick="usercolor(false)" id="p_valider"><i class="fa fa-check"></i> Valider</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Fin Interface-->

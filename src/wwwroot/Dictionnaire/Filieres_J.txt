@@ -1,0 +1,52 @@
+111;Droit, public
+114;Droit, privé
+121;Éco, public
+124;Éco, privé
+131;Lettres, public
+134;Lettres y compris theologie, privé
+141;Sciences, public
+144;Sciences privé
+150;Staps 
+160;Santé autres
+163;Paces, public 1
+164;Paces, privé1
+165;Médecine, public
+166;Pédecine, privé
+167;Pharmacie, public
+169;Odontologie, public
+170;Maieutique
+181;Ingénieurs universitaires 
+211;IUT secondaire, public
+221;IUT tertiaire, public
+311;CPGE économie, public
+314;CPGE économie, privé
+321;CPGE lettres, public
+324;CPGE lettres, privé
+331;CPGE sciences, public
+334;CPGE sciences, privé
+350;CPES
+411;STS production, public MENESR
+412;STS production, public autres
+413;STS production, privé contrat
+414;STS production, privé autres
+421;STS services, public MENESR
+422;STS services, public autres
+423;STS services, privé contrat
+424;STS services, privé autres
+450;STS apprentissage
+501;Ingénieurs, public 
+504;Ingénieurs, privé
+600;Management
+700;ENS
+000;Indéterminé
+101;Formations universitaires publiques y compris IUT
+102;Formations universitaires publiques hors IUT
+104;Formations universitaires privées
+100;Formations universitaires publiques et privées
+200;IUT
+300;CPGE
+400;STS
+500;Ingénieurs hors universitaires
+800;Culture
+810;Divers autres
+900;Ensemble

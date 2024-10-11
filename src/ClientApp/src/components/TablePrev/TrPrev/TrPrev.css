@@ -1,0 +1,183 @@
+:root {
+    --padding-left: 25px;
+    --variable-color: #0066CC;
+}
+
+tr.is-child, tr.is-child input {
+    background-color: #dbb9b9;
+}
+
+.tr-1 {
+    padding-left: calc(var(--padding-left) * 1) !important;
+}
+
+.tr-2 {
+    padding-left: calc(var(--padding-left) * 2) !important;
+}
+
+.tr-3 {
+    padding-left: calc(var(--padding-left) * 3) !important;
+}
+
+.tr-4 {
+    padding-left: calc(var(--padding-left) * 4) !important;
+}
+.tr-5 {
+    padding-left: calc(var(--padding-left) * 5) !important;
+}
+.tr-6 {
+    padding-left: calc(var(--padding-left) * 6) !important;
+}
+.tr-7 {
+    padding-left: calc(var(--padding-left) * 7) !important;
+}
+.tr-8 {
+    padding-left: calc(var(--padding-left) * 8) !important;
+}
+
+.table-container table tbody tr {
+    background-color: white;
+}
+
+.table-container table tbody td:not(:first-child) {
+    background-color: white;
+}
+
+/* .table-container table tbody tr td:first-child {
+   
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    z-index: 997;
+    min-height: 30px!important;
+    height: 30px!important;
+    max-height: 30px!important;
+    width: 100% !important;
+} */
+
+/* .table-container table tbody tr {
+     
+    background-color: white;
+    min-height: 30px;
+    max-height: 30px;
+    height: 30px;
+} */
+
+tbody tr td:first-child {
+     
+    min-width: 300px !important;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--variable-color);
+    
+    left: -10px;
+    background-color:white;
+    
+    border-right: 1px black dashed !important;
+    
+}
+
+.table-container table thead tr th:first-child{
+    position:sticky;
+    z-index: 998;
+    left: -10px;
+    background-color: grey;
+}
+
+
+
+.table-container table thead tr th{
+    background-color: grey;
+    position:sticky;
+    z-index: 0;
+}
+
+/* tbody tr td.td-fixe:first-child {
+     
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 998;    
+    left: -10px;
+}  */
+
+tbody tr td.td-fixe {
+    position: sticky;
+    z-index: 0;
+    left: -10px; 
+    height: min-content;
+} 
+
+tbody tr i:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+tbody tr td.td-fixe:first-child:hover{
+    background-color:#F0F0F0;
+    cursor: pointer;
+}
+
+
+tr td, tr th{
+    font-size: 12px;
+}
+
+tr th {
+    padding: 0 7px !important;
+}
+th{
+    position: sticky;
+    top:0
+}
+
+/* tr:hover, tr td:hover, tr input:hover {
+    background-color: #ECECEC;
+} */
+
+tr td input, tr p {
+    text-align: right;
+    /* font-weight: 600; */
+}
+
+tr th {
+    border: 1px solid  black;
+    text-align: center;
+}
+
+tr input, tr p {
+    max-width: 130px !important;
+    width:  130px !important;
+    border: none !important;
+}
+
+tr td {
+    width:  130px !important;
+    border: none !important;
+}
+
+tr input {
+    width: 130px !important;
+}
+
+tr input, tr p {
+    margin: 0;
+    padding: 5px !important;
+    padding-right: 10px !important;
+}
+
+tr input:focus {
+    outline: none;
+    border: 1px dashed #0066CC !important;
+}
+.table-container{
+    /* overflow-x: scroll;
+    overflow-y: visible; */
+    position: relative;
+    width:100%;
+    z-index: 1;
+    margin: auto;
+    overflow: auto;
+}
+.table-container table{
+    width: 100%;
+    margin: auto;
+}

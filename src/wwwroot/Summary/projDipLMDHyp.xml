@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ref: men.engine/men/models/summary/projDipLMDHyp.xml -->
+<Variables Label="Tableau Dipl&#244;m&#233;s LMD">
+<Var DisplayLabel="Total L" Label="DIP_L_IJ_1:9,900" Type="Sum">
+<Var DisplayLabel="L formations universitaires publiques et privées" Label="DIP_L_IJ_1:9,100" Type="Sum">
+
+<Var DisplayLabel="L formations universitaires publiques hors IUT" Label="DIP_L_IJ_1:9,102" Type="Sum">
+<Var DisplayLabel="L droit, public" Label="DIP_L_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="L éco, public" Label="DIP_L_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="L lettres, public" Label="DIP_L_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="L sciences, public" Label="DIP_L_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="L staps" Label="DIP_L_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="L santé autres" Label="DIP_L_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="L paces, public" Label="DIP_L_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="L médecine, public" Label="DIP_L_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="L pharmacie, public" Label="DIP_L_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="L odontologie, public" Label="DIP_L_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="L maieutique" Label="DIP_L_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="L ingénieurs universitaires" Label="DIP_L_IJ_1:9,181" Type="Data" />
+</Var>
+
+
+<Var DisplayLabel="L formations universitaires privées" Label="DIP_L_IJ_1:9,104" Type="Sum">
+<Var DisplayLabel="L droit, privé" Label="DIP_L_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="L éco, privé" Label="DIP_L_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="L lettres y compris theologie, privé" Label="DIP_L_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="L sciences, privé" Label="DIP_L_IJ_1:9,144" Type="Data" />
+<Var DisplayLabel="L paces, privé" Label="DIP_L_IJ_1:9,164" Type="Data" />
+
+
+</Var>
+</Var>
+<Var DisplayLabel="L Ingénieurs hors universitaires" Label="DIP_L_IJ_1:9,500" Type="Sum">
+<Var DisplayLabel="L Ingénieurs, public" Label="DIP_L_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="L Ingénieurs, privé" Label="DIP_L_IJ_1:9,504" Type="Data" />
+</Var>
+<Var DisplayLabel="L Management" Label="DIP_L_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="L ENS" Label="DIP_L_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="L Culture" Label="DIP_L_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="L Divers autres" Label="DIP_L_IJ_1:9,810" Type="Data" />
+</Var>
+
+<Var DisplayLabel="Total M" Label="DIP_M_IJ_1:9,900" Type="Sum">
+<Var DisplayLabel="M formations universitaires publiques et privées" Label="DIP_M_IJ_1:9,100" Type="Sum">
+
+<Var DisplayLabel="M formations universitaires publiques hors IUT" Label="DIP_M_IJ_1:9,102" Type="Sum">
+<Var DisplayLabel="M droit, public" Label="DIP_M_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="M éco, public" Label="DIP_M_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="M lettres, public" Label="DIP_M_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="M sciences, public" Label="DIP_M_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="M staps" Label="DIP_M_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="M santé autres" Label="DIP_M_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="M paces, public" Label="DIP_M_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="M médecine, public" Label="DIP_M_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="M pharmacie, public" Label="DIP_M_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="M odontologie, public" Label="DIP_M_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="M maieutique" Label="DIP_M_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="M ingénieurs universitaires" Label="DIP_M_IJ_1:9,181" Type="Data" />
+</Var>
+
+
+<Var DisplayLabel="M formations universitaires privées" Label="DIP_M_IJ_1:9,104" Type="Sum">
+<Var DisplayLabel="M droit, privé" Label="DIP_M_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="M éco, privé" Label="DIP_M_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="M lettres y compris theologie, privé" Label="DIP_M_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="M sciences, privé" Label="DIP_M_IJ_1:9,144" Type="Data" />
+
+<Var DisplayLabel="M médecine, privé" Label="DIP_M_IJ_1:9,166" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="M Ingénieurs hors universitaires" Label="DIP_M_IJ_1:9,500" Type="Sum">
+<Var DisplayLabel="M Ingénieurs, public" Label="DIP_M_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="M Ingénieurs, privé" Label="DIP_M_IJ_1:9,504" Type="Data" />
+</Var>
+<Var DisplayLabel="M Management" Label="DIP_M_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="M ENS" Label="DIP_M_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="M Culture" Label="DIP_M_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="M Divers autres" Label="DIP_M_IJ_1:9,810" Type="Data" />
+
+</Var>
+
+<Var DisplayLabel="Total D" Label="DOC_N6_IJ_1:9,900" Type="Sum">
+<Var DisplayLabel="D formations universitaires publiques et privées" Label="DOC_N6_IJ_1:9,100" Type="Sum">
+
+<Var DisplayLabel="D formations universitaires publiques hors IUT" Label="DOC_N6_IJ_1:9,102" Type="Sum">
+<Var DisplayLabel="D droit, public" Label="DOC_N6_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="D éco, public" Label="DOC_N6_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="D lettres, public" Label="DOC_N6_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="D sciences, public" Label="DOC_N6_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="D staps" Label="DOC_N6_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="D santé autres" Label="DOC_N6_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="D paces, public" Label="DOC_N6_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="D médecine, public" Label="DOC_N6_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="D pharmacie, public" Label="DOC_N6_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="D odontologie, public" Label="DOC_N6_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="D maieutique" Label="DOC_N6_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="D ingénieurs universitaires" Label="DOC_N6_IJ_1:9,181" Type="Data" />
+
+</Var>
+
+
+<Var DisplayLabel="D formations universitaires privées" Label="DOC_N6_IJ_1:9,104" Type="Sum">
+<Var DisplayLabel="D droit, privé" Label="DOC_N6_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="D éco, privé" Label="DOC_N6_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="D lettres y compris theologie, privé" Label="DOC_N6_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="D sciences, privé" Label="DOC_N6_IJ_1:9,144" Type="Data" />
+<Var DisplayLabel="D médecine, privé" Label="DOC_N6_IJ_1:9,166" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="D Ingénieurs hors universitaires" Label="DOC_N6_IJ_1:9,500" Type="Sum">
+<Var DisplayLabel="D Ingénieurs, public" Label="DOC_N6_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="D Ingénieurs, privé" Label="DOC_N6_IJ_1:9,504" Type="Data" />
+</Var>
+
+<Var DisplayLabel="D Management" Label="DOC_N6_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="D ENS" Label="DOC_N6_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="D Culture" Label="DOC_N6_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="D Divers autres" Label="DOC_N6_IJ_1:9,810" Type="Data" />
+</Var>
+
+
+<Var DisplayLabel="Total LMD" Label="DIP_LMD_IJ_1:9,900" Type="Sum">
+<Var DisplayLabel="LMD formations universitaires publiques et privées" Label="DIP_LMD_IJ_1:9,100" Type="Sum">
+
+<Var DisplayLabel="LMD formations universitaires publiques hors IUT" Label="DIP_LMD_IJ_1:9,102" Type="Sum">
+<Var DisplayLabel="LMD droit, public" Label="DIP_LMD_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="LMD éco, public" Label="DIP_LMD_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="LMD lettres, public" Label="DIP_LMD_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="LMD sciences, public" Label="DIP_LMD_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="LMD staps" Label="DIP_LMD_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="LMD santé autres" Label="DIP_LMD_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="LMD paces, public" Label="DIP_LMD_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="LMD médecine, public" Label="DIP_LMD_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="LMD pharmacie, public" Label="DIP_LMD_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="LMD odontologie, public" Label="DIP_LMD_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="LMD maieutique" Label="DIP_LMD_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="LMD ingénieurs universitaires" Label="DIP_LMD_IJ_1:9,181" Type="Data" />
+</Var>
+
+
+<Var DisplayLabel="LMD formations universitaires privées" Label="DIP_LMD_IJ_1:9,104" Type="Sum">
+<Var DisplayLabel="LMD droit, privé" Label="DIP_LMD_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="LMD éco, privé" Label="DIP_LMD_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="LMD lettres y compris theologie, privé" Label="DIP_LMD_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="LMD sciences, privé" Label="DIP_LMD_IJ_1:9,144" Type="Data" />
+<Var DisplayLabel="LMD paces, privé" Label="DIP_LMD_IJ_1:9,164" Type="Data" />
+<Var DisplayLabel="LMD médecine, privé" Label="DIP_LMD_IJ_1:9,166" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="LMD Ingénieurs hors universitaires" Label="DIP_LMD_IJ_1:9,500" Type="Sum">
+<Var DisplayLabel="LMD Ingénieurs, public" Label="DIP_LMD_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="LMD Ingénieurs, privé" Label="DIP_LMD_IJ_1:9,504" Type="Data" />
+</Var>
+<Var DisplayLabel="LMD Management" Label="DIP_LMD_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="LMD ENS" Label="DIP_LMD_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="LMD Culture" Label="DIP_LMD_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="LMD Divers autres" Label="DIP_LMD_IJ_1:9,810" Type="Data" />
+</Var>
+<Var DisplayLabel="Total CPGE" Label="DIP_C_IJ_1:9,300" Type="Sum">
+<Var DisplayLabel="CPGE économie, public" Label="DIP_C_IJ_1:9,311" Type="Data" />
+<Var DisplayLabel="CPGE économie, privé" Label="DIP_C_IJ_1:9,314" Type="Data" />
+<Var DisplayLabel="CPGE lettres, public" Label="DIP_C_IJ_1:9,321" Type="Data" />
+<Var DisplayLabel="CPGE lettres, privé" Label="DIP_C_IJ_1:9,324" Type="Data" />
+<Var DisplayLabel="CPGE sciences, public" Label="DIP_C_IJ_1:9,331" Type="Data" />
+<Var DisplayLabel="CPGE sciences, privé" Label="DIP_C_IJ_1:9,334" Type="Data" />
+<Var DisplayLabel="CPES" Label="DIP_C_IJ_1:9,350" Type="Data" />
+</Var>
+<Var DisplayLabel="Total STS" Label="DIP_S_IJ_1:9,400" Type="Sum">
+<Var DisplayLabel="STS production, public MENESR" Label="DIP_S_IJ_1:9,411" Type="Data" />
+<Var DisplayLabel="STS production, public autres" Label="DIP_S_IJ_1:9,412" Type="Data" />
+<Var DisplayLabel="STS production, privé contrat" Label="DIP_S_IJ_1:9,413" Type="Data" />
+<Var DisplayLabel="STS production, privé autres" Label="DIP_S_IJ_1:9,414" Type="Data" />
+<Var DisplayLabel="STS services, public MENESR" Label="DIP_S_IJ_1:9,421" Type="Data" />
+<Var DisplayLabel="STS services, public autres" Label="DIP_S_IJ_1:9,422" Type="Data" />
+<Var DisplayLabel="STS services, privé contrat" Label="DIP_S_IJ_1:9,423" Type="Data" />
+<Var DisplayLabel="STS services, privé autres" Label="DIP_S_IJ_1:9,424" Type="Data" />
+<Var DisplayLabel="STS apprentissage" Label="DIP_S_IJ_1:9,450" Type="Data" />
+</Var>
+<Var DisplayLabel="Total IUT" Label="DIP_I_IJ_1:9,200" Type="Sum">
+<Var DisplayLabel="IUT secondaire, public " Label="DIP_I_IJ_1:9,211" Type="Data" />
+<Var DisplayLabel="IUT tertiaire, public" Label="DIP_I_IJ_1:9,221" Type="Data" />
+</Var>
+<Var DisplayLabel="Total Autres" Label="DIP_A_IJ_1:9,900" Type="Sum">
+<Var DisplayLabel="Autres LMD" Label="DIP_A_IJ_1:9,100" Type="Data" />
+<Var DisplayLabel="Total Autres STS (comptables ...)" Label="DIP_A_IJ_1:9,400" Type="Data" />
+<Var DisplayLabel="Autres Ingénieurs hors universitaires" Label="DIP_A_IJ_1:9,500" Type="Data" />
+<Var DisplayLabel="Autres Management" Label="DIP_A_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="Autres ENS" Label="DIP_A_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="Autres Culture" Label="DIP_A_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="Autres Divers autres" Label="DIP_A_IJ_1:9,810" Type="Data" />
+</Var>
+<Var DisplayLabel="Total" Label="DIP_TOT" Type="Sum" />
+<Var DisplayLabel="Programme 150" Label="DIP_150" Type="Sum" />
+</Variables>

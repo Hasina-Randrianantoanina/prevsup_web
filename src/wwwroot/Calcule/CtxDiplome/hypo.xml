@@ -1,0 +1,2001 @@
+<Variables Label="Hypothèses">
+  <Var DisplayLabel="EFF_N0_J" Label="EFF_N0_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N0_100" Label="EFF_N0_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N0_101" Label="EFF_N0_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N0_102" Label="EFF_N0_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N0_111" Label="EFF_N0_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N0_121" Label="EFF_N0_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N0_131" Label="EFF_N0_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N0_141" Label="EFF_N0_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N0_150" Label="EFF_N0_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N0_160" Label="EFF_N0_J_160" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N0_104" Label="EFF_N0_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N0_114" Label="EFF_N0_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N0_124" Label="EFF_N0_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N0_134" Label="EFF_N0_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N0_144" Label="EFF_N0_J_144" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N0_300" Label="EFF_N0_J_300" Type="Sum">
+      <Var DisplayLabel="EFF_N0_350" Label="EFF_N0_J_350" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N0_400" Label="EFF_N0_J_400" Type="Sum">
+      <Var DisplayLabel="EFF_N0_411" Label="EFF_N0_J_411" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_412" Label="EFF_N0_J_412" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_413" Label="EFF_N0_J_413" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_414" Label="EFF_N0_J_414" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_421" Label="EFF_N0_J_421" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_422" Label="EFF_N0_J_422" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_423" Label="EFF_N0_J_423" Type="Calc" />
+      <Var DisplayLabel="EFF_N0_424" Label="EFF_N0_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N0_700" Label="EFF_N0_IJ_1:9,700" Type="Calc" />
+    <Var DisplayLabel="EFF_N0_800" Label="EFF_N0_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N0_810" Label="EFF_N0_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N0_450" Label="EFF_N0_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="EFF_N1_J" Label="EFF_N1_IJ_1:9,900" Type="Sum">
+    <Var DisplayLabel="EFF_N1_100" Label="EFF_N1_IJ_1:9,100" Type="Sum">
+      <Var DisplayLabel="EFF_N1_101" Label="EFF_N1_IJ_1:9,101" Type="Sum">
+        <Var DisplayLabel="EFF_N1_102" Label="EFF_N1_IJ_1:9,102" Type="Sum">
+          <Var DisplayLabel="EFF_N1_111" Label="EFF_N1_IJ_1:9,111" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_121" Label="EFF_N1_IJ_1:9,121" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_131" Label="EFF_N1_IJ_1:9,131" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_141" Label="EFF_N1_IJ_1:9,141" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_150" Label="EFF_N1_IJ_1:9,150" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_160" Label="EFF_N1_IJ_1:9,160" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_163" Label="EFF_N1_IJ_1:9,163" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_181" Label="EFF_N1_IJ_1:9,181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="EFF_N1_200" Label="EFF_N1_IJ_1:9,200" Type="Sum">
+          <Var DisplayLabel="EFF_N1_211" Label="EFF_N1_IJ_1:9,211" Type="Calc" />
+          <Var DisplayLabel="EFF_N1_221" Label="EFF_N1_IJ_1:9,221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N1_104" Label="EFF_N1_IJ_1:9,104" Type="Sum">
+        <Var DisplayLabel="EFF_N1_114" Label="EFF_N1_IJ_1:9,114" Type="Calc" />
+        <Var DisplayLabel="EFF_N1_124" Label="EFF_N1_IJ_1:9,124" Type="Calc" />
+        <Var DisplayLabel="EFF_N1_134" Label="EFF_N1_IJ_1:9,134" Type="Calc" />
+        <Var DisplayLabel="EFF_N1_144" Label="EFF_N1_IJ_1:9,144" Type="Calc" />
+        <Var DisplayLabel="EFF_N1_164" Label="EFF_N1_IJ_1:9,164" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N1_300" Label="EFF_N1_IJ_1:9,300" Type="Sum">
+      <Var DisplayLabel="EFF_N1_311" Label="EFF_N1_IJ_1:9,311" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_314" Label="EFF_N1_IJ_1:9,314" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_321" Label="EFF_N1_IJ_1:9,321" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_324" Label="EFF_N1_IJ_1:9,324" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_331" Label="EFF_N1_IJ_1:9,331" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_334" Label="EFF_N1_IJ_1:9,334" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N1_400" Label="EFF_N1_IJ_1:9,400" Type="Sum">
+      <Var DisplayLabel="EFF_N1_411" Label="EFF_N1_IJ_1:9,411" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_412" Label="EFF_N1_IJ_1:9,412" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_413" Label="EFF_N1_IJ_1:9,413" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_414" Label="EFF_N1_IJ_1:9,414" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_421" Label="EFF_N1_IJ_1:9,421" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_422" Label="EFF_N1_IJ_1:9,422" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_423" Label="EFF_N1_IJ_1:9,423" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_424" Label="EFF_N1_IJ_1:9,424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N1_500" Label="EFF_N1_IJ_1:9,500" Type="Sum">
+      <Var DisplayLabel="EFF_N1_501" Label="EFF_N1_IJ_1:9,501" Type="Calc" />
+      <Var DisplayLabel="EFF_N1_504" Label="EFF_N1_IJ_1:9,504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N1_600" Label="EFF_N1_IJ_1:9,600" Type="Calc" />
+    <Var DisplayLabel="EFF_N1_700" Label="EFF_N1_IJ_1:9,700" Type="Calc" />
+    <Var DisplayLabel="EFF_N1_800" Label="EFF_N1_IJ_1:9,800" Type="Calc" />
+    <Var DisplayLabel="EFF_N1_810" Label="EFF_N1_IJ_1:9,810" Type="Calc" />
+    <Var DisplayLabel="EFF_N1_450" Label="EFF_N1_IJ_1:9,450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="EFF_N2_J" Label="EFF_N2_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N2_100" Label="EFF_N2_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N2_101" Label="EFF_N2_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N2_102" Label="EFF_N2_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N2_111" Label="EFF_N2_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_121" Label="EFF_N2_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_131" Label="EFF_N2_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_141" Label="EFF_N2_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_150" Label="EFF_N2_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_160" Label="EFF_N2_J_160" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_165" Label="EFF_N2_J_165" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_167" Label="EFF_N2_J_167" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_169" Label="EFF_N2_J_169" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_170" Label="EFF_N2_J_170" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_181" Label="EFF_N2_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="EFF_N2_200" Label="EFF_N2_J_200" Type="Sum">
+          <Var DisplayLabel="EFF_N2_211" Label="EFF_N2_J_211" Type="Calc" />
+          <Var DisplayLabel="EFF_N2_221" Label="EFF_N2_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N2_104" Label="EFF_N2_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N2_114" Label="EFF_N2_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N2_124" Label="EFF_N2_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N2_134" Label="EFF_N2_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N2_144" Label="EFF_N2_J_144" Type="Calc" />
+        <Var DisplayLabel="EFF_N2_166" Label="EFF_N2_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N2_300" Label="EFF_N2_J_300" Type="Sum">
+      <Var DisplayLabel="EFF_N2_311" Label="EFF_N2_J_311" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_314" Label="EFF_N2_J_314" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_321" Label="EFF_N2_J_321" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_324" Label="EFF_N2_J_324" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_331" Label="EFF_N2_J_331" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_334" Label="EFF_N2_J_334" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N2_400" Label="EFF_N2_J_400" Type="Sum">
+      <Var DisplayLabel="EFF_N2_411" Label="EFF_N2_J_411" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_412" Label="EFF_N2_J_412" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_413" Label="EFF_N2_J_413" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_414" Label="EFF_N2_J_414" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_421" Label="EFF_N2_J_421" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_422" Label="EFF_N2_J_422" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_423" Label="EFF_N2_J_423" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_424" Label="EFF_N2_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N2_500" Label="EFF_N2_J_500" Type="Sum">
+      <Var DisplayLabel="EFF_N2_501" Label="EFF_N2_J_501" Type="Calc" />
+      <Var DisplayLabel="EFF_N2_504" Label="EFF_N2_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N2_600" Label="EFF_N2_J_600" Type="Calc" />
+    <Var DisplayLabel="EFF_N2_700" Label="EFF_N2_J_700" Type="Calc" />
+    <Var DisplayLabel="EFF_N2_800" Label="EFF_N2_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N2_810" Label="EFF_N2_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N2_450" Label="EFF_N2_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="EFF_N3_J" Label="EFF_N3_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N3_100" Label="EFF_N3_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N3_101" Label="EFF_N3_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N3_102" Label="EFF_N3_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N3_111" Label="EFF_N3_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_121" Label="EFF_N3_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_131" Label="EFF_N3_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_141" Label="EFF_N3_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_150" Label="EFF_N3_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_160" Label="EFF_N3_J_160" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_165" Label="EFF_N3_J_165" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_167" Label="EFF_N3_J_167" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_169" Label="EFF_N3_J_169" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_170" Label="EFF_N3_J_170" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_181" Label="EFF_N3_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="EFF_N3_200" Label="EFF_N3_J_200" Type="Sum">
+          <Var DisplayLabel="EFF_N3_211" Label="EFF_N3_J_211" Type="Calc" />
+          <Var DisplayLabel="EFF_N3_221" Label="EFF_N3_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N3_104" Label="EFF_N3_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N3_114" Label="EFF_N3_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N3_124" Label="EFF_N3_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N3_134" Label="EFF_N3_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N3_144" Label="EFF_N3_J_144" Type="Calc" />
+        <Var DisplayLabel="EFF_N3_166" Label="EFF_N3_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N3_400" Label="EFF_N3_J_400" Type="Sum">
+      <Var DisplayLabel="EFF_N3_411" Label="EFF_N3_J_411" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_412" Label="EFF_N3_J_412" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_413" Label="EFF_N3_J_413" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_414" Label="EFF_N3_J_414" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_421" Label="EFF_N3_J_421" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_422" Label="EFF_N3_J_422" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_423" Label="EFF_N3_J_423" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_424" Label="EFF_N3_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N3_500" Label="EFF_N3_J_500" Type="Sum">
+      <Var DisplayLabel="EFF_N3_501" Label="EFF_N3_J_501" Type="Calc" />
+      <Var DisplayLabel="EFF_N3_504" Label="EFF_N3_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N3_600" Label="EFF_N3_J_600" Type="Calc" />
+    <Var DisplayLabel="EFF_N3_700" Label="EFF_N3_J_700" Type="Calc" />
+    <Var DisplayLabel="EFF_N3_800" Label="EFF_N3_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N3_810" Label="EFF_N3_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N3_450" Label="EFF_N3_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="EFF_N4_J" Label="EFF_N4_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N4_100" Label="EFF_N4_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N4_101" Label="EFF_N4_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N4_102" Label="EFF_N4_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N4_111" Label="EFF_N4_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_121" Label="EFF_N4_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_131" Label="EFF_N4_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_141" Label="EFF_N4_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_150" Label="EFF_N4_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_160" Label="EFF_N4_J_160" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_165" Label="EFF_N4_J_165" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_167" Label="EFF_N4_J_167" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_169" Label="EFF_N4_J_169" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_170" Label="EFF_N4_J_170" Type="Calc" />
+          <Var DisplayLabel="EFF_N4_181" Label="EFF_N4_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N4_104" Label="EFF_N4_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N4_114" Label="EFF_N4_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N4_124" Label="EFF_N4_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N4_134" Label="EFF_N4_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N4_144" Label="EFF_N4_J_144" Type="Calc" />
+        <Var DisplayLabel="EFF_N4_166" Label="EFF_N4_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N4_500" Label="EFF_N4_J_500" Type="Sum">
+      <Var DisplayLabel="EFF_N4_501" Label="EFF_N4_J_501" Type="Calc" />
+      <Var DisplayLabel="EFF_N4_504" Label="EFF_N4_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N4_600" Label="EFF_N4_J_600" Type="Calc" />
+    <Var DisplayLabel="EFF_N4_700" Label="EFF_N4_J_700" Type="Calc" />
+    <Var DisplayLabel="EFF_N4_800" Label="EFF_N4_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N4_810" Label="EFF_N4_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N4_450" Label="EFF_N4_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="EFF_N5_J" Label="EFF_N5_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N5_100" Label="EFF_N5_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N5_101" Label="EFF_N5_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N5_102" Label="EFF_N5_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N5_111" Label="EFF_N5_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_121" Label="EFF_N5_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_131" Label="EFF_N5_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_141" Label="EFF_N5_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_150" Label="EFF_N5_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_160" Label="EFF_N5_J_160" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_165" Label="EFF_N5_J_165" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_167" Label="EFF_N5_J_167" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_169" Label="EFF_N5_J_169" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_170" Label="EFF_N5_J_170" Type="Calc" />
+          <Var DisplayLabel="EFF_N5_181" Label="EFF_N5_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N5_104" Label="EFF_N5_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N5_114" Label="EFF_N5_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_124" Label="EFF_N5_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_134" Label="EFF_N5_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_144" Label="EFF_N5_J_144" Type="Calc" />
+        <Var DisplayLabel="EFF_N5_166" Label="EFF_N5_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N5_500" Label="EFF_N5_J_500" Type="Sum">
+      <Var DisplayLabel="EFF_N5_501" Label="EFF_N5_J_501" Type="Calc" />
+      <Var DisplayLabel="EFF_N5_504" Label="EFF_N5_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N5_600" Label="EFF_N5_J_600" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_700" Label="EFF_N5_J_700" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_800" Label="EFF_N5_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_810" Label="EFF_N5_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N5_450" Label="EFF_N5_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="EFF_N6_J" Label="EFF_N6_J_900" Type="Sum">
+    <Var DisplayLabel="EFF_N6_100" Label="EFF_N6_J_100" Type="Sum">
+      <Var DisplayLabel="EFF_N6_101" Label="EFF_N6_J_101" Type="Sum">
+        <Var DisplayLabel="EFF_N6_102" Label="EFF_N6_J_102" Type="Sum">
+          <Var DisplayLabel="EFF_N6_111" Label="EFF_N6_J_111" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_121" Label="EFF_N6_J_121" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_131" Label="EFF_N6_J_131" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_141" Label="EFF_N6_J_141" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_150" Label="EFF_N6_J_150" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_160" Label="EFF_N6_J_160" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_165" Label="EFF_N6_J_165" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_167" Label="EFF_N6_J_167" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_169" Label="EFF_N6_J_169" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_170" Label="EFF_N6_J_170" Type="Calc" />
+          <Var DisplayLabel="EFF_N6_181" Label="EFF_N6_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="EFF_N6_104" Label="EFF_N6_J_104" Type="Sum">
+        <Var DisplayLabel="EFF_N6_114" Label="EFF_N6_J_114" Type="Calc" />
+        <Var DisplayLabel="EFF_N6_124" Label="EFF_N6_J_124" Type="Calc" />
+        <Var DisplayLabel="EFF_N6_134" Label="EFF_N6_J_134" Type="Calc" />
+        <Var DisplayLabel="EFF_N6_144" Label="EFF_N6_J_144" Type="Calc" />
+        <Var DisplayLabel="EFF_N6_166" Label="EFF_N6_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="EFF_N6_500" Label="EFF_N6_J_500" Type="Sum">
+      <Var DisplayLabel="EFF_N6_501" Label="EFF_N6_J_501" Type="Calc" />
+      <Var DisplayLabel="EFF_N6_504" Label="EFF_N6_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="EFF_N6_600" Label="EFF_N6_J_600" Type="Calc" />
+    <Var DisplayLabel="EFF_N6_700" Label="EFF_N6_J_700" Type="Calc" />
+    <Var DisplayLabel="EFF_N6_800" Label="EFF_N6_J_800" Type="Calc" />
+    <Var DisplayLabel="EFF_N6_810" Label="EFF_N6_J_810" Type="Calc" />
+    <Var DisplayLabel="EFF_N6_450" Label="EFF_N6_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel=" " Label=" " Type="Calc" Display="Hide" />
+  <Var DisplayLabel="DIP_N0_J" Label="DIP_N0_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N0_100" Label="DIP_N0_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N0_101" Label="DIP_N0_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N0_102" Label="DIP_N0_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N0_111" Label="DIP_N0_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N0_121" Label="DIP_N0_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N0_131" Label="DIP_N0_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N0_141" Label="DIP_N0_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N0_150" Label="DIP_N0_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N0_160" Label="DIP_N0_J_160" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N0_104" Label="DIP_N0_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N0_124" Label="DIP_N0_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N0_134" Label="DIP_N0_J_134" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N0_300" Label="DIP_N0_J_300" Type="Sum">
+      <Var DisplayLabel="DIP_N0_350" Label="DIP_N0_J_350" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N0_400" Label="DIP_N0_J_400" Type="Sum">
+      <Var DisplayLabel="DIP_N0_411" Label="DIP_N0_J_411" Type="Calc" />
+      <Var DisplayLabel="DIP_N0_412" Label="DIP_N0_J_412" Type="Calc" />
+      <Var DisplayLabel="DIP_N0_413" Label="DIP_N0_J_413" Type="Calc" />
+      <Var DisplayLabel="DIP_N0_414" Label="DIP_N0_J_414" Type="Calc" />
+    </Var>
+  </Var>
+  <Var DisplayLabel="DIP_N1_J" Label="DIP_N1_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N1_100" Label="DIP_N1_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N1_101" Label="DIP_N1_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N1_102" Label="DIP_N1_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N1_111" Label="DIP_N1_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_121" Label="DIP_N1_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_131" Label="DIP_N1_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_141" Label="DIP_N1_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_150" Label="DIP_N1_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_160" Label="DIP_N1_J_160" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_163" Label="DIP_N1_J_163" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_181" Label="DIP_N1_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="DIP_N1_200" Label="DIP_N1_J_200" Type="Sum">
+          <Var DisplayLabel="DIP_N1_211" Label="DIP_N1_J_211" Type="Calc" />
+          <Var DisplayLabel="DIP_N1_221" Label="DIP_N1_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N1_104" Label="DIP_N1_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N1_114" Label="DIP_N1_J_114" Type="Calc" />
+        <Var DisplayLabel="DIP_N1_124" Label="DIP_N1_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N1_134" Label="DIP_N1_J_134" Type="Calc" />
+        <Var DisplayLabel="DIP_N1_144" Label="DIP_N1_J_144" Type="Calc" />
+        <Var DisplayLabel="DIP_N1_164" Label="DIP_N1_J_164" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N1_300" Label="DIP_N1_J_300" Type="Sum">
+      <Var DisplayLabel="DIP_N1_311" Label="DIP_N1_J_311" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_314" Label="DIP_N1_J_314" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_321" Label="DIP_N1_J_321" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_324" Label="DIP_N1_J_324" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_331" Label="DIP_N1_J_331" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_334" Label="DIP_N1_J_334" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N1_400" Label="DIP_N1_J_400" Type="Sum">
+      <Var DisplayLabel="DIP_N1_411" Label="DIP_N1_J_411" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_412" Label="DIP_N1_J_412" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_413" Label="DIP_N1_J_413" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_414" Label="DIP_N1_J_414" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_421" Label="DIP_N1_J_421" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_422" Label="DIP_N1_J_422" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_423" Label="DIP_N1_J_423" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_424" Label="DIP_N1_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N1_500" Label="DIP_N1_J_500" Type="Sum">
+      <Var DisplayLabel="DIP_N1_501" Label="DIP_N1_J_501" Type="Calc" />
+      <Var DisplayLabel="DIP_N1_504" Label="DIP_N1_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N1_600" Label="DIP_N1_J_600" Type="Calc" />
+    <Var DisplayLabel="DIP_N1_700" Label="DIP_N1_J_700" Type="Calc" />
+    <Var DisplayLabel="DIP_N1_800" Label="DIP_N1_J_800" Type="Calc" />
+    <Var DisplayLabel="DIP_N1_810" Label="DIP_N1_J_810" Type="Calc" />
+    <Var DisplayLabel="DIP_N1_450" Label="DIP_N1_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="DIP_N2_J" Label="DIP_N2_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N2_100" Label="DIP_N2_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N2_101" Label="DIP_N2_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N2_102" Label="DIP_N2_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N2_111" Label="DIP_N2_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_121" Label="DIP_N2_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_131" Label="DIP_N2_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_141" Label="DIP_N2_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_150" Label="DIP_N2_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_160" Label="DIP_N2_J_160" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_165" Label="DIP_N2_J_165" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_167" Label="DIP_N2_J_167" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_169" Label="DIP_N2_J_169" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_170" Label="DIP_N2_J_170" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_181" Label="DIP_N2_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="DIP_N2_200" Label="DIP_N2_J_200" Type="Sum">
+          <Var DisplayLabel="DIP_N2_211" Label="DIP_N2_J_211" Type="Calc" />
+          <Var DisplayLabel="DIP_N2_221" Label="DIP_N2_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N2_104" Label="DIP_N2_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N2_114" Label="DIP_N2_J_114" Type="Calc" />
+        <Var DisplayLabel="DIP_N2_124" Label="DIP_N2_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N2_134" Label="DIP_N2_J_134" Type="Calc" />
+        <Var DisplayLabel="DIP_N2_144" Label="DIP_N2_J_144" Type="Calc" />
+        <Var DisplayLabel="DIP_N2_166" Label="DIP_N2_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N2_300" Label="DIP_N2_J_300" Type="Sum">
+      <Var DisplayLabel="DIP_N2_311" Label="DIP_N2_J_311" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_314" Label="DIP_N2_J_314" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_321" Label="DIP_N2_J_321" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_324" Label="DIP_N2_J_324" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_331" Label="DIP_N2_J_331" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_334" Label="DIP_N2_J_334" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N2_400" Label="DIP_N2_J_400" Type="Sum">
+      <Var DisplayLabel="DIP_N2_411" Label="DIP_N2_J_411" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_412" Label="DIP_N2_J_412" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_413" Label="DIP_N2_J_413" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_414" Label="DIP_N2_J_414" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_421" Label="DIP_N2_J_421" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_422" Label="DIP_N2_J_422" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_423" Label="DIP_N2_J_423" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_424" Label="DIP_N2_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N2_500" Label="DIP_N2_J_500" Type="Sum">
+      <Var DisplayLabel="DIP_N2_501" Label="DIP_N2_J_501" Type="Calc" />
+      <Var DisplayLabel="DIP_N2_504" Label="DIP_N2_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N2_600" Label="DIP_N2_J_600" Type="Calc" />
+    <Var DisplayLabel="DIP_N2_700" Label="DIP_N2_J_700" Type="Calc" />
+    <Var DisplayLabel="DIP_N2_800" Label="DIP_N2_J_800" Type="Calc" />
+    <Var DisplayLabel="DIP_N2_810" Label="DIP_N2_J_810" Type="Calc" />
+    <Var DisplayLabel="DIP_N2_450" Label="DIP_N2_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="DIP_N3_J" Label="DIP_N3_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N3_100" Label="DIP_N3_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N3_101" Label="DIP_N3_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N3_102" Label="DIP_N3_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N3_111" Label="DIP_N3_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_121" Label="DIP_N3_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_131" Label="DIP_N3_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_141" Label="DIP_N3_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_150" Label="DIP_N3_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_160" Label="DIP_N3_J_160" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_165" Label="DIP_N3_J_165" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_167" Label="DIP_N3_J_167" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_169" Label="DIP_N3_J_169" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_170" Label="DIP_N3_J_170" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_181" Label="DIP_N3_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="DIP_N3_200" Label="DIP_N3_J_200" Type="Sum">
+          <Var DisplayLabel="DIP_N3_211" Label="DIP_N3_J_211" Type="Calc" />
+          <Var DisplayLabel="DIP_N3_221" Label="DIP_N3_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N3_104" Label="DIP_N3_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N3_114" Label="DIP_N3_J_114" Type="Calc" />
+        <Var DisplayLabel="DIP_N3_124" Label="DIP_N3_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N3_134" Label="DIP_N3_J_134" Type="Calc" />
+        <Var DisplayLabel="DIP_N3_144" Label="DIP_N3_J_144" Type="Calc" />
+        <Var DisplayLabel="DIP_N3_166" Label="DIP_N3_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N3_400" Label="DIP_N3_J_400" Type="Sum">
+      <Var DisplayLabel="DIP_N3_411" Label="DIP_N3_J_411" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_412" Label="DIP_N3_J_412" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_413" Label="DIP_N3_J_413" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_414" Label="DIP_N3_J_414" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_421" Label="DIP_N3_J_421" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_422" Label="DIP_N3_J_422" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_423" Label="DIP_N3_J_423" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_424" Label="DIP_N3_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N3_500" Label="DIP_N3_J_500" Type="Sum">
+      <Var DisplayLabel="DIP_N3_501" Label="DIP_N3_J_501" Type="Calc" />
+      <Var DisplayLabel="DIP_N3_504" Label="DIP_N3_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N3_600" Label="DIP_N3_J_600" Type="Calc" />
+    <Var DisplayLabel="DIP_N3_700" Label="DIP_N3_J_700" Type="Calc" />
+    <Var DisplayLabel="DIP_N3_800" Label="DIP_N3_J_800" Type="Calc" />
+    <Var DisplayLabel="DIP_N3_810" Label="DIP_N3_J_810" Type="Calc" />
+    <Var DisplayLabel="DIP_N3_450" Label="DIP_N3_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="LICENCE_N3_J" Label="LICENCE_N3_J_900" Type="Calc">
+    <Var DisplayLabel="LICENCE_N3_100" Label="LICENCE_N3_J_100" Type="Calc">
+      <Var DisplayLabel="LICENCE_N3_101" Label="LICENCE_N3_J_101" Type="Calc">
+        <Var DisplayLabel="LICENCE_N3_102" Label="LICENCE_N3_J_102" Type="Calc">
+          <Var DisplayLabel="LICENCE_N3_111" Label="LICENCE_N3_J_111" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_121" Label="LICENCE_N3_J_121" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_131" Label="LICENCE_N3_J_131" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_141" Label="LICENCE_N3_J_141" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_150" Label="LICENCE_N3_J_150" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_160" Label="LICENCE_N3_J_160" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_165" Label="LICENCE_N3_J_165" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_167" Label="LICENCE_N3_J_167" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_169" Label="LICENCE_N3_J_169" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_170" Label="LICENCE_N3_J_170" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_181" Label="LICENCE_N3_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="LICENCE_N3_200" Label="LICENCE_N3_J_200" Type="Calc">
+          <Var DisplayLabel="LICENCE_N3_211" Label="LICENCE_N3_J_211" Type="Calc" />
+          <Var DisplayLabel="LICENCE_N3_221" Label="LICENCE_N3_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="LICENCE_N3_104" Label="LICENCE_N3_J_104" Type="Calc">
+        <Var DisplayLabel="LICENCE_N3_114" Label="LICENCE_N3_J_114" Type="Calc" />
+        <Var DisplayLabel="LICENCE_N3_124" Label="LICENCE_N3_J_124" Type="Calc" />
+        <Var DisplayLabel="LICENCE_N3_134" Label="LICENCE_N3_J_134" Type="Calc" />
+        <Var DisplayLabel="LICENCE_N3_144" Label="LICENCE_N3_J_144" Type="Calc" />
+        <Var DisplayLabel="LICENCE_N3_166" Label="LICENCE_N3_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="LICENCE_N3_400" Label="LICENCE_N3_J_400" Type="Calc">
+      <Var DisplayLabel="LICENCE_N3_411" Label="LICENCE_N3_J_411" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_412" Label="LICENCE_N3_J_412" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_413" Label="LICENCE_N3_J_413" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_414" Label="LICENCE_N3_J_414" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_421" Label="LICENCE_N3_J_421" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_422" Label="LICENCE_N3_J_422" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_423" Label="LICENCE_N3_J_423" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_424" Label="LICENCE_N3_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="LICENCE_N3_500" Label="LICENCE_N3_J_500" Type="Calc">
+      <Var DisplayLabel="LICENCE_N3_501" Label="LICENCE_N3_J_501" Type="Calc" />
+      <Var DisplayLabel="LICENCE_N3_504" Label="LICENCE_N3_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="LICENCE_N3_600" Label="LICENCE_N3_J_600" Type="Calc" />
+    <Var DisplayLabel="LICENCE_N3_700" Label="LICENCE_N3_J_700" Type="Calc" />
+    <Var DisplayLabel="LICENCE_N3_800" Label="LICENCE_N3_J_800" Type="Calc" />
+    <Var DisplayLabel="LICENCE_N3_810" Label="LICENCE_N3_J_810" Type="Calc" />
+    <Var DisplayLabel="LICENCE_N3_450" Label="LICENCE_N3_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="LICPRO_N3_J" Label="LICPRO_N3_J_900" Type="Calc">
+    <Var DisplayLabel="LICPRO_N3_100" Label="LICPRO_N3_J_100" Type="Calc">
+      <Var DisplayLabel="LICPRO_N3_101" Label="LICPRO_N3_J_101" Type="Calc">
+        <Var DisplayLabel="LICPRO_N3_102" Label="LICPRO_N3_J_102" Type="Calc">
+          <Var DisplayLabel="LICPRO_N3_111" Label="LICPRO_N3_J_111" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_121" Label="LICPRO_N3_J_121" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_131" Label="LICPRO_N3_J_131" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_141" Label="LICPRO_N3_J_141" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_150" Label="LICPRO_N3_J_150" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_160" Label="LICPRO_N3_J_160" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_165" Label="LICPRO_N3_J_165" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_167" Label="LICPRO_N3_J_167" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_169" Label="LICPRO_N3_J_169" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_170" Label="LICPRO_N3_J_170" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_181" Label="LICPRO_N3_J_181" Type="Calc" />
+        </Var>
+        <Var DisplayLabel="LICPRO_N3_200" Label="LICPRO_N3_J_200" Type="Calc">
+          <Var DisplayLabel="LICPRO_N3_211" Label="LICPRO_N3_J_211" Type="Calc" />
+          <Var DisplayLabel="LICPRO_N3_221" Label="LICPRO_N3_J_221" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="LICPRO_N3_104" Label="LICPRO_N3_J_104" Type="Calc">
+        <Var DisplayLabel="LICPRO_N3_114" Label="LICPRO_N3_J_114" Type="Calc" />
+        <Var DisplayLabel="LICPRO_N3_124" Label="LICPRO_N3_J_124" Type="Calc" />
+        <Var DisplayLabel="LICPRO_N3_134" Label="LICPRO_N3_J_134" Type="Calc" />
+        <Var DisplayLabel="LICPRO_N3_144" Label="LICPRO_N3_J_144" Type="Calc" />
+        <Var DisplayLabel="LICPRO_N3_166" Label="LICPRO_N3_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="LICPRO_N3_400" Label="LICPRO_N3_J_400" Type="Calc">
+      <Var DisplayLabel="LICPRO_N3_411" Label="LICPRO_N3_J_411" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_412" Label="LICPRO_N3_J_412" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_413" Label="LICPRO_N3_J_413" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_414" Label="LICPRO_N3_J_414" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_421" Label="LICPRO_N3_J_421" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_422" Label="LICPRO_N3_J_422" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_423" Label="LICPRO_N3_J_423" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_424" Label="LICPRO_N3_J_424" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="LICPRO_N3_500" Label="LICPRO_N3_J_500" Type="Calc">
+      <Var DisplayLabel="LICPRO_N3_501" Label="LICPRO_N3_J_501" Type="Calc" />
+      <Var DisplayLabel="LICPRO_N3_504" Label="LICPRO_N3_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="LICPRO_N3_600" Label="LICPRO_N3_J_600" Type="Calc" />
+    <Var DisplayLabel="LICPRO_N3_700" Label="LICPRO_N3_J_700" Type="Calc" />
+    <Var DisplayLabel="LICPRO_N3_800" Label="LICPRO_N3_J_800" Type="Calc" />
+    <Var DisplayLabel="LICPRO_N3_810" Label="LICPRO_N3_J_810" Type="Calc" />
+    <Var DisplayLabel="LICPRO_N3_450" Label="LICPRO_N3_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="DIP_N4_J" Label="DIP_N4_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N4_100" Label="DIP_N4_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N4_101" Label="DIP_N4_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N4_102" Label="DIP_N4_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N4_111" Label="DIP_N4_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_121" Label="DIP_N4_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_131" Label="DIP_N4_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_141" Label="DIP_N4_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_150" Label="DIP_N4_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_160" Label="DIP_N4_J_160" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_165" Label="DIP_N4_J_165" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_167" Label="DIP_N4_J_167" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_169" Label="DIP_N4_J_169" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_170" Label="DIP_N4_J_170" Type="Calc" />
+          <Var DisplayLabel="DIP_N4_181" Label="DIP_N4_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N4_104" Label="DIP_N4_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N4_114" Label="DIP_N4_J_114" Type="Calc" />
+        <Var DisplayLabel="DIP_N4_124" Label="DIP_N4_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N4_134" Label="DIP_N4_J_134" Type="Calc" />
+        <Var DisplayLabel="DIP_N4_144" Label="DIP_N4_J_144" Type="Calc" />
+        <Var DisplayLabel="DIP_N4_166" Label="DIP_N4_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N4_500" Label="DIP_N4_J_500" Type="Sum">
+      <Var DisplayLabel="DIP_N4_501" Label="DIP_N4_J_501" Type="Calc" />
+      <Var DisplayLabel="DIP_N4_504" Label="DIP_N4_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N4_600" Label="DIP_N4_J_600" Type="Calc" />
+    <Var DisplayLabel="DIP_N4_700" Label="DIP_N4_J_700" Type="Calc" />
+    <Var DisplayLabel="DIP_N4_800" Label="DIP_N4_J_800" Type="Calc" />
+    <Var DisplayLabel="DIP_N4_810" Label="DIP_N4_J_810" Type="Calc" />
+    <Var DisplayLabel="DIP_N4_450" Label="DIP_N4_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="DIP_N5_J" Label="DIP_N5_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N5_100" Label="DIP_N5_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N5_101" Label="DIP_N5_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N5_102" Label="DIP_N5_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N5_111" Label="DIP_N5_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_121" Label="DIP_N5_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_131" Label="DIP_N5_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_141" Label="DIP_N5_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_150" Label="DIP_N5_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_160" Label="DIP_N5_J_160" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_165" Label="DIP_N5_J_165" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_167" Label="DIP_N5_J_167" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_169" Label="DIP_N5_J_169" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_170" Label="DIP_N5_J_170" Type="Calc" />
+          <Var DisplayLabel="DIP_N5_181" Label="DIP_N5_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N5_104" Label="DIP_N5_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N5_114" Label="DIP_N5_J_114" Type="Calc" />
+        <Var DisplayLabel="DIP_N5_124" Label="DIP_N5_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N5_134" Label="DIP_N5_J_134" Type="Calc" />
+        <Var DisplayLabel="DIP_N5_144" Label="DIP_N5_J_144" Type="Calc" />
+        <Var DisplayLabel="DIP_N5_166" Label="DIP_N5_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N5_500" Label="DIP_N5_J_500" Type="Sum">
+      <Var DisplayLabel="DIP_N5_501" Label="DIP_N5_J_501" Type="Calc" />
+      <Var DisplayLabel="DIP_N5_504" Label="DIP_N5_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N5_600" Label="DIP_N5_J_600" Type="Calc" />
+    <Var DisplayLabel="DIP_N5_700" Label="DIP_N5_J_700" Type="Calc" />
+    <Var DisplayLabel="DIP_N5_800" Label="DIP_N5_J_800" Type="Calc" />
+    <Var DisplayLabel="DIP_N5_810" Label="DIP_N5_J_810" Type="Calc" />
+    <Var DisplayLabel="DIP_N5_450" Label="DIP_N5_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="MASTER_N5_J" Label="MASTER_N5_J_900" Type="Calc">
+    <Var DisplayLabel="MASTER_N5_100" Label="MASTER_N5_J_100" Type="Calc">
+      <Var DisplayLabel="MASTER_N5_101" Label="MASTER_N5_J_101" Type="Calc">
+        <Var DisplayLabel="MASTER_N5_102" Label="MASTER_N5_J_102" Type="Calc">
+          <Var DisplayLabel="MASTER_N5_111" Label="MASTER_N5_J_111" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_121" Label="MASTER_N5_J_121" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_131" Label="MASTER_N5_J_131" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_141" Label="MASTER_N5_J_141" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_150" Label="MASTER_N5_J_150" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_160" Label="MASTER_N5_J_160" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_165" Label="MASTER_N5_J_165" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_167" Label="MASTER_N5_J_167" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_169" Label="MASTER_N5_J_169" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_170" Label="MASTER_N5_J_170" Type="Calc" />
+          <Var DisplayLabel="MASTER_N5_181" Label="MASTER_N5_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="MASTER_N5_104" Label="MASTER_N5_J_104" Type="Calc">
+        <Var DisplayLabel="MASTER_N5_114" Label="MASTER_N5_J_114" Type="Calc" />
+        <Var DisplayLabel="MASTER_N5_124" Label="MASTER_N5_J_124" Type="Calc" />
+        <Var DisplayLabel="MASTER_N5_134" Label="MASTER_N5_J_134" Type="Calc" />
+        <Var DisplayLabel="MASTER_N5_144" Label="MASTER_N5_J_144" Type="Calc" />
+        <Var DisplayLabel="MASTER_N5_166" Label="MASTER_N5_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="MASTER_N5_500" Label="MASTER_N5_J_500" Type="Calc">
+      <Var DisplayLabel="MASTER_N5_501" Label="MASTER_N5_J_501" Type="Calc" />
+      <Var DisplayLabel="MASTER_N5_504" Label="MASTER_N5_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="MASTER_N5_600" Label="MASTER_N5_J_600" Type="Calc" />
+    <Var DisplayLabel="MASTER_N5_700" Label="MASTER_N5_J_700" Type="Calc" />
+    <Var DisplayLabel="MASTER_N5_800" Label="MASTER_N5_J_800" Type="Calc" />
+    <Var DisplayLabel="MASTER_N5_810" Label="MASTER_N5_J_810" Type="Calc" />
+    <Var DisplayLabel="MASTER_N5_450" Label="MASTER_N5_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="DIP_N6_J" Label="DIP_N6_J_900" Type="Sum">
+    <Var DisplayLabel="DIP_N6_100" Label="DIP_N6_J_100" Type="Sum">
+      <Var DisplayLabel="DIP_N6_101" Label="DIP_N6_J_101" Type="Sum">
+        <Var DisplayLabel="DIP_N6_102" Label="DIP_N6_J_102" Type="Sum">
+          <Var DisplayLabel="DIP_N6_111" Label="DIP_N6_J_111" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_121" Label="DIP_N6_J_121" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_131" Label="DIP_N6_J_131" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_141" Label="DIP_N6_J_141" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_150" Label="DIP_N6_J_150" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_160" Label="DIP_N6_J_160" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_165" Label="DIP_N6_J_165" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_167" Label="DIP_N6_J_167" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_169" Label="DIP_N6_J_169" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_170" Label="DIP_N6_J_170" Type="Calc" />
+          <Var DisplayLabel="DIP_N6_181" Label="DIP_N6_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DIP_N6_104" Label="DIP_N6_J_104" Type="Sum">
+        <Var DisplayLabel="DIP_N6_114" Label="DIP_N6_J_114" Type="Calc" />
+        <Var DisplayLabel="DIP_N6_124" Label="DIP_N6_J_124" Type="Calc" />
+        <Var DisplayLabel="DIP_N6_134" Label="DIP_N6_J_134" Type="Calc" />
+        <Var DisplayLabel="DIP_N6_144" Label="DIP_N6_J_144" Type="Calc" />
+        <Var DisplayLabel="DIP_N6_166" Label="DIP_N6_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DIP_N6_500" Label="DIP_N6_J_500" Type="Sum">
+      <Var DisplayLabel="DIP_N6_501" Label="DIP_N6_J_501" Type="Calc" />
+      <Var DisplayLabel="DIP_N6_504" Label="DIP_N6_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DIP_N6_600" Label="DIP_N6_J_600" Type="Calc" />
+    <Var DisplayLabel="DIP_N6_700" Label="DIP_N6_J_700" Type="Calc" />
+    <Var DisplayLabel="DIP_N6_800" Label="DIP_N6_J_800" Type="Calc" />
+    <Var DisplayLabel="DIP_N6_810" Label="DIP_N6_J_810" Type="Calc" />
+    <Var DisplayLabel="DIP_N6_450" Label="DIP_N6_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="MASTER_N6_J" Label="MASTER_N6_J_900" Type="Calc">
+    <Var DisplayLabel="MASTER_N6_100" Label="MASTER_N6_J_100" Type="Calc">
+      <Var DisplayLabel="MASTER_N6_101" Label="MASTER_N6_J_101" Type="Calc">
+        <Var DisplayLabel="MASTER_N6_102" Label="MASTER_N6_J_102" Type="Calc">
+          <Var DisplayLabel="MASTER_N6_111" Label="MASTER_N6_J_111" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_121" Label="MASTER_N6_J_121" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_131" Label="MASTER_N6_J_131" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_141" Label="MASTER_N6_J_141" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_150" Label="MASTER_N6_J_150" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_160" Label="MASTER_N6_J_160" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_165" Label="MASTER_N6_J_165" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_167" Label="MASTER_N6_J_167" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_169" Label="MASTER_N6_J_169" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_170" Label="MASTER_N6_J_170" Type="Calc" />
+          <Var DisplayLabel="MASTER_N6_181" Label="MASTER_N6_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="MASTER_N6_104" Label="MASTER_N6_J_104" Type="Calc">
+        <Var DisplayLabel="MASTER_N6_114" Label="MASTER_N6_J_114" Type="Calc" />
+        <Var DisplayLabel="MASTER_N6_124" Label="MASTER_N6_J_124" Type="Calc" />
+        <Var DisplayLabel="MASTER_N6_134" Label="MASTER_N6_J_134" Type="Calc" />
+        <Var DisplayLabel="MASTER_N6_144" Label="MASTER_N6_J_144" Type="Calc" />
+        <Var DisplayLabel="MASTER_N6_166" Label="MASTER_N6_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="MASTER_N6_500" Label="MASTER_N6_J_500" Type="Calc">
+      <Var DisplayLabel="MASTER_N6_501" Label="MASTER_N6_J_501" Type="Calc" />
+      <Var DisplayLabel="MASTER_N6_504" Label="MASTER_N6_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="MASTER_N6_600" Label="MASTER_N6_J_600" Type="Calc" />
+    <Var DisplayLabel="MASTER_N6_700" Label="MASTER_N6_J_700" Type="Calc" />
+    <Var DisplayLabel="MASTER_N6_800" Label="MASTER_N6_J_800" Type="Calc" />
+    <Var DisplayLabel="MASTER_N6_810" Label="MASTER_N6_J_810" Type="Calc" />
+    <Var DisplayLabel="MASTER_N6_450" Label="MASTER_N6_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="DOC_N6_J" Label="DOC_N6_J_900" Type="Calc">
+    <Var DisplayLabel="DOC_N6_100" Label="DOC_N6_J_100" Type="Calc">
+      <Var DisplayLabel="DOC_N6_101" Label="DOC_N6_J_101" Type="Calc">
+        <Var DisplayLabel="DOC_N6_102" Label="DOC_N6_J_102" Type="Calc">
+          <Var DisplayLabel="DOC_N6_111" Label="DOC_N6_J_111" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_121" Label="DOC_N6_J_121" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_131" Label="DOC_N6_J_131" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_141" Label="DOC_N6_J_141" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_150" Label="DOC_N6_J_150" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_160" Label="DOC_N6_J_160" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_165" Label="DOC_N6_J_165" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_167" Label="DOC_N6_J_167" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_169" Label="DOC_N6_J_169" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_170" Label="DOC_N6_J_170" Type="Calc" />
+          <Var DisplayLabel="DOC_N6_181" Label="DOC_N6_J_181" Type="Calc" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="DOC_N6_104" Label="DOC_N6_J_104" Type="Calc">
+        <Var DisplayLabel="DOC_N6_114" Label="DOC_N6_J_114" Type="Calc" />
+        <Var DisplayLabel="DOC_N6_124" Label="DOC_N6_J_124" Type="Calc" />
+        <Var DisplayLabel="DOC_N6_134" Label="DOC_N6_J_134" Type="Calc" />
+        <Var DisplayLabel="DOC_N6_144" Label="DOC_N6_J_144" Type="Calc" />
+        <Var DisplayLabel="DOC_N6_166" Label="DOC_N6_J_166" Type="Calc" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="DOC_N6_500" Label="DOC_N6_J_500" Type="Calc">
+      <Var DisplayLabel="DOC_N6_501" Label="DOC_N6_J_501" Type="Calc" />
+      <Var DisplayLabel="DOC_N6_504" Label="DOC_N6_J_504" Type="Calc" />
+    </Var>
+    <Var DisplayLabel="DOC_N6_600" Label="DOC_N6_J_600" Type="Calc" />
+    <Var DisplayLabel="DOC_N6_700" Label="DOC_N6_J_700" Type="Calc" />
+    <Var DisplayLabel="DOC_N6_800" Label="DOC_N6_J_800" Type="Calc" />
+    <Var DisplayLabel="DOC_N6_810" Label="DOC_N6_J_810" Type="Calc" />
+    <Var DisplayLabel="DOC_N6_450" Label="DOC_N6_J_450" Type="Calc" />
+  </Var>
+  <Var DisplayLabel="COEF_L_N0_J" Label="COEF_L_N0_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_L_N0_100" Label="COEF_L_N0_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N0_101" Label="COEF_L_N0_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N0_102" Label="COEF_L_N0_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N0_111" Label="COEF_L_N0_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N0_121" Label="COEF_L_N0_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N0_131" Label="COEF_L_N0_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N0_141" Label="COEF_L_N0_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N0_150" Label="COEF_L_N0_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N0_160" Label="COEF_L_N0_J_160" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_L_N0_104" Label="COEF_L_N0_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N0_124" Label="COEF_L_N0_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N0_134" Label="COEF_L_N0_J_134" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_L_N0_300" Label="COEF_L_N0_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N0_350" Label="COEF_L_N0_J_350" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N0_400" Label="COEF_L_N0_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N0_411" Label="COEF_L_N0_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N0_412" Label="COEF_L_N0_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N0_413" Label="COEF_L_N0_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N0_414" Label="COEF_L_N0_J_414" Type="Data" Display="Percent" />
+    </Var>
+  </Var>
+  <Var DisplayLabel="COEF_L_N1_J" Label="COEF_L_N1_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_L_N1_100" Label="COEF_L_N1_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N1_101" Label="COEF_L_N1_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N1_102" Label="COEF_L_N1_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N1_111" Label="COEF_L_N1_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_121" Label="COEF_L_N1_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_131" Label="COEF_L_N1_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_141" Label="COEF_L_N1_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_150" Label="COEF_L_N1_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_160" Label="COEF_L_N1_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_163" Label="COEF_L_N1_J_163" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_181" Label="COEF_L_N1_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_L_N1_200" Label="COEF_L_N1_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N1_211" Label="COEF_L_N1_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N1_221" Label="COEF_L_N1_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_L_N1_104" Label="COEF_L_N1_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N1_114" Label="COEF_L_N1_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N1_124" Label="COEF_L_N1_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N1_134" Label="COEF_L_N1_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N1_144" Label="COEF_L_N1_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N1_164" Label="COEF_L_N1_J_164" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_L_N1_300" Label="COEF_L_N1_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N1_311" Label="COEF_L_N1_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_314" Label="COEF_L_N1_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_321" Label="COEF_L_N1_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_324" Label="COEF_L_N1_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_331" Label="COEF_L_N1_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_334" Label="COEF_L_N1_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N1_400" Label="COEF_L_N1_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N1_411" Label="COEF_L_N1_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_412" Label="COEF_L_N1_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_413" Label="COEF_L_N1_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_414" Label="COEF_L_N1_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_421" Label="COEF_L_N1_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_422" Label="COEF_L_N1_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_423" Label="COEF_L_N1_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_424" Label="COEF_L_N1_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N1_500" Label="COEF_L_N1_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N1_501" Label="COEF_L_N1_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N1_504" Label="COEF_L_N1_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N1_600" Label="COEF_L_N1_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_L_N1_700" Label="COEF_L_N1_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_L_N2_J" Label="COEF_L_N2_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_L_N2_100" Label="COEF_L_N2_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N2_101" Label="COEF_L_N2_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N2_102" Label="COEF_L_N2_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N2_111" Label="COEF_L_N2_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_121" Label="COEF_L_N2_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_131" Label="COEF_L_N2_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_141" Label="COEF_L_N2_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_150" Label="COEF_L_N2_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_160" Label="COEF_L_N2_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_165" Label="COEF_L_N2_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_167" Label="COEF_L_N2_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_169" Label="COEF_L_N2_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_170" Label="COEF_L_N2_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_181" Label="COEF_L_N2_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_L_N2_200" Label="COEF_L_N2_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N2_211" Label="COEF_L_N2_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N2_221" Label="COEF_L_N2_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_L_N2_104" Label="COEF_L_N2_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N2_114" Label="COEF_L_N2_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N2_124" Label="COEF_L_N2_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N2_134" Label="COEF_L_N2_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N2_144" Label="COEF_L_N2_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N2_166" Label="COEF_L_N2_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_L_N2_300" Label="COEF_L_N2_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N2_311" Label="COEF_L_N2_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_314" Label="COEF_L_N2_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_321" Label="COEF_L_N2_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_324" Label="COEF_L_N2_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_331" Label="COEF_L_N2_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_334" Label="COEF_L_N2_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N2_400" Label="COEF_L_N2_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N2_411" Label="COEF_L_N2_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_412" Label="COEF_L_N2_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_413" Label="COEF_L_N2_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_414" Label="COEF_L_N2_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_421" Label="COEF_L_N2_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_422" Label="COEF_L_N2_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_423" Label="COEF_L_N2_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_424" Label="COEF_L_N2_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N2_500" Label="COEF_L_N2_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N2_501" Label="COEF_L_N2_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N2_504" Label="COEF_L_N2_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N2_600" Label="COEF_L_N2_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_L_N2_700" Label="COEF_L_N2_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_L_N3_J" Label="COEF_L_N3_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_L_N3_100" Label="COEF_L_N3_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N3_101" Label="COEF_L_N3_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N3_102" Label="COEF_L_N3_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N3_111" Label="COEF_L_N3_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_121" Label="COEF_L_N3_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_131" Label="COEF_L_N3_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_141" Label="COEF_L_N3_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_150" Label="COEF_L_N3_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_160" Label="COEF_L_N3_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_165" Label="COEF_L_N3_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_167" Label="COEF_L_N3_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_169" Label="COEF_L_N3_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_170" Label="COEF_L_N3_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_181" Label="COEF_L_N3_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_L_N3_200" Label="COEF_L_N3_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_L_N3_211" Label="COEF_L_N3_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_L_N3_221" Label="COEF_L_N3_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_L_N3_104" Label="COEF_L_N3_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_L_N3_114" Label="COEF_L_N3_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N3_124" Label="COEF_L_N3_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N3_134" Label="COEF_L_N3_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N3_144" Label="COEF_L_N3_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_L_N3_166" Label="COEF_L_N3_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_L_N3_400" Label="COEF_L_N3_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N3_411" Label="COEF_L_N3_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_412" Label="COEF_L_N3_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_413" Label="COEF_L_N3_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_414" Label="COEF_L_N3_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_421" Label="COEF_L_N3_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_422" Label="COEF_L_N3_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_423" Label="COEF_L_N3_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_424" Label="COEF_L_N3_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N3_500" Label="COEF_L_N3_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_L_N3_501" Label="COEF_L_N3_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_L_N3_504" Label="COEF_L_N3_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_L_N3_600" Label="COEF_L_N3_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_L_N3_700" Label="COEF_L_N3_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_M_N1_J" Label="COEF_M_N1_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_M_N1_100" Label="COEF_M_N1_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N1_101" Label="COEF_M_N1_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N1_102" Label="COEF_M_N1_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N1_111" Label="COEF_M_N1_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_121" Label="COEF_M_N1_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_131" Label="COEF_M_N1_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_141" Label="COEF_M_N1_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_150" Label="COEF_M_N1_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_160" Label="COEF_M_N1_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_163" Label="COEF_M_N1_J_163" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_181" Label="COEF_M_N1_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_M_N1_200" Label="COEF_M_N1_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N1_211" Label="COEF_M_N1_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N1_221" Label="COEF_M_N1_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_M_N1_104" Label="COEF_M_N1_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N1_114" Label="COEF_M_N1_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N1_124" Label="COEF_M_N1_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N1_134" Label="COEF_M_N1_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N1_144" Label="COEF_M_N1_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N1_164" Label="COEF_M_N1_J_164" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_M_N1_300" Label="COEF_M_N1_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N1_311" Label="COEF_M_N1_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_314" Label="COEF_M_N1_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_321" Label="COEF_M_N1_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_324" Label="COEF_M_N1_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_331" Label="COEF_M_N1_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_334" Label="COEF_M_N1_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N1_400" Label="COEF_M_N1_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N1_411" Label="COEF_M_N1_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_412" Label="COEF_M_N1_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_413" Label="COEF_M_N1_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_414" Label="COEF_M_N1_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_421" Label="COEF_M_N1_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_422" Label="COEF_M_N1_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_423" Label="COEF_M_N1_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_424" Label="COEF_M_N1_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N1_500" Label="COEF_M_N1_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N1_501" Label="COEF_M_N1_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N1_504" Label="COEF_M_N1_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N1_600" Label="COEF_M_N1_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_M_N1_700" Label="COEF_M_N1_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_M_N2_J" Label="COEF_M_N2_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_M_N2_100" Label="COEF_M_N2_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N2_101" Label="COEF_M_N2_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N2_102" Label="COEF_M_N2_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N2_111" Label="COEF_M_N2_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_121" Label="COEF_M_N2_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_131" Label="COEF_M_N2_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_141" Label="COEF_M_N2_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_150" Label="COEF_M_N2_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_160" Label="COEF_M_N2_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_165" Label="COEF_M_N2_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_167" Label="COEF_M_N2_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_169" Label="COEF_M_N2_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_170" Label="COEF_M_N2_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_181" Label="COEF_M_N2_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_M_N2_200" Label="COEF_M_N2_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N2_211" Label="COEF_M_N2_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N2_221" Label="COEF_M_N2_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_M_N2_104" Label="COEF_M_N2_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N2_114" Label="COEF_M_N2_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N2_124" Label="COEF_M_N2_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N2_134" Label="COEF_M_N2_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N2_144" Label="COEF_M_N2_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N2_166" Label="COEF_M_N2_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_M_N2_300" Label="COEF_M_N2_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N2_311" Label="COEF_M_N2_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_314" Label="COEF_M_N2_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_321" Label="COEF_M_N2_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_324" Label="COEF_M_N2_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_331" Label="COEF_M_N2_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_334" Label="COEF_M_N2_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N2_400" Label="COEF_M_N2_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N2_411" Label="COEF_M_N2_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_412" Label="COEF_M_N2_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_413" Label="COEF_M_N2_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_414" Label="COEF_M_N2_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_421" Label="COEF_M_N2_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_422" Label="COEF_M_N2_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_423" Label="COEF_M_N2_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_424" Label="COEF_M_N2_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N2_500" Label="COEF_M_N2_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N2_501" Label="COEF_M_N2_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N2_504" Label="COEF_M_N2_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N2_600" Label="COEF_M_N2_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_M_N2_700" Label="COEF_M_N2_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_M_N3_J" Label="COEF_M_N3_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_M_N3_100" Label="COEF_M_N3_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N3_101" Label="COEF_M_N3_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N3_102" Label="COEF_M_N3_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N3_111" Label="COEF_M_N3_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_121" Label="COEF_M_N3_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_131" Label="COEF_M_N3_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_141" Label="COEF_M_N3_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_150" Label="COEF_M_N3_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_160" Label="COEF_M_N3_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_165" Label="COEF_M_N3_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_167" Label="COEF_M_N3_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_169" Label="COEF_M_N3_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_170" Label="COEF_M_N3_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_181" Label="COEF_M_N3_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_M_N3_200" Label="COEF_M_N3_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N3_211" Label="COEF_M_N3_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N3_221" Label="COEF_M_N3_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_M_N3_104" Label="COEF_M_N3_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N3_114" Label="COEF_M_N3_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N3_124" Label="COEF_M_N3_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N3_134" Label="COEF_M_N3_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N3_144" Label="COEF_M_N3_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N3_166" Label="COEF_M_N3_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_M_N3_400" Label="COEF_M_N3_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N3_411" Label="COEF_M_N3_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_412" Label="COEF_M_N3_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_413" Label="COEF_M_N3_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_414" Label="COEF_M_N3_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_421" Label="COEF_M_N3_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_422" Label="COEF_M_N3_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_423" Label="COEF_M_N3_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_424" Label="COEF_M_N3_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N3_500" Label="COEF_M_N3_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N3_501" Label="COEF_M_N3_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N3_504" Label="COEF_M_N3_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N3_600" Label="COEF_M_N3_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_M_N3_700" Label="COEF_M_N3_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_M_N4_J" Label="COEF_M_N4_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_M_N4_100" Label="COEF_M_N4_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N4_101" Label="COEF_M_N4_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N4_102" Label="COEF_M_N4_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N4_111" Label="COEF_M_N4_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_121" Label="COEF_M_N4_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_131" Label="COEF_M_N4_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_141" Label="COEF_M_N4_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_150" Label="COEF_M_N4_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_160" Label="COEF_M_N4_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_165" Label="COEF_M_N4_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_167" Label="COEF_M_N4_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_169" Label="COEF_M_N4_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_170" Label="COEF_M_N4_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N4_181" Label="COEF_M_N4_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_M_N4_104" Label="COEF_M_N4_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N4_114" Label="COEF_M_N4_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N4_124" Label="COEF_M_N4_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N4_134" Label="COEF_M_N4_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N4_144" Label="COEF_M_N4_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N4_166" Label="COEF_M_N4_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_M_N4_500" Label="COEF_M_N4_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N4_501" Label="COEF_M_N4_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N4_504" Label="COEF_M_N4_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N4_600" Label="COEF_M_N4_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_M_N4_700" Label="COEF_M_N4_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_M_N5_J" Label="COEF_M_N5_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_M_N5_100" Label="COEF_M_N5_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N5_101" Label="COEF_M_N5_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N5_102" Label="COEF_M_N5_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N5_111" Label="COEF_M_N5_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_121" Label="COEF_M_N5_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_131" Label="COEF_M_N5_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_141" Label="COEF_M_N5_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_150" Label="COEF_M_N5_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_160" Label="COEF_M_N5_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_165" Label="COEF_M_N5_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_167" Label="COEF_M_N5_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_169" Label="COEF_M_N5_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_170" Label="COEF_M_N5_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N5_181" Label="COEF_M_N5_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_M_N5_104" Label="COEF_M_N5_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N5_114" Label="COEF_M_N5_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N5_124" Label="COEF_M_N5_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N5_134" Label="COEF_M_N5_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N5_144" Label="COEF_M_N5_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N5_166" Label="COEF_M_N5_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_M_N5_500" Label="COEF_M_N5_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N5_501" Label="COEF_M_N5_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N5_504" Label="COEF_M_N5_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N5_600" Label="COEF_M_N5_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_M_N5_700" Label="COEF_M_N5_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_M_N6_J" Label="COEF_M_N6_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_M_N6_100" Label="COEF_M_N6_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N6_101" Label="COEF_M_N6_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N6_102" Label="COEF_M_N6_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_M_N6_111" Label="COEF_M_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_121" Label="COEF_M_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_131" Label="COEF_M_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_141" Label="COEF_M_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_150" Label="COEF_M_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_160" Label="COEF_M_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_165" Label="COEF_M_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_167" Label="COEF_M_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_169" Label="COEF_M_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_170" Label="COEF_M_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_M_N6_181" Label="COEF_M_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_M_N6_104" Label="COEF_M_N6_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_M_N6_114" Label="COEF_M_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N6_124" Label="COEF_M_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N6_134" Label="COEF_M_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N6_144" Label="COEF_M_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_M_N6_166" Label="COEF_M_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_M_N6_500" Label="COEF_M_N6_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_M_N6_501" Label="COEF_M_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_M_N6_504" Label="COEF_M_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_M_N6_600" Label="COEF_M_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_M_N6_700" Label="COEF_M_N6_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_D_N6_J" Label="COEF_D_N6_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_D_N6_100" Label="COEF_D_N6_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_D_N6_101" Label="COEF_D_N6_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_D_N6_102" Label="COEF_D_N6_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_D_N6_111" Label="COEF_D_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_121" Label="COEF_D_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_131" Label="COEF_D_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_141" Label="COEF_D_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_150" Label="COEF_D_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_160" Label="COEF_D_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_165" Label="COEF_D_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_167" Label="COEF_D_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_169" Label="COEF_D_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_170" Label="COEF_D_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_D_N6_181" Label="COEF_D_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_D_N6_104" Label="COEF_D_N6_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_D_N6_114" Label="COEF_D_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_D_N6_124" Label="COEF_D_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_D_N6_134" Label="COEF_D_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_D_N6_144" Label="COEF_D_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_D_N6_166" Label="COEF_D_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_D_N6_500" Label="COEF_D_N6_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_D_N6_501" Label="COEF_D_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_D_N6_504" Label="COEF_D_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_D_N6_600" Label="COEF_D_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_D_N6_700" Label="COEF_D_N6_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_C_N0_J" Label="COEF_C_N0_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_C_N0_100" Label="COEF_C_N0_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N0_101" Label="COEF_C_N0_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_C_N0_102" Label="COEF_C_N0_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_C_N0_111" Label="COEF_C_N0_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N0_121" Label="COEF_C_N0_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N0_131" Label="COEF_C_N0_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N0_141" Label="COEF_C_N0_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N0_150" Label="COEF_C_N0_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N0_160" Label="COEF_C_N0_J_160" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_C_N0_104" Label="COEF_C_N0_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_C_N0_124" Label="COEF_C_N0_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N0_134" Label="COEF_C_N0_J_134" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_C_N0_300" Label="COEF_C_N0_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N0_350" Label="COEF_C_N0_J_350" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N0_400" Label="COEF_C_N0_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N0_411" Label="COEF_C_N0_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N0_412" Label="COEF_C_N0_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N0_413" Label="COEF_C_N0_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N0_414" Label="COEF_C_N0_J_414" Type="Data" Display="Percent" />
+    </Var>
+  </Var>
+  <Var DisplayLabel="COEF_C_N1_J" Label="COEF_C_N1_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_C_N1_100" Label="COEF_C_N1_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N1_101" Label="COEF_C_N1_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_C_N1_102" Label="COEF_C_N1_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_C_N1_111" Label="COEF_C_N1_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_121" Label="COEF_C_N1_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_131" Label="COEF_C_N1_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_141" Label="COEF_C_N1_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_150" Label="COEF_C_N1_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_160" Label="COEF_C_N1_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_163" Label="COEF_C_N1_J_163" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_181" Label="COEF_C_N1_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_C_N1_200" Label="COEF_C_N1_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_C_N1_211" Label="COEF_C_N1_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N1_221" Label="COEF_C_N1_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_C_N1_104" Label="COEF_C_N1_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_C_N1_114" Label="COEF_C_N1_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N1_124" Label="COEF_C_N1_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N1_134" Label="COEF_C_N1_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N1_144" Label="COEF_C_N1_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N1_164" Label="COEF_C_N1_J_164" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_C_N1_300" Label="COEF_C_N1_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N1_311" Label="COEF_C_N1_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_314" Label="COEF_C_N1_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_321" Label="COEF_C_N1_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_324" Label="COEF_C_N1_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_331" Label="COEF_C_N1_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_334" Label="COEF_C_N1_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N1_400" Label="COEF_C_N1_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N1_411" Label="COEF_C_N1_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_412" Label="COEF_C_N1_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_413" Label="COEF_C_N1_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_414" Label="COEF_C_N1_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_421" Label="COEF_C_N1_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_422" Label="COEF_C_N1_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_423" Label="COEF_C_N1_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_424" Label="COEF_C_N1_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N1_500" Label="COEF_C_N1_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N1_501" Label="COEF_C_N1_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N1_504" Label="COEF_C_N1_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N1_600" Label="COEF_C_N1_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_C_N1_700" Label="COEF_C_N1_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_C_N2_J" Label="COEF_C_N2_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_C_N2_100" Label="COEF_C_N2_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N2_101" Label="COEF_C_N2_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_C_N2_102" Label="COEF_C_N2_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_C_N2_111" Label="COEF_C_N2_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_121" Label="COEF_C_N2_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_131" Label="COEF_C_N2_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_141" Label="COEF_C_N2_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_150" Label="COEF_C_N2_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_160" Label="COEF_C_N2_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_165" Label="COEF_C_N2_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_167" Label="COEF_C_N2_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_169" Label="COEF_C_N2_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_170" Label="COEF_C_N2_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_181" Label="COEF_C_N2_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_C_N2_200" Label="COEF_C_N2_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_C_N2_211" Label="COEF_C_N2_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_C_N2_221" Label="COEF_C_N2_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_C_N2_104" Label="COEF_C_N2_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_C_N2_114" Label="COEF_C_N2_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N2_124" Label="COEF_C_N2_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N2_134" Label="COEF_C_N2_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N2_144" Label="COEF_C_N2_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_C_N2_166" Label="COEF_C_N2_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_C_N2_300" Label="COEF_C_N2_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N2_311" Label="COEF_C_N2_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_314" Label="COEF_C_N2_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_321" Label="COEF_C_N2_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_324" Label="COEF_C_N2_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_331" Label="COEF_C_N2_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_334" Label="COEF_C_N2_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N2_400" Label="COEF_C_N2_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N2_411" Label="COEF_C_N2_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_412" Label="COEF_C_N2_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_413" Label="COEF_C_N2_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_414" Label="COEF_C_N2_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_421" Label="COEF_C_N2_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_422" Label="COEF_C_N2_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_423" Label="COEF_C_N2_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_424" Label="COEF_C_N2_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N2_500" Label="COEF_C_N2_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_C_N2_501" Label="COEF_C_N2_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_C_N2_504" Label="COEF_C_N2_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_C_N2_600" Label="COEF_C_N2_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_C_N2_700" Label="COEF_C_N2_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_S_N0_J" Label="COEF_S_N0_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_S_N0_100" Label="COEF_S_N0_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N0_101" Label="COEF_S_N0_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N0_102" Label="COEF_S_N0_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N0_111" Label="COEF_S_N0_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N0_121" Label="COEF_S_N0_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N0_131" Label="COEF_S_N0_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N0_141" Label="COEF_S_N0_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N0_150" Label="COEF_S_N0_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N0_160" Label="COEF_S_N0_J_160" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_S_N0_104" Label="COEF_S_N0_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N0_124" Label="COEF_S_N0_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N0_134" Label="COEF_S_N0_J_134" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_S_N0_300" Label="COEF_S_N0_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N0_350" Label="COEF_S_N0_J_350" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N0_400" Label="COEF_S_N0_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N0_411" Label="COEF_S_N0_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N0_412" Label="COEF_S_N0_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N0_413" Label="COEF_S_N0_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N0_414" Label="COEF_S_N0_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N0_421" Label="COEF_S_N0_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N0_422" Label="COEF_S_N0_J_422" Type="Data" Display="Percent" />
+    </Var>
+  </Var>
+  <Var DisplayLabel="COEF_S_N1_J" Label="COEF_S_N1_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_S_N1_100" Label="COEF_S_N1_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N1_101" Label="COEF_S_N1_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N1_102" Label="COEF_S_N1_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N1_111" Label="COEF_S_N1_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_121" Label="COEF_S_N1_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_131" Label="COEF_S_N1_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_141" Label="COEF_S_N1_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_150" Label="COEF_S_N1_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_160" Label="COEF_S_N1_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_163" Label="COEF_S_N1_J_163" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_181" Label="COEF_S_N1_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_S_N1_200" Label="COEF_S_N1_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N1_211" Label="COEF_S_N1_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N1_221" Label="COEF_S_N1_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_S_N1_104" Label="COEF_S_N1_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N1_114" Label="COEF_S_N1_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N1_124" Label="COEF_S_N1_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N1_134" Label="COEF_S_N1_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N1_144" Label="COEF_S_N1_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N1_164" Label="COEF_S_N1_J_164" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_S_N1_300" Label="COEF_S_N1_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N1_311" Label="COEF_S_N1_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_314" Label="COEF_S_N1_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_321" Label="COEF_S_N1_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_324" Label="COEF_S_N1_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_331" Label="COEF_S_N1_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_334" Label="COEF_S_N1_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N1_400" Label="COEF_S_N1_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N1_411" Label="COEF_S_N1_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_412" Label="COEF_S_N1_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_413" Label="COEF_S_N1_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_414" Label="COEF_S_N1_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_421" Label="COEF_S_N1_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_422" Label="COEF_S_N1_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_423" Label="COEF_S_N1_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_424" Label="COEF_S_N1_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N1_500" Label="COEF_S_N1_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N1_501" Label="COEF_S_N1_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N1_504" Label="COEF_S_N1_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N1_600" Label="COEF_S_N1_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_S_N1_700" Label="COEF_S_N1_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_S_N2_J" Label="COEF_S_N2_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_S_N2_100" Label="COEF_S_N2_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N2_101" Label="COEF_S_N2_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N2_102" Label="COEF_S_N2_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N2_111" Label="COEF_S_N2_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_121" Label="COEF_S_N2_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_131" Label="COEF_S_N2_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_141" Label="COEF_S_N2_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_150" Label="COEF_S_N2_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_160" Label="COEF_S_N2_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_165" Label="COEF_S_N2_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_167" Label="COEF_S_N2_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_169" Label="COEF_S_N2_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_170" Label="COEF_S_N2_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_181" Label="COEF_S_N2_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_S_N2_200" Label="COEF_S_N2_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N2_211" Label="COEF_S_N2_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N2_221" Label="COEF_S_N2_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_S_N2_104" Label="COEF_S_N2_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N2_114" Label="COEF_S_N2_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N2_124" Label="COEF_S_N2_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N2_134" Label="COEF_S_N2_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N2_144" Label="COEF_S_N2_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N2_166" Label="COEF_S_N2_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_S_N2_300" Label="COEF_S_N2_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N2_311" Label="COEF_S_N2_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_314" Label="COEF_S_N2_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_321" Label="COEF_S_N2_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_324" Label="COEF_S_N2_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_331" Label="COEF_S_N2_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_334" Label="COEF_S_N2_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N2_400" Label="COEF_S_N2_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N2_411" Label="COEF_S_N2_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_412" Label="COEF_S_N2_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_413" Label="COEF_S_N2_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_414" Label="COEF_S_N2_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_421" Label="COEF_S_N2_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_422" Label="COEF_S_N2_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_423" Label="COEF_S_N2_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_424" Label="COEF_S_N2_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N2_500" Label="COEF_S_N2_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N2_501" Label="COEF_S_N2_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N2_504" Label="COEF_S_N2_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N2_600" Label="COEF_S_N2_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_S_N2_700" Label="COEF_S_N2_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_S_N3_J" Label="COEF_S_N3_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_S_N3_100" Label="COEF_S_N3_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N3_101" Label="COEF_S_N3_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N3_102" Label="COEF_S_N3_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N3_111" Label="COEF_S_N3_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_121" Label="COEF_S_N3_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_131" Label="COEF_S_N3_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_141" Label="COEF_S_N3_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_150" Label="COEF_S_N3_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_160" Label="COEF_S_N3_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_165" Label="COEF_S_N3_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_167" Label="COEF_S_N3_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_169" Label="COEF_S_N3_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_170" Label="COEF_S_N3_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_181" Label="COEF_S_N3_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_S_N3_200" Label="COEF_S_N3_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_S_N3_211" Label="COEF_S_N3_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_S_N3_221" Label="COEF_S_N3_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_S_N3_104" Label="COEF_S_N3_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_S_N3_114" Label="COEF_S_N3_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N3_124" Label="COEF_S_N3_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N3_134" Label="COEF_S_N3_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N3_144" Label="COEF_S_N3_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_S_N3_166" Label="COEF_S_N3_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_S_N3_400" Label="COEF_S_N3_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N3_411" Label="COEF_S_N3_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_412" Label="COEF_S_N3_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_413" Label="COEF_S_N3_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_414" Label="COEF_S_N3_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_421" Label="COEF_S_N3_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_422" Label="COEF_S_N3_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_423" Label="COEF_S_N3_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_424" Label="COEF_S_N3_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N3_500" Label="COEF_S_N3_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_S_N3_501" Label="COEF_S_N3_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_S_N3_504" Label="COEF_S_N3_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_S_N3_600" Label="COEF_S_N3_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_S_N3_700" Label="COEF_S_N3_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_I_N1_J" Label="COEF_I_N1_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_I_N1_100" Label="COEF_I_N1_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N1_101" Label="COEF_I_N1_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_I_N1_102" Label="COEF_I_N1_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_I_N1_111" Label="COEF_I_N1_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_121" Label="COEF_I_N1_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_131" Label="COEF_I_N1_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_141" Label="COEF_I_N1_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_150" Label="COEF_I_N1_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_160" Label="COEF_I_N1_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_163" Label="COEF_I_N1_J_163" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_181" Label="COEF_I_N1_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_I_N1_200" Label="COEF_I_N1_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_I_N1_211" Label="COEF_I_N1_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N1_221" Label="COEF_I_N1_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_I_N1_104" Label="COEF_I_N1_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_I_N1_114" Label="COEF_I_N1_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N1_124" Label="COEF_I_N1_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N1_134" Label="COEF_I_N1_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N1_144" Label="COEF_I_N1_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N1_164" Label="COEF_I_N1_J_164" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_I_N1_300" Label="COEF_I_N1_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N1_311" Label="COEF_I_N1_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_314" Label="COEF_I_N1_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_321" Label="COEF_I_N1_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_324" Label="COEF_I_N1_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_331" Label="COEF_I_N1_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_334" Label="COEF_I_N1_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N1_400" Label="COEF_I_N1_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N1_411" Label="COEF_I_N1_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_412" Label="COEF_I_N1_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_413" Label="COEF_I_N1_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_414" Label="COEF_I_N1_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_421" Label="COEF_I_N1_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_422" Label="COEF_I_N1_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_423" Label="COEF_I_N1_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_424" Label="COEF_I_N1_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N1_500" Label="COEF_I_N1_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N1_501" Label="COEF_I_N1_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N1_504" Label="COEF_I_N1_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N1_600" Label="COEF_I_N1_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_I_N1_700" Label="COEF_I_N1_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_I_N2_J" Label="COEF_I_N2_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_I_N2_100" Label="COEF_I_N2_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N2_101" Label="COEF_I_N2_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_I_N2_102" Label="COEF_I_N2_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_I_N2_111" Label="COEF_I_N2_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_121" Label="COEF_I_N2_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_131" Label="COEF_I_N2_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_141" Label="COEF_I_N2_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_150" Label="COEF_I_N2_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_160" Label="COEF_I_N2_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_165" Label="COEF_I_N2_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_167" Label="COEF_I_N2_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_169" Label="COEF_I_N2_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_170" Label="COEF_I_N2_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_181" Label="COEF_I_N2_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_I_N2_200" Label="COEF_I_N2_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_I_N2_211" Label="COEF_I_N2_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N2_221" Label="COEF_I_N2_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_I_N2_104" Label="COEF_I_N2_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_I_N2_114" Label="COEF_I_N2_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N2_124" Label="COEF_I_N2_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N2_134" Label="COEF_I_N2_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N2_144" Label="COEF_I_N2_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N2_166" Label="COEF_I_N2_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_I_N2_300" Label="COEF_I_N2_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N2_311" Label="COEF_I_N2_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_314" Label="COEF_I_N2_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_321" Label="COEF_I_N2_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_324" Label="COEF_I_N2_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_331" Label="COEF_I_N2_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_334" Label="COEF_I_N2_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N2_400" Label="COEF_I_N2_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N2_411" Label="COEF_I_N2_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_412" Label="COEF_I_N2_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_413" Label="COEF_I_N2_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_414" Label="COEF_I_N2_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_421" Label="COEF_I_N2_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_422" Label="COEF_I_N2_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_423" Label="COEF_I_N2_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_424" Label="COEF_I_N2_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N2_500" Label="COEF_I_N2_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N2_501" Label="COEF_I_N2_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N2_504" Label="COEF_I_N2_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N2_600" Label="COEF_I_N2_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_I_N2_700" Label="COEF_I_N2_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_I_N3_J" Label="COEF_I_N3_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_I_N3_100" Label="COEF_I_N3_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N3_101" Label="COEF_I_N3_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_I_N3_102" Label="COEF_I_N3_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_I_N3_111" Label="COEF_I_N3_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_121" Label="COEF_I_N3_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_131" Label="COEF_I_N3_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_141" Label="COEF_I_N3_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_150" Label="COEF_I_N3_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_160" Label="COEF_I_N3_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_165" Label="COEF_I_N3_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_167" Label="COEF_I_N3_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_169" Label="COEF_I_N3_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_170" Label="COEF_I_N3_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_181" Label="COEF_I_N3_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_I_N3_200" Label="COEF_I_N3_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_I_N3_211" Label="COEF_I_N3_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_I_N3_221" Label="COEF_I_N3_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_I_N3_104" Label="COEF_I_N3_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_I_N3_114" Label="COEF_I_N3_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N3_124" Label="COEF_I_N3_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N3_134" Label="COEF_I_N3_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N3_144" Label="COEF_I_N3_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_I_N3_166" Label="COEF_I_N3_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_I_N3_400" Label="COEF_I_N3_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N3_411" Label="COEF_I_N3_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_412" Label="COEF_I_N3_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_413" Label="COEF_I_N3_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_414" Label="COEF_I_N3_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_421" Label="COEF_I_N3_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_422" Label="COEF_I_N3_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_423" Label="COEF_I_N3_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_424" Label="COEF_I_N3_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N3_500" Label="COEF_I_N3_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_I_N3_501" Label="COEF_I_N3_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_I_N3_504" Label="COEF_I_N3_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_I_N3_600" Label="COEF_I_N3_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_I_N3_700" Label="COEF_I_N3_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_A_N0_J" Label="COEF_A_N0_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N0_100" Label="COEF_A_N0_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N0_101" Label="COEF_A_N0_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N0_102" Label="COEF_A_N0_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N0_111" Label="COEF_A_N0_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N0_121" Label="COEF_A_N0_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N0_131" Label="COEF_A_N0_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N0_141" Label="COEF_A_N0_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N0_150" Label="COEF_A_N0_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N0_160" Label="COEF_A_N0_J_160" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N0_104" Label="COEF_A_N0_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N0_124" Label="COEF_A_N0_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N0_134" Label="COEF_A_N0_J_134" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N0_300" Label="COEF_A_N0_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N0_350" Label="COEF_A_N0_J_350" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N0_400" Label="COEF_A_N0_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N0_411" Label="COEF_A_N0_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N0_412" Label="COEF_A_N0_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N0_413" Label="COEF_A_N0_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N0_414" Label="COEF_A_N0_J_414" Type="Data" Display="Percent" />
+    </Var>
+  </Var>
+  <Var DisplayLabel="COEF_A_N1_J" Label="COEF_A_N1_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N1_100" Label="COEF_A_N1_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N1_101" Label="COEF_A_N1_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N1_102" Label="COEF_A_N1_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N1_111" Label="COEF_A_N1_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_121" Label="COEF_A_N1_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_131" Label="COEF_A_N1_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_141" Label="COEF_A_N1_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_150" Label="COEF_A_N1_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_160" Label="COEF_A_N1_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_163" Label="COEF_A_N1_J_163" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_181" Label="COEF_A_N1_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_A_N1_200" Label="COEF_A_N1_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N1_211" Label="COEF_A_N1_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N1_221" Label="COEF_A_N1_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N1_104" Label="COEF_A_N1_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N1_114" Label="COEF_A_N1_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N1_124" Label="COEF_A_N1_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N1_134" Label="COEF_A_N1_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N1_144" Label="COEF_A_N1_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N1_164" Label="COEF_A_N1_J_164" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N1_300" Label="COEF_A_N1_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N1_311" Label="COEF_A_N1_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_314" Label="COEF_A_N1_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_321" Label="COEF_A_N1_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_324" Label="COEF_A_N1_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_331" Label="COEF_A_N1_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_334" Label="COEF_A_N1_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N1_400" Label="COEF_A_N1_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N1_411" Label="COEF_A_N1_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_412" Label="COEF_A_N1_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_413" Label="COEF_A_N1_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_414" Label="COEF_A_N1_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_421" Label="COEF_A_N1_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_422" Label="COEF_A_N1_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_423" Label="COEF_A_N1_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_424" Label="COEF_A_N1_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N1_500" Label="COEF_A_N1_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N1_501" Label="COEF_A_N1_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N1_504" Label="COEF_A_N1_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N1_600" Label="COEF_A_N1_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_A_N1_700" Label="COEF_A_N1_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_A_N2_J" Label="COEF_A_N2_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N2_100" Label="COEF_A_N2_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N2_101" Label="COEF_A_N2_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N2_102" Label="COEF_A_N2_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N2_111" Label="COEF_A_N2_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_121" Label="COEF_A_N2_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_131" Label="COEF_A_N2_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_141" Label="COEF_A_N2_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_150" Label="COEF_A_N2_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_160" Label="COEF_A_N2_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_165" Label="COEF_A_N2_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_167" Label="COEF_A_N2_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_169" Label="COEF_A_N2_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_170" Label="COEF_A_N2_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_181" Label="COEF_A_N2_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_A_N2_200" Label="COEF_A_N2_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N2_211" Label="COEF_A_N2_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N2_221" Label="COEF_A_N2_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N2_104" Label="COEF_A_N2_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N2_114" Label="COEF_A_N2_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N2_124" Label="COEF_A_N2_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N2_134" Label="COEF_A_N2_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N2_144" Label="COEF_A_N2_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N2_166" Label="COEF_A_N2_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N2_300" Label="COEF_A_N2_J_300" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N2_311" Label="COEF_A_N2_J_311" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_314" Label="COEF_A_N2_J_314" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_321" Label="COEF_A_N2_J_321" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_324" Label="COEF_A_N2_J_324" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_331" Label="COEF_A_N2_J_331" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_334" Label="COEF_A_N2_J_334" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N2_400" Label="COEF_A_N2_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N2_411" Label="COEF_A_N2_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_412" Label="COEF_A_N2_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_413" Label="COEF_A_N2_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_414" Label="COEF_A_N2_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_421" Label="COEF_A_N2_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_422" Label="COEF_A_N2_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_423" Label="COEF_A_N2_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_424" Label="COEF_A_N2_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N2_500" Label="COEF_A_N2_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N2_501" Label="COEF_A_N2_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N2_504" Label="COEF_A_N2_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N2_600" Label="COEF_A_N2_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_A_N2_700" Label="COEF_A_N2_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_A_N3_J" Label="COEF_A_N3_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N3_100" Label="COEF_A_N3_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N3_101" Label="COEF_A_N3_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N3_102" Label="COEF_A_N3_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N3_111" Label="COEF_A_N3_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_121" Label="COEF_A_N3_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_131" Label="COEF_A_N3_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_141" Label="COEF_A_N3_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_150" Label="COEF_A_N3_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_160" Label="COEF_A_N3_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_165" Label="COEF_A_N3_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_167" Label="COEF_A_N3_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_169" Label="COEF_A_N3_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_170" Label="COEF_A_N3_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_181" Label="COEF_A_N3_J_181" Type="Data" Display="Percent" />
+        </Var>
+        <Var DisplayLabel="COEF_A_N3_200" Label="COEF_A_N3_J_200" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N3_211" Label="COEF_A_N3_J_211" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N3_221" Label="COEF_A_N3_J_221" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N3_104" Label="COEF_A_N3_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N3_114" Label="COEF_A_N3_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N3_124" Label="COEF_A_N3_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N3_134" Label="COEF_A_N3_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N3_144" Label="COEF_A_N3_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N3_166" Label="COEF_A_N3_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N3_400" Label="COEF_A_N3_J_400" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N3_411" Label="COEF_A_N3_J_411" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_412" Label="COEF_A_N3_J_412" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_413" Label="COEF_A_N3_J_413" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_414" Label="COEF_A_N3_J_414" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_421" Label="COEF_A_N3_J_421" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_422" Label="COEF_A_N3_J_422" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_423" Label="COEF_A_N3_J_423" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_424" Label="COEF_A_N3_J_424" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N3_500" Label="COEF_A_N3_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N3_501" Label="COEF_A_N3_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N3_504" Label="COEF_A_N3_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N3_600" Label="COEF_A_N3_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_A_N3_700" Label="COEF_A_N3_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_A_N4_J" Label="COEF_A_N4_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N4_100" Label="COEF_A_N4_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N4_101" Label="COEF_A_N4_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N4_102" Label="COEF_A_N4_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N4_111" Label="COEF_A_N4_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_121" Label="COEF_A_N4_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_131" Label="COEF_A_N4_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_141" Label="COEF_A_N4_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_150" Label="COEF_A_N4_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_160" Label="COEF_A_N4_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_165" Label="COEF_A_N4_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_167" Label="COEF_A_N4_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_169" Label="COEF_A_N4_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_170" Label="COEF_A_N4_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N4_181" Label="COEF_A_N4_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N4_104" Label="COEF_A_N4_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N4_114" Label="COEF_A_N4_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N4_124" Label="COEF_A_N4_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N4_134" Label="COEF_A_N4_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N4_144" Label="COEF_A_N4_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N4_166" Label="COEF_A_N4_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N4_500" Label="COEF_A_N4_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N4_501" Label="COEF_A_N4_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N4_504" Label="COEF_A_N4_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N4_600" Label="COEF_A_N4_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_A_N4_700" Label="COEF_A_N4_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_A_N5_J" Label="COEF_A_N5_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N5_100" Label="COEF_A_N5_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N5_101" Label="COEF_A_N5_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N5_102" Label="COEF_A_N5_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N5_111" Label="COEF_A_N5_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_121" Label="COEF_A_N5_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_131" Label="COEF_A_N5_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_141" Label="COEF_A_N5_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_150" Label="COEF_A_N5_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_160" Label="COEF_A_N5_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_165" Label="COEF_A_N5_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_167" Label="COEF_A_N5_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_169" Label="COEF_A_N5_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_170" Label="COEF_A_N5_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N5_181" Label="COEF_A_N5_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N5_104" Label="COEF_A_N5_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N5_114" Label="COEF_A_N5_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N5_124" Label="COEF_A_N5_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N5_134" Label="COEF_A_N5_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N5_144" Label="COEF_A_N5_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N5_166" Label="COEF_A_N5_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N5_500" Label="COEF_A_N5_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N5_501" Label="COEF_A_N5_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N5_504" Label="COEF_A_N5_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N5_600" Label="COEF_A_N5_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_A_N5_700" Label="COEF_A_N5_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="COEF_A_N6_J" Label="COEF_A_N6_J_900" Type="Sum" Display="Hide">
+    <Var DisplayLabel="COEF_A_N6_100" Label="COEF_A_N6_J_100" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N6_101" Label="COEF_A_N6_J_101" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N6_102" Label="COEF_A_N6_J_102" Type="Sum" Display="Hide">
+          <Var DisplayLabel="COEF_A_N6_111" Label="COEF_A_N6_J_111" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_121" Label="COEF_A_N6_J_121" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_131" Label="COEF_A_N6_J_131" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_141" Label="COEF_A_N6_J_141" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_150" Label="COEF_A_N6_J_150" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_160" Label="COEF_A_N6_J_160" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_165" Label="COEF_A_N6_J_165" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_167" Label="COEF_A_N6_J_167" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_169" Label="COEF_A_N6_J_169" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_170" Label="COEF_A_N6_J_170" Type="Data" Display="Percent" />
+          <Var DisplayLabel="COEF_A_N6_181" Label="COEF_A_N6_J_181" Type="Data" Display="Percent" />
+        </Var>
+      </Var>
+      <Var DisplayLabel="COEF_A_N6_104" Label="COEF_A_N6_J_104" Type="Sum" Display="Hide">
+        <Var DisplayLabel="COEF_A_N6_114" Label="COEF_A_N6_J_114" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N6_124" Label="COEF_A_N6_J_124" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N6_134" Label="COEF_A_N6_J_134" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N6_144" Label="COEF_A_N6_J_144" Type="Data" Display="Percent" />
+        <Var DisplayLabel="COEF_A_N6_166" Label="COEF_A_N6_J_166" Type="Data" Display="Percent" />
+      </Var>
+    </Var>
+    <Var DisplayLabel="COEF_A_N6_500" Label="COEF_A_N6_J_500" Type="Sum" Display="Hide">
+      <Var DisplayLabel="COEF_A_N6_501" Label="COEF_A_N6_J_501" Type="Data" Display="Percent" />
+      <Var DisplayLabel="COEF_A_N6_504" Label="COEF_A_N6_J_504" Type="Data" Display="Percent" />
+    </Var>
+    <Var DisplayLabel="COEF_A_N6_600" Label="COEF_A_N6_J_600" Type="Data" Display="Percent" />
+    <Var DisplayLabel="COEF_A_N6_700" Label="COEF_A_N6_J_700" Type="Data" Display="Percent" />
+  </Var>
+  <Var DisplayLabel="T_150_N0" Label="T_150_N0" Type="Data" Display="Percent" />
+  <Var DisplayLabel="T_150_N1" Label="T_150_N1" Type="Data" Display="Percent" />
+  <Var DisplayLabel="T_150_N2" Label="T_150_N2" Type="Data" Display="Percent" />
+  <Var DisplayLabel="T_150_N3" Label="T_150_N3" Type="Data" Display="Percent" />
+  <Var DisplayLabel="T_150_N4" Label="T_150_N4" Type="Data" Display="Percent" />
+  <Var DisplayLabel="T_150_N5" Label="T_150_N5" Type="Data" Display="Percent" />
+  <Var DisplayLabel="T_150_N6" Label="T_150_N6" Type="Data" Display="Percent" />
+</Variables>

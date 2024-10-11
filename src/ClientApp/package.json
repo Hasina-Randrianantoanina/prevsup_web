@@ -1,0 +1,62 @@
+{
+  "name": "mon_projet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@semantic-ui-react/css-patch": "^1.1.2",
+    "@table-library/react-table-library": "^4.0.12",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^3.9.1",
+    "dompurify": "^3.0.1",
+    "file-saver": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "html-react-parser": "^3.0.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-contenteditable": "^3.3.7",
+    "react-dom": "^18.2.0",
+    "react-dual-listbox": "^2.3.0",
+    "react-redux": "^8.0.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "react-treeview-semantic": "^1.0.5",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "sanitize-html-react": "^1.13.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "postinstall": "semantic-ui-css-patch",
+    "start": "react-scripts start",
+    "build": " set \"CI=false\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.3.6",
+    "webdriverio": "^7.25.2"
+  }
+}

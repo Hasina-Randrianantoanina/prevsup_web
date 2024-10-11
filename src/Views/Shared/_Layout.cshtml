@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href ="~/Assets/assets/img/ico.jpg" type = "image/x-icon">
+    <title>Prevsup</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/Assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="~/Assets/fontawesome/css/all.css">
+    <link href="~/Assets/select2/css/select2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Assets/assets/css/style.css">
+    <link rel="stylesheet" href="~/Assets/popup/jquery-confirm.min.css">
+    <link rel="stylesheet" href="~/Assets/assets/css/jstree.css">
+    <link rel="stylesheet" href="~/Assets/dual/bootstrap-duallistbox.css">
+    <!-- Fin CSS -->
+    <!-- JS -->
+    <script src="~/Assets/bootstrap/js/bootstrap.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/jquery-3.6.0.min.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/select2/js/select2.js?version=@ViewBag.version"></script>
+
+    <script src="~/Assets/chart.js/dist/chart.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/jtree.js?version=@ViewBag.version"></script>
+    <!-- Fin JS -->
+
+</head>
+<body>
+
+    <style id="styleCss">
+    </style>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
+        <div class="container-fluid">
+            <a class="navbar-title" href="index.html">PREVSUP <span>Web</span> <span class="version">@ViewBag.version</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown academie-menu">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="constatDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Constats
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="constatDropDown">
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#newConstat" onclick="loadCons()">Nouveau</li>
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#openConstat" onclick="loadCons()">Ouvrir un constat</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown academie-menu">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="scenarioDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Scénarios
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="scenarioDropDown">
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#newScenario" onclick="loadCons()">Nouveau</li>
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#openScenario" onclick="loadSCen()">Ouvrir un scénario</li>
+                            <!--
+                                <li class="dropdown-smenu">Comparer deux scénarios</li>
+                                <li class="dropdown-smenu">Publier des données</li>
+                            -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown academie-menu">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="tabrecapDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Récapitulatifs
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="tabrecapDropDown">
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#newRecap" onclick="loadRoleTypes();">Nouveau</li>
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#openrecap" onclick="loadRecap();">Ouvrir un récapitulatif</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown admin-menu" style="display:none;">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="tabaccDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Import des données
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="tabaccDropDown">
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#ImportAcc" onclick="showImportData()">Données académiques</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown admin-menu">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="tabuserDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Utilisateurs
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="tabuserDropDown">
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#newUser" onclick="newUser();">Nouvel utilisateur</li>
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#openUser" onclick="loadUser();">Modifier un utilisateur</li>
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#openUserForDelete" onclick="loadUser();">Supprimer un utilisateur</li>
+                        </ul>
+                    </li>
+                    <!--
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="tabuserDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Archives
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="tabuserDropDown">
+                            <li class="dropdown-smenu" onclick="open_submit('Archive', 'arch_cons_');">Constats</li>
+                            <li class="dropdown-smenu" onclick="open_submit('Archive', 'arch_scen_');">Scénarios</li>
+                            <li class="dropdown-smenu" onclick="open_submit('Archive', 'arch_reca_');">Récapitulatifs</li>
+                        </ul>
+                    </li>
+                    -->
+                </ul>
+                <ul class="navbar-nav right-header">
+                    <li class="right-header-menu dropdown">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="tabuserDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="fa fa-archive"></span>
+                        </a>
+                        <ul class="dropdown-menu bg-gray" aria-labelledby="tabuserDropDown">
+                            <li class="dropdown-smenu" onclick="open_submit('Archive', 'arch_cons_');">Archive Constats</li>
+                            <li class="dropdown-smenu" onclick="open_submit('Archive', 'arch_scen_');">Archive Scénarios</li>
+                            <li class="dropdown-smenu" onclick="open_submit('Archive', 'arch_reca_');">Archive Récapitulatifs</li>
+                        </ul>
+                    </li>
+                    <li class="right-header-menu dropdown">
+                        <a class="nav-link dropdown-toggle notfull" href="#" id="parameter" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="fa fa-wrench"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end bg-gray" aria-labelledby="parameter">
+                            <li class="dropdown-smenu" data-bs-toggle="modal" data-bs-target="#changeUserPassword" onclick="changeUserPassword()">Changer mot de passe</li>
+                            <li class="dropdown-smenu" onclick="open_user_ui()" data-bs-toggle="modal" data-bs-target="#InterfaceUI">Modifier l'interface</li>
+                        </ul>
+                    </li>
+                    <!--
+                    <li class="right-header-menu user-menu" data-bs-toggle="modal" data-bs-target="#changeUserPassword" onclick="changeUserPassword()">
+                        <span class="fa fa-user"></span>
+                    </li>
+                    -->
+                    <li class="right-header-menu " id="logout">
+                        <a class="nav-link notfull " href="#" role="button">
+                            <span class="fa fa-sign-out-alt logout"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin Header -->
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+
+    <footer class="p-3">
+        <div class="row" style="width:auto; height:200px">
+            <div class="col-4" style="height:200px"></div>
+            <div class="col-8" style="height: 200px">
+
+            </div>
+        </div>
+    </footer>
+
+    <!--PartialView-->
+    <partial name="~/Views/Modal/Constat.cshtml" />
+    <partial name="~/Views/Modal/Scenario.cshtml" />
+    <partial name="~/Views/Modal/Recapitulatif.cshtml" />
+    <partial name="~/Views/Modal/Accademique.cshtml" />
+    <partial name="~/Views/Modal/Utilisateur.cshtml" />
+    <partial name="~/Views/Modal/Archive.cshtml" />
+    <partial name="~/Views/Modal/Parametre.cshtml" />
+    <partial name="~/Views/Modal/Export.cshtml" />
+    <!--Fin Partia View UXD-->
+    <div class="loading_container hide" id="loading">
+        <div class="loading_content">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/Assets/assets/js/script.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/Constat.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/tree.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/Recap.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/Archive.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/User.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/ConfigUI.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/Export.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/assets/js/multiselect.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/dual/jquery.bootstrap-duallistbox.js?version=@ViewBag.version"></script>
+    <script src="~/Assets/popup/jquery-confirm.min.js?version=@ViewBag.version"></script>
+</body>
+</html>

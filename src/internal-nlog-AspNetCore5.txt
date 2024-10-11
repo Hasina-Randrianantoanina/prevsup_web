@@ -1,0 +1,207 @@
+2024-05-02 17:05:52.1256 Info Message Template Auto Format enabled
+2024-05-02 17:05:52.1454 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-02 17:05:52.2090 Info Adding target FileTarget(Name=allfile)
+2024-05-02 17:05:52.2090 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-02 17:05:52.2090 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-02 17:05:52.2561 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 10:25:41.7400 Info Message Template Auto Format enabled
+2024-05-07 10:25:41.7771 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 10:25:41.8543 Info Adding target FileTarget(Name=allfile)
+2024-05-07 10:25:41.8763 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 10:25:41.8763 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 10:25:41.9602 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 10:34:17.8021 Info Shutdown() called. Logger closing...
+2024-05-07 10:34:17.8021 Info Closing old configuration.
+2024-05-07 10:34:17.8270 Info Logger has been closed down.
+2024-05-07 10:34:17.8270 Info AppDomain Shutting down. Logger closing...
+2024-05-07 10:34:17.8372 Info Logger has been shut down.
+2024-05-07 13:41:10.9115 Info Message Template Auto Format enabled
+2024-05-07 13:41:10.9691 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 13:41:11.1170 Info Adding target FileTarget(Name=allfile)
+2024-05-07 13:41:11.1477 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 13:41:11.1544 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 13:41:11.2536 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:02:44.7152 Info Shutdown() called. Logger closing...
+2024-05-07 14:02:44.7152 Info Closing old configuration.
+2024-05-07 14:02:44.7242 Info Logger has been closed down.
+2024-05-07 14:02:44.7242 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:02:44.7242 Info Logger has been shut down.
+2024-05-07 14:02:57.1262 Info Message Template Auto Format enabled
+2024-05-07 14:02:57.1404 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:02:57.2149 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:02:57.2149 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:02:57.2149 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:02:57.2603 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:05:02.0648 Info Shutdown() called. Logger closing...
+2024-05-07 14:05:02.0648 Info Closing old configuration.
+2024-05-07 14:05:02.0747 Info Logger has been closed down.
+2024-05-07 14:05:02.0747 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:05:02.0747 Info Logger has been shut down.
+2024-05-07 14:07:22.7212 Info Message Template Auto Format enabled
+2024-05-07 14:07:22.7212 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:07:22.7588 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:07:22.7588 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:07:22.7588 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:07:22.7845 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:07:59.8332 Info Shutdown() called. Logger closing...
+2024-05-07 14:07:59.8332 Info Closing old configuration.
+2024-05-07 14:07:59.8400 Info Logger has been closed down.
+2024-05-07 14:07:59.8400 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:07:59.8400 Info Logger has been shut down.
+2024-05-07 14:08:29.4923 Info Message Template Auto Format enabled
+2024-05-07 14:08:29.4923 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:08:29.5279 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:08:29.5279 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:08:29.5279 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:08:29.5486 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:09:45.9832 Info Shutdown() called. Logger closing...
+2024-05-07 14:09:45.9832 Info Closing old configuration.
+2024-05-07 14:09:45.9832 Info Logger has been closed down.
+2024-05-07 14:09:45.9832 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:09:45.9832 Info Logger has been shut down.
+2024-05-07 14:10:26.7812 Info Message Template Auto Format enabled
+2024-05-07 14:10:26.7812 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:10:26.8256 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:10:26.8256 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:10:26.8256 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:10:26.8486 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:15:22.0573 Info Shutdown() called. Logger closing...
+2024-05-07 14:15:22.0573 Info Closing old configuration.
+2024-05-07 14:15:22.0573 Info Logger has been closed down.
+2024-05-07 14:15:22.0573 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:15:22.0573 Info Logger has been shut down.
+2024-05-07 14:19:00.2128 Info Message Template Auto Format enabled
+2024-05-07 14:19:00.2128 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:19:00.2485 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:19:00.2485 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:19:00.2485 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:19:00.2680 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:19:44.8070 Info Shutdown() called. Logger closing...
+2024-05-07 14:19:44.8070 Info Closing old configuration.
+2024-05-07 14:19:44.8145 Info Logger has been closed down.
+2024-05-07 14:19:44.8145 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:19:44.8145 Info Logger has been shut down.
+2024-05-07 14:20:13.9483 Info Message Template Auto Format enabled
+2024-05-07 14:20:13.9593 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:20:14.0317 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:20:14.0317 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:20:14.0317 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:20:14.0759 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:23:57.0422 Info Shutdown() called. Logger closing...
+2024-05-07 14:23:57.0422 Info Closing old configuration.
+2024-05-07 14:23:57.0422 Info Logger has been closed down.
+2024-05-07 14:23:57.0422 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:23:57.0422 Info Logger has been shut down.
+2024-05-07 14:24:03.4524 Info Message Template Auto Format enabled
+2024-05-07 14:24:03.4605 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:24:03.5053 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:24:03.5053 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:24:03.5053 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:24:03.5355 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-07 14:37:55.9622 Info Shutdown() called. Logger closing...
+2024-05-07 14:37:55.9622 Info Closing old configuration.
+2024-05-07 14:37:55.9622 Info Logger has been closed down.
+2024-05-07 14:37:55.9622 Info AppDomain Shutting down. Logger closing...
+2024-05-07 14:37:55.9622 Info Logger has been shut down.
+2024-05-07 14:38:17.1685 Info Message Template Auto Format enabled
+2024-05-07 14:38:17.1685 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-07 14:38:17.2169 Info Adding target FileTarget(Name=allfile)
+2024-05-07 14:38:17.2169 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-07 14:38:17.2169 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-07 14:38:17.2415 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-14 16:31:17.8297 Info Message Template Auto Format enabled
+2024-05-14 16:31:17.8509 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-14 16:31:17.9350 Info Adding target FileTarget(Name=allfile)
+2024-05-14 16:31:17.9471 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-14 16:31:17.9471 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-14 16:31:17.9897 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-05-17 17:16:25.7017 Info Message Template Auto Format enabled
+2024-05-17 17:16:25.7333 Info Loading assembly: NLog.Web.AspNetCore
+2024-05-17 17:16:25.8244 Info Adding target FileTarget(Name=allfile)
+2024-05-17 17:16:25.8515 Info Adding target FileTarget(Name=ownFile-web)
+2024-05-17 17:16:25.8515 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-05-17 17:16:25.9700 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-11 10:13:24.6587 Info Message Template Auto Format enabled
+2024-07-11 10:13:24.7086 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-11 10:13:24.8290 Info Adding target FileTarget(Name=allfile)
+2024-07-11 10:13:24.8535 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-11 10:13:24.8600 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-11 10:13:24.9555 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-15 15:18:51.4507 Info Message Template Auto Format enabled
+2024-07-15 15:18:51.4852 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-15 15:18:51.5896 Info Adding target FileTarget(Name=allfile)
+2024-07-15 15:18:51.6173 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-15 15:18:51.6173 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-15 15:18:51.6850 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-15 17:17:16.6370 Info Message Template Auto Format enabled
+2024-07-15 17:17:16.6932 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-15 17:17:16.8417 Info Adding target FileTarget(Name=allfile)
+2024-07-15 17:17:16.8731 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-15 17:17:16.8802 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-15 17:17:16.9912 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-15 17:35:33.9955 Info Message Template Auto Format enabled
+2024-07-15 17:35:34.0282 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-15 17:35:34.1913 Info Adding target FileTarget(Name=allfile)
+2024-07-15 17:35:34.2253 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-15 17:35:34.2253 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-15 17:35:34.3434 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-16 09:30:33.8216 Info Message Template Auto Format enabled
+2024-07-16 09:30:33.8573 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-16 09:30:33.9331 Info Adding target FileTarget(Name=allfile)
+2024-07-16 09:30:33.9614 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-16 09:30:33.9614 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-16 09:30:34.0333 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-16 10:30:39.8743 Info Message Template Auto Format enabled
+2024-07-16 10:30:39.8948 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-16 10:30:39.9613 Info Adding target FileTarget(Name=allfile)
+2024-07-16 10:30:39.9748 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-16 10:30:39.9748 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-16 10:30:40.0446 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-16 11:46:02.5667 Info Message Template Auto Format enabled
+2024-07-16 11:46:02.5983 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-16 11:46:02.6904 Info Adding target FileTarget(Name=allfile)
+2024-07-16 11:46:02.7326 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-16 11:46:02.7347 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-16 11:46:02.8199 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-16 11:56:44.4776 Info Message Template Auto Format enabled
+2024-07-16 11:56:44.4995 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-16 11:56:44.5887 Info Adding target FileTarget(Name=allfile)
+2024-07-16 11:56:44.6069 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-16 11:56:44.6069 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-16 11:56:44.6683 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-16 17:55:04.4191 Info Message Template Auto Format enabled
+2024-07-16 17:55:04.4597 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-16 17:55:04.5407 Info Adding target FileTarget(Name=allfile)
+2024-07-16 17:55:04.5674 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-16 17:55:04.5674 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-16 17:55:04.6537 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-17 12:24:55.2431 Info Message Template Auto Format enabled
+2024-07-17 12:24:55.2857 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-17 12:24:55.3631 Info Adding target FileTarget(Name=allfile)
+2024-07-17 12:24:55.3852 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-17 12:24:55.3852 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-17 12:24:55.4507 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-17 12:28:31.3727 Info Message Template Auto Format enabled
+2024-07-17 12:28:31.4010 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-17 12:28:31.4680 Info Adding target FileTarget(Name=allfile)
+2024-07-17 12:28:31.4810 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-17 12:28:31.4810 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-17 12:28:31.5393 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-17 12:31:56.4382 Info Message Template Auto Format enabled
+2024-07-17 12:31:56.4578 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-17 12:31:56.5342 Info Adding target FileTarget(Name=allfile)
+2024-07-17 12:31:56.5479 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-17 12:31:56.5479 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-17 12:31:56.6462 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-17 12:34:40.1490 Info Message Template Auto Format enabled
+2024-07-17 12:34:40.1799 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-17 12:34:40.2677 Info Adding target FileTarget(Name=allfile)
+2024-07-17 12:34:40.2844 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-17 12:34:40.2844 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-17 12:34:40.3569 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config
+2024-07-19 11:27:30.0092 Info Message Template Auto Format enabled
+2024-07-19 11:27:30.0426 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-19 11:27:30.1058 Info Adding target FileTarget(Name=allfile)
+2024-07-19 11:27:30.1352 Info Adding target FileTarget(Name=ownFile-web)
+2024-07-19 11:27:30.1352 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2024-07-19 11:27:30.2181 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=62, FilePath=C:\Users\Hasina\Desktop\PREVSUP\REPO_PREVSUP\prevsuprefonte\src\bin\Debug\net5.0\NLog.config

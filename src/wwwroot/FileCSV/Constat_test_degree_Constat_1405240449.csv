@@ -1,0 +1,248 @@
+﻿
+ANCINSC_N0_IJ:
+SERIE;FILIERE;2010;2011;2012;2013;2014;2015
+Ensemble;Ensemble;0,939287;0,893258;0,884322;0,885552;0,894172;0,923176
+Ensemble;Formations universitaires publiques et privées;0,939209;0,887645;0,857812;0,909538;0,938945;0,939116
+Ensemble;Formations universitaires publiques y compris IUT;0,939209;0,887645;0,857812;0,909538;0,938945;0,939116
+Ensemble;Formations universitaires publiques hors IUT;0,939209;0,887645;0,857812;0,909538;0,938945;0,939116
+Ensemble;Droit, public;0,854709;0,851811;0,896789;1,197384;1,110701;0,988173
+Séries générales;Droit, public;0,930488;4,250000;4,450000;5,650000;1,206304;3,318841
+Doublettes droit/lettres;Droit, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Droit, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Droit, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Droit, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Droit, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Droit, public;0,930488;4,250000;4,450000;5,650000;1,206304;3,318841
+Séries technologiques;Droit, public;0,613861;0,500000;3,846154;2,833333;0,615385;0,866667
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Droit, public;1,538462;0,500000;0,000000;3,333333;0,285714;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Droit, public;0,380952;0,600000;5,000000;2,857143;1,157895;1,500000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Droit, public;2,500000;0,000000;0,000000;1,000000;0,000000;1,333333
+Séries professionnelles;Droit, public;0,363636;0,555556;0,000000;0,352941;0,486842;0,176471
+Indéterminé;Droit, public;0,000000;0,615012;0,683107;0,819035;0,000000;0,783826
+Ensemble;Éco, public;0,000000;1,250000;0,000000;0,000000;0,000000;0,000000
+Séries générales;Éco, public;0,000000;2,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Éco, public;0,000000;2,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;Éco, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;Éco, public;0,000000;1,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;Lettres, public;0,963271;0,911579;0,793393;0,653386;0,726161;0,743523
+Séries générales;Lettres, public;0,957261;5,100000;4,546154;3,961538;0,718459;3,400000
+Doublettes droit/lettres;Lettres, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Lettres, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Lettres, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Lettres, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Lettres, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Lettres, public;0,957261;5,100000;4,546154;3,961538;0,718459;3,400000
+Séries technologiques;Lettres, public;1,218750;2,000000;3,125000;2,600000;1,578947;4,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Lettres, public;1,150000;3,500000;2,000000;2,666667;0,000000;7,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Lettres, public;0,625000;1,000000;3,500000;2,500000;4,333333;4,250000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Lettres, public;2,750000;0,000000;0,000000;0,000000;2,428571;0,000000
+Séries professionnelles;Lettres, public;0,833333;0,000000;0,000000;1,000000;0,500000;0,333333
+Indéterminé;Lettres, public;0,000000;0,518519;0,516542;0,460317;0,000000;0,590659
+Ensemble;Sciences, public;1,106145;0,847645;0,946328;0,948085;1,034819;1,291022
+Séries générales;Sciences, public;0,996923;3,437500;4,388889;3,626168;1,064063;4,366667
+Doublettes droit/lettres;Sciences, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Sciences, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Sciences, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Sciences, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Sciences, public;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Sciences, public;0,996923;3,437500;4,388889;3,626168;1,064063;4,366667
+Séries technologiques;Sciences, public;2,103448;2,125000;2,428571;2,000000;0,538462;2,500000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Sciences, public;2,347826;5,000000;0,000000;2,500000;0,000000;0,500000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Sciences, public;2,000000;1,666667;2,000000;2,800000;1,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Sciences, public;0,333333;0,666667;3,500000;1,000000;0,375000;4,500000
+Séries professionnelles;Sciences, public;2,750000;0,000000;1,600000;0,333333;0,923077;2,272727
+Indéterminé;Sciences, public;0,000000;0,694362;0,712963;0,636364;0,000000;0,902878
+Ensemble;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;"Staps ";0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;Santé autres;0,000000;3,750000;0,000000;0,000000;0,000000;0,000000
+Séries générales;Santé autres;0,000000;10,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Santé autres;0,000000;10,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;Santé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;Formations universitaires privées;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;Éco, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;Lettres y compris theologie, privé;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;CPGE;0,000000;0,000000;0,011173;0,000000;0,000000;0,000000
+Ensemble;CPES;0,000000;0,000000;0,011173;0,000000;0,000000;0,000000
+Séries générales;CPES;0,000000;0,000000;0,011173;0,000000;0,000000;0,000000
+Doublettes droit/lettres;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;CPES;0,000000;0,000000;0,011173;0,000000;0,000000;0,000000
+Séries technologiques;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;CPES;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;STS;1,109164;1,122605;1,109091;1,091292;1,092619;1,103276
+Ensemble;STS production, public MENESR;1,040000;1,047423;1,036885;1,028747;1,027660;1,028409
+Séries générales;STS production, public MENESR;0,000000;1,000000;0,500000;0,000000;1,000000;1,010204
+Doublettes droit/lettres;STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS production, public MENESR;0,000000;1,000000;0,500000;0,000000;1,000000;1,010204
+Séries technologiques;STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;1,000000;1,088235
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;1,000000;1,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;1,100000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS production, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;1,090909
+Séries professionnelles;STS production, public MENESR;1,250000;1,166667;1,750000;1,333333;1,666667;1,136364
+Indéterminé;STS production, public MENESR;1,036797;1,046218;1,033195;1,024948;1,023810;1,073171
+Ensemble;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;STS production, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;STS production, privé contrat;1,160714;1,160714;1,126214;1,099010;1,156522;1,134921
+Séries générales;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;1,058824
+Doublettes droit/lettres;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;1,058824
+Séries technologiques;STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;1,153846
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;1,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;1,142857
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS production, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;1,200000
+Séries professionnelles;STS production, privé contrat;1,333333;1,000000;1,000000;1,000000;2,000000;1,096774
+Indéterminé;STS production, privé contrat;1,134021;1,174312;1,127451;1,101010;1,151786;1,290323
+Ensemble;STS production, privé autres;1,283871;1,295699;1,182819;1,330645;1,311321;1,316176
+Séries générales;STS production, privé autres;0,000000;0,000000;1,000000;0,000000;0,000000;1,102564
+Doublettes droit/lettres;STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS production, privé autres;0,000000;0,000000;1,000000;0,000000;0,000000;1,102564
+Séries technologiques;STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;1,300000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;1,200000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;1,500000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS production, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;1,333333
+Séries professionnelles;STS production, privé autres;1,600000;1,347826;1,375000;0,000000;2,000000;1,285714
+Indéterminé;STS production, privé autres;1,273333;1,288344;1,180995;1,330645;1,304762;1,454545
+Ensemble;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;STS services, public MENESR;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;STS services, public autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;STS services, privé contrat;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Ensemble;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries générales;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes droit/lettres;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes sciences/prod;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes santé/STAPS;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes éco/services;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes culture;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Doublettes autre;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries technologiques;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques industrielles et développement durable (STI2D [ex STI]);STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Sciences et techniques de management et gestion (STMG [ex STG, STT]);STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Autres séries technologiques (ST2S, STAV, STL, hotellerie, F11,…);STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Séries professionnelles;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000
+Indéterminé;STS services, privé autres;0,000000;0,000000;0,000000;0,000000;0,000000;0,000000

@@ -1,0 +1,48 @@
+﻿@model string;
+@{
+	Layout = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" href ="~/Assets/assets/img/ico.jpg" type = "image/x-icon">
+	<title>Prevsup - Login</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="~/Assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/Assets/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="~/Assets/assets/css/login.css">
+	<!-- Fin CSS -->
+	<!-- JS -->
+
+	<script src="~/Assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="~/Assets/assets/js/jquery-3.6.0.min.js"></script>
+	<script src="~/Assets/assets/js/login.js"></script>
+	<!-- Fin JS -->
+
+</head>
+<body>
+	<div class="container-login">
+		<div id="form">
+			<div class="title">Connexion à prevsup</div>
+			<div class="image"><img src="~/Assets/assets/img/logo.png" alt="logo"></div>
+			<div class="allinput">
+				<div class="input-text" id="login_user">
+					<label id="lusername" for="login_username">Identifiant</label>
+					<input type="text" id="login_username" placeholder="Login de connexion">
+				</div>
+				<div class="input-text" id="login_pass">
+					<label id="lpassword" for="login_password">Mot de passe</label>
+					<input type="password" id="login_password" placeholder="Mot de Passe">
+				</div>
+				<div class="container text-danger visually-hidden" id="login_error"><i class="fa fa-exclamation-triangle "></i> Erreur lors de la connexion</div>
+				<button id="login_submit" class="login_submit">Connexion</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

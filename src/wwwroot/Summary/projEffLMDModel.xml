@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ref: men.engine/men/models/summary/projEffLMDModel.xml -->
+<Calculs Label="Projections Académiques">
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_111" Label="EFF_LMD_IJ_1:9,111" Type="Calc">
+<Var DisplayLabel="EFF_L_111" Label="EFF_L_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="EFF_M_111" Label="EFF_M_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="EFF_D_111" Label="EFF_D_IJ_1:9,111" Type="Data" />
+<Var DisplayLabel="EFF_A_111" Label="EFF_A_IJ_1:9,111" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_121" Label="EFF_LMD_IJ_1:9,121" Type="Calc">
+<Var DisplayLabel="EFF_L_121" Label="EFF_L_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="EFF_M_121" Label="EFF_M_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="EFF_D_121" Label="EFF_D_IJ_1:9,121" Type="Data" />
+<Var DisplayLabel="EFF_A_121" Label="EFF_A_IJ_1:9,121" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_131" Label="EFF_LMD_IJ_1:9,131" Type="Calc">
+<Var DisplayLabel="EFF_L_131" Label="EFF_L_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="EFF_M_131" Label="EFF_M_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="EFF_D_131" Label="EFF_D_IJ_1:9,131" Type="Data" />
+<Var DisplayLabel="EFF_A_131" Label="EFF_A_IJ_1:9,131" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_141" Label="EFF_LMD_IJ_1:9,141" Type="Calc">
+<Var DisplayLabel="EFF_L_141" Label="EFF_L_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="EFF_M_141" Label="EFF_M_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="EFF_D_141" Label="EFF_D_IJ_1:9,141" Type="Data" />
+<Var DisplayLabel="EFF_A_141" Label="EFF_A_IJ_1:9,141" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_150" Label="EFF_LMD_IJ_1:9,150" Type="Calc">
+<Var DisplayLabel="EFF_L_150" Label="EFF_L_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="EFF_M_150" Label="EFF_M_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="EFF_D_150" Label="EFF_D_IJ_1:9,150" Type="Data" />
+<Var DisplayLabel="EFF_A_150" Label="EFF_A_IJ_1:9,150" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_160" Label="EFF_LMD_IJ_1:9,160" Type="Calc">
+<Var DisplayLabel="EFF_L_160" Label="EFF_L_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="EFF_M_160" Label="EFF_M_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="EFF_D_160" Label="EFF_D_IJ_1:9,160" Type="Data" />
+<Var DisplayLabel="EFF_A_160" Label="EFF_A_IJ_1:9,160" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_163" Label="EFF_LMD_IJ_1:9,163" Type="Calc">
+<Var DisplayLabel="EFF_L_163" Label="EFF_L_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="EFF_M_163" Label="EFF_M_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="EFF_D_163" Label="EFF_D_IJ_1:9,163" Type="Data" />
+<Var DisplayLabel="EFF_A_163" Label="EFF_A_IJ_1:9,163" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_165" Label="EFF_LMD_IJ_1:9,165" Type="Calc">
+<Var DisplayLabel="EFF_L_165" Label="EFF_L_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="EFF_M_165" Label="EFF_M_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="EFF_D_165" Label="EFF_D_IJ_1:9,165" Type="Data" />
+<Var DisplayLabel="EFF_A_165" Label="EFF_A_IJ_1:9,165" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_167" Label="EFF_LMD_IJ_1:9,167" Type="Calc">
+<Var DisplayLabel="EFF_L_167" Label="EFF_L_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="EFF_M_167" Label="EFF_M_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="EFF_D_167" Label="EFF_D_IJ_1:9,167" Type="Data" />
+<Var DisplayLabel="EFF_A_167" Label="EFF_A_IJ_1:9,167" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_169" Label="EFF_LMD_IJ_1:9,169" Type="Calc">
+<Var DisplayLabel="EFF_L_169" Label="EFF_L_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="EFF_M_169" Label="EFF_M_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="EFF_D_169" Label="EFF_D_IJ_1:9,169" Type="Data" />
+<Var DisplayLabel="EFF_A_169" Label="EFF_A_IJ_1:9,169" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_170" Label="EFF_LMD_IJ_1:9,170" Type="Calc">
+<Var DisplayLabel="EFF_L_170" Label="EFF_L_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="EFF_M_170" Label="EFF_M_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="EFF_D_170" Label="EFF_D_IJ_1:9,170" Type="Data" />
+<Var DisplayLabel="EFF_A_170" Label="EFF_A_IJ_1:9,170" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_181" Label="EFF_LMD_IJ_1:9,181" Type="Calc">
+<Var DisplayLabel="EFF_L_181" Label="EFF_L_IJ_1:9,181" Type="Data" />
+<Var DisplayLabel="EFF_M_181" Label="EFF_M_IJ_1:9,181" Type="Data" />
+<Var DisplayLabel="EFF_D_181" Label="EFF_D_IJ_1:9,181" Type="Data" />
+<Var DisplayLabel="EFF_A_181" Label="EFF_A_IJ_1:9,181" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_102" Label="EFF_LMD_IJ_1:9,102" Type="Calc">
+<Var DisplayLabel="EFF_L_102" Label="EFF_L_IJ_1:9,102" Type="Data" />
+<Var DisplayLabel="EFF_M_102" Label="EFF_M_IJ_1:9,102" Type="Data" />
+<Var DisplayLabel="EFF_D_102" Label="EFF_D_IJ_1:9,102" Type="Data" />
+<Var DisplayLabel="EFF_A_102" Label="EFF_A_IJ_1:9,102" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_211" Label="EFF_LMD_IJ_1:9,211" Type="Calc">
+<Var DisplayLabel="EFF_L_211" Label="EFF_L_IJ_1:9,211" Type="Data" />
+<Var DisplayLabel="EFF_M_211" Label="EFF_M_IJ_1:9,211" Type="Data" />
+<Var DisplayLabel="EFF_D_211" Label="EFF_D_IJ_1:9,211" Type="Data" />
+<Var DisplayLabel="EFF_A_211" Label="EFF_A_IJ_1:9,211" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_221" Label="EFF_LMD_IJ_1:9,221" Type="Calc">
+<Var DisplayLabel="EFF_L_221" Label="EFF_L_IJ_1:9,221" Type="Data" />
+<Var DisplayLabel="EFF_M_221" Label="EFF_M_IJ_1:9,221" Type="Data" />
+<Var DisplayLabel="EFF_D_221" Label="EFF_D_IJ_1:9,221" Type="Data" />
+<Var DisplayLabel="EFF_A_221" Label="EFF_A_IJ_1:9,221" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_200" Label="EFF_LMD_IJ_1:9,200" Type="Calc">
+<Var DisplayLabel="EFF_L_200" Label="EFF_L_IJ_1:9,200" Type="Data" />
+<Var DisplayLabel="EFF_M_200" Label="EFF_M_IJ_1:9,200" Type="Data" />
+<Var DisplayLabel="EFF_D_200" Label="EFF_D_IJ_1:9,200" Type="Data" />
+<Var DisplayLabel="EFF_A_200" Label="EFF_A_IJ_1:9,200" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_101" Label="EFF_LMD_IJ_1:9,101" Type="Calc">
+<Var DisplayLabel="EFF_L_101" Label="EFF_L_IJ_1:9,101" Type="Data" />
+<Var DisplayLabel="EFF_M_101" Label="EFF_M_IJ_1:9,101" Type="Data" />
+<Var DisplayLabel="EFF_D_101" Label="EFF_D_IJ_1:9,101" Type="Data" />
+<Var DisplayLabel="EFF_A_101" Label="EFF_A_IJ_1:9,101" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_114" Label="EFF_LMD_IJ_1:9,114" Type="Calc">
+<Var DisplayLabel="EFF_L_114" Label="EFF_L_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="EFF_M_114" Label="EFF_M_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="EFF_D_114" Label="EFF_D_IJ_1:9,114" Type="Data" />
+<Var DisplayLabel="EFF_A_114" Label="EFF_A_IJ_1:9,114" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_124" Label="EFF_LMD_IJ_1:9,124" Type="Calc">
+<Var DisplayLabel="EFF_L_124" Label="EFF_L_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="EFF_M_124" Label="EFF_M_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="EFF_D_124" Label="EFF_D_IJ_1:9,124" Type="Data" />
+<Var DisplayLabel="EFF_A_124" Label="EFF_A_IJ_1:9,124" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_134" Label="EFF_LMD_IJ_1:9,134" Type="Calc">
+<Var DisplayLabel="EFF_L_134" Label="EFF_L_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="EFF_M_134" Label="EFF_M_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="EFF_D_134" Label="EFF_D_IJ_1:9,134" Type="Data" />
+<Var DisplayLabel="EFF_A_134" Label="EFF_A_IJ_1:9,134" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_144" Label="EFF_LMD_IJ_1:9,144" Type="Calc">
+<Var DisplayLabel="EFF_L_144" Label="EFF_L_IJ_1:9,144" Type="Data" />
+<Var DisplayLabel="EFF_M_144" Label="EFF_M_IJ_1:9,144" Type="Data" />
+<Var DisplayLabel="EFF_D_144" Label="EFF_D_IJ_1:9,144" Type="Data" />
+<Var DisplayLabel="EFF_A_144" Label="EFF_A_IJ_1:9,144" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_164" Label="EFF_LMD_IJ_1:9,164" Type="Calc">
+<Var DisplayLabel="EFF_L_164" Label="EFF_L_IJ_1:9,164" Type="Data" />
+<Var DisplayLabel="EFF_M_164" Label="EFF_M_IJ_1:9,164" Type="Data" />
+<Var DisplayLabel="EFF_D_164" Label="EFF_D_IJ_1:9,164" Type="Data" />
+<Var DisplayLabel="EFF_A_164" Label="EFF_A_IJ_1:9,164" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_166" Label="EFF_LMD_IJ_1:9,166" Type="Calc">
+<Var DisplayLabel="EFF_L_166" Label="EFF_L_IJ_1:9,166" Type="Data" />
+<Var DisplayLabel="EFF_M_166" Label="EFF_M_IJ_1:9,166" Type="Data" />
+<Var DisplayLabel="EFF_D_166" Label="EFF_D_IJ_1:9,166" Type="Data" />
+<Var DisplayLabel="EFF_A_166" Label="EFF_A_IJ_1:9,166" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_104" Label="EFF_LMD_IJ_1:9,104" Type="Calc">
+<Var DisplayLabel="EFF_L_104" Label="EFF_L_IJ_1:9,104" Type="Data" />
+<Var DisplayLabel="EFF_M_104" Label="EFF_M_IJ_1:9,104" Type="Data" />
+<Var DisplayLabel="EFF_D_104" Label="EFF_D_IJ_1:9,104" Type="Data" />
+<Var DisplayLabel="EFF_A_104" Label="EFF_A_IJ_1:9,104" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_100" Label="EFF_LMD_IJ_1:9,100" Type="Calc">
+<Var DisplayLabel="EFF_L_100" Label="EFF_L_IJ_1:9,100" Type="Data" />
+<Var DisplayLabel="EFF_M_100" Label="EFF_M_IJ_1:9,100" Type="Data" />
+<Var DisplayLabel="EFF_D_100" Label="EFF_D_IJ_1:9,100" Type="Data" />
+<Var DisplayLabel="EFF_A_100" Label="EFF_A_IJ_1:9,100" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_311" Label="EFF_LMD_IJ_1:9,311" Type="Calc">
+<Var DisplayLabel="EFF_L_311" Label="EFF_L_IJ_1:9,311" Type="Data" />
+<Var DisplayLabel="EFF_M_311" Label="EFF_M_IJ_1:9,311" Type="Data" />
+<Var DisplayLabel="EFF_D_311" Label="EFF_D_IJ_1:9,311" Type="Data" />
+<Var DisplayLabel="EFF_A_311" Label="EFF_A_IJ_1:9,311" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_314" Label="EFF_LMD_IJ_1:9,314" Type="Calc">
+<Var DisplayLabel="EFF_L_314" Label="EFF_L_IJ_1:9,314" Type="Data" />
+<Var DisplayLabel="EFF_M_314" Label="EFF_M_IJ_1:9,314" Type="Data" />
+<Var DisplayLabel="EFF_D_314" Label="EFF_D_IJ_1:9,314" Type="Data" />
+<Var DisplayLabel="EFF_A_314" Label="EFF_A_IJ_1:9,314" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_321" Label="EFF_LMD_IJ_1:9,321" Type="Calc">
+<Var DisplayLabel="EFF_L_321" Label="EFF_L_IJ_1:9,321" Type="Data" />
+<Var DisplayLabel="EFF_M_321" Label="EFF_M_IJ_1:9,321" Type="Data" />
+<Var DisplayLabel="EFF_D_321" Label="EFF_D_IJ_1:9,321" Type="Data" />
+<Var DisplayLabel="EFF_A_321" Label="EFF_A_IJ_1:9,321" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_324" Label="EFF_LMD_IJ_1:9,324" Type="Calc">
+<Var DisplayLabel="EFF_L_324" Label="EFF_L_IJ_1:9,324" Type="Data" />
+<Var DisplayLabel="EFF_M_324" Label="EFF_M_IJ_1:9,324" Type="Data" />
+<Var DisplayLabel="EFF_D_324" Label="EFF_D_IJ_1:9,324" Type="Data" />
+<Var DisplayLabel="EFF_A_324" Label="EFF_A_IJ_1:9,324" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_331" Label="EFF_LMD_IJ_1:9,331" Type="Calc">
+<Var DisplayLabel="EFF_L_331" Label="EFF_L_IJ_1:9,331" Type="Data" />
+<Var DisplayLabel="EFF_M_331" Label="EFF_M_IJ_1:9,331" Type="Data" />
+<Var DisplayLabel="EFF_D_331" Label="EFF_D_IJ_1:9,331" Type="Data" />
+<Var DisplayLabel="EFF_A_331" Label="EFF_A_IJ_1:9,331" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_334" Label="EFF_LMD_IJ_1:9,334" Type="Calc">
+<Var DisplayLabel="EFF_L_334" Label="EFF_L_IJ_1:9,334" Type="Data" />
+<Var DisplayLabel="EFF_M_334" Label="EFF_M_IJ_1:9,334" Type="Data" />
+<Var DisplayLabel="EFF_D_334" Label="EFF_D_IJ_1:9,334" Type="Data" />
+<Var DisplayLabel="EFF_A_334" Label="EFF_A_IJ_1:9,334" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_350" Label="EFF_LMD_IJ_1:9,350" Type="Calc">
+<Var DisplayLabel="EFF_L_350" Label="EFF_L_IJ_1:9,350" Type="Data" />
+<Var DisplayLabel="EFF_M_350" Label="EFF_M_IJ_1:9,350" Type="Data" />
+<Var DisplayLabel="EFF_D_350" Label="EFF_D_IJ_1:9,350" Type="Data" />
+<Var DisplayLabel="EFF_A_350" Label="EFF_A_IJ_1:9,350" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_300" Label="EFF_LMD_IJ_1:9,300" Type="Calc">
+<Var DisplayLabel="EFF_L_300" Label="EFF_L_IJ_1:9,300" Type="Data" />
+<Var DisplayLabel="EFF_M_300" Label="EFF_M_IJ_1:9,300" Type="Data" />
+<Var DisplayLabel="EFF_D_300" Label="EFF_D_IJ_1:9,300" Type="Data" />
+<Var DisplayLabel="EFF_A_300" Label="EFF_A_IJ_1:9,300" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_411" Label="EFF_LMD_IJ_1:9,411" Type="Calc">
+<Var DisplayLabel="EFF_L_411" Label="EFF_L_IJ_1:9,411" Type="Data" />
+<Var DisplayLabel="EFF_M_411" Label="EFF_M_IJ_1:9,411" Type="Data" />
+<Var DisplayLabel="EFF_D_411" Label="EFF_D_IJ_1:9,411" Type="Data" />
+<Var DisplayLabel="EFF_A_411" Label="EFF_A_IJ_1:9,411" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_412" Label="EFF_LMD_IJ_1:9,412" Type="Calc">
+<Var DisplayLabel="EFF_L_412" Label="EFF_L_IJ_1:9,412" Type="Data" />
+<Var DisplayLabel="EFF_M_412" Label="EFF_M_IJ_1:9,412" Type="Data" />
+<Var DisplayLabel="EFF_D_412" Label="EFF_D_IJ_1:9,412" Type="Data" />
+<Var DisplayLabel="EFF_A_412" Label="EFF_A_IJ_1:9,412" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_413" Label="EFF_LMD_IJ_1:9,413" Type="Calc">
+<Var DisplayLabel="EFF_L_413" Label="EFF_L_IJ_1:9,413" Type="Data" />
+<Var DisplayLabel="EFF_M_413" Label="EFF_M_IJ_1:9,413" Type="Data" />
+<Var DisplayLabel="EFF_D_413" Label="EFF_D_IJ_1:9,413" Type="Data" />
+<Var DisplayLabel="EFF_A_413" Label="EFF_A_IJ_1:9,413" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_414" Label="EFF_LMD_IJ_1:9,414" Type="Calc">
+<Var DisplayLabel="EFF_L_414" Label="EFF_L_IJ_1:9,414" Type="Data" />
+<Var DisplayLabel="EFF_M_414" Label="EFF_M_IJ_1:9,414" Type="Data" />
+<Var DisplayLabel="EFF_D_414" Label="EFF_D_IJ_1:9,414" Type="Data" />
+<Var DisplayLabel="EFF_A_414" Label="EFF_A_IJ_1:9,414" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_421" Label="EFF_LMD_IJ_1:9,421" Type="Calc">
+<Var DisplayLabel="EFF_L_421" Label="EFF_L_IJ_1:9,421" Type="Data" />
+<Var DisplayLabel="EFF_M_421" Label="EFF_M_IJ_1:9,421" Type="Data" />
+<Var DisplayLabel="EFF_D_421" Label="EFF_D_IJ_1:9,421" Type="Data" />
+<Var DisplayLabel="EFF_A_421" Label="EFF_A_IJ_1:9,421" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_422" Label="EFF_LMD_IJ_1:9,422" Type="Calc">
+<Var DisplayLabel="EFF_L_422" Label="EFF_L_IJ_1:9,422" Type="Data" />
+<Var DisplayLabel="EFF_M_422" Label="EFF_M_IJ_1:9,422" Type="Data" />
+<Var DisplayLabel="EFF_D_422" Label="EFF_D_IJ_1:9,422" Type="Data" />
+<Var DisplayLabel="EFF_A_422" Label="EFF_A_IJ_1:9,422" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_423" Label="EFF_LMD_IJ_1:9,423" Type="Calc">
+<Var DisplayLabel="EFF_L_423" Label="EFF_L_IJ_1:9,423" Type="Data" />
+<Var DisplayLabel="EFF_M_423" Label="EFF_M_IJ_1:9,423" Type="Data" />
+<Var DisplayLabel="EFF_D_423" Label="EFF_D_IJ_1:9,423" Type="Data" />
+<Var DisplayLabel="EFF_A_423" Label="EFF_A_IJ_1:9,423" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_424" Label="EFF_LMD_IJ_1:9,424" Type="Calc">
+<Var DisplayLabel="EFF_L_424" Label="EFF_L_IJ_1:9,424" Type="Data" />
+<Var DisplayLabel="EFF_M_424" Label="EFF_M_IJ_1:9,424" Type="Data" />
+<Var DisplayLabel="EFF_D_424" Label="EFF_D_IJ_1:9,424" Type="Data" />
+<Var DisplayLabel="EFF_A_424" Label="EFF_A_IJ_1:9,424" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_400" Label="EFF_LMD_IJ_1:9,400" Type="Calc">
+<Var DisplayLabel="EFF_L_400" Label="EFF_L_IJ_1:9,400" Type="Data" />
+<Var DisplayLabel="EFF_M_400" Label="EFF_M_IJ_1:9,400" Type="Data" />
+<Var DisplayLabel="EFF_D_400" Label="EFF_D_IJ_1:9,400" Type="Data" />
+<Var DisplayLabel="EFF_A_400" Label="EFF_A_IJ_1:9,400" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_501" Label="EFF_LMD_IJ_1:9,501" Type="Calc">
+<Var DisplayLabel="EFF_L_501" Label="EFF_L_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="EFF_M_501" Label="EFF_M_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="EFF_D_501" Label="EFF_D_IJ_1:9,501" Type="Data" />
+<Var DisplayLabel="EFF_A_501" Label="EFF_A_IJ_1:9,501" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_504" Label="EFF_LMD_IJ_1:9,504" Type="Calc">
+<Var DisplayLabel="EFF_L_504" Label="EFF_L_IJ_1:9,504" Type="Data" />
+<Var DisplayLabel="EFF_M_504" Label="EFF_M_IJ_1:9,504" Type="Data" />
+<Var DisplayLabel="EFF_D_504" Label="EFF_D_IJ_1:9,504" Type="Data" />
+<Var DisplayLabel="EFF_A_504" Label="EFF_A_IJ_1:9,504" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_500" Label="EFF_LMD_IJ_1:9,500" Type="Calc">
+<Var DisplayLabel="EFF_L_500" Label="EFF_L_IJ_1:9,500" Type="Data" />
+<Var DisplayLabel="EFF_M_500" Label="EFF_M_IJ_1:9,500" Type="Data" />
+<Var DisplayLabel="EFF_D_500" Label="EFF_D_IJ_1:9,500" Type="Data" />
+<Var DisplayLabel="EFF_A_500" Label="EFF_A_IJ_1:9,500" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_600" Label="EFF_LMD_IJ_1:9,600" Type="Calc">
+<Var DisplayLabel="EFF_L_600" Label="EFF_L_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="EFF_M_600" Label="EFF_M_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="EFF_D_600" Label="EFF_D_IJ_1:9,600" Type="Data" />
+<Var DisplayLabel="EFF_A_600" Label="EFF_A_IJ_1:9,600" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_700" Label="EFF_LMD_IJ_1:9,700" Type="Calc">
+<Var DisplayLabel="EFF_L_700" Label="EFF_L_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="EFF_M_700" Label="EFF_M_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="EFF_D_700" Label="EFF_D_IJ_1:9,700" Type="Data" />
+<Var DisplayLabel="EFF_A_700" Label="EFF_A_IJ_1:9,700" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_800" Label="EFF_LMD_IJ_1:9,800" Type="Calc">
+<Var DisplayLabel="EFF_L_800" Label="EFF_L_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="EFF_M_800" Label="EFF_M_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="EFF_D_800" Label="EFF_D_IJ_1:9,800" Type="Data" />
+<Var DisplayLabel="EFF_A_800" Label="EFF_A_IJ_1:9,800" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_810" Label="EFF_LMD_IJ_1:9,810" Type="Calc">
+<Var DisplayLabel="EFF_L_810" Label="EFF_L_IJ_1:9,810" Type="Data" />
+<Var DisplayLabel="EFF_M_810" Label="EFF_M_IJ_1:9,810" Type="Data" />
+<Var DisplayLabel="EFF_D_810" Label="EFF_D_IJ_1:9,810" Type="Data" />
+<Var DisplayLabel="EFF_A_810" Label="EFF_A_IJ_1:9,810" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_450" Label="EFF_LMD_IJ_1:9,450" Type="Calc">
+<Var DisplayLabel="EFF_L_450" Label="EFF_L_IJ_1:9,450" Type="Data" />
+<Var DisplayLabel="EFF_M_450" Label="EFF_M_IJ_1:9,450" Type="Data" />
+<Var DisplayLabel="EFF_D_450" Label="EFF_D_IJ_1:9,450" Type="Data" />
+<Var DisplayLabel="EFF_A_450" Label="EFF_A_IJ_1:9,450" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_LMD_900" Label="EFF_LMD_IJ_1:9,900" Type="Calc">
+<Var DisplayLabel="EFF_L_900" Label="EFF_L_IJ_1:9,900" Type="Data" />
+<Var DisplayLabel="EFF_M_900" Label="EFF_M_IJ_1:9,900" Type="Data" />
+<Var DisplayLabel="EFF_D_900" Label="EFF_D_IJ_1:9,900" Type="Data" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="EFF_TOT" Label="EFF_TOT" Type="Calc">
+<Var DisplayLabel="EFF_LMD_IJ_1:9,900" Label="EFF_LMD_IJ_1:9,900" Type="Data"/>
+<Var DisplayLabel="EFF_C_IJ_1:9,300" Label="EFF_C_IJ_1:9,300" Type="Data"/>
+<Var DisplayLabel="EFF_S_IJ_1:9,400" Label="EFF_S_IJ_1:9,400" Type="Data"/>
+<Var DisplayLabel="EFF_I_IJ_1:9,200" Label="EFF_I_IJ_1:9,200" Type="Data"/>
+<Var DisplayLabel="EFF_A_IJ_1:9,900" Label="EFF_A_IJ_1:9,900" Type="Data"/>
+</Calcul>
+
+<Calcul Fun="Mult" DisplayLabel="IND_150_N0" Label="IND_150_N0" Type="Calc"><Var DisplayLabel="EFF_N0_900" Label="EFF_N0_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N0" Label="T_150_N0" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="IND_150_N1" Label="IND_150_N1" Type="Calc"><Var DisplayLabel="EFF_N1_900" Label="EFF_N1_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N1" Label="T_150_N1" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="IND_150_N2" Label="IND_150_N2" Type="Calc"><Var DisplayLabel="EFF_N2_900" Label="EFF_N2_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N2" Label="T_150_N2" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="IND_150_N3" Label="IND_150_N3" Type="Calc"><Var DisplayLabel="EFF_N3_900" Label="EFF_N3_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N3" Label="T_150_N3" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="IND_150_N4" Label="IND_150_N4" Type="Calc"><Var DisplayLabel="EFF_N4_900" Label="EFF_N4_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N4" Label="T_150_N4" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="IND_150_N5" Label="IND_150_N5" Type="Calc"><Var DisplayLabel="EFF_N5_900" Label="EFF_N5_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N5" Label="T_150_N5" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="IND_150_N6" Label="IND_150_N6" Type="Calc"><Var DisplayLabel="EFF_N6_900" Label="EFF_N6_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N6" Label="T_150_N6" Type="Data"/></Calcul>
+
+<Calcul Fun="Sigma" DisplayLabel="EFF_150" Label="EFF_150" Type="Calc">
+<Var DisplayLabel="IND_150_N0" Label="IND_150_N0" Type="Data" />
+<Var DisplayLabel="IND_150_N1" Label="IND_150_N1" Type="Data" />
+<Var DisplayLabel="IND_150_N2" Label="IND_150_N2" Type="Data" />
+<Var DisplayLabel="IND_150_N3" Label="IND_150_N3" Type="Data" />
+<Var DisplayLabel="IND_150_N4" Label="IND_150_N4" Type="Data" />
+<Var DisplayLabel="IND_150_N5" Label="IND_150_N5" Type="Data" />
+</Calcul>
+</Calculs>

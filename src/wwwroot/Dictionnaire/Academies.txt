@@ -1,0 +1,44 @@
+0;Indéterminé, étranger ou COM
+1;Paris
+2;Aix-marseille
+3;Besançon
+4;Bordeaux
+5;Caen
+6;Clermont-Ferrand
+7;Dijon
+8;Grenoble
+9;Lille
+10;Lyon
+11;Montpellier
+12;Nancy-Metz
+13;Poitiers
+14;Rennes
+15;Strasbourg
+16;Toulouse
+17;Nantes
+18;Orléans-Tours
+19;Reims
+20;Amiens
+21;Rouen
+22;Limoges
+23;Nice
+24;Créteil
+25;Versailles
+27;Corse
+28;Réunion
+29;Ocean indien
+30;Antilles-Guyane
+31;Martinique
+32;Guadeloupe
+33;Guyane
+43;Mayotte
+50;Ile de France
+51;Provence-Alpes-Côte d'Azur
+52;Bourgogne-Franche-Comté
+53;Nouvelle Aquitaine
+54;Normandie
+55;Auvergne-Rhone-Alpes
+56;Hauts-de-Fance
+57;Occitanie
+58;Grand-Est
+70;Ensemble

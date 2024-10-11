@@ -1,0 +1,122 @@
+﻿<style>
+    #newConstat .modal-content {
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    #newConstat .modal-body {
+        font-size: 0.9em;
+    }
+
+        #newConstat .modal-body input {
+            outline: none;
+            border: 0px solid #000;
+            background-color: #F4F4F4;
+            padding: 10px;
+            font-weight: lighter;
+            border-bottom: 1px solid #000;
+            width: 100%;
+        }
+
+        #newConstat .modal-body select {
+            outline: none;
+            border: 0px solid #000;
+            background-color: #F4F4F4;
+            padding: 10px;
+            font-weight: lighter;
+            border-bottom: 1px solid #000;
+            width: 100%;
+        }
+    .nr_list option {
+        padding: 10px 5px;
+        cursor: pointer;
+        border: 2px solid #fff;
+    }
+   .form-control:focus {
+        border-color: #86b7fe;
+        box-shadow:unset;
+    }
+    .nr_list option:hover {
+        box-shadow: 0 0 10px 100px #fff inset;
+        border-radius: 5px;
+        border: 2px solid #205a6b;
+        color: #205a6b;
+    }
+    .nr_list option:checked {
+        box-shadow: 0 0 10px 100px #86b7fe inset;
+        border-radius: 10px;
+        border: 2px solid #86b7fe;
+        color: #fff;
+    }
+        .nr_list option:checked::after {
+            color: #fff;
+            content: '\f058'; /* You should use \ and not /*/
+            font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            text-align: right;
+            float: right;
+        }
+</style>
+
+<!--NewConstat-->
+<div class="modal fade" id="newRecap" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Création de tableaux récapitulatifs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validation" id="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <div>Nom du tableau récapitulatif</div>
+                        <input class="form-control" type="text" onkeypress="normalize(event)" id="nr_nom" value="" placeholder="Entrez un nom du tabrécap..." required/>
+                    </div>
+
+                    <div class="mb-3">
+                        <div>Scénario: </div>
+                        <select name="from" id="nr_list" class="form-control nr_list" size="4" required>
+                        </select>
+                    </div>
+                </form>
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="new_recap('nr_')" id="nr_valider">Valider</button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!--Fin NewConstat-->
+<!--OuvrirConstat-->
+<div class="modal fade" id="openrecap" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Consultation tableau récapitulatif</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <form class="needs-validation" id="needs-validation-recap" novalidate>
+                        <div class="mb-2">Tableaux récapitulatifs :</div>
+
+                        <!-- Dropdown -->
+                        <select name="from" id="nr_recap" class="form-control nr_list" size="6" required>
+                        </select>
+                    </form>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="open_recap('or_')" id="or_valider" data-bs-dismiss="modal">Valider</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin OuvrirConstat-->

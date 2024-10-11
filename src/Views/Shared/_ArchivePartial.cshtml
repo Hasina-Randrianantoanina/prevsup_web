@@ -1,0 +1,36 @@
+﻿<table style='width:100%; padding: 10px;' type='@Model.Name' data-type="@Model.Type">
+    <tr>
+        <td style="width:40%;">
+            <b>Non archivés:</b><br />
+            <select multiple="multiple" name='non-archives' class='list1 form-control'>
+                @foreach (var archive in @Model.archives)
+                {
+                    @if (!archive.Is_archive)
+                    {
+                        <option value="@archive.Id">@archive.Name</option>
+                    }
+                }
+            </select>
+        </td>
+        <td class='buttons'>
+			<button class='col-6 btnRight btn btn-secondary' onclick="archiver(this);">Archiver</button>
+            <br /><br /><button class='col-6 btnLeft btn btn-danger' onclick="desarchiver(this);">Désarchiver</button>
+            <br /><br /><button class='col-6 btn btn-primary' onclick="Conf_archive(this)">Confirmer</button>
+        </td>
+        <td style="width:40%">
+            <b>Archivés: </b><br />
+            <select multiple="multiple" name='archives' class='list2 form-control'>
+                @foreach (var archive in @Model.archives)
+                {
+                    @if (archive.Is_archive)
+                    {
+                        <option value="@archive.Id">@archive.Name</option>
+                    }
+                }
+            </select>
+        </td>
+    </tr>
+    <tr>
+        
+    </tr>
+</table>

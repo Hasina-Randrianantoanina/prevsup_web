@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ref: men.engine/men/models/summary/projAcaLMDHyp.xml -->
+<Variables Label="Tableau Acad&#233;miques LMD">
+<Var DisplayLabel="Ensemble" Label="EFF_LMD_A_70" Type="Sum">
+<Var DisplayLabel="Antilles-Guyane" Label="EFF_LMD_A_30" Type="Sum">
+<Var DisplayLabel="Guadeloupe" Label="EFF_LMD_A_32" Type="Sum">
+<Var DisplayLabel="Licence(971)" Label="EFF_L_A_32" Type="Data" />
+<Var DisplayLabel="Master(971)" Label="EFF_M_A_32" Type="Data" />
+<Var DisplayLabel="Doctorat(971)" Label="EFF_D_A_32" Type="Data" />
+</Var>
+<Var DisplayLabel="Guyane" Label="EFF_LMD_A_33" Type="Sum">
+<Var DisplayLabel="Licence(973)" Label="EFF_L_A_33" Type="Data" />
+<Var DisplayLabel="Master(973)" Label="EFF_M_A_33" Type="Data" />
+<Var DisplayLabel="Doctorat(973)" Label="EFF_D_A_33" Type="Data" />
+</Var>
+<Var DisplayLabel="Martinique" Label="EFF_LMD_A_31" Type="Sum">
+<Var DisplayLabel="Licence(972)" Label="EFF_L_A_31" Type="Data" />
+<Var DisplayLabel="Master(972)" Label="EFF_M_A_31" Type="Data" />
+<Var DisplayLabel="Doctorat(972)" Label="EFF_D_A_31" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Auvergne-Rhone-Alpes" Label="EFF_LMD_A_55" Type="Sum">
+<Var DisplayLabel="Clermont-Ferrand" Label="EFF_LMD_A_6" Type="Sum">
+<Var DisplayLabel="Licence(63)" Label="EFF_L_A_6" Type="Data" />
+<Var DisplayLabel="Master(63)" Label="EFF_M_A_6" Type="Data" />
+<Var DisplayLabel="Doctorat(63)" Label="EFF_D_A_6" Type="Data" />
+</Var>
+<Var DisplayLabel="Grenoble" Label="EFF_LMD_A_8" Type="Sum">
+<Var DisplayLabel="Licence(38)" Label="EFF_L_A_8" Type="Data" />
+<Var DisplayLabel="Master(38)" Label="EFF_M_A_8" Type="Data" />
+<Var DisplayLabel="Doctorat(38)" Label="EFF_D_A_8" Type="Data" />
+</Var>
+<Var DisplayLabel="Lyon" Label="EFF_LMD_A_10" Type="Sum">
+<Var DisplayLabel="Licence(69)" Label="EFF_L_A_10" Type="Data" />
+<Var DisplayLabel="Master(69)" Label="EFF_M_A_10" Type="Data" />
+<Var DisplayLabel="Doctorat(69)" Label="EFF_D_A_10" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Bourgogne-Franche-Comté" Label="EFF_LMD_A_52" Type="Sum">
+<Var DisplayLabel="Besançon" Label="EFF_LMD_A_3" Type="Sum">
+<Var DisplayLabel="Licence(25)" Label="EFF_L_A_3" Type="Data" />
+<Var DisplayLabel="Master(25)" Label="EFF_M_A_3" Type="Data" />
+<Var DisplayLabel="Doctorat(25)" Label="EFF_D_A_3" Type="Data" />
+</Var>
+<Var DisplayLabel="Dijon" Label="EFF_LMD_A_7" Type="Sum">
+<Var DisplayLabel="Licence(21)" Label="EFF_L_A_7" Type="Data" />
+<Var DisplayLabel="Master(21)" Label="EFF_M_A_7" Type="Data" />
+<Var DisplayLabel="Doctorat(21)" Label="EFF_D_A_7" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Corse" Label="EFF_LMD_A_27" Type="Sum">
+<Var DisplayLabel="Licence(20)" Label="EFF_L_A_27" Type="Data" />
+<Var DisplayLabel="Master(20)" Label="EFF_M_A_27" Type="Data" />
+<Var DisplayLabel="Doctorat(20)" Label="EFF_D_A_27" Type="Data" />
+</Var>
+<Var DisplayLabel="Grand-Est" Label="EFF_LMD_A_58" Type="Sum">
+<Var DisplayLabel="Nancy-Metz(57)" Label="EFF_LMD_A_12" Type="Sum">
+<Var DisplayLabel="Licence(57)" Label="EFF_L_A_12" Type="Data" />
+<Var DisplayLabel="Master(57)" Label="EFF_M_A_12" Type="Data" />
+<Var DisplayLabel="Doctorat(57)" Label="EFF_D_A_12" Type="Data" />
+</Var>
+<Var DisplayLabel="Reims" Label="EFF_LMD_A_19" Type="Sum">
+<Var DisplayLabel="Licence(51)" Label="EFF_L_A_19" Type="Data" />
+<Var DisplayLabel="Master(51)" Label="EFF_M_A_19" Type="Data" />
+<Var DisplayLabel="Doctorat(51)" Label="EFF_D_A_19" Type="Data" />
+</Var>
+<Var DisplayLabel="Strasbourg" Label="EFF_LMD_A_15" Type="Sum">
+<Var DisplayLabel="Licence(67)" Label="EFF_L_A_15" Type="Data" />
+<Var DisplayLabel="Master(67)" Label="EFF_M_A_15" Type="Data" />
+<Var DisplayLabel="Doctorat(67)" Label="EFF_D_A_15" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Hauts-de-France" Label="EFF_LMD_A_56" Type="Sum">
+<Var DisplayLabel="Amiens" Label="EFF_LMD_A_20" Type="Sum">
+<Var DisplayLabel="Licence(80)" Label="EFF_L_A_20" Type="Data" />
+<Var DisplayLabel="Master(80)" Label="EFF_M_A_20" Type="Data" />
+<Var DisplayLabel="Doctorat(80)" Label="EFF_D_A_20" Type="Data" />
+</Var>
+<Var DisplayLabel="Lille" Label="EFF_LMD_A_9" Type="Sum">
+<Var DisplayLabel="Licence(59)" Label="EFF_L_A_9" Type="Data" />
+<Var DisplayLabel="Master(59)" Label="EFF_M_A_9" Type="Data" />
+<Var DisplayLabel="Doctorat(59)" Label="EFF_D_A_9" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Île de France" Label="EFF_LMD_A_50" Type="Sum">
+<Var DisplayLabel="Créteil" Label="EFF_LMD_A_24" Type="Sum">
+<Var DisplayLabel="Licence(94)" Label="EFF_L_A_24" Type="Data" />
+<Var DisplayLabel="Master(94)" Label="EFF_M_A_24" Type="Data" />
+<Var DisplayLabel="Doctorat(94)" Label="EFF_D_A_24" Type="Data" />
+</Var>
+<Var DisplayLabel="Paris" Label="EFF_LMD_A_1" Type="Sum">
+<Var DisplayLabel="Licence(75)" Label="EFF_L_A_1" Type="Data" />
+<Var DisplayLabel="Master(75)" Label="EFF_M_A_1" Type="Data" />
+<Var DisplayLabel="Doctorat(75)" Label="EFF_D_A_1" Type="Data" />
+</Var>
+<Var DisplayLabel="Versailles" Label="EFF_LMD_A_25" Type="Sum">
+<Var DisplayLabel="Licence(78)" Label="EFF_L_A_25" Type="Data" />
+<Var DisplayLabel="Master(78)" Label="EFF_M_A_25" Type="Data" />
+<Var DisplayLabel="Doctorat(78)" Label="EFF_D_A_25" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Nantes" Label="EFF_LMD_A_17" Type="Sum">
+<Var DisplayLabel="Licence(44)" Label="EFF_L_A_17" Type="Data" />
+<Var DisplayLabel="Master(44)" Label="EFF_M_A_17" Type="Data" />
+<Var DisplayLabel="Doctorat(44)" Label="EFF_D_A_17" Type="Data" />
+</Var>
+<Var DisplayLabel="Normandie" Label="EFF_LMD_A_54" Type="Sum">
+<Var DisplayLabel="Caen" Label="EFF_LMD_A_5" Type="Sum">
+<Var DisplayLabel="Licence(14)" Label="EFF_L_A_5" Type="Data" />
+<Var DisplayLabel="Master(14)" Label="EFF_M_A_5" Type="Data" />
+<Var DisplayLabel="Doctorat(14)" Label="EFF_D_A_5" Type="Data" />
+</Var>
+<Var DisplayLabel="Rouen" Label="EFF_LMD_A_21" Type="Sum">
+<Var DisplayLabel="Licence(76)" Label="EFF_L_A_21" Type="Data" />
+<Var DisplayLabel="Master(76)" Label="EFF_M_A_21" Type="Data" />
+<Var DisplayLabel="Doctorat(76)" Label="EFF_D_A_21" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Nouvelle Aquitaine" Label="EFF_LMD_A_53" Type="Sum">
+<Var DisplayLabel="Bordeaux" Label="EFF_LMD_A_4" Type="Sum">
+<Var DisplayLabel="Licence(33)" Label="EFF_L_A_4" Type="Data" />
+<Var DisplayLabel="Master(33)" Label="EFF_M_A_4" Type="Data" />
+<Var DisplayLabel="Doctorat(33)" Label="EFF_D_A_4" Type="Data" />
+</Var>
+<Var DisplayLabel="Limoges" Label="EFF_LMD_A_22" Type="Sum">
+<Var DisplayLabel="Licence(87)" Label="EFF_L_A_22" Type="Data" />
+<Var DisplayLabel="Master(87)" Label="EFF_M_A_22" Type="Data" />
+<Var DisplayLabel="Doctorat(87)" Label="EFF_D_A_22" Type="Data" />
+</Var>
+<Var DisplayLabel="Poitiers" Label="EFF_LMD_A_13" Type="Sum">
+<Var DisplayLabel="Licence(86)" Label="EFF_L_A_13" Type="Data" />
+<Var DisplayLabel="Master(86)" Label="EFF_M_A_13" Type="Data" />
+<Var DisplayLabel="Doctorat(86)" Label="EFF_D_A_13" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Occitanie" Label="EFF_LMD_A_57" Type="Sum">
+<Var DisplayLabel="Montpellier" Label="EFF_LMD_A_11" Type="Sum">
+<Var DisplayLabel="Licence(34)" Label="EFF_L_A_11" Type="Data" />
+<Var DisplayLabel="Master(34)" Label="EFF_M_A_11" Type="Data" />
+<Var DisplayLabel="Doctorat(34)" Label="EFF_D_A_11" Type="Data" />
+</Var>
+<Var DisplayLabel="Toulouse" Label="EFF_LMD_A_16" Type="Sum">
+<Var DisplayLabel="Licence(31)" Label="EFF_L_A_16" Type="Data" />
+<Var DisplayLabel="Master(31)" Label="EFF_M_A_16" Type="Data" />
+<Var DisplayLabel="Doctorat(31)" Label="EFF_D_A_16" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Océan Indien" Label="EFF_LMD_A_29" Type="Sum">
+<Var DisplayLabel="Mayotte" Label="EFF_LMD_A_43" Type="Sum">
+<Var DisplayLabel="Licence(976)" Label="EFF_L_A_43" Type="Data" />
+<Var DisplayLabel="Master(976)" Label="EFF_M_A_43" Type="Data" />
+<Var DisplayLabel="Doctorat(976)" Label="EFF_D_A_43" Type="Data" />
+</Var>
+<Var DisplayLabel="Réunion" Label="EFF_LMD_A_28" Type="Sum">
+<Var DisplayLabel="Licence(974)" Label="EFF_L_A_28" Type="Data" />
+<Var DisplayLabel="Master(974)" Label="EFF_M_A_28" Type="Data" />
+<Var DisplayLabel="Doctorat(974)" Label="EFF_D_A_28" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Orléans-Tours" Label="EFF_LMD_A_18" Type="Sum">
+<Var DisplayLabel="Licence(45)" Label="EFF_L_A_18" Type="Data" />
+<Var DisplayLabel="Master(45)" Label="EFF_M_A_18" Type="Data" />
+<Var DisplayLabel="Doctorat(45)" Label="EFF_D_A_18" Type="Data" />
+</Var>
+<Var DisplayLabel="Provence-Alpes-Cote d'Azur" Label="EFF_LMD_A_51" Type="Sum">
+<Var DisplayLabel="Aix-Marseille" Label="EFF_LMD_A_2" Type="Sum">
+<Var DisplayLabel="Licence(13)" Label="EFF_L_A_2" Type="Data" />
+<Var DisplayLabel="Master(13)" Label="EFF_M_A_2" Type="Data" />
+<Var DisplayLabel="Doctorat(13)" Label="EFF_D_A_2" Type="Data" />
+</Var>
+<Var DisplayLabel="Nice" Label="EFF_LMD_A_23" Type="Sum">
+<Var DisplayLabel="Licence(06)" Label="EFF_L_A_23" Type="Data" />
+<Var DisplayLabel="Master(06)" Label="EFF_M_A_23" Type="Data" />
+<Var DisplayLabel="Doctorat(06)" Label="EFF_D_A_23" Type="Data" />
+</Var>
+</Var>
+<Var DisplayLabel="Rennes" Label="EFF_LMD_A_14" Type="Sum">
+<Var DisplayLabel="Licence(35)" Label="EFF_L_A_14" Type="Data" />
+<Var DisplayLabel="Master(35)" Label="EFF_M_A_14" Type="Data" />
+<Var DisplayLabel="Doctorat(35)" Label="EFF_D_A_14" Type="Data" />
+</Var>
+</Var>
+</Variables>

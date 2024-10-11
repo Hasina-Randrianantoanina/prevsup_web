@@ -1,0 +1,9 @@
+.export-vars {
+    border-color: #777;
+        border-width: 1px;
+        border-style: Solid;
+        max-height: 400px;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2px;
+}

@@ -1,0 +1,3 @@
+*:not(i):not(.rdl-move *):not(.parent-login label*){
+    font-family: Overpass, "Open Sans", Helvetica, sans-serif !important;
+}

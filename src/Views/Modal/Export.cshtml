@@ -1,0 +1,41 @@
+﻿<!--openExport-->
+<style>
+    #exportVars {
+        border-color: #777;
+        border-width: 1px;
+        border-style: Solid;
+        max-height: 400px;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 2px;
+    }
+    #exportVars label {
+        margin-left: 10px;
+    }
+</style>
+<div class="modal fade" id="openExport" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Sélection des variables à exporter</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+                    <div>
+                        <button onclick="export_vars_check_all()"> Cocher tout </button>
+                        <button onclick="export_vars_uncheck_all()"> Décocher tout </button>
+                    </div>
+                    <div id="exportVars">
+                    </div>
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+				<button type="button" class="btn btn-primary" onclick="Export()" id="oc_valider" data-bs-dismiss="modal">Exporter</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Fin openExport-->

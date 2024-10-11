@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ref: men.engine/men/models/summary/projDipLMDModel.xml -->
+<Calculs Label="Projections Académiques">
+
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_111" Label="DIP_L_IJ_1:9,111" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,111" Label="LICENCE_N3_IJ_1:9,111" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,111" Label="LICPRO_N3_IJ_1:9,111" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_121" Label="DIP_L_IJ_1:9,121" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,121" Label="LICENCE_N3_IJ_1:9,121" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,121" Label="LICPRO_N3_IJ_1:9,121" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_131" Label="DIP_L_IJ_1:9,131" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,131" Label="LICENCE_N3_IJ_1:9,131" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,131" Label="LICPRO_N3_IJ_1:9,131" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_141" Label="DIP_L_IJ_1:9,141" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,141" Label="LICENCE_N3_IJ_1:9,141" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,141" Label="LICPRO_N3_IJ_1:9,141" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_150" Label="DIP_L_IJ_1:9,150" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,150" Label="LICENCE_N3_IJ_1:9,150" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,150" Label="LICPRO_N3_IJ_1:9,150" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_160" Label="DIP_L_IJ_1:9,160" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,160" Label="LICENCE_N3_IJ_1:9,160" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,160" Label="LICPRO_N3_IJ_1:9,160" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_163" Label="DIP_L_IJ_1:9,163" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,163" Label="LICENCE_N3_IJ_1:9,163" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,163" Label="LICPRO_N3_IJ_1:9,163" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_165" Label="DIP_L_IJ_1:9,165" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,165" Label="LICENCE_N3_IJ_1:9,165" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,165" Label="LICPRO_N3_IJ_1:9,165" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_167" Label="DIP_L_IJ_1:9,167" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,167" Label="LICENCE_N3_IJ_1:9,167" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,167" Label="LICPRO_N3_IJ_1:9,167" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_169" Label="DIP_L_IJ_1:9,169" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,169" Label="LICENCE_N3_IJ_1:9,169" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,169" Label="LICPRO_N3_IJ_1:9,169" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_170" Label="DIP_L_IJ_1:9,170" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,170" Label="LICENCE_N3_IJ_1:9,170" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,170" Label="LICPRO_N3_IJ_1:9,170" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_181" Label="DIP_L_IJ_1:9,181" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,181" Label="LICENCE_N3_IJ_1:9,181" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,181" Label="LICPRO_N3_IJ_1:9,181" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_102" Label="DIP_L_IJ_1:9,102" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,102" Label="LICENCE_N3_IJ_1:9,102" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,102" Label="LICPRO_N3_IJ_1:9,102" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_211" Label="DIP_L_IJ_1:9,211" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,211" Label="LICENCE_N3_IJ_1:9,211" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,211" Label="LICPRO_N3_IJ_1:9,211" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_221" Label="DIP_L_IJ_1:9,221" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,221" Label="LICENCE_N3_IJ_1:9,221" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,221" Label="LICPRO_N3_IJ_1:9,221" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_200" Label="DIP_L_IJ_1:9,200" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,200" Label="LICENCE_N3_IJ_1:9,200" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,200" Label="LICPRO_N3_IJ_1:9,200" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_101" Label="DIP_L_IJ_1:9,101" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,101" Label="LICENCE_N3_IJ_1:9,101" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,101" Label="LICPRO_N3_IJ_1:9,101" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_114" Label="DIP_L_IJ_1:9,114" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,114" Label="LICENCE_N3_IJ_1:9,114" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,114" Label="LICPRO_N3_IJ_1:9,114" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_124" Label="DIP_L_IJ_1:9,124" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,124" Label="LICENCE_N3_IJ_1:9,124" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,124" Label="LICPRO_N3_IJ_1:9,124" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_134" Label="DIP_L_IJ_1:9,134" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,134" Label="LICENCE_N3_IJ_1:9,134" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,134" Label="LICPRO_N3_IJ_1:9,134" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_144" Label="DIP_L_IJ_1:9,144" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,144" Label="LICENCE_N3_IJ_1:9,144" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,144" Label="LICPRO_N3_IJ_1:9,144" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_164" Label="DIP_L_IJ_1:9,164" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,164" Label="LICENCE_N3_IJ_1:9,164" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,164" Label="LICPRO_N3_IJ_1:9,164" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_166" Label="DIP_L_IJ_1:9,166" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,166" Label="LICENCE_N3_IJ_1:9,166" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,166" Label="LICPRO_N3_IJ_1:9,166" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_104" Label="DIP_L_IJ_1:9,104" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,104" Label="LICENCE_N3_IJ_1:9,104" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,104" Label="LICPRO_N3_IJ_1:9,104" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_100" Label="DIP_L_IJ_1:9,100" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,100" Label="LICENCE_N3_IJ_1:9,100" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,100" Label="LICPRO_N3_IJ_1:9,100" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_311" Label="DIP_L_IJ_1:9,311" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,311" Label="LICENCE_N3_IJ_1:9,311" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,311" Label="LICPRO_N3_IJ_1:9,311" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_314" Label="DIP_L_IJ_1:9,314" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,314" Label="LICENCE_N3_IJ_1:9,314" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,314" Label="LICPRO_N3_IJ_1:9,314" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_321" Label="DIP_L_IJ_1:9,321" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,321" Label="LICENCE_N3_IJ_1:9,321" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,321" Label="LICPRO_N3_IJ_1:9,321" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_324" Label="DIP_L_IJ_1:9,324" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,324" Label="LICENCE_N3_IJ_1:9,324" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,324" Label="LICPRO_N3_IJ_1:9,324" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_331" Label="DIP_L_IJ_1:9,331" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,331" Label="LICENCE_N3_IJ_1:9,331" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,331" Label="LICPRO_N3_IJ_1:9,331" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_334" Label="DIP_L_IJ_1:9,334" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,334" Label="LICENCE_N3_IJ_1:9,334" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,334" Label="LICPRO_N3_IJ_1:9,334" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_350" Label="DIP_L_IJ_1:9,350" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,350" Label="LICENCE_N3_IJ_1:9,350" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,350" Label="LICPRO_N3_IJ_1:9,350" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_300" Label="DIP_L_IJ_1:9,300" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,300" Label="LICENCE_N3_IJ_1:9,300" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,300" Label="LICPRO_N3_IJ_1:9,300" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_411" Label="DIP_L_IJ_1:9,411" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,411" Label="LICENCE_N3_IJ_1:9,411" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,411" Label="LICPRO_N3_IJ_1:9,411" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_412" Label="DIP_L_IJ_1:9,412" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,412" Label="LICENCE_N3_IJ_1:9,412" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,412" Label="LICPRO_N3_IJ_1:9,412" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_413" Label="DIP_L_IJ_1:9,413" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,413" Label="LICENCE_N3_IJ_1:9,413" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,413" Label="LICPRO_N3_IJ_1:9,413" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_414" Label="DIP_L_IJ_1:9,414" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,414" Label="LICENCE_N3_IJ_1:9,414" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,414" Label="LICPRO_N3_IJ_1:9,414" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_421" Label="DIP_L_IJ_1:9,421" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,421" Label="LICENCE_N3_IJ_1:9,421" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,421" Label="LICPRO_N3_IJ_1:9,421" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_422" Label="DIP_L_IJ_1:9,422" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,422" Label="LICENCE_N3_IJ_1:9,422" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,422" Label="LICPRO_N3_IJ_1:9,422" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_423" Label="DIP_L_IJ_1:9,423" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,423" Label="LICENCE_N3_IJ_1:9,423" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,423" Label="LICPRO_N3_IJ_1:9,423" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_424" Label="DIP_L_IJ_1:9,424" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,424" Label="LICENCE_N3_IJ_1:9,424" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,424" Label="LICPRO_N3_IJ_1:9,424" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_400" Label="DIP_L_IJ_1:9,400" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,400" Label="LICENCE_N3_IJ_1:9,400" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,400" Label="LICPRO_N3_IJ_1:9,400" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_501" Label="DIP_L_IJ_1:9,501" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,501" Label="LICENCE_N3_IJ_1:9,501" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,501" Label="LICPRO_N3_IJ_1:9,501" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_504" Label="DIP_L_IJ_1:9,504" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,504" Label="LICENCE_N3_IJ_1:9,504" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,504" Label="LICPRO_N3_IJ_1:9,504" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_500" Label="DIP_L_IJ_1:9,500" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,500" Label="LICENCE_N3_IJ_1:9,500" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,500" Label="LICPRO_N3_IJ_1:9,500" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_600" Label="DIP_L_IJ_1:9,600" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,600" Label="LICENCE_N3_IJ_1:9,600" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,600" Label="LICPRO_N3_IJ_1:9,600" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_700" Label="DIP_L_IJ_1:9,700" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,700" Label="LICENCE_N3_IJ_1:9,700" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,700" Label="LICPRO_N3_IJ_1:9,700" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_800" Label="DIP_L_IJ_1:9,800" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,800" Label="LICENCE_N3_IJ_1:9,800" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,800" Label="LICPRO_N3_IJ_1:9,800" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_810" Label="DIP_L_IJ_1:9,810" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,810" Label="LICENCE_N3_IJ_1:9,810" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,810" Label="LICPRO_N3_IJ_1:9,810" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_L_900" Label="DIP_L_IJ_1:9,900" Type="Calc">
+<Var DisplayLabel="LICENCE_N3_IJ_1:9,900" Label="LICENCE_N3_IJ_1:9,900" Type="Calc" />
+<Var DisplayLabel="LICPRO_N3_IJ_1:9,900" Label="LICPRO_N3_IJ_1:9,900" Type="Calc" />
+</Calcul>
+
+
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_111" Label="DIP_M_IJ_1:9,111" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,111" Label="MASTER_N5_IJ_1:9,111" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,111" Label="MASTER_N6_IJ_1:9,111" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_121" Label="DIP_M_IJ_1:9,121" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,121" Label="MASTER_N5_IJ_1:9,121" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,121" Label="MASTER_N6_IJ_1:9,121" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_131" Label="DIP_M_IJ_1:9,131" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,131" Label="MASTER_N5_IJ_1:9,131" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,131" Label="MASTER_N6_IJ_1:9,131" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_141" Label="DIP_M_IJ_1:9,141" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,141" Label="MASTER_N5_IJ_1:9,141" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,141" Label="MASTER_N6_IJ_1:9,141" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_150" Label="DIP_M_IJ_1:9,150" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,150" Label="MASTER_N5_IJ_1:9,150" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,150" Label="MASTER_N6_IJ_1:9,150" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_160" Label="DIP_M_IJ_1:9,160" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,160" Label="MASTER_N5_IJ_1:9,160" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,160" Label="MASTER_N6_IJ_1:9,160" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_163" Label="DIP_M_IJ_1:9,163" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,163" Label="MASTER_N5_IJ_1:9,163" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,163" Label="MASTER_N6_IJ_1:9,163" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_165" Label="DIP_M_IJ_1:9,165" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,165" Label="MASTER_N5_IJ_1:9,165" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,165" Label="MASTER_N6_IJ_1:9,165" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_167" Label="DIP_M_IJ_1:9,167" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,167" Label="MASTER_N5_IJ_1:9,167" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,167" Label="MASTER_N6_IJ_1:9,167" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_169" Label="DIP_M_IJ_1:9,169" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,169" Label="MASTER_N5_IJ_1:9,169" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,169" Label="MASTER_N6_IJ_1:9,169" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_170" Label="DIP_M_IJ_1:9,170" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,170" Label="MASTER_N5_IJ_1:9,170" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,170" Label="MASTER_N6_IJ_1:9,170" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_181" Label="DIP_M_IJ_1:9,181" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,181" Label="MASTER_N5_IJ_1:9,181" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,181" Label="MASTER_N6_IJ_1:9,181" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_102" Label="DIP_M_IJ_1:9,102" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,102" Label="MASTER_N5_IJ_1:9,102" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,102" Label="MASTER_N6_IJ_1:9,102" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_211" Label="DIP_M_IJ_1:9,211" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,211" Label="MASTER_N5_IJ_1:9,211" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,211" Label="MASTER_N6_IJ_1:9,211" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_221" Label="DIP_M_IJ_1:9,221" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,221" Label="MASTER_N5_IJ_1:9,221" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,221" Label="MASTER_N6_IJ_1:9,221" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_200" Label="DIP_M_IJ_1:9,200" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,200" Label="MASTER_N5_IJ_1:9,200" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,200" Label="MASTER_N6_IJ_1:9,200" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_101" Label="DIP_M_IJ_1:9,101" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,101" Label="MASTER_N5_IJ_1:9,101" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,101" Label="MASTER_N6_IJ_1:9,101" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_114" Label="DIP_M_IJ_1:9,114" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,114" Label="MASTER_N5_IJ_1:9,114" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,114" Label="MASTER_N6_IJ_1:9,114" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_124" Label="DIP_M_IJ_1:9,124" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,124" Label="MASTER_N5_IJ_1:9,124" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,124" Label="MASTER_N6_IJ_1:9,124" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_134" Label="DIP_M_IJ_1:9,134" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,134" Label="MASTER_N5_IJ_1:9,134" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,134" Label="MASTER_N6_IJ_1:9,134" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_144" Label="DIP_M_IJ_1:9,144" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,144" Label="MASTER_N5_IJ_1:9,144" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,144" Label="MASTER_N6_IJ_1:9,144" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_164" Label="DIP_M_IJ_1:9,164" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,164" Label="MASTER_N5_IJ_1:9,164" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,164" Label="MASTER_N6_IJ_1:9,164" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_166" Label="DIP_M_IJ_1:9,166" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,166" Label="MASTER_N5_IJ_1:9,166" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,166" Label="MASTER_N6_IJ_1:9,166" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_104" Label="DIP_M_IJ_1:9,104" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,104" Label="MASTER_N5_IJ_1:9,104" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,104" Label="MASTER_N6_IJ_1:9,104" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_100" Label="DIP_M_IJ_1:9,100" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,100" Label="MASTER_N5_IJ_1:9,100" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,100" Label="MASTER_N6_IJ_1:9,100" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_311" Label="DIP_M_IJ_1:9,311" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,311" Label="MASTER_N5_IJ_1:9,311" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,311" Label="MASTER_N6_IJ_1:9,311" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_314" Label="DIP_M_IJ_1:9,314" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,314" Label="MASTER_N5_IJ_1:9,314" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,314" Label="MASTER_N6_IJ_1:9,314" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_321" Label="DIP_M_IJ_1:9,321" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,321" Label="MASTER_N5_IJ_1:9,321" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,321" Label="MASTER_N6_IJ_1:9,321" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_324" Label="DIP_M_IJ_1:9,324" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,324" Label="MASTER_N5_IJ_1:9,324" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,324" Label="MASTER_N6_IJ_1:9,324" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_331" Label="DIP_M_IJ_1:9,331" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,331" Label="MASTER_N5_IJ_1:9,331" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,331" Label="MASTER_N6_IJ_1:9,331" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_334" Label="DIP_M_IJ_1:9,334" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,334" Label="MASTER_N5_IJ_1:9,334" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,334" Label="MASTER_N6_IJ_1:9,334" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_350" Label="DIP_M_IJ_1:9,350" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,350" Label="MASTER_N5_IJ_1:9,350" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,350" Label="MASTER_N6_IJ_1:9,350" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_300" Label="DIP_M_IJ_1:9,300" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,300" Label="MASTER_N5_IJ_1:9,300" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,300" Label="MASTER_N6_IJ_1:9,300" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_411" Label="DIP_M_IJ_1:9,411" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,411" Label="MASTER_N5_IJ_1:9,411" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,411" Label="MASTER_N6_IJ_1:9,411" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_412" Label="DIP_M_IJ_1:9,412" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,412" Label="MASTER_N5_IJ_1:9,412" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,412" Label="MASTER_N6_IJ_1:9,412" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_413" Label="DIP_M_IJ_1:9,413" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,413" Label="MASTER_N5_IJ_1:9,413" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,413" Label="MASTER_N6_IJ_1:9,413" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_414" Label="DIP_M_IJ_1:9,414" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,414" Label="MASTER_N5_IJ_1:9,414" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,414" Label="MASTER_N6_IJ_1:9,414" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_421" Label="DIP_M_IJ_1:9,421" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,421" Label="MASTER_N5_IJ_1:9,421" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,421" Label="MASTER_N6_IJ_1:9,421" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_422" Label="DIP_M_IJ_1:9,422" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,422" Label="MASTER_N5_IJ_1:9,422" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,422" Label="MASTER_N6_IJ_1:9,422" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_423" Label="DIP_M_IJ_1:9,423" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,423" Label="MASTER_N5_IJ_1:9,423" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,423" Label="MASTER_N6_IJ_1:9,423" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_424" Label="DIP_M_IJ_1:9,424" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,424" Label="MASTER_N5_IJ_1:9,424" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,424" Label="MASTER_N6_IJ_1:9,424" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_400" Label="DIP_M_IJ_1:9,400" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,400" Label="MASTER_N5_IJ_1:9,400" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,400" Label="MASTER_N6_IJ_1:9,400" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_501" Label="DIP_M_IJ_1:9,501" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,501" Label="MASTER_N5_IJ_1:9,501" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,501" Label="MASTER_N6_IJ_1:9,501" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_504" Label="DIP_M_IJ_1:9,504" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,504" Label="MASTER_N5_IJ_1:9,504" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,504" Label="MASTER_N6_IJ_1:9,504" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_500" Label="DIP_M_IJ_1:9,500" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,500" Label="MASTER_N5_IJ_1:9,500" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,500" Label="MASTER_N6_IJ_1:9,500" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_600" Label="DIP_M_IJ_1:9,600" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,600" Label="MASTER_N5_IJ_1:9,600" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,600" Label="MASTER_N6_IJ_1:9,600" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_700" Label="DIP_M_IJ_1:9,700" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,700" Label="MASTER_N5_IJ_1:9,700" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,700" Label="MASTER_N6_IJ_1:9,700" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_800" Label="DIP_M_IJ_1:9,800" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,800" Label="MASTER_N5_IJ_1:9,800" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,800" Label="MASTER_N6_IJ_1:9,800" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_810" Label="DIP_M_IJ_1:9,810" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,810" Label="MASTER_N5_IJ_1:9,810" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,810" Label="MASTER_N6_IJ_1:9,810" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_M_900" Label="DIP_M_IJ_1:9,900" Type="Calc">
+<Var DisplayLabel="MASTER_N5_IJ_1:9,900" Label="MASTER_N5_IJ_1:9,900" Type="Calc" />
+<Var DisplayLabel="MASTER_N6_IJ_1:9,900" Label="MASTER_N6_IJ_1:9,900" Type="Calc" />
+</Calcul>
+
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_111" Label="DIP_D_IJ_1:9,111" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,111" Label="DOC_N6_IJ_1:9,111" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_121" Label="DIP_D_IJ_1:9,121" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,121" Label="DOC_N6_IJ_1:9,121" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_131" Label="DIP_D_IJ_1:9,131" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,131" Label="DOC_N6_IJ_1:9,131" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_141" Label="DIP_D_IJ_1:9,141" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,141" Label="DOC_N6_IJ_1:9,141" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_150" Label="DIP_D_IJ_1:9,150" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,150" Label="DOC_N6_IJ_1:9,150" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_160" Label="DIP_D_IJ_1:9,160" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,160" Label="DOC_N6_IJ_1:9,160" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_163" Label="DIP_D_IJ_1:9,163" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,163" Label="DOC_N6_IJ_1:9,163" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_165" Label="DIP_D_IJ_1:9,165" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,165" Label="DOC_N6_IJ_1:9,165" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_167" Label="DIP_D_IJ_1:9,167" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,167" Label="DOC_N6_IJ_1:9,167" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_169" Label="DIP_D_IJ_1:9,169" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,169" Label="DOC_N6_IJ_1:9,169" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_170" Label="DIP_D_IJ_1:9,170" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,170" Label="DOC_N6_IJ_1:9,170" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_181" Label="DIP_D_IJ_1:9,181" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,181" Label="DOC_N6_IJ_1:9,181" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_102" Label="DIP_D_IJ_1:9,102" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,102" Label="DOC_N6_IJ_1:9,102" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_211" Label="DIP_D_IJ_1:9,211" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,211" Label="DOC_N6_IJ_1:9,211" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_221" Label="DIP_D_IJ_1:9,221" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,221" Label="DOC_N6_IJ_1:9,221" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_200" Label="DIP_D_IJ_1:9,200" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,200" Label="DOC_N6_IJ_1:9,200" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_101" Label="DIP_D_IJ_1:9,101" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,101" Label="DOC_N6_IJ_1:9,101" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_114" Label="DIP_D_IJ_1:9,114" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,114" Label="DOC_N6_IJ_1:9,114" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_124" Label="DIP_D_IJ_1:9,124" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,124" Label="DOC_N6_IJ_1:9,124" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_134" Label="DIP_D_IJ_1:9,134" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,134" Label="DOC_N6_IJ_1:9,134" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_144" Label="DIP_D_IJ_1:9,144" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,144" Label="DOC_N6_IJ_1:9,144" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_164" Label="DIP_D_IJ_1:9,164" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,164" Label="DOC_N6_IJ_1:9,164" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_166" Label="DIP_D_IJ_1:9,166" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,166" Label="DOC_N6_IJ_1:9,166" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_104" Label="DIP_D_IJ_1:9,104" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,104" Label="DOC_N6_IJ_1:9,104" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_100" Label="DIP_D_IJ_1:9,100" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,100" Label="DOC_N6_IJ_1:9,100" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_311" Label="DIP_D_IJ_1:9,311" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,311" Label="DOC_N6_IJ_1:9,311" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_314" Label="DIP_D_IJ_1:9,314" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,314" Label="DOC_N6_IJ_1:9,314" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_321" Label="DIP_D_IJ_1:9,321" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,321" Label="DOC_N6_IJ_1:9,321" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_324" Label="DIP_D_IJ_1:9,324" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,324" Label="DOC_N6_IJ_1:9,324" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_331" Label="DIP_D_IJ_1:9,331" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,331" Label="DOC_N6_IJ_1:9,331" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_334" Label="DIP_D_IJ_1:9,334" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,334" Label="DOC_N6_IJ_1:9,334" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_350" Label="DIP_D_IJ_1:9,350" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,350" Label="DOC_N6_IJ_1:9,350" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_300" Label="DIP_D_IJ_1:9,300" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,300" Label="DOC_N6_IJ_1:9,300" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_411" Label="DIP_D_IJ_1:9,411" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,411" Label="DOC_N6_IJ_1:9,411" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_412" Label="DIP_D_IJ_1:9,412" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,412" Label="DOC_N6_IJ_1:9,412" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_413" Label="DIP_D_IJ_1:9,413" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,413" Label="DOC_N6_IJ_1:9,413" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_414" Label="DIP_D_IJ_1:9,414" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,414" Label="DOC_N6_IJ_1:9,414" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_421" Label="DIP_D_IJ_1:9,421" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,421" Label="DOC_N6_IJ_1:9,421" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_422" Label="DIP_D_IJ_1:9,422" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,422" Label="DOC_N6_IJ_1:9,422" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_423" Label="DIP_D_IJ_1:9,423" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,423" Label="DOC_N6_IJ_1:9,423" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_424" Label="DIP_D_IJ_1:9,424" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,424" Label="DOC_N6_IJ_1:9,424" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_400" Label="DIP_D_IJ_1:9,400" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,400" Label="DOC_N6_IJ_1:9,400" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_501" Label="DIP_D_IJ_1:9,501" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,501" Label="DOC_N6_IJ_1:9,501" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_504" Label="DIP_D_IJ_1:9,504" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,504" Label="DOC_N6_IJ_1:9,504" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_500" Label="DIP_D_IJ_1:9,500" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,500" Label="DOC_N6_IJ_1:9,500" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_600" Label="DIP_D_IJ_1:9,600" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,600" Label="DOC_N6_IJ_1:9,600" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_700" Label="DIP_D_IJ_1:9,700" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,700" Label="DOC_N6_IJ_1:9,700" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_800" Label="DIP_D_IJ_1:9,800" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,800" Label="DOC_N6_IJ_1:9,800" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_810" Label="DIP_D_IJ_1:9,810" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,810" Label="DOC_N6_IJ_1:9,810" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_D_900" Label="DIP_D_IJ_1:9,900" Type="Calc">
+<Var DisplayLabel="DOC_N6_IJ_1:9,900" Label="DOC_N6_IJ_1:9,900" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_111" Label="DIP_LMD_IJ_1:9,111" Type="Calc">
+<Var DisplayLabel="DIP_L_111" Label="DIP_L_IJ_1:9,111" Type="Calc" />
+<Var DisplayLabel="DIP_M_111" Label="DIP_M_IJ_1:9,111" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,111" Label="DOC_N6_IJ_1:9,111" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_121" Label="DIP_LMD_IJ_1:9,121" Type="Calc">
+<Var DisplayLabel="DIP_L_121" Label="DIP_L_IJ_1:9,121" Type="Calc" />
+<Var DisplayLabel="DIP_M_121" Label="DIP_M_IJ_1:9,121" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,121" Label="DOC_N6_IJ_1:9,121" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_131" Label="DIP_LMD_IJ_1:9,131" Type="Calc">
+<Var DisplayLabel="DIP_L_131" Label="DIP_L_IJ_1:9,131" Type="Calc" />
+<Var DisplayLabel="DIP_M_131" Label="DIP_M_IJ_1:9,131" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,131" Label="DOC_N6_IJ_1:9,131" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_141" Label="DIP_LMD_IJ_1:9,141" Type="Calc">
+<Var DisplayLabel="DIP_L_141" Label="DIP_L_IJ_1:9,141" Type="Calc" />
+<Var DisplayLabel="DIP_M_141" Label="DIP_M_IJ_1:9,141" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,141" Label="DOC_N6_IJ_1:9,141" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_150" Label="DIP_LMD_IJ_1:9,150" Type="Calc">
+<Var DisplayLabel="DIP_L_150" Label="DIP_L_IJ_1:9,150" Type="Calc" />
+<Var DisplayLabel="DIP_M_150" Label="DIP_M_IJ_1:9,150" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,150" Label="DOC_N6_IJ_1:9,150" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_160" Label="DIP_LMD_IJ_1:9,160" Type="Calc">
+<Var DisplayLabel="DIP_L_160" Label="DIP_L_IJ_1:9,160" Type="Calc" />
+<Var DisplayLabel="DIP_M_160" Label="DIP_M_IJ_1:9,160" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,160" Label="DOC_N6_IJ_1:9,160" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_163" Label="DIP_LMD_IJ_1:9,163" Type="Calc">
+<Var DisplayLabel="DIP_L_163" Label="DIP_L_IJ_1:9,163" Type="Calc" />
+<Var DisplayLabel="DIP_M_163" Label="DIP_M_IJ_1:9,163" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,163" Label="DOC_N6_IJ_1:9,163" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_165" Label="DIP_LMD_IJ_1:9,165" Type="Calc">
+<Var DisplayLabel="DIP_L_165" Label="DIP_L_IJ_1:9,165" Type="Calc" />
+<Var DisplayLabel="DIP_M_165" Label="DIP_M_IJ_1:9,165" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,165" Label="DOC_N6_IJ_1:9,165" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_167" Label="DIP_LMD_IJ_1:9,167" Type="Calc">
+<Var DisplayLabel="DIP_L_167" Label="DIP_L_IJ_1:9,167" Type="Calc" />
+<Var DisplayLabel="DIP_M_167" Label="DIP_M_IJ_1:9,167" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,167" Label="DOC_N6_IJ_1:9,167" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_169" Label="DIP_LMD_IJ_1:9,169" Type="Calc">
+<Var DisplayLabel="DIP_L_169" Label="DIP_L_IJ_1:9,169" Type="Calc" />
+<Var DisplayLabel="DIP_M_169" Label="DIP_M_IJ_1:9,169" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,169" Label="DOC_N6_IJ_1:9,169" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_170" Label="DIP_LMD_IJ_1:9,170" Type="Calc">
+<Var DisplayLabel="DIP_L_170" Label="DIP_L_IJ_1:9,170" Type="Calc" />
+<Var DisplayLabel="DIP_M_170" Label="DIP_M_IJ_1:9,170" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,170" Label="DOC_N6_IJ_1:9,170" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_181" Label="DIP_LMD_IJ_1:9,181" Type="Calc">
+<Var DisplayLabel="DIP_L_181" Label="DIP_L_IJ_1:9,181" Type="Calc" />
+<Var DisplayLabel="DIP_M_181" Label="DIP_M_IJ_1:9,181" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,181" Label="DOC_N6_IJ_1:9,181" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_102" Label="DIP_LMD_IJ_1:9,102" Type="Calc">
+<Var DisplayLabel="DIP_L_102" Label="DIP_L_IJ_1:9,102" Type="Calc" />
+<Var DisplayLabel="DIP_M_102" Label="DIP_M_IJ_1:9,102" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,102" Label="DOC_N6_IJ_1:9,102" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_211" Label="DIP_LMD_IJ_1:9,211" Type="Calc">
+<Var DisplayLabel="DIP_L_211" Label="DIP_L_IJ_1:9,211" Type="Calc" />
+<Var DisplayLabel="DIP_M_211" Label="DIP_M_IJ_1:9,211" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,211" Label="DOC_N6_IJ_1:9,211" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_221" Label="DIP_LMD_IJ_1:9,221" Type="Calc">
+<Var DisplayLabel="DIP_L_221" Label="DIP_L_IJ_1:9,221" Type="Calc" />
+<Var DisplayLabel="DIP_M_221" Label="DIP_M_IJ_1:9,221" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,221" Label="DOC_N6_IJ_1:9,221" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_200" Label="DIP_LMD_IJ_1:9,200" Type="Calc">
+<Var DisplayLabel="DIP_L_200" Label="DIP_L_IJ_1:9,200" Type="Calc" />
+<Var DisplayLabel="DIP_M_200" Label="DIP_M_IJ_1:9,200" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,200" Label="DOC_N6_IJ_1:9,200" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_101" Label="DIP_LMD_IJ_1:9,101" Type="Calc">
+<Var DisplayLabel="DIP_L_101" Label="DIP_L_IJ_1:9,101" Type="Calc" />
+<Var DisplayLabel="DIP_M_101" Label="DIP_M_IJ_1:9,101" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,101" Label="DOC_N6_IJ_1:9,101" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_114" Label="DIP_LMD_IJ_1:9,114" Type="Calc">
+<Var DisplayLabel="DIP_L_114" Label="DIP_L_IJ_1:9,114" Type="Calc" />
+<Var DisplayLabel="DIP_M_114" Label="DIP_M_IJ_1:9,114" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,114" Label="DOC_N6_IJ_1:9,114" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_124" Label="DIP_LMD_IJ_1:9,124" Type="Calc">
+<Var DisplayLabel="DIP_L_124" Label="DIP_L_IJ_1:9,124" Type="Calc" />
+<Var DisplayLabel="DIP_M_124" Label="DIP_M_IJ_1:9,124" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,124" Label="DOC_N6_IJ_1:9,124" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_134" Label="DIP_LMD_IJ_1:9,134" Type="Calc">
+<Var DisplayLabel="DIP_L_134" Label="DIP_L_IJ_1:9,134" Type="Calc" />
+<Var DisplayLabel="DIP_M_134" Label="DIP_M_IJ_1:9,134" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,134" Label="DOC_N6_IJ_1:9,134" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_144" Label="DIP_LMD_IJ_1:9,144" Type="Calc">
+<Var DisplayLabel="DIP_L_144" Label="DIP_L_IJ_1:9,144" Type="Calc" />
+<Var DisplayLabel="DIP_M_144" Label="DIP_M_IJ_1:9,144" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,144" Label="DOC_N6_IJ_1:9,144" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_164" Label="DIP_LMD_IJ_1:9,164" Type="Calc">
+<Var DisplayLabel="DIP_L_164" Label="DIP_L_IJ_1:9,164" Type="Calc" />
+<Var DisplayLabel="DIP_M_164" Label="DIP_M_IJ_1:9,164" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,164" Label="DOC_N6_IJ_1:9,164" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_166" Label="DIP_LMD_IJ_1:9,166" Type="Calc">
+<Var DisplayLabel="DIP_L_166" Label="DIP_L_IJ_1:9,166" Type="Calc" />
+<Var DisplayLabel="DIP_M_166" Label="DIP_M_IJ_1:9,166" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,166" Label="DOC_N6_IJ_1:9,166" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_104" Label="DIP_LMD_IJ_1:9,104" Type="Calc">
+<Var DisplayLabel="DIP_L_104" Label="DIP_L_IJ_1:9,104" Type="Calc" />
+<Var DisplayLabel="DIP_M_104" Label="DIP_M_IJ_1:9,104" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,104" Label="DOC_N6_IJ_1:9,104" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_100" Label="DIP_LMD_IJ_1:9,100" Type="Calc">
+<Var DisplayLabel="DIP_L_100" Label="DIP_L_IJ_1:9,100" Type="Calc" />
+<Var DisplayLabel="DIP_M_100" Label="DIP_M_IJ_1:9,100" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,100" Label="DOC_N6_IJ_1:9,100" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_311" Label="DIP_LMD_IJ_1:9,311" Type="Calc">
+<Var DisplayLabel="DIP_L_311" Label="DIP_L_IJ_1:9,311" Type="Calc" />
+<Var DisplayLabel="DIP_M_311" Label="DIP_M_IJ_1:9,311" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,311" Label="DOC_N6_IJ_1:9,311" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_314" Label="DIP_LMD_IJ_1:9,314" Type="Calc">
+<Var DisplayLabel="DIP_L_314" Label="DIP_L_IJ_1:9,314" Type="Calc" />
+<Var DisplayLabel="DIP_M_314" Label="DIP_M_IJ_1:9,314" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,314" Label="DOC_N6_IJ_1:9,314" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_321" Label="DIP_LMD_IJ_1:9,321" Type="Calc">
+<Var DisplayLabel="DIP_L_321" Label="DIP_L_IJ_1:9,321" Type="Calc" />
+<Var DisplayLabel="DIP_M_321" Label="DIP_M_IJ_1:9,321" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,321" Label="DOC_N6_IJ_1:9,321" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_324" Label="DIP_LMD_IJ_1:9,324" Type="Calc">
+<Var DisplayLabel="DIP_L_324" Label="DIP_L_IJ_1:9,324" Type="Calc" />
+<Var DisplayLabel="DIP_M_324" Label="DIP_M_IJ_1:9,324" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,324" Label="DOC_N6_IJ_1:9,324" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_331" Label="DIP_LMD_IJ_1:9,331" Type="Calc">
+<Var DisplayLabel="DIP_L_331" Label="DIP_L_IJ_1:9,331" Type="Calc" />
+<Var DisplayLabel="DIP_M_331" Label="DIP_M_IJ_1:9,331" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,331" Label="DOC_N6_IJ_1:9,331" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_334" Label="DIP_LMD_IJ_1:9,334" Type="Calc">
+<Var DisplayLabel="DIP_L_334" Label="DIP_L_IJ_1:9,334" Type="Calc" />
+<Var DisplayLabel="DIP_M_334" Label="DIP_M_IJ_1:9,334" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,334" Label="DOC_N6_IJ_1:9,334" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_350" Label="DIP_LMD_IJ_1:9,350" Type="Calc">
+<Var DisplayLabel="DIP_L_350" Label="DIP_L_IJ_1:9,350" Type="Calc" />
+<Var DisplayLabel="DIP_M_350" Label="DIP_M_IJ_1:9,350" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,350" Label="DOC_N6_IJ_1:9,350" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_300" Label="DIP_LMD_IJ_1:9,300" Type="Calc">
+<Var DisplayLabel="DIP_L_300" Label="DIP_L_IJ_1:9,300" Type="Calc" />
+<Var DisplayLabel="DIP_M_300" Label="DIP_M_IJ_1:9,300" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,300" Label="DOC_N6_IJ_1:9,300" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_411" Label="DIP_LMD_IJ_1:9,411" Type="Calc">
+<Var DisplayLabel="DIP_L_411" Label="DIP_L_IJ_1:9,411" Type="Calc" />
+<Var DisplayLabel="DIP_M_411" Label="DIP_M_IJ_1:9,411" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,411" Label="DOC_N6_IJ_1:9,411" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_412" Label="DIP_LMD_IJ_1:9,412" Type="Calc">
+<Var DisplayLabel="DIP_L_412" Label="DIP_L_IJ_1:9,412" Type="Calc" />
+<Var DisplayLabel="DIP_M_412" Label="DIP_M_IJ_1:9,412" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,412" Label="DOC_N6_IJ_1:9,412" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_413" Label="DIP_LMD_IJ_1:9,413" Type="Calc">
+<Var DisplayLabel="DIP_L_413" Label="DIP_L_IJ_1:9,413" Type="Calc" />
+<Var DisplayLabel="DIP_M_413" Label="DIP_M_IJ_1:9,413" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,413" Label="DOC_N6_IJ_1:9,413" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_414" Label="DIP_LMD_IJ_1:9,414" Type="Calc">
+<Var DisplayLabel="DIP_L_414" Label="DIP_L_IJ_1:9,414" Type="Calc" />
+<Var DisplayLabel="DIP_M_414" Label="DIP_M_IJ_1:9,414" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,414" Label="DOC_N6_IJ_1:9,414" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_421" Label="DIP_LMD_IJ_1:9,421" Type="Calc">
+<Var DisplayLabel="DIP_L_421" Label="DIP_L_IJ_1:9,421" Type="Calc" />
+<Var DisplayLabel="DIP_M_421" Label="DIP_M_IJ_1:9,421" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,421" Label="DOC_N6_IJ_1:9,421" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_422" Label="DIP_LMD_IJ_1:9,422" Type="Calc">
+<Var DisplayLabel="DIP_L_422" Label="DIP_L_IJ_1:9,422" Type="Calc" />
+<Var DisplayLabel="DIP_M_422" Label="DIP_M_IJ_1:9,422" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,422" Label="DOC_N6_IJ_1:9,422" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_423" Label="DIP_LMD_IJ_1:9,423" Type="Calc">
+<Var DisplayLabel="DIP_L_423" Label="DIP_L_IJ_1:9,423" Type="Calc" />
+<Var DisplayLabel="DIP_M_423" Label="DIP_M_IJ_1:9,423" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,423" Label="DOC_N6_IJ_1:9,423" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_424" Label="DIP_LMD_IJ_1:9,424" Type="Calc">
+<Var DisplayLabel="DIP_L_424" Label="DIP_L_IJ_1:9,424" Type="Calc" />
+<Var DisplayLabel="DIP_M_424" Label="DIP_M_IJ_1:9,424" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,424" Label="DOC_N6_IJ_1:9,424" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_400" Label="DIP_LMD_IJ_1:9,400" Type="Calc">
+<Var DisplayLabel="DIP_L_400" Label="DIP_L_IJ_1:9,400" Type="Calc" />
+<Var DisplayLabel="DIP_M_400" Label="DIP_M_IJ_1:9,400" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,400" Label="DOC_N6_IJ_1:9,400" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_501" Label="DIP_LMD_IJ_1:9,501" Type="Calc">
+<Var DisplayLabel="DIP_L_501" Label="DIP_L_IJ_1:9,501" Type="Calc" />
+<Var DisplayLabel="DIP_M_501" Label="DIP_M_IJ_1:9,501" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,501" Label="DOC_N6_IJ_1:9,501" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_504" Label="DIP_LMD_IJ_1:9,504" Type="Calc">
+<Var DisplayLabel="DIP_L_504" Label="DIP_L_IJ_1:9,504" Type="Calc" />
+<Var DisplayLabel="DIP_M_504" Label="DIP_M_IJ_1:9,504" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,504" Label="DOC_N6_IJ_1:9,504" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_500" Label="DIP_LMD_IJ_1:9,500" Type="Calc">
+<Var DisplayLabel="DIP_L_500" Label="DIP_L_IJ_1:9,500" Type="Calc" />
+<Var DisplayLabel="DIP_M_500" Label="DIP_M_IJ_1:9,500" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,500" Label="DOC_N6_IJ_1:9,500" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_600" Label="DIP_LMD_IJ_1:9,600" Type="Calc">
+<Var DisplayLabel="DIP_L_600" Label="DIP_L_IJ_1:9,600" Type="Calc" />
+<Var DisplayLabel="DIP_M_600" Label="DIP_M_IJ_1:9,600" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,600" Label="DOC_N6_IJ_1:9,600" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_700" Label="DIP_LMD_IJ_1:9,700" Type="Calc">
+<Var DisplayLabel="DIP_L_700" Label="DIP_L_IJ_1:9,700" Type="Calc" />
+<Var DisplayLabel="DIP_M_700" Label="DIP_M_IJ_1:9,700" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,700" Label="DOC_N6_IJ_1:9,700" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_800" Label="DIP_LMD_IJ_1:9,800" Type="Calc">
+<Var DisplayLabel="DIP_L_800" Label="DIP_L_IJ_1:9,800" Type="Calc" />
+<Var DisplayLabel="DIP_M_800" Label="DIP_M_IJ_1:9,800" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,800" Label="DOC_N6_IJ_1:9,800" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_810" Label="DIP_LMD_IJ_1:9,810" Type="Calc">
+<Var DisplayLabel="DIP_L_810" Label="DIP_L_IJ_1:9,810" Type="Calc" />
+<Var DisplayLabel="DIP_M_810" Label="DIP_M_IJ_1:9,810" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,810" Label="DOC_N6_IJ_1:9,810" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_LMD_900" Label="DIP_LMD_IJ_1:9,900" Type="Calc">
+<Var DisplayLabel="DIP_L_900" Label="DIP_L_IJ_1:9,900" Type="Calc" />
+<Var DisplayLabel="DIP_M_900" Label="DIP_M_IJ_1:9,900" Type="Calc" />
+<Var DisplayLabel="DOC_N6_IJ_1:9,900" Label="DOC_N6_IJ_1:9,900" Type="Calc" />
+</Calcul>
+
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_111" Label="DIP_I_IJ_1:9,111" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,111" Label="DIP_I_N2_IJ_1:9,111" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,111" Label="DIP_I_N3_IJ_1:9,111" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_121" Label="DIP_I_IJ_1:9,121" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,121" Label="DIP_I_N2_IJ_1:9,121" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,121" Label="DIP_I_N3_IJ_1:9,121" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_131" Label="DIP_I_IJ_1:9,131" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,131" Label="DIP_I_N2_IJ_1:9,131" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,131" Label="DIP_I_N3_IJ_1:9,131" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_141" Label="DIP_I_IJ_1:9,141" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,141" Label="DIP_I_N2_IJ_1:9,141" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,141" Label="DIP_I_N3_IJ_1:9,141" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_150" Label="DIP_I_IJ_1:9,150" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,150" Label="DIP_I_N2_IJ_1:9,150" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,150" Label="DIP_I_N3_IJ_1:9,150" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_160" Label="DIP_I_IJ_1:9,160" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,160" Label="DIP_I_N2_IJ_1:9,160" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,160" Label="DIP_I_N3_IJ_1:9,160" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_163" Label="DIP_I_IJ_1:9,163" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,163" Label="DIP_I_N2_IJ_1:9,163" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,163" Label="DIP_I_N3_IJ_1:9,163" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_165" Label="DIP_I_IJ_1:9,165" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,165" Label="DIP_I_N2_IJ_1:9,165" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,165" Label="DIP_I_N3_IJ_1:9,165" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_167" Label="DIP_I_IJ_1:9,167" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,167" Label="DIP_I_N2_IJ_1:9,167" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,167" Label="DIP_I_N3_IJ_1:9,167" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_169" Label="DIP_I_IJ_1:9,169" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,169" Label="DIP_I_N2_IJ_1:9,169" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,169" Label="DIP_I_N3_IJ_1:9,169" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_170" Label="DIP_I_IJ_1:9,170" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,170" Label="DIP_I_N2_IJ_1:9,170" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,170" Label="DIP_I_N3_IJ_1:9,170" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_181" Label="DIP_I_IJ_1:9,181" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,181" Label="DIP_I_N2_IJ_1:9,181" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,181" Label="DIP_I_N3_IJ_1:9,181" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_102" Label="DIP_I_IJ_1:9,102" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,102" Label="DIP_I_N2_IJ_1:9,102" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,102" Label="DIP_I_N3_IJ_1:9,102" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_211" Label="DIP_I_IJ_1:9,211" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,211" Label="DIP_I_N2_IJ_1:9,211" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,211" Label="DIP_I_N3_IJ_1:9,211" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_221" Label="DIP_I_IJ_1:9,221" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,221" Label="DIP_I_N2_IJ_1:9,221" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,221" Label="DIP_I_N3_IJ_1:9,221" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_200" Label="DIP_I_IJ_1:9,200" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,200" Label="DIP_I_N2_IJ_1:9,200" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,200" Label="DIP_I_N3_IJ_1:9,200" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_101" Label="DIP_I_IJ_1:9,101" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,101" Label="DIP_I_N2_IJ_1:9,101" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,101" Label="DIP_I_N3_IJ_1:9,101" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_114" Label="DIP_I_IJ_1:9,114" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,114" Label="DIP_I_N2_IJ_1:9,114" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,114" Label="DIP_I_N3_IJ_1:9,114" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_124" Label="DIP_I_IJ_1:9,124" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,124" Label="DIP_I_N2_IJ_1:9,124" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,124" Label="DIP_I_N3_IJ_1:9,124" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_134" Label="DIP_I_IJ_1:9,134" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,134" Label="DIP_I_N2_IJ_1:9,134" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,134" Label="DIP_I_N3_IJ_1:9,134" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_144" Label="DIP_I_IJ_1:9,144" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,144" Label="DIP_I_N2_IJ_1:9,144" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,144" Label="DIP_I_N3_IJ_1:9,144" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_164" Label="DIP_I_IJ_1:9,164" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,164" Label="DIP_I_N2_IJ_1:9,164" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,164" Label="DIP_I_N3_IJ_1:9,164" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_166" Label="DIP_I_IJ_1:9,166" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,166" Label="DIP_I_N2_IJ_1:9,166" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,166" Label="DIP_I_N3_IJ_1:9,166" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_104" Label="DIP_I_IJ_1:9,104" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,104" Label="DIP_I_N2_IJ_1:9,104" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,104" Label="DIP_I_N3_IJ_1:9,104" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_100" Label="DIP_I_IJ_1:9,100" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,100" Label="DIP_I_N2_IJ_1:9,100" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,100" Label="DIP_I_N3_IJ_1:9,100" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_311" Label="DIP_I_IJ_1:9,311" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,311" Label="DIP_I_N2_IJ_1:9,311" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,311" Label="DIP_I_N3_IJ_1:9,311" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_314" Label="DIP_I_IJ_1:9,314" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,314" Label="DIP_I_N2_IJ_1:9,314" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,314" Label="DIP_I_N3_IJ_1:9,314" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_321" Label="DIP_I_IJ_1:9,321" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,321" Label="DIP_I_N2_IJ_1:9,321" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,321" Label="DIP_I_N3_IJ_1:9,321" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_324" Label="DIP_I_IJ_1:9,324" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,324" Label="DIP_I_N2_IJ_1:9,324" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,324" Label="DIP_I_N3_IJ_1:9,324" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_331" Label="DIP_I_IJ_1:9,331" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,331" Label="DIP_I_N2_IJ_1:9,331" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,331" Label="DIP_I_N3_IJ_1:9,331" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_334" Label="DIP_I_IJ_1:9,334" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,334" Label="DIP_I_N2_IJ_1:9,334" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,334" Label="DIP_I_N3_IJ_1:9,334" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_350" Label="DIP_I_IJ_1:9,350" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,350" Label="DIP_I_N2_IJ_1:9,350" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,350" Label="DIP_I_N3_IJ_1:9,350" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_300" Label="DIP_I_IJ_1:9,300" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,300" Label="DIP_I_N2_IJ_1:9,300" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,300" Label="DIP_I_N3_IJ_1:9,300" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_411" Label="DIP_I_IJ_1:9,411" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,411" Label="DIP_I_N2_IJ_1:9,411" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,411" Label="DIP_I_N3_IJ_1:9,411" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_412" Label="DIP_I_IJ_1:9,412" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,412" Label="DIP_I_N2_IJ_1:9,412" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,412" Label="DIP_I_N3_IJ_1:9,412" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_413" Label="DIP_I_IJ_1:9,413" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,413" Label="DIP_I_N2_IJ_1:9,413" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,413" Label="DIP_I_N3_IJ_1:9,413" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_414" Label="DIP_I_IJ_1:9,414" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,414" Label="DIP_I_N2_IJ_1:9,414" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,414" Label="DIP_I_N3_IJ_1:9,414" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_421" Label="DIP_I_IJ_1:9,421" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,421" Label="DIP_I_N2_IJ_1:9,421" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,421" Label="DIP_I_N3_IJ_1:9,421" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_422" Label="DIP_I_IJ_1:9,422" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,422" Label="DIP_I_N2_IJ_1:9,422" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,422" Label="DIP_I_N3_IJ_1:9,422" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_423" Label="DIP_I_IJ_1:9,423" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,423" Label="DIP_I_N2_IJ_1:9,423" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,423" Label="DIP_I_N3_IJ_1:9,423" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_424" Label="DIP_I_IJ_1:9,424" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,424" Label="DIP_I_N2_IJ_1:9,424" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,424" Label="DIP_I_N3_IJ_1:9,424" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_400" Label="DIP_I_IJ_1:9,400" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,400" Label="DIP_I_N2_IJ_1:9,400" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,400" Label="DIP_I_N3_IJ_1:9,400" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_501" Label="DIP_I_IJ_1:9,501" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,501" Label="DIP_I_N2_IJ_1:9,501" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,501" Label="DIP_I_N3_IJ_1:9,501" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_504" Label="DIP_I_IJ_1:9,504" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,504" Label="DIP_I_N2_IJ_1:9,504" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,504" Label="DIP_I_N3_IJ_1:9,504" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_500" Label="DIP_I_IJ_1:9,500" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,500" Label="DIP_I_N2_IJ_1:9,500" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,500" Label="DIP_I_N3_IJ_1:9,500" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_600" Label="DIP_I_IJ_1:9,600" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,600" Label="DIP_I_N2_IJ_1:9,600" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,600" Label="DIP_I_N3_IJ_1:9,600" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_700" Label="DIP_I_IJ_1:9,700" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,700" Label="DIP_I_N2_IJ_1:9,700" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,700" Label="DIP_I_N3_IJ_1:9,700" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_800" Label="DIP_I_IJ_1:9,800" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,800" Label="DIP_I_N2_IJ_1:9,800" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,800" Label="DIP_I_N3_IJ_1:9,800" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_810" Label="DIP_I_IJ_1:9,810" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,810" Label="DIP_I_N2_IJ_1:9,810" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,810" Label="DIP_I_N3_IJ_1:9,810" Type="Calc" />
+</Calcul>
+<Calcul Fun="Sigma" DisplayLabel="DIP_I_900" Label="DIP_I_IJ_1:9,900" Type="Calc">
+<Var DisplayLabel="DIP_I_N2_IJ_1:9,900" Label="DIP_I_N2_IJ_1:9,900" Type="Calc" />
+<Var DisplayLabel="DIP_I_N3_IJ_1:9,900" Label="DIP_I_N3_IJ_1:9,900" Type="Calc" />
+</Calcul>
+
+<Calcul Fun="Sigma" DisplayLabel="DIP_TOT" Label="DIP_TOT" Type="Calc">
+<Var DisplayLabel="DIP_L_IJ_1:9,900" Label="DIP_L_IJ_1:9,900" Type="Data"/>
+<Var DisplayLabel="DIP_C_IJ_1:9,300" Label="DIP_C_IJ_1:9,300" Type="Data"/>
+<Var DisplayLabel="DIP_S_IJ_1:9,400" Label="DIP_S_IJ_1:9,400" Type="Data"/>
+<Var DisplayLabel="DIP_I_IJ_1:9,200" Label="DIP_I_IJ_1:9,200" Type="Data"/>
+<Var DisplayLabel="DIP_A_IJ_1:9,900" Label="DIP_A_IJ_1:9,900" Type="Data"/>
+</Calcul>
+
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N0" Label="DIND_150_N0" Type="Calc"><Var DisplayLabel="DIP_N0_900" Label="DIP_N0_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N0" Label="T_150_N0" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N1" Label="DIND_150_N1" Type="Calc"><Var DisplayLabel="DIP_N1_900" Label="DIP_N1_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N1" Label="T_150_N1" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N2" Label="DIND_150_N2" Type="Calc"><Var DisplayLabel="DIP_N2_900" Label="DIP_N2_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N2" Label="T_150_N2" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N3" Label="DIND_150_N3" Type="Calc"><Var DisplayLabel="DIP_N3_900" Label="DIP_N3_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N3" Label="T_150_N3" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N4" Label="DIND_150_N4" Type="Calc"><Var DisplayLabel="DIP_N4_900" Label="DIP_N4_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N4" Label="T_150_N4" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N5" Label="DIND_150_N5" Type="Calc"><Var DisplayLabel="DIP_N5_900" Label="DIP_N5_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N5" Label="T_150_N5" Type="Data"/></Calcul>
+<Calcul Fun="Mult" DisplayLabel="DIND_150_N6" Label="DIND_150_N6" Type="Calc"><Var DisplayLabel="DOC_N6_900" Label="DOC_N6_IJ_1:9,900" Type="Data"/><Var DisplayLabel="T_150_N6" Label="T_150_N6" Type="Data"/></Calcul>
+
+<Calcul Fun="Sigma" DisplayLabel="DIP_150" Label="DIP_150" Type="Calc">
+<Var DisplayLabel="DIND_150_N0" Label="DIND_150_N0" Type="Data" />
+<Var DisplayLabel="DIND_150_N1" Label="DIND_150_N1" Type="Data" />
+<Var DisplayLabel="DIND_150_N2" Label="DIND_150_N2" Type="Data" />
+<Var DisplayLabel="DIND_150_N3" Label="DIND_150_N3" Type="Data" />
+<Var DisplayLabel="DIND_150_N4" Label="DIND_150_N4" Type="Data" />
+<Var DisplayLabel="DIND_150_N5" Label="DIND_150_N5" Type="Data" />
+</Calcul>
+
+</Calculs>

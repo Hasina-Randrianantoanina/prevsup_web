@@ -1,0 +1,75 @@
+
+variables:
+  publish_path: '/home/gitlab-runner/builds/6sAYq5Pu/0/softia/prevsuprefonte/publish/'
+  publish_appsettings_path: '/home/gitlab-runner/builds/6sAYq5Pu/0/softia/prevsuprefonte/publish/appsettings*'
+  published_data_path: '/home/gitlab-runner/builds/6sAYq5Pu/0/softia/prevsuprefonte/publish/**' 
+  worker_path: '/var/www/prevsup/'
+
+stages:          # List of stages for jobs, and their order of execution
+  - build
+  - test
+  - deploy
+  - test-ihm
+
+build:       # This job runs in the build stage, which runs first.
+  tags:
+    - shell_195
+  before_script:
+    - cd src/ClientApp
+    - unset CI
+    - npm install
+  stage: build
+  script:
+    - cd ../../
+    - mkdir -p publish
+    - cd src/
+    - dotnet build
+    - dotnet publish prevsup.csproj -c Release -o $publish_path
+    - rm -f $publish_appsettings_path
+  artifacts:
+    paths:
+      - $publish_path
+    exclude:
+      - $publish_appsettings_path
+    expire_in: '2 hrs'
+  cache:
+    paths:
+      - ClientApp/node_modules/
+  only:
+    - dev_refactoring
+
+
+test:   # This job runs in the test stage.
+  stage: test    # It only starts when the job in the build stage completes successfully.
+  tags:
+    - shell_195
+  script:
+    - cd src/
+    - dotnet test
+  only:
+    - dev_refactoring
+  needs: [build]
+
+deploy:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  tags:
+    - shell_195
+  script:
+    - sudo cd $publish_path
+    - sudo \cp -r $published_data_path $worker_path
+    - cd /var/www
+    - sudo chown -R www-data:www-data prevsup/
+    - sudo systemctl restart prevsup.service
+  only:
+    - dev_refactoring
+  needs: [build,test]
+  dependencies:
+    - build
+  
+test-ihm:
+  stage: test-ihm
+  trigger:
+    project: softia/prevsup.ihm.test
+    branch: test-ci
+  only:
+    - dev_refactoring

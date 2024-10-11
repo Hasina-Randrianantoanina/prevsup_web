@@ -1,0 +1,314 @@
+﻿.treegrid-indent {
+    width: 0px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+}
+
+.treegrid-expander {
+    width: 0px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    left: -14px;
+    top: 0px;
+    cursor: pointer;
+}
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+}
+
+/*
+ Styling
+*/
+body {
+    font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+    color: #333;
+    font-weight: 300;
+}
+
+.tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+    .tabset > label::after {
+        content: "";
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        width: 22px;
+        height: 4px;
+        background: #8d8d8d;
+    }
+
+    .tabset > label:hover,
+    .tabset > input:focus + label {
+        color: #06c;
+    }
+
+        .tabset > label:hover::after,
+        .tabset > input:focus + label::after,
+        .tabset > input:checked + label::after {
+            background: #06c;
+        }
+
+.tabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+.tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+/*
+.table-tree .selected {
+    background: rgb(203,219,12,0.8);
+}*/
+/*
+ Demo purposes only
+*/
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+.tabset {
+    max-width: 65em;
+}
+
+.table-tree thead tr {
+    background: rgba(0,0,0,0.05);
+}
+
+.table-tree {
+    border-collapse: collapse;
+    margin: 5px auto;
+  
+}
+
+    .table-tree thead th {
+        position: sticky;
+        top: -9px;
+        text-align: center;
+        background: #ccc;
+        height: 29px;
+        z-index: 0;
+    }
+
+.td-expander {
+    cursor: pointer;
+}
+
+/*.table-tree tr td:not(:first-child) {
+    text-align: right !important;
+    font-weight: 600;
+    width:130px !important;
+    max-width:130px;
+}*/
+.table-tree tr td:nth-child(n+4) {
+    text-align: right !important;
+    font-weight: 600;
+    width: 130px !important;
+    max-width: 130px;
+}
+
+.table-tree th {
+    color: #000;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+
+.c-varinfo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#display-var {
+    white-space: nowrap;
+}
+
+    #display-var b {
+        font-weight: 900;
+    }
+
+.c-chart {
+    margin-left: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.table-tree td, th {
+    padding: 0 5px !important;
+    border: 1px solid rgba(255,255,255,0.6);
+    text-align: left;
+    font-size: 12px;
+}
+
+    .table-tree td.expandable:nth-child(3) {
+        border-bottom: 0px;
+        border-top: 0px;
+        padding: 0 35px !important;
+        color: #06c;
+        font-weight: 400;
+        cursor: pointer;
+    }
+/*.table-tree .checkrow{
+    position:absolute;
+    left:0px;
+    top:5px;
+}*/
+.table-tree .checkrow{
+    position : relative;
+    top : 3px;
+}
+.table-tree td.noexpandable:nth-child(n-3) {
+    border-bottom: 0px;
+    border-top: 0px;
+    padding: 0 15px !important;
+    color: #000;
+    font-weight: 400;
+    background: #dbb9b9 !important;
+}
+.table-tree td.noexpandable:nth-child(n-3) div {
+    flex-wrap: nowrap;
+    display: flex;
+}
+.tab-content {
+    background: #fff;
+}
+
+#pills-tab li {
+    padding: 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: #ccc;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #000;
+    border-color: #fff;
+}
+
+.nav-pills .nav-link {
+    border-top: 0 !important;
+    background: 0 0;
+    border: 0;
+    border-radius: .25rem;
+    font-size: 14px;
+    border: 1px solid;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+td[contenteditable="true"].single-line {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    background: #dbb9b9;
+}
+
+    td[contenteditable="true"].single-line br {
+        display: none;
+    }
+
+[contenteditable]:focus {
+    background: #fff !important;
+    outline: 1px solid #9397cc;
+    outline-offset: -3px;
+    outline-style: auto;
+    outline-style: dashed;
+}
+
+td[contenteditable="true"].single-line * {
+    display: inline;
+    white-space: nowrap;
+}
+
+table thead tr th:first-child {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    min-width:375px;
+}
+td.sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    left: 30px;
+    min-width: 275px;
+}
+.colPlus {
+    background-color: #fff !important;
+    position: sticky;
+    left: -10px;
+}
+.colCheck {
+    background-color: #fff !important;
+    position: sticky;
+    left: 10px;
+}
+
+.table-body-container{
+    background-color : #ffffff !important;
+}
+
+.table-constat-back {
+    color: #000000 !important;
+}
+.constat-Child-back {
+    color: #000000 !important;
+}
+.scenario-Child-back {
+    color: #000000 !important;
+}
+.table-scenario-back {
+    color: #000000 !important;
+}
+
+.VariableCol {
+    background-color: #ffffff !important;
+    color: #0066cc !important;
+}
+.DegreRouge {
+    color: red !important;
+}

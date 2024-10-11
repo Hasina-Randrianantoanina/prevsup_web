@@ -1,0 +1,119 @@
+﻿<style>
+	#newScenario .modal-content {
+		border-radius: 5px;
+		border: 0px;
+	}
+
+	#newScenario .modal-body {
+		font-size: 0.9em;
+	}
+
+		#newScenario .modal-body input {
+			outline: none;
+			border: 0px solid #000;
+			background-color: #F4F4F4;
+			padding: 10px;
+			font-weight: lighter;
+			border-bottom: 1px solid #000;
+			width: 100%;
+		}
+
+		#newScenario .modal-body select {
+			outline: none;
+			border: 0px solid #000;
+			background-color: #F4F4F4;
+			padding: 10px;
+			font-weight: lighter;
+			border-bottom: 1px solid #000;
+			width: 100%;
+		}
+</style>
+
+<!--newScenario-->
+<div class="modal fade" id="newScenario" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Nouveau Scénario</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+
+				<div class="mb-3">
+					<div>Nom du Scenario</div>
+					<input class="form-control" type="text" onkeypress="normalizes(event)" id="ns_nom" value="" placeholder="Entrez un nom pour le Scenario..." />
+				</div>
+
+				<div class="mb-3">
+					<div>Année de départ de prévision (min:2010)</div>
+					<input class="form-control" type="number" id="ns_depAnnee" value="2010" min="2010" placeholder="2010" readonly />
+				</div>
+
+				<div class="mb-3">
+					<div>Année de fin de prévision (min:2010)</div>
+					<input class="form-control" type="number" id="ns_finAnnee" value="2020" min="2010" placeholder="2020" />
+				</div>
+
+				<div class="mb-3">
+					<div>Niveau de detail : </div>
+					<select class="form-select" id="ns_nivdet">
+						<option value="1" selected>simplifié</option>
+						<option value="0">fin</option>
+					</select>
+				</div>
+
+				<div class="mb-3">
+					<div>Scenario à créer sur la base de : </div>
+					<select class="form-select" id="ns_selectNew">
+						<option value="0" selected>Constats</option>
+						<option value="1">Scenario existant</option>
+					</select>
+				</div>
+
+				<div class="mb-3" id="ns_conatainerList1">
+					<div>Liste des Constats </div>
+					<select id="ns_listc" style="width: 100%">
+					</select>
+				</div>
+				<div class="mb-3 visually-hidden" id="ns_conatainerList">
+					<div>Liste des Scénarios </div>
+					<select id="ns_list" style="width: 100%">
+					</select>
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+				<button type="button" class="btn btn-primary" onclick="new_submit('Scenario', 'ns_')" id="ns_valider" data-bs-dismiss="modal">Valider</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Fin newScenario-->
+<!--OuvrirScenario-->
+<div class="modal fade" id="openScenario" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="staticBackdropLabel">Ouvrir un Scenario</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<div class="mb-2">Scenarios enregistrés :</div>
+
+					<!-- Dropdown -->
+					<select id="os_list" style="width: 100%">
+					</select>
+
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+				<button type="button" class="btn btn-primary" onclick="open_submit('Scenario', 'os_')" id="os_valider" data-bs-dismiss="modal">Valider</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Fin OuvrirScenario-->

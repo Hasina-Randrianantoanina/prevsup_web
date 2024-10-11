@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<TABLE>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="01" />
+      <COLUMN name="term_n1" value="16337" />
+      <COLUMN name="b_n1" value="16190" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="01" />
+      <COLUMN name="term_n1" value="662" />
+      <COLUMN name="b_n1" value="625" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="01" />
+      <COLUMN name="term_n1" value="2017" />
+      <COLUMN name="b_n1" value="2059" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="01" />
+      <COLUMN name="term_n1" value="934" />
+      <COLUMN name="b_n1" value="898" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="01" />
+      <COLUMN name="term_n1" value="4034" />
+      <COLUMN name="b_n1" value="4337" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="02" />
+      <COLUMN name="term_n1" value="16666" />
+      <COLUMN name="b_n1" value="16450" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="02" />
+      <COLUMN name="term_n1" value="1204" />
+      <COLUMN name="b_n1" value="1135" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="02" />
+      <COLUMN name="term_n1" value="3134" />
+      <COLUMN name="b_n1" value="2998" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="02" />
+      <COLUMN name="term_n1" value="1625" />
+      <COLUMN name="b_n1" value="1553" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="02" />
+      <COLUMN name="term_n1" value="7158" />
+      <COLUMN name="b_n1" value="7380" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="03" />
+      <COLUMN name="term_n1" value="5812" />
+      <COLUMN name="b_n1" value="5732" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="03" />
+      <COLUMN name="term_n1" value="496" />
+      <COLUMN name="b_n1" value="468" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="03" />
+      <COLUMN name="term_n1" value="1064" />
+      <COLUMN name="b_n1" value="997" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="03" />
+      <COLUMN name="term_n1" value="619" />
+      <COLUMN name="b_n1" value="609" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="03" />
+      <COLUMN name="term_n1" value="2974" />
+      <COLUMN name="b_n1" value="3681" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="04" />
+      <COLUMN name="term_n1" value="18475" />
+      <COLUMN name="b_n1" value="18329" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="04" />
+      <COLUMN name="term_n1" value="1448" />
+      <COLUMN name="b_n1" value="1392" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="04" />
+      <COLUMN name="term_n1" value="3238" />
+      <COLUMN name="b_n1" value="3065" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="04" />
+      <COLUMN name="term_n1" value="1430" />
+      <COLUMN name="b_n1" value="1406" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="04" />
+      <COLUMN name="term_n1" value="7755" />
+      <COLUMN name="b_n1" value="9326" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="05" />
+      <COLUMN name="term_n1" value="7868" />
+      <COLUMN name="b_n1" value="7735" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="05" />
+      <COLUMN name="term_n1" value="480" />
+      <COLUMN name="b_n1" value="459" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="05" />
+      <COLUMN name="term_n1" value="1431" />
+      <COLUMN name="b_n1" value="1346" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="05" />
+      <COLUMN name="term_n1" value="734" />
+      <COLUMN name="b_n1" value="707" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="05" />
+      <COLUMN name="term_n1" value="3389" />
+      <COLUMN name="b_n1" value="4451" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="06" />
+      <COLUMN name="term_n1" value="6568" />
+      <COLUMN name="b_n1" value="6536" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="06" />
+      <COLUMN name="term_n1" value="501" />
+      <COLUMN name="b_n1" value="484" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="06" />
+      <COLUMN name="term_n1" value="953" />
+      <COLUMN name="b_n1" value="880" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="06" />
+      <COLUMN name="term_n1" value="733" />
+      <COLUMN name="b_n1" value="716" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="06" />
+      <COLUMN name="term_n1" value="2995" />
+      <COLUMN name="b_n1" value="3882" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="07" />
+      <COLUMN name="term_n1" value="8378" />
+      <COLUMN name="b_n1" value="8336" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="07" />
+      <COLUMN name="term_n1" value="627" />
+      <COLUMN name="b_n1" value="599" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="07" />
+      <COLUMN name="term_n1" value="1364" />
+      <COLUMN name="b_n1" value="1261" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="07" />
+      <COLUMN name="term_n1" value="767" />
+      <COLUMN name="b_n1" value="730" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="07" />
+      <COLUMN name="term_n1" value="3604" />
+      <COLUMN name="b_n1" value="4500" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="08" />
+      <COLUMN name="term_n1" value="19469" />
+      <COLUMN name="b_n1" value="19350" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="08" />
+      <COLUMN name="term_n1" value="1822" />
+      <COLUMN name="b_n1" value="1747" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="08" />
+      <COLUMN name="term_n1" value="4161" />
+      <COLUMN name="b_n1" value="3926" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="08" />
+      <COLUMN name="term_n1" value="1474" />
+      <COLUMN name="b_n1" value="1442" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="08" />
+      <COLUMN name="term_n1" value="7380" />
+      <COLUMN name="b_n1" value="9291" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="09" />
+      <COLUMN name="term_n1" value="22478" />
+      <COLUMN name="b_n1" value="22176" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="09" />
+      <COLUMN name="term_n1" value="1677" />
+      <COLUMN name="b_n1" value="1571" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="09" />
+      <COLUMN name="term_n1" value="4170" />
+      <COLUMN name="b_n1" value="3834" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="09" />
+      <COLUMN name="term_n1" value="2896" />
+      <COLUMN name="b_n1" value="2741" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="09" />
+      <COLUMN name="term_n1" value="12888" />
+      <COLUMN name="b_n1" value="12616" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="10" />
+      <COLUMN name="term_n1" value="18570" />
+      <COLUMN name="b_n1" value="18312" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="10" />
+      <COLUMN name="term_n1" value="1838" />
+      <COLUMN name="b_n1" value="1768" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="10" />
+      <COLUMN name="term_n1" value="3858" />
+      <COLUMN name="b_n1" value="3559" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="10" />
+      <COLUMN name="term_n1" value="1738" />
+      <COLUMN name="b_n1" value="1674" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="10" />
+      <COLUMN name="term_n1" value="7244" />
+      <COLUMN name="b_n1" value="8626" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="11" />
+      <COLUMN name="term_n1" value="14371" />
+      <COLUMN name="b_n1" value="14194" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="11" />
+      <COLUMN name="term_n1" value="1127" />
+      <COLUMN name="b_n1" value="1051" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="11" />
+      <COLUMN name="term_n1" value="3017" />
+      <COLUMN name="b_n1" value="2875" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="11" />
+      <COLUMN name="term_n1" value="1525" />
+      <COLUMN name="b_n1" value="1471" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="11" />
+      <COLUMN name="term_n1" value="6890" />
+      <COLUMN name="b_n1" value="7386" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="12" />
+      <COLUMN name="term_n1" value="11448" />
+      <COLUMN name="b_n1" value="11256" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="12" />
+      <COLUMN name="term_n1" value="1011" />
+      <COLUMN name="b_n1" value="955" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="12" />
+      <COLUMN name="term_n1" value="2138" />
+      <COLUMN name="b_n1" value="2013" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="12" />
+      <COLUMN name="term_n1" value="1323" />
+      <COLUMN name="b_n1" value="1232" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="12" />
+      <COLUMN name="term_n1" value="6459" />
+      <COLUMN name="b_n1" value="6753" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="13" />
+      <COLUMN name="term_n1" value="9123" />
+      <COLUMN name="b_n1" value="9060" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="13" />
+      <COLUMN name="term_n1" value="511" />
+      <COLUMN name="b_n1" value="567" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="13" />
+      <COLUMN name="term_n1" value="1682" />
+      <COLUMN name="b_n1" value="1587" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="13" />
+      <COLUMN name="term_n1" value="804" />
+      <COLUMN name="b_n1" value="780" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="13" />
+      <COLUMN name="term_n1" value="3495" />
+      <COLUMN name="b_n1" value="4863" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="14" />
+      <COLUMN name="term_n1" value="18760" />
+      <COLUMN name="b_n1" value="18745" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="14" />
+      <COLUMN name="term_n1" value="1636" />
+      <COLUMN name="b_n1" value="1605" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="14" />
+      <COLUMN name="term_n1" value="4156" />
+      <COLUMN name="b_n1" value="4043" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="14" />
+      <COLUMN name="term_n1" value="1581" />
+      <COLUMN name="b_n1" value="1573" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="14" />
+      <COLUMN name="term_n1" value="7986" />
+      <COLUMN name="b_n1" value="10683" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="15" />
+      <COLUMN name="term_n1" value="10077" />
+      <COLUMN name="b_n1" value="9861" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="15" />
+      <COLUMN name="term_n1" value="859" />
+      <COLUMN name="b_n1" value="812" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="15" />
+      <COLUMN name="term_n1" value="1715" />
+      <COLUMN name="b_n1" value="1596" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="15" />
+      <COLUMN name="term_n1" value="1107" />
+      <COLUMN name="b_n1" value="1050" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="15" />
+      <COLUMN name="term_n1" value="4412" />
+      <COLUMN name="b_n1" value="4829" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="16" />
+      <COLUMN name="term_n1" value="15931" />
+      <COLUMN name="b_n1" value="15836" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="16" />
+      <COLUMN name="term_n1" value="1329" />
+      <COLUMN name="b_n1" value="1277" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="16" />
+      <COLUMN name="term_n1" value="2672" />
+      <COLUMN name="b_n1" value="2512" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="16" />
+      <COLUMN name="term_n1" value="1669" />
+      <COLUMN name="b_n1" value="1604" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="16" />
+      <COLUMN name="term_n1" value="6918" />
+      <COLUMN name="b_n1" value="8274" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="17" />
+      <COLUMN name="term_n1" value="21194" />
+      <COLUMN name="b_n1" value="21044" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="17" />
+      <COLUMN name="term_n1" value="1557" />
+      <COLUMN name="b_n1" value="1497" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="17" />
+      <COLUMN name="term_n1" value="3852" />
+      <COLUMN name="b_n1" value="3672" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="17" />
+      <COLUMN name="term_n1" value="2055" />
+      <COLUMN name="b_n1" value="1987" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="17" />
+      <COLUMN name="term_n1" value="8445" />
+      <COLUMN name="b_n1" value="12178" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="18" />
+      <COLUMN name="term_n1" value="13418" />
+      <COLUMN name="b_n1" value="13275" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="18" />
+      <COLUMN name="term_n1" value="1099" />
+      <COLUMN name="b_n1" value="1051" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="18" />
+      <COLUMN name="term_n1" value="2695" />
+      <COLUMN name="b_n1" value="2553" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="18" />
+      <COLUMN name="term_n1" value="1390" />
+      <COLUMN name="b_n1" value="1341" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="18" />
+      <COLUMN name="term_n1" value="6252" />
+      <COLUMN name="b_n1" value="7364" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="19" />
+      <COLUMN name="term_n1" value="6624" />
+      <COLUMN name="b_n1" value="6455" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="19" />
+      <COLUMN name="term_n1" value="505" />
+      <COLUMN name="b_n1" value="464" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="19" />
+      <COLUMN name="term_n1" value="1409" />
+      <COLUMN name="b_n1" value="1281" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="19" />
+      <COLUMN name="term_n1" value="643" />
+      <COLUMN name="b_n1" value="610" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="19" />
+      <COLUMN name="term_n1" value="3399" />
+      <COLUMN name="b_n1" value="3732" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="20" />
+      <COLUMN name="term_n1" value="10122" />
+      <COLUMN name="b_n1" value="9960" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="20" />
+      <COLUMN name="term_n1" value="814" />
+      <COLUMN name="b_n1" value="774" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="20" />
+      <COLUMN name="term_n1" value="2206" />
+      <COLUMN name="b_n1" value="2019" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="20" />
+      <COLUMN name="term_n1" value="1189" />
+      <COLUMN name="b_n1" value="1100" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="20" />
+      <COLUMN name="term_n1" value="5540" />
+      <COLUMN name="b_n1" value="5753" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="21" />
+      <COLUMN name="term_n1" value="9989" />
+      <COLUMN name="b_n1" value="9774" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="21" />
+      <COLUMN name="term_n1" value="904" />
+      <COLUMN name="b_n1" value="854" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="21" />
+      <COLUMN name="term_n1" value="2163" />
+      <COLUMN name="b_n1" value="1982" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="21" />
+      <COLUMN name="term_n1" value="916" />
+      <COLUMN name="b_n1" value="864" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="21" />
+      <COLUMN name="term_n1" value="5050" />
+      <COLUMN name="b_n1" value="5618" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="22" />
+      <COLUMN name="term_n1" value="3383" />
+      <COLUMN name="b_n1" value="3336" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="22" />
+      <COLUMN name="term_n1" value="256" />
+      <COLUMN name="b_n1" value="231" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="22" />
+      <COLUMN name="term_n1" value="539" />
+      <COLUMN name="b_n1" value="517" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="22" />
+      <COLUMN name="term_n1" value="425" />
+      <COLUMN name="b_n1" value="408" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="22" />
+      <COLUMN name="term_n1" value="1583" />
+      <COLUMN name="b_n1" value="2080" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="23" />
+      <COLUMN name="term_n1" value="11712" />
+      <COLUMN name="b_n1" value="11534" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="23" />
+      <COLUMN name="term_n1" value="765" />
+      <COLUMN name="b_n1" value="725" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="23" />
+      <COLUMN name="term_n1" value="2098" />
+      <COLUMN name="b_n1" value="1987" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="23" />
+      <COLUMN name="term_n1" value="873" />
+      <COLUMN name="b_n1" value="852" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="23" />
+      <COLUMN name="term_n1" value="4561" />
+      <COLUMN name="b_n1" value="4518" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="24" />
+      <COLUMN name="term_n1" value="25677" />
+      <COLUMN name="b_n1" value="25234" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="24" />
+      <COLUMN name="term_n1" value="1905" />
+      <COLUMN name="b_n1" value="1832" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="24" />
+      <COLUMN name="term_n1" value="6776" />
+      <COLUMN name="b_n1" value="6418" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="24" />
+      <COLUMN name="term_n1" value="2422" />
+      <COLUMN name="b_n1" value="2291" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="24" />
+      <COLUMN name="term_n1" value="12991" />
+      <COLUMN name="b_n1" value="11703" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="25" />
+      <COLUMN name="term_n1" value="39238" />
+      <COLUMN name="b_n1" value="38570" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="25" />
+      <COLUMN name="term_n1" value="2661" />
+      <COLUMN name="b_n1" value="2474" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="25" />
+      <COLUMN name="term_n1" value="7580" />
+      <COLUMN name="b_n1" value="7201" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="25" />
+      <COLUMN name="term_n1" value="2575" />
+      <COLUMN name="b_n1" value="2420" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="25" />
+      <COLUMN name="term_n1" value="13459" />
+      <COLUMN name="b_n1" value="13017" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="27" />
+      <COLUMN name="term_n1" value="1429" />
+      <COLUMN name="b_n1" value="1413" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="27" />
+      <COLUMN name="term_n1" value="75" />
+      <COLUMN name="b_n1" value="75" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="27" />
+      <COLUMN name="term_n1" value="358" />
+      <COLUMN name="b_n1" value="350" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="27" />
+      <COLUMN name="term_n1" value="150" />
+      <COLUMN name="b_n1" value="142" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="27" />
+      <COLUMN name="term_n1" value="543" />
+      <COLUMN name="b_n1" value="581" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="28" />
+      <COLUMN name="term_n1" value="5310" />
+      <COLUMN name="b_n1" value="5251" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="28" />
+      <COLUMN name="term_n1" value="631" />
+      <COLUMN name="b_n1" value="589" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="28" />
+      <COLUMN name="term_n1" value="1508" />
+      <COLUMN name="b_n1" value="1386" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="28" />
+      <COLUMN name="term_n1" value="673" />
+      <COLUMN name="b_n1" value="635" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="28" />
+      <COLUMN name="term_n1" value="3652" />
+      <COLUMN name="b_n1" value="3135" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="29" />
+      <COLUMN name="term_n1" value="7325" />
+      <COLUMN name="b_n1" value="7000" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="29" />
+      <COLUMN name="term_n1" value="849" />
+      <COLUMN name="b_n1" value="762" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="29" />
+      <COLUMN name="term_n1" value="2546" />
+      <COLUMN name="b_n1" value="2118" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="29" />
+      <COLUMN name="term_n1" value="889" />
+      <COLUMN name="b_n1" value="820" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="29" />
+      <COLUMN name="term_n1" value="4940" />
+      <COLUMN name="b_n1" value="4111" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="30" />
+      <COLUMN name="term_n1" value="6182" />
+      <COLUMN name="b_n1" value="6012" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="30" />
+      <COLUMN name="term_n1" value="487" />
+      <COLUMN name="b_n1" value="460" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="30" />
+      <COLUMN name="term_n1" value="1315" />
+      <COLUMN name="b_n1" value="1279" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="30" />
+      <COLUMN name="term_n1" value="904" />
+      <COLUMN name="b_n1" value="843" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="30" />
+      <COLUMN name="term_n1" value="4646" />
+      <COLUMN name="b_n1" value="4277" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="31" />
+      <COLUMN name="term_n1" value="2014" />
+      <COLUMN name="b_n1" value="1982" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="31" />
+      <COLUMN name="term_n1" value="134" />
+      <COLUMN name="b_n1" value="125" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="31" />
+      <COLUMN name="term_n1" value="484" />
+      <COLUMN name="b_n1" value="476" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="31" />
+      <COLUMN name="term_n1" value="264" />
+      <COLUMN name="b_n1" value="257" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="31" />
+      <COLUMN name="term_n1" value="1430" />
+      <COLUMN name="b_n1" value="1365" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="32" />
+      <COLUMN name="term_n1" value="2640" />
+      <COLUMN name="b_n1" value="2617" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="32" />
+      <COLUMN name="term_n1" value="223" />
+      <COLUMN name="b_n1" value="214" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="32" />
+      <COLUMN name="term_n1" value="566" />
+      <COLUMN name="b_n1" value="550" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="32" />
+      <COLUMN name="term_n1" value="379" />
+      <COLUMN name="b_n1" value="381" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="32" />
+      <COLUMN name="term_n1" value="1776" />
+      <COLUMN name="b_n1" value="1695" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="33" />
+      <COLUMN name="term_n1" value="1528" />
+      <COLUMN name="b_n1" value="1413" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="33" />
+      <COLUMN name="term_n1" value="130" />
+      <COLUMN name="b_n1" value="121" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="33" />
+      <COLUMN name="term_n1" value="265" />
+      <COLUMN name="b_n1" value="253" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="33" />
+      <COLUMN name="term_n1" value="261" />
+      <COLUMN name="b_n1" value="205" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="33" />
+      <COLUMN name="term_n1" value="1440" />
+      <COLUMN name="b_n1" value="1217" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="43" />
+      <COLUMN name="term_n1" value="2015" />
+      <COLUMN name="b_n1" value="1749" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="43" />
+      <COLUMN name="term_n1" value="218" />
+      <COLUMN name="b_n1" value="173" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="43" />
+      <COLUMN name="term_n1" value="1038" />
+      <COLUMN name="b_n1" value="732" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="43" />
+      <COLUMN name="term_n1" value="216" />
+      <COLUMN name="b_n1" value="185" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="43" />
+      <COLUMN name="term_n1" value="1288" />
+      <COLUMN name="b_n1" value="976" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="50" />
+      <COLUMN name="term_n1" value="81252" />
+      <COLUMN name="b_n1" value="79994" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="50" />
+      <COLUMN name="term_n1" value="5228" />
+      <COLUMN name="b_n1" value="4931" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="50" />
+      <COLUMN name="term_n1" value="16373" />
+      <COLUMN name="b_n1" value="15678" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="50" />
+      <COLUMN name="term_n1" value="5931" />
+      <COLUMN name="b_n1" value="5609" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="50" />
+      <COLUMN name="term_n1" value="30484" />
+      <COLUMN name="b_n1" value="29057" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="51" />
+      <COLUMN name="term_n1" value="28378" />
+      <COLUMN name="b_n1" value="27984" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="51" />
+      <COLUMN name="term_n1" value="1969" />
+      <COLUMN name="b_n1" value="1860" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="51" />
+      <COLUMN name="term_n1" value="5232" />
+      <COLUMN name="b_n1" value="4985" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="51" />
+      <COLUMN name="term_n1" value="2498" />
+      <COLUMN name="b_n1" value="2405" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="51" />
+      <COLUMN name="term_n1" value="11719" />
+      <COLUMN name="b_n1" value="11898" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="52" />
+      <COLUMN name="term_n1" value="14190" />
+      <COLUMN name="b_n1" value="14068" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="52" />
+      <COLUMN name="term_n1" value="1123" />
+      <COLUMN name="b_n1" value="1067" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="52" />
+      <COLUMN name="term_n1" value="2428" />
+      <COLUMN name="b_n1" value="2258" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="52" />
+      <COLUMN name="term_n1" value="1386" />
+      <COLUMN name="b_n1" value="1339" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="52" />
+      <COLUMN name="term_n1" value="6578" />
+      <COLUMN name="b_n1" value="8181" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="53" />
+      <COLUMN name="term_n1" value="30981" />
+      <COLUMN name="b_n1" value="30725" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="53" />
+      <COLUMN name="term_n1" value="2215" />
+      <COLUMN name="b_n1" value="2190" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="53" />
+      <COLUMN name="term_n1" value="5459" />
+      <COLUMN name="b_n1" value="5169" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="53" />
+      <COLUMN name="term_n1" value="2659" />
+      <COLUMN name="b_n1" value="2594" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="53" />
+      <COLUMN name="term_n1" value="12833" />
+      <COLUMN name="b_n1" value="16269" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="54" />
+      <COLUMN name="term_n1" value="17857" />
+      <COLUMN name="b_n1" value="17509" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="54" />
+      <COLUMN name="term_n1" value="1384" />
+      <COLUMN name="b_n1" value="1313" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="54" />
+      <COLUMN name="term_n1" value="3594" />
+      <COLUMN name="b_n1" value="3328" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="54" />
+      <COLUMN name="term_n1" value="1650" />
+      <COLUMN name="b_n1" value="1571" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="54" />
+      <COLUMN name="term_n1" value="8439" />
+      <COLUMN name="b_n1" value="10069" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="55" />
+      <COLUMN name="term_n1" value="44607" />
+      <COLUMN name="b_n1" value="44198" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="55" />
+      <COLUMN name="term_n1" value="4161" />
+      <COLUMN name="b_n1" value="3999" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="55" />
+      <COLUMN name="term_n1" value="8972" />
+      <COLUMN name="b_n1" value="8365" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="55" />
+      <COLUMN name="term_n1" value="3945" />
+      <COLUMN name="b_n1" value="3832" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="55" />
+      <COLUMN name="term_n1" value="17619" />
+      <COLUMN name="b_n1" value="21799" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="56" />
+      <COLUMN name="term_n1" value="32600" />
+      <COLUMN name="b_n1" value="32136" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="56" />
+      <COLUMN name="term_n1" value="2491" />
+      <COLUMN name="b_n1" value="2345" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="56" />
+      <COLUMN name="term_n1" value="6376" />
+      <COLUMN name="b_n1" value="5853" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="56" />
+      <COLUMN name="term_n1" value="4085" />
+      <COLUMN name="b_n1" value="3841" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="56" />
+      <COLUMN name="term_n1" value="18428" />
+      <COLUMN name="b_n1" value="18369" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="57" />
+      <COLUMN name="term_n1" value="30302" />
+      <COLUMN name="b_n1" value="30030" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="57" />
+      <COLUMN name="term_n1" value="2456" />
+      <COLUMN name="b_n1" value="2328" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="57" />
+      <COLUMN name="term_n1" value="5689" />
+      <COLUMN name="b_n1" value="5387" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="57" />
+      <COLUMN name="term_n1" value="3194" />
+      <COLUMN name="b_n1" value="3075" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="57" />
+      <COLUMN name="term_n1" value="13808" />
+      <COLUMN name="b_n1" value="15660" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="58" />
+      <COLUMN name="term_n1" value="28149" />
+      <COLUMN name="b_n1" value="27572" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="58" />
+      <COLUMN name="term_n1" value="2375" />
+      <COLUMN name="b_n1" value="2231" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="58" />
+      <COLUMN name="term_n1" value="5262" />
+      <COLUMN name="b_n1" value="4890" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="58" />
+      <COLUMN name="term_n1" value="3073" />
+      <COLUMN name="b_n1" value="2892" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="58" />
+      <COLUMN name="term_n1" value="14270" />
+      <COLUMN name="b_n1" value="15314" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="i" value="D6" />
+      <COLUMN name="aca" value="70" />
+      <COLUMN name="term_n1" value="379153" />
+      <COLUMN name="b_n1" value="371705" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="4" />
+      <COLUMN name="aca" value="70" />
+      <COLUMN name="term_n1" value="29382" />
+      <COLUMN name="b_n1" value="27714" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="5" />
+      <COLUMN name="aca" value="70" />
+      <COLUMN name="term_n1" value="75389" />
+      <COLUMN name="b_n1" value="69928" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="6" />
+      <COLUMN name="aca" value="70" />
+      <COLUMN name="term_n1" value="35696" />
+      <COLUMN name="b_n1" value="33864" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+   <TBT>
+      <COLUMN name="I" value="7" />
+      <COLUMN name="aca" value="70" />
+      <COLUMN name="term_n1" value="169851" />
+      <COLUMN name="b_n1" value="185810" />
+      <COLUMN name="annee" value="2021" />
+   </TBT>
+</TABLE>

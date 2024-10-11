@@ -1,0 +1,559 @@
+﻿<style>
+    .upload {
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
+    input[type=file] {
+        position: absolute;
+        top: 100%;
+        margin-top: -44px;
+        z-index: 1;
+        height: 44px;
+        width: 100%;
+        // opacity: 0;
+    }
+
+        input[type=file]:not(.empty):valid + label:before {
+            background: green;
+            content: attr(data-remove-text);
+        }
+
+        input[type=file]:invalid + label:after,
+        input[type=file].empty + label:after {
+            content: attr(data-drag-text);
+            border: 1px solid #bbbaba;
+        }
+
+
+
+    .upload label {
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: block;
+        opacity: 0
+    }
+
+        .upload label:before, label:after {
+            display: block;
+            box-sizing: border-box;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .upload label:before {
+            position: absolute;
+            padding: 0 20px;
+            right: 0;
+            width: 120px;
+            height: 44px;
+            top: 100%;
+            z-index: 2;
+            margin-top: -44px;
+            line-height: 44px;
+            background: #FF9800;
+            color: #fff;
+            text-align: center;
+            content: attr(data-select-text);
+            cursor: pointer;
+        }
+
+        .upload label:after {
+            position: relative;
+            width: 100%;
+            top: 100%;
+            margin-top: 10px;
+            padding: 7px 132px 10px 12px;
+            line-height: 24px;
+            min-height: 44px;
+            background: #fff;
+            color: #000;
+            content: attr(data-input-value);
+        }
+
+    ul.fileupload {
+        list-style: none;
+    }
+
+        ul.fileupload li {
+            list-style: none;
+            font-weight: 700;
+        }
+
+            ul.fileupload li i {
+                margin-right: 5px;
+            }
+
+    .upload label:hover:before {
+        background: #000;
+    }
+    progress {
+        vertical-align: baseline;
+        display: block;
+        width: 100%;
+        border: 0 none;
+        background: #fff;
+        border-radius: 0;
+        box-shadow: inset 0px 1px 1px rgb(0 0 0 / 50%), 0px 1px 0px rgb(255 255 255 / 20%);
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $('.upload-old input[type=file]').each(function () {
+            var eventNamespace = '.upload';
+            var labelInputValueAttr = 'data-input-value';
+            var $input = $(this);
+            var $inputClone = $input.clone(true, true);
+            $inputClone.removeClass('empty');
+            var $label = $input.next('label');
+            var setLabelInputValue = function (event) {
+                var $input = $(this);
+                if ($input.val() && $input.val() !== '') {
+                    $input.removeClass('empty');
+                    $("#ctlProgress").val(0);
+                    $('#lblMessage').html("");
+                    //fill Ul
+
+                    $('ul.fileupload').empty();
+                    $count = 0;
+                    for (let i = 0; i < event.target.files.length; i++) {
+                        if ((event.target.files[i].webkitRelativePath.split(".")[1]).toLowerCase() == "xml") {
+                            $('ul.fileupload').append('<li><i class="fa fa-file-code" aria-hidden="true"></i> ' + event.target.files[i].webkitRelativePath.split("/")[1] + '</li>');
+                            $count++;
+                        }
+                    }
+                    $label.attr(labelInputValueAttr, event.target.files[0].webkitRelativePath.split("/")[0] + " (" + $count + " Fichiers )");
+                } else {
+                    $label.attr(labelInputValueAttr, '');
+                    $input.addClass('empty');
+                    $('ul.fileupload').empty();
+                    $("#ctlProgress").val(0);
+                    $('#lblMessage').html("");
+                }
+            }
+            if (!$input.val() || $input.val() === '') {
+                $input.addClass('empty');
+                $('ul.fileupload').empty();
+                $("#ctlProgress").val(0);
+                $('#lblMessage').html("");
+            }
+            $label.attr(labelInputValueAttr, '');
+            $input.on('change' + eventNamespace, setLabelInputValue);
+            $label.on('click' + eventNamespace, function (event) {
+                if ($input.val() && $input.val() !== '' && $input.is(':valid')) {
+                    event.preventDefault();
+                    $input.remove();
+                    $label.before($inputClone); // cant just empty val because of ie
+                    $input = $inputClone;
+                    if (!$input.val() || $input.val() === '') {
+                        $input.addClass('empty');
+                        $('ul.fileupload').empty();
+                        $("#ctlProgress").val(0);
+                        $('#lblMessage').html("");
+                    }
+                    $inputClone = $input.clone(true, true);
+                    $inputClone.removeClass('empty');
+                    $input.off('change' + eventNamespace);
+                    $input.on('change' + eventNamespace, setLabelInputValue);
+                    $label.attr(labelInputValueAttr, '');
+                }
+            });
+        });
+    });
+</script>
+<script type="text/javascript">
+   
+    //--------< functions >--------
+	var bProgressComplete = true;
+	var bImportError = false;
+	function ImportDataProgress() {
+		if (bProgressComplete) return;
+		$.ajax({
+			type: "GET",
+			url: `${document.location.origin}/ImportData/Progress/`,
+            success: function (result) { 
+                var parseResult = JSON.parse(result);
+                // var percentComplete = Math.round(((parseResult.CurrentAcademie+1) / parseResult.NbAcademies) * 100);
+				// $(".progress-bar").width(percentComplete + '%');
+                // $(".progress-bar").html(percentComplete + "%");
+                // $(".pg-academie").html((parseResult.CurrentAcademie + 1) + ' / ' + parseResult.NbAcademies);
+                // $(".pg-num_academie").html(parseResult.NumAcademie);
+                // $(".pg-dossier").html(parseResult.Dossier);
+                // if(parseResult.NbHypotheses > 0) $(".pg-hypo").html(Math.round(100 * parseResult.CurrentHypothese / parseResult.NbHypotheses) + ' %');
+                // if(parseResult.NbModeles > 0) $(".pg-model").html(Math.round(100 * parseResult.CurrentModele / parseResult.NbModeles) + ' %');
+                // if(parseResult.NbResultats > 0) $(".pg-res").html(parseResult.NbResultats > 0 ? (Math.round(100 * parseResult.CurrentResultat / parseResult.NbResultats) + ' %') : '');
+                if(parseResult.Status) $("#pg-status").html(parseResult.Status);
+				if (parseResult.Complete) {
+					bProgressComplete = true;
+					if (!bImportError) _alert("Importation données académiques", "Importation terminée.");
+					$('#ImportAcc').modal('hide');
+					loading(false);
+                    location.reload();
+				} else {
+					setTimeout("ImportDataProgress()", 1000);
+				} 
+			},
+            error: function (xhr, status, error) {
+                // TODO: seems like an empty string calls this ?
+                console.log(xhr.responseText);
+                console.log(status);
+                console.log(error);
+                if(xhr.responseText) _alert("Erreur", 'Erreur : ' + errorManager(xhr.responseText, error));
+            }
+		});
+	}
+
+	var count = 0;
+    function showImportData() {
+		// $(".progress-bar").width('0%');
+		// $(".progress-bar").html('');
+		// $(".pg-academie").html('');
+		// $(".pg-num_academie").html('');
+		// $(".pg-dossier").html('');
+		// $(".pg-hypo").html('');
+		// $(".pg-model").html('');
+		// $(".pg-res").html('');
+        $("#pg-status").html();
+		$('#upload').removeAttr('disabled');
+        $('.modal-footer,.btn-close').show();
+        count = 0;
+	}
+
+    function upload_files_new() {
+        $.ajax({
+			type: "GET",
+			url: `${document.location.origin}/ImportData/Progress/`,
+            success: function (result) {
+                var pg = JSON.parse(result);
+                if(pg.isRunning) {
+                    bProgressComplete = false;
+                    bImportError = false;
+                    setTimeout("ImportDataProgress()", 3000);
+                    // TODO: ajouter loading(true) mais le souci: est si le code n'appelle jamais loading(false)?
+                    $('#upload-form').hide();
+                    $('#progress-block').show();
+                    $('.modal-footer,.btn-close').hide();
+                    
+                    _alert("Attention", `Une importation est déjà en cours. ${pg.Status}. Veuillez contacter votre administrateur système.`);
+                } else {
+                    do_upload_file();
+                }
+			},
+            error: function (xhr, status, error) {
+                _alert("Erreur", 'Erreur : ' + errorManager(xhr.responseText));
+            }
+		});
+    }
+	
+    function do_upload_file() {
+        var fileUpload = $("#upload").get(0);
+        var files = fileUpload.files;
+        if (files.length == 0) {
+            _alert("Importation données académiques", "Auncun fichier sélectionné.");
+            return;
+        }
+        
+		// $('#form-import').submit();
+
+        // Kaky - 22/06/2022 - Ajout de try, catch
+		try {
+            var data = new FormData();
+            //data.append(files[0].name, files[0]);
+            data.append("upload", files[0]);
+            bProgressComplete = false;
+            bImportError = false;
+
+            setTimeout("ImportDataProgress()", 3000);
+            loading(true);
+            $('#upload').attr('disabled', 'disabled');
+            $('#progress-block').show();
+            $('.modal-footer,.btn-close').hide();
+            $.ajax({
+                type: "POST",
+                url:  `${document.location.origin}/ImportData/Index`,
+                contentType: false,
+                processData: false,
+                data: data,
+                dataType: 'json',
+
+                success: function (result) {
+                    bProgressComplete = true; ////
+                    $('#ImportAcc').modal('hide');
+                    var Datas = JSON.parse(result);
+                    if (Datas.error) {
+                        bImportError = true;
+                        bProgressComplete = true;
+                        _alert("Importation de données", Datas.error);
+                    }
+                    loading(false);
+                    location.reload();
+                },
+                error: function(xhr, status, error) {
+                    bProgressComplete = true;
+                    $('#ImportAcc').modal('hide');
+                    _alert("Importation de données", 'Erreur : (Import) ' + errorManager(xhr.responseText));
+                    loading(false);
+                },
+                complete: function(data) {
+                    loading(false);
+                }
+            });
+        }  catch(err) {
+            _alert("Erreur", 'Erreur : (Import) ' + errorManager(err));
+        }		
+    }
+
+    function upload_files() {
+        
+        //------< upload_files() >------
+
+
+
+        //--< get selected files >--
+
+        var fileUpload = $("#upload").get(0);
+
+        var files = fileUpload.files;
+
+        if (files.length == 0) return;
+
+
+       
+        //< load into FormData >
+
+
+
+        for (var i = 0; i < files.length; i++) {
+           
+            var data = new FormData();
+           
+            data.append(files[i].name, files[i]);
+
+            //</ load into FormData >
+
+            //--</ get selected files >--
+
+           
+
+            //--< ajax upload >--
+
+            $.ajax({
+
+                type: "POST",
+
+                url: "../UploadFilesAjax",
+
+                xhr: function () {
+
+                    var xhr = new window.XMLHttpRequest();
+
+                    //Upload progress
+
+                    xhr.upload.addEventListener("progress", function (evt) {
+
+                        if (evt.lengthComputable) {
+                            var percentComplete = evt.loaded / evt.total;
+                            $('#lblMessage').html("Importation du fichier  " + parseFloat(percentComplete * 100).toFixed(0) + "% ...");
+                            $("#ctlProgress").val(percentComplete * 100);
+                          
+
+
+                        }
+
+                    }, false);
+
+                    //Download progress
+
+                    xhr.addEventListener("progress", function (evt) {
+                        $("progress").show();
+                        if (evt.lengthComputable) {
+
+                            var percentComplete = evt.loaded / evt.total;
+
+                            //Do something with download progress
+                            $("#fileProgress").attr({
+                                value: e.loaded,
+                                max: e.total
+                            });
+                            console.log(percentComplete);
+
+                        }
+
+                    }, false);
+
+                    return xhr;
+
+                },
+
+
+
+                contentType: false,  //default: 'application/x-www-form-urlencoded; charset=UTF-8'
+
+                processData: false,  //default: data, other DOMDocument
+
+                data: data,          //Type: PlainObject or String or Array
+
+                //password:string    // HTTP access authentication
+
+                //username:string    // HTTP access authentication
+
+                //jQuery 1.8 success->done error->fail
+
+                success: function (data) {
+                   
+                    //alert(data);
+
+                    console.log(data);
+
+                    //---< show return >---
+
+                    //--< Loop: each Result >--
+
+                    $.each(data, function (index, item) {
+
+                        $('#lblMessage').html("Traitement du fichier  " + item + " ... <i class='fa fa-spinner fa-spin'></i>");
+                        //--< Item  >--
+
+                        //*show uploaded Image in div-Results
+
+                      
+                        //--</ Item >--
+
+                    })
+                   
+                    //--</ Loop: each Result >--
+
+                    //---</ show return >---
+
+                },
+
+                error: function (evt) {
+                    console.log(evt);
+                   alert("There was error uploading files!"+evt);
+                   loading(false);
+                }
+
+            }).done(() => {
+                loading(false);
+                console.log("i");
+                count++;
+                $('#lblMessage').html("Mise à jour du mongo " + count + "/" + i + " <i class='fa fa-spinner fa-spin'></i>");
+                if (count == i) {
+                    $("#ImportAcc").hide();
+                }
+            });;
+
+            //------</ upload_files() >------
+
+        }
+       
+       
+
+    }
+</script>
+<!--Import données accademique-->
+<div class="modal fade" id="ImportAcc" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Importation des données académiques</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <div>
+						Compresser dans un ZIP les fichiers suivants:<br/>
+						<ul>
+							<li>coefLMD.xml</li>
+							<li>insdipflu.xml</li>
+							<li>recap_aca.xml</li>
+							<li>recap_pgm150.xml</li>
+							<li>tbt.xml</li>
+						</ul>
+						(Ne pas inclure le nom du dossier dans le ZIP)
+					</div>
+                    <form id="form-import" asp-controller="main" asp-action="ImportData" method="post" enctype="multipart/form-data">
+                        <!-- upload:start -->
+                        <div id="upload-form" class="upload">
+                            <input id="upload" type="file" name="upload">
+                            <label for="upload" data-input-value="" data-select-text="Parcourir" data-remove-text="Modifier" data-drag-text="Selectionner le fichier ...">
+                                Parcourir
+                            </label>
+                        </div>
+                        <!-- upload:end -->
+                    </form>
+                    <div id="progress-block" style="display:none">
+                        <!-- <div><span class="pg-academie"></span> académies. (Num: <span class="pg-num_academie"></span>)</div>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div><b><span class="pg-dossier"></span></b></div>
+                        <div>Hypothèses: <span class="pg-hypo"></span></div>
+                        <div>Modèles: <span class="pg-model"></span></div>
+                        <div>Résultats: <span class="pg-res"></span></div> -->
+                        <div>Statut: <span id="pg-status"></span></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <ul class="fileupload">
+                    </ul>
+                </div>
+                <div class="mb-3" style="display:none;">
+                    <span id="lblMessage" style="color: #000"></span>
+                    <progress id="ctlProgress" value="0" max="100"></progress>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="upload_files_new()" id="nc_valider">Importer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="ImportAcc-old" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Importation des données académiques</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <div>Emplacement des matrices</div>
+                    <form>
+                        <!-- upload:start -->
+                        <div class="upload">
+                            <input id="upload-2" type="file" name="upload" value="">
+                            <label for="upload-2" data-input-value="" data-select-text="Parcourir" data-remove-text="Modifier" data-drag-text="Selectionner un dossier...">
+                                Parcourir
+                            </label>
+                        </div>
+                        <!-- upload:end -->
+                    </form>
+                </div>
+                <div class="mb-3">
+                    <ul class="fileupload">
+                    </ul>
+                </div>
+               <div class="mb-3">
+                    <span id="lblMessage" style="color: #000"></span>
+                    <progress id="ctlProgress" value="0" max="100"></progress>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-primary" onclick="upload_files()" id="nc_valider">Importer</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Fin NewConstat-->

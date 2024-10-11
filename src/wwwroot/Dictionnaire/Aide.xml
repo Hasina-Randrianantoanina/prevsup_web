@@ -1,0 +1,2990 @@
+<Aide>
+    <Key name="ARR_N1_IJ">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 1" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N1_IJ.html&quot; &gt;Aide HTML sur la variable ARR_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="B_N1_I">
+        <ToolTip value="Effectif de bacheliers de la série I" />
+        <Propriete value="Effectif de bacheliers de la série I" />
+        <Formula>TERM_N1*T_RAT_N1</Formula>
+        <Link value="&lt;a href=&quot;B_N1_I.html&quot; &gt;Aide HTML sur la variable B_N1_I&lt;/a&gt;" />
+    </Key>
+    <Key name="TERM_N1_I">
+        <ToolTip value="Effectif en terminale de la série I" />
+        <Propriete value="Effectif en terminale de la série I" />
+        <Formula />
+        <Link value="&lt;a href=&quot;TERM_N1_I.html&quot; &gt;Aide HTML sur la variable TERM_N1_I&lt;/a&gt;" />
+    </Key>
+    <Key name="NBT_N1_IJ">
+        <ToolTip value="Nouveau bacheliers en ES selon la filière J" />
+        <Propriete value="Nouveau bacheliers en ES selon la filière J" />
+        <Formula>NBT_N1_J=somme(NBT_N1_IJ)</Formula>
+        <Link value="&lt;a href=&quot;NBT_N1_IJ.html&quot; &gt;Aide HTML sur la variable NBT_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="NBT_N1_IJ_A">
+        <ToolTip value="Nouveau bacheliers en ES selon la série I et la filière J dans l'académie A" />
+        <Propriete value="Nouveau bacheliers en ES selon la série I et la filière J dans l'académie A" />
+        <Formula>NBT_N1_IJ=NBA_N1_IJ+M_N1_IJ</Formula>
+        <Link value="&lt;a href=&quot;NBT_N1_IJ_A.html&quot; &gt;Aide HTML sur la variable NBT_N1_IJ_A&lt;/a&gt;" />
+    </Key>
+    <Key name="NBT_N1_I">
+        <ToolTip value="Nouveau bacheliers en ES selon la série I" />
+        <Propriete value="Nouveau bacheliers en ES selon la série I" />
+        <Formula>NBT_N1_I=somme (NBT_N1_IJ)</Formula>
+        <Link value="&lt;a href=&quot;NBT_N1_I.html&quot; &gt;Aide HTML sur la variable NBT_N1_I&lt;/a&gt;" />
+    </Key>
+    <Key name="NBT_N1_J">
+        <ToolTip value="Nouveau bacheliers en ES selon la filière J" />
+        <Propriete value="Nouveau bacheliers en ES selon la filière J" />
+        <Formula>NBT_N1_J=somme(NBT_N1_IJ)</Formula>
+        <Link value="&lt;a href=&quot;NBT_N1_J.html&quot; &gt;Aide HTML sur la variable NBT_N1_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N0_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 0" />
+        <Propriete value="Effectif diplomé de la filière J au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_N0_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="NBA_N1_IJ">
+        <ToolTip value="Effectif néo-bacheliers de l'académie poursuivant dans l'académie dans la filière J au degré 1" />
+        <Propriete value="Effectif néo-bacheliers de l'académie poursuivant dans l'académie dans la filière J au degré 1" />
+        <Formula>B_N1*T_BA_N1</Formula>
+        <Link value="&lt;a href=&quot;NBA_N1_IJ.html&quot; &gt;Aide HTML sur la variable NBA_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N1B_J">
+        <ToolTip value="Exportation des bacheliers de l'académie A vers la filière J des autres académies" />
+        <Propriete value="Exportation des bacheliers de l'académie A vers la filière J des autres académies" />
+        <Formula>X_n1b_j: Exportation des bacheliers de l'académie A vers la filière J des autres académies</Formula>
+        <Link value="&lt;a href=&quot;X_n1b_j.html&quot; &gt;Aide HTML sur la variable X_n1b_j&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N1B_J">
+        <ToolTip value="Importation de bacheliers d'autres académies dans la filière J" />
+        <Propriete value="Importation de bacheliers d'autres académies dans la filière J" />
+        <Formula>M_n1b_j: Importation de bacheliers d'autres académies dans la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_n1b_j.html&quot; &gt;Aide HTML sur la variable M_n1b_j&lt;/a&gt;" />
+    </Key>
+    <Key name="T_BT_N1_IJ">
+        <ToolTip value="Taux d’accueil total des nouveaux bacheliers de la série I accueillis dans la filière J dans l’académie" />
+        <Propriete value="Taux d’accueil total des nouveaux bacheliers de la série I accueillis dans la filière J dans l’académie" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_BT_N1_IJ.html&quot; &gt;Aide HTML sur la variable T_BT_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_BT_N1_I">
+        <ToolTip value="Taux de poursuite des nouveaux bacheliers de la série I dans la filière J " />
+        <Propriete value="Taux de poursuite des nouveaux bacheliers de la série I dans la filière J " />
+        <Formula> T_BT_N1_IJ=SOMME (NBT_N1_IJ/B_N1_I)</Formula>
+        <Link value="&lt;a href=&quot;T_BT_N1_I.html&quot; &gt;Aide HTML sur la variable T_BT_N1_I&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N1B_J">
+        <ToolTip value="Taux d'exportation des bacheliers de la série i de l'académie dans la filière j " />
+        <Propriete value="Taux d'exportation des bacheliers de la série i de l'académie dans la filière j " />
+        <Formula>P_X_N1B_IJ=X_N1B_IJ/B_N1_I</Formula>
+        <Link value="&lt;a href=&quot;P_X_n1b_j.html&quot; &gt;Aide HTML sur la variable P_X_n1b_j&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N1B_J">
+        <ToolTip value="Taux importation des bacheliers de la serie I dans la filière J dans l'académie" />
+        <Propriete value="Taux importation des bacheliers de la serie I dans la filière J dans l'académie" />
+        <Formula>P_M_N1B_IJ=M_N1B_IJ/NBT_N1_IJ</Formula>
+        <Link value="&lt;a href=&quot;P_M_n1b_j.html&quot; &gt;Aide HTML sur la variable P_M_n1b_j&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N1_IJ">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 1" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 1" />
+        <Formula>ARR_N1/ENT_N1</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_ARR_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RAT_N1_I">
+        <ToolTip value="Taux de réussite apparent des terminales au baccalauréat de la série I" />
+        <Propriete value="Taux de réussite apparent des terminales au baccalauréat de la série I" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RAT_N1_I.html&quot; &gt;Aide HTML sur la variable T_RAT_N1_I&lt;/a&gt;" />
+    </Key>
+    <Key name="P_NBT_N1_IJ">
+        <ToolTip value="Part des nouveaux bacheliers parmi les entrants dans la filière J " />
+        <Propriete value="Part des nouveaux bacheliers parmi les entrants dans la filière J " />
+        <Formula>P_NBT_N1_J=NBT_N1_J/ENT_N1_J</Formula>
+        <Link value="&lt;a href=&quot;P_NBT_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_NBT_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_NBT_N1_J">
+        <ToolTip value="Part des nouveaux bacheliers parmi les entrants dans la filière J " />
+        <Propriete value="Part des nouveaux bacheliers parmi les entrants dans la filière J " />
+        <Formula>P_NBT_N1_J=NBT_N1_J/ENT_N1_J</Formula>
+        <Link value="&lt;a href=&quot;P_NBT_N1_J.html&quot; &gt;Aide HTML sur la variable P_NBT_N1_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N0_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 0" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N0_IJ.html&quot; &gt;Aide HTML sur la variable T_DIP_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_NBA_N1_IJ">
+        <ToolTip value="Part des nouveaux bacheliers de l'académie poursuivant dans l'académie  sur l'ensemble des nouveaux bacheliers accueillis dans la filière J de l'acdémie" />
+        <Propriete value="Part des nouveaux bacheliers de l'académie poursuivant dans l'académie  sur l'ensemble des nouveaux bacheliers accueillis dans la filière J de l'acdémie" />
+        <Formula>P_NBA_N1_IJ=NBA_N1_IJ/NBT_N1_J</Formula>
+        <Link value="&lt;a href=&quot;P_NBA_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_NBA_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PA_N1_IJ ">
+        <ToolTip value="Taux de poursuite interne dans l'académie : Part des nouveaux bacheliers de la série I originaires de l'académie accueillis dans la filière J " />
+        <Propriete value="Taux de poursuite interne dans l'académie : Part des nouveaux bacheliers de la série I originaires de l'académie accueillis dans la filière J " />
+        <Formula>T_PA_N1_IJ=NBA_N1_IJ/B_N1_I</Formula>
+        <Link value="&lt;a href=&quot;T_PA_N1_ij .html&quot; &gt;Aide HTML sur la variable T_PA_N1_ij &lt;/a&gt;" />
+    </Key>
+    <Key name="T_P_N1_IJ ">
+        <ToolTip value="Taux de poursuite d'études global des nouveaux bacheliers de l'académie dans la filière J l'année n " />
+        <Propriete value="Taux de poursuite d'études global des nouveaux bacheliers de l'académie dans la filière J l'année n " />
+        <Formula>T_P_N1_IJ=(NBA_N1_IJ+X_N1_IJ)/B_N1_I</Formula>
+        <Link value="&lt;a href=&quot;T_P_N1_ij .html&quot; &gt;Aide HTML sur la variable T_P_N1_ij &lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N1_IJ">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 1" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 1" />
+        <Formula>NBT_N1 + ARR_N1</Formula>
+        <Link value="&lt;a href=&quot;ENT_N1_IJ.html&quot; &gt;Aide HTML sur la variable ENT_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N1_IJ">
+        <ToolTip value="Effectif total au degré 1" />
+        <Propriete value="Effectif total au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_N1_IJ.html&quot; &gt;Aide HTML sur la variable EFF_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N1_IJ">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 1" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 1" />
+        <Formula>T_RED_N1*EFF_N1[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N1_IJ.html&quot; &gt;Aide HTML sur la variable RED_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N1_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 1" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 1" />
+        <Formula>T_ACC_N1*EFF_N0[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;ACC_N1_IJ.html&quot; &gt;Aide HTML sur la variable ACC_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N1_IJ">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 1" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N1_IJ.html&quot; &gt;Aide HTML sur la variable REO_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N1_IJ">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 1" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N1_IJ.html&quot; &gt;Aide HTML sur la variable REP_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N1_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 1" />
+        <Propriete value="Effectif diplomé de la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_N1_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N1_IJ">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 1" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N1_IJ.html&quot; &gt;Aide HTML sur la variable T_RED_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_N1_IJ">
+        <ToolTip value="Taux d'accès depuis une formation de degré 0 à la filière J au degré 1" />
+        <Propriete value="Taux d'accès depuis une formation de degré 0 à la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_N1_IJ.html&quot; &gt;Aide HTML sur la variable T_ACC_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N1_IJ">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 1" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 1" />
+        <Formula>ACC_N1/EFF_N1</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_ACC_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N1_IJ">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 1" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 1" />
+        <Formula>RED_N1/EFF_N1</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_RED_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N1_IJ">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 1" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 1" />
+        <Formula>REO_N1/EFF_N1</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_REO_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N1_IJ">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 1" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 1" />
+        <Formula>REP_N1/EFF_N1</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N1_IJ.html&quot; &gt;Aide HTML sur la variable P_REP_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N1_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 1" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N1_IJ.html&quot; &gt;Aide HTML sur la variable T_DIP_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N1_IJ">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 1" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N1_IJ.html&quot; &gt;Aide HTML sur la variable ANCBAC_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N1_IJ">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 1" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N1_IJ.html&quot; &gt;Aide HTML sur la variable ANCINSC_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N1A">
+        <ToolTip value="Importation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Propriete value="Importation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Formula>M_N1A: Importation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_N1A.html&quot; &gt;Aide HTML sur la variable M_N1A&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N1A">
+        <ToolTip value="Etudiants sédentaires non-nouveaux bacheliers" />
+        <Propriete value="Etudiants sédentaires non-nouveaux bacheliers" />
+        <Formula>STABLE_N1A: Etudiants sédentaires non-nouveaux bacheliers</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N1A.html&quot; &gt;Aide HTML sur la variable STABLE_N1A&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N1A">
+        <ToolTip value="Exportation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Propriete value="Exportation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Formula>X_N1A: Exportation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;X_N1A.html&quot; &gt;Aide HTML sur la variable X_N1A&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N1A">
+        <ToolTip value="Part d'importation des étudiants non-nouveaux bacheliers en 1ère année " />
+        <Propriete value="Part d'importation des étudiants non-nouveaux bacheliers en 1ère année " />
+        <Formula>P_M_N1A=M_N1A/EFF_N1</Formula>
+        <Link value="&lt;a href=&quot;P_M_N1A.html&quot; &gt;Aide HTML sur la variable P_M_N1A&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N1A">
+        <ToolTip value="Part d'exportation des étudiants non-nouveaux bacheliers en 1ère année" />
+        <Propriete value="Part d'exportation des étudiants non-nouveaux bacheliers en 1ère année" />
+        <Formula> P_X_N1A=X_N1A/(STABLE_N1A+X_N1A)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N1A.html&quot; &gt;Aide HTML sur la variable P_X_N1A&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N1_J">
+        <ToolTip value="Effectif total au degré 1" />
+        <Propriete value="Effectif total au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_N1_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N2_J">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 2" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N2_J.html&quot; &gt;Aide HTML sur la variable ARR_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N2_J">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 2" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 2" />
+        <Formula>T_RED_N2*EFF_N2[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N2_J.html&quot; &gt;Aide HTML sur la variable RED_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N2_J">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 2" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N2_J.html&quot; &gt;Aide HTML sur la variable REO_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N2_J">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 2 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 2 de la même filière" />
+        <Formula>T_PASS_N2*EFF_N1[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N2_J.html&quot; &gt;Aide HTML sur la variable PASS_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N2_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 2" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N2_J.html&quot; &gt;Aide HTML sur la variable ACC_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N2_J">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 2" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 2" />
+        <Formula>PASS_N2 + ARR_N2</Formula>
+        <Link value="&lt;a href=&quot;ENT_N2_J.html&quot; &gt;Aide HTML sur la variable ENT_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N2_J">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 2" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N2_J.html&quot; &gt;Aide HTML sur la variable REP_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N2_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 2" />
+        <Propriete value="Effectif diplomé de la filière J au degré 2" />
+        <Formula>EFF_N2*T_DIP_N2</Formula>
+        <Link value="&lt;a href=&quot;DIP_N2_J.html&quot; &gt;Aide HTML sur la variable DIP_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N2_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 2" />
+        <Propriete value="Effectif diplomé de la filière J au degré 2" />
+        <Formula>EFF_N2*T_DIP_N2</Formula>
+        <Link value="&lt;a href=&quot;DIP_N2_J.html&quot; &gt;Aide HTML sur la variable DIP_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N2_J">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 2" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N2_J.html&quot; &gt;Aide HTML sur la variable T_RED_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N2_J">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 2" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N2_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N2_J">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 2" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 2" />
+        <Formula>ACC_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N2_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N2_J">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 2" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 2" />
+        <Formula>ARR_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N2_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N2_J">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 2" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 2" />
+        <Formula>PASS_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N2_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N2_J">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 2" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 2" />
+        <Formula>RED_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N2_J.html&quot; &gt;Aide HTML sur la variable P_RED_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N2_J">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 2" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 2" />
+        <Formula>REO_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N2_J.html&quot; &gt;Aide HTML sur la variable P_REO_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N2_J">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 2" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 2" />
+        <Formula>REP_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N2_J.html&quot; &gt;Aide HTML sur la variable P_REP_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N2_J">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 2" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N2_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N2_J">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 2" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N2_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N2_J">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 2" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N2_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N2A">
+        <ToolTip value="Importation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Propriete value="Importation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Formula>M_N2A: Importation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_N2A.html&quot; &gt;Aide HTML sur la variable M_N2A&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N2A">
+        <ToolTip value="Effectif d'étudiants de degré 2 restant dans la même académie entre deux années consécutives" />
+        <Propriete value="Etudiants sédentaires non-nouveaux bacheliers" />
+        <Formula>STABLE_N2A: Effectif d'étudiants de degré 2 restant dans la même académie entre deux années consécutives</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N2A.html&quot; &gt;Aide HTML sur la variable STABLE_N2A&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N2A">
+        <ToolTip value="Exportation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Propriete value="Exportation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J" />
+        <Formula>X_N2A: Exportation d'étudiants non-nouveaux bacheliers d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;X_N2A.html&quot; &gt;Aide HTML sur la variable X_N2A&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N2A">
+        <ToolTip value="Part d'importation des étudiants non-nouveaux bacheliers en 2ème année " />
+        <Propriete value="Part d'importation des étudiants non-nouveaux bacheliers en 2ème année " />
+        <Formula>P_M_N2=M_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_M_N2A.html&quot; &gt;Aide HTML sur la variable P_M_N2A&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N2A">
+        <ToolTip value="Part d'exportation des étudiants non-nouveaux bacheliers en 2ème année" />
+        <Propriete value="Part d'exportation des étudiants non-nouveaux bacheliers en 2ème année" />
+        <Formula>P_X_N2=X_N2/(STABLE_N2+X_N2)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N2A.html&quot; &gt;Aide HTML sur la variable P_X_N2A&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N2_IJ">
+        <ToolTip value="Effectif total au degré 2" />
+        <Propriete value="Effectif total au degré 2" />
+        <Formula>ACC_N2 + ARR_N2 + REO_N2 + REP_N2 + RED_N2 + PASS_N2</Formula>
+        <Link value="&lt;a href=&quot;EFF_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N2_J">
+        <ToolTip value="Effectif total au degré 2" />
+        <Propriete value="Effectif total au degré 2" />
+        <Formula>ACC_N2 + ARR_N2 + REO_N2 + REP_N2 + RED_N2 + PASS_N2</Formula>
+        <Link value="&lt;a href=&quot;EFF_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N3_J">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 3" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N3_J.html&quot; &gt;Aide HTML sur la variable ARR_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N3_J">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 3" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 3" />
+        <Formula>T_RED_N3*EFF_N3[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N3_J.html&quot; &gt;Aide HTML sur la variable RED_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N3_J">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 3" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N3_J.html&quot; &gt;Aide HTML sur la variable REO_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N3_J">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 3 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 3 de la même filière" />
+        <Formula>T_PASS_N3*EFF_N2[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N3_J.html&quot; &gt;Aide HTML sur la variable PASS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N3_J">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 3" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 3" />
+        <Formula>PASS_N3 + ARR_N3</Formula>
+        <Link value="&lt;a href=&quot;ENT_N3_J.html&quot; &gt;Aide HTML sur la variable ENT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N3_J">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 3" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N3_J.html&quot; &gt;Aide HTML sur la variable REP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_AUT_N3_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une filière autre que CPGE, STS ou IUT au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une filière autre que CPGE, STS ou IUT au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_AUT_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_AUT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_CPGE_N3_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une CPGE au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une CPGE au degré 3" />
+        <Formula>T_ACC_CPGE_N3*EFF_N2[année précédente, J=300]</Formula>
+        <Link value="&lt;a href=&quot;ACC_CPGE_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_CPGE_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_IUT_N3_J">
+        <ToolTip value="Effectif accédant à la filière J depuis un IUT au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis un IUT au degré 3" />
+        <Formula>T_ACC_IUT_N3*EFF_N2[année précédente, J=200]</Formula>
+        <Link value="&lt;a href=&quot;ACC_IUT_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_IUT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_STS_N3_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une STS au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une STS au degré 3" />
+        <Formula>T_ACC_STS_N3*EFF_N2[année précédente, J=400]</Formula>
+        <Link value="&lt;a href=&quot;ACC_STS_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_STS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_CPGE_N3_J">
+        <ToolTip value="Taux d'accès depuis une CPGE à la filière J au degré 3" />
+        <Propriete value="Taux d'accès depuis une CPGE à la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_CPGE_N3_J.html&quot; &gt;Aide HTML sur la variable T_ACC_CPGE_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_IUT_N3_J">
+        <ToolTip value="Taux d'accès depuis un IUT à la filière J au degré 3" />
+        <Propriete value="Taux d'accès depuis un IUT à la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_IUT_N3_J.html&quot; &gt;Aide HTML sur la variable T_ACC_IUT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_IUT_N3_IJ">
+        <ToolTip value="Taux d'accès depuis un IUT à la filière J au degré 3" />
+        <Propriete value="Taux d'accès depuis un IUT à la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_IUT_N3_J.html&quot; &gt;Aide HTML sur la variable T_ACC_IUT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_STS_N3_J">
+        <ToolTip value="Taux d'accès depuis une STS à la filière J au degré 3" />
+        <Propriete value="Taux d'accès depuis une STS à la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_STS_N3_J.html&quot; &gt;Aide HTML sur la variable T_ACC_STS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_STS_N3_IJ">
+        <ToolTip value="Taux d'accès depuis une STS à la filière J au degré 3" />
+        <Propriete value="Taux d'accès depuis une STS à la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_STS_N3_J.html&quot; &gt;Aide HTML sur la variable T_ACC_STS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N3_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 3" />
+        <Formula>ACC_AUT_N3 + ACC_IUT_N3 + ACC_CPGE_N3 + ACC_STS_N3</Formula>
+        <Link value="&lt;a href=&quot;ACC_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_LP_N3_J">
+        <ToolTip value="Effectif dans la licence professionnelle J au degré 3" />
+        <Propriete value="Effectif dans la licence professionnelle J au degré 3" />
+        <Formula>EFF_N3*P_LP_N3</Formula>
+        <Link value="&lt;a href=&quot;EFF_LP_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_LP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_LP_N3_IJ">
+        <ToolTip value="Effectif dans la licence professionnelle J au degré 3" />
+        <Propriete value="Effectif dans la licence professionnelle J au degré 3" />
+        <Formula>EFF_N3*P_LP_N3</Formula>
+        <Link value="&lt;a href=&quot;EFF_LP_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_LP_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N3_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 3" />
+        <Propriete value="Effectif diplomé de la filière J au degré 3" />
+        <Formula>EFF_N3*T_DIP_N3</Formula>
+        <Link value="&lt;a href=&quot;DIP_N3_J.html&quot; &gt;Aide HTML sur la variable DIP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N3_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 3" />
+        <Propriete value="Effectif diplomé de la filière J au degré 3" />
+        <Formula>EFF_N3*T_DIP_N3</Formula>
+        <Link value="&lt;a href=&quot;DIP_N3_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="LICENCE_N3_J">
+        <ToolTip value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Formula>EFF_N3*T_LICENCE_N3</Formula>
+        <Link value="&lt;a href=&quot;LICENCE_N3_J.html&quot; &gt;Aide HTML sur la variable LICENCE_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="LICPRO_N3_J">
+        <ToolTip value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Formula>EFF_N3*T_LICPRO_N3</Formula>
+        <Link value="&lt;a href=&quot;LICPRO_N3_J.html&quot; &gt;Aide HTML sur la variable LICPRO_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_n3_J">
+        <ToolTip value="Taux de redoublement en 3ème année " />
+        <Propriete value="Taux de redoublement en 3ème année " />
+        <Formula>T_RED_n3 =RED_N3(A)/EFF_N3(A-1) </Formula>
+        <Link value="&lt;a href=&quot;T_RED_n3_J.html&quot; &gt;Aide HTML sur la variable T_RED_n3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N3_J">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 3" />
+        <Formula>ACC_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_CPGE_N3_J">
+        <ToolTip value="Part des accédants d'une CPGE dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'une CPGE dans l'effectif total au degré 3" />
+        <Formula>ACC_CPGE_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_CPGE_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_CPGE_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_STS_N3_J">
+        <ToolTip value="Part des accédants d'un STS dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'un STS dans l'effectif total au degré 3" />
+        <Formula>ACC_STS_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_STS_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_STS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_IUT_N3_J">
+        <ToolTip value="Part des accédants d'un IUT dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'un IUT dans l'effectif total au degré 3" />
+        <Formula>ACC_IUT_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_IUT_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_IUT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_AUT_N3_J">
+        <ToolTip value="Part des accédants d'une autre filière dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'une autre filière dans l'effectif total au degré 3" />
+        <Formula>ACC_AUT_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_AUT_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_AUT_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_LP_N3_J">
+        <ToolTip value="Part des étudiants en licence professionnelle parmi l'effectif total au degré 3" />
+        <Propriete value="Part des étudiants en licence professionnelle parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;P_LP_N3_J.html&quot; &gt;Aide HTML sur la variable P_LP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N3_J">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 3" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 3" />
+        <Formula>ARR_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N3_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N3_J">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 3" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N3_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N3_J">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 3" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 3" />
+        <Formula>PASS_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N3_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N3_J">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 3" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 3" />
+        <Formula>RED_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N3_J.html&quot; &gt;Aide HTML sur la variable P_RED_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N3_J">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 3" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 3" />
+        <Formula>REO_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N3_J.html&quot; &gt;Aide HTML sur la variable P_REO_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N3_J">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 3" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 3" />
+        <Formula>REP_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N3_J.html&quot; &gt;Aide HTML sur la variable P_REP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N3_J">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 3" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N3_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_LICENCE_N3_J">
+        <ToolTip value="Taux de diplômés d'une licence de la filière J parmi l'effectif total au degré 3" />
+        <Propriete value="Taux de diplômés d'une licence de la filière J parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_LICENCE_N3_J.html&quot; &gt;Aide HTML sur la variable T_LICENCE_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_LICPRO_N3_J">
+        <ToolTip value="Taux de diplômés d'une licence professionnelle de la filière J parmi l'effectif total au degré 3" />
+        <Propriete value="Taux de diplômés d'une licence professionnelle de la filière J parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_LICPRO_N3_J.html&quot; &gt;Aide HTML sur la variable T_LICPRO_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N3_J">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 3" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N3_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N3_J">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 3" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N3_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N3">
+        <ToolTip value="Exportation d'étudiants du degré 3  dans d'autres académies" />
+        <Propriete value="Exportation d'étudiants du degré 3  dans d'autres académies" />
+        <Formula>X_N3: Exportation d'étudiants du degré 3  dans d'autres académies</Formula>
+        <Link value="&lt;a href=&quot;X_N3.html&quot; &gt;Aide HTML sur la variable X_N3&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N3">
+        <ToolTip value="Importation d'étudiants au degré 3 provenant d'autres académies selon la filière J" />
+        <Propriete value="Importation d'étudiants au degré 3 provenant d'autres académies selon la filière J" />
+        <Formula>M_N3: Importation d'étudiants au degré 3 provenant d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_N3.html&quot; &gt;Aide HTML sur la variable M_N3&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N3">
+        <ToolTip value="Effectif d'étudiants de degré 3 restant dans la même académie entre deux années consécutives" />
+        <Propriete value="Effectif d'étudiants de degré 3 restant dans la même académie entre deux années consécutives" />
+        <Formula>STABLE_N3: Effectif d'étudiants de degré 3 restant dans la même académie entre deux années consécutives</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N3.html&quot; &gt;Aide HTML sur la variable STABLE_N3&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N3">
+        <ToolTip value="Part d'importation d'étudiants en 3ème année " />
+        <Propriete value="Part d'importation d'étudiants en 3ème année " />
+        <Formula>P_M_N3=M_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_M_N3.html&quot; &gt;Aide HTML sur la variable P_M_N3&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N3">
+        <ToolTip value="Part d'exportation d'étudiants en 3ème année" />
+        <Propriete value="Part d'exportation d'étudiants en 3ème année" />
+        <Formula>P_X_N3=X_N3/(STABLE_N3+X_N3)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N3.html&quot; &gt;Aide HTML sur la variable P_X_N3&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N3_J">
+        <ToolTip value="Effectif total au degré 3" />
+        <Propriete value="Effectif total au degré 3" />
+        <Formula>ACC_AUT_N3 + ARR_N3 + REO_N3 + REP_N3 + RED_N3 + PASS_N3 + ACC_IUT_N3 + ACC_CPGE_N3 + ACC_STS_N3</Formula>
+        <Link value="&lt;a href=&quot;EFF_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N3_IJ">
+        <ToolTip value="Effectif total au degré 3" />
+        <Propriete value="Effectif total au degré 3" />
+        <Formula>ACC_AUT_N3 + ARR_N3 + REO_N3 + REP_N3 + RED_N3 + PASS_N3 + ACC_IUT_N3 + ACC_CPGE_N3 + ACC_STS_N3</Formula>
+        <Link value="&lt;a href=&quot;EFF_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N4_J">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 4" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N4_J.html&quot; &gt;Aide HTML sur la variable ARR_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N4_J">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 4" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 4" />
+        <Formula>T_RED_N4*EFF_N4[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N4_J.html&quot; &gt;Aide HTML sur la variable RED_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N4_J">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 4" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N4_J.html&quot; &gt;Aide HTML sur la variable REO_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N4_J">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 4 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 4 de la même filière" />
+        <Formula>T_PASS_N4*EFF_N3[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N4_J.html&quot; &gt;Aide HTML sur la variable PASS_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N4_J">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 4" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 4" />
+        <Formula>PASS_N4 + ARR_N4</Formula>
+        <Link value="&lt;a href=&quot;ENT_N4_J.html&quot; &gt;Aide HTML sur la variable ENT_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N4_J">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 4" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N4_J.html&quot; &gt;Aide HTML sur la variable REP_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N4_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 4" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N4_J.html&quot; &gt;Aide HTML sur la variable ACC_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N4_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 4" />
+        <Propriete value="Effectif diplomé de la filière J au degré 4" />
+        <Formula>EFF_N4*T_DIP_N4</Formula>
+        <Link value="&lt;a href=&quot;DIP_N4_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N4_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 4" />
+        <Propriete value="Effectif diplomé de la filière J au degré 4" />
+        <Formula>EFF_N4*T_DIP_N4</Formula>
+        <Link value="&lt;a href=&quot;DIP_N4_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N4_J">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 4" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N4_J.html&quot; &gt;Aide HTML sur la variable T_RED_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N4_J">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 4" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 4" />
+        <Formula>ACC_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N4_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N4_J">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 4" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 4" />
+        <Formula>ARR_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N4_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N4_J">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 4" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N4_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N4_J">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 4" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 4" />
+        <Formula>PASS_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N4_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N4_J">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 4" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 4" />
+        <Formula>RED_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N4_J.html&quot; &gt;Aide HTML sur la variable P_RED_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N4_J">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 4" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 4" />
+        <Formula>REO_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N4_J.html&quot; &gt;Aide HTML sur la variable P_REO_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N4_J">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 4" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 4" />
+        <Formula>REP_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N4_J.html&quot; &gt;Aide HTML sur la variable P_REP_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N4_J">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 4" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N4_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N4_J">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 4" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N4_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N4_J">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 4" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N4_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N4">
+        <ToolTip value="Part d'importation d'étudiants en 4ème année" />
+        <Propriete value="Part d'importation d'étudiants en 4ème année" />
+        <Formula>P_M_N4=M_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_M_N4.html&quot; &gt;Aide HTML sur la variable P_M_N4&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N4">
+        <ToolTip value="Part d'exportation d'étudiants en 4ème année " />
+        <Propriete value="Part d'exportation d'étudiants en 4ème année " />
+        <Formula>P_X_N4=X_N4/(STABLE_N4+X_N4)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N4.html&quot; &gt;Aide HTML sur la variable P_X_N4&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N4">
+        <ToolTip value="Importation d'étudiants au degré 4 provenant d'autres académies selon la filière J" />
+        <Propriete value="Importation d'étudiants au degré 4 provenant d'autres académies selon la filière J" />
+        <Formula>M_N4: Importation d'étudiants au degré 4 provenant d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_N4.html&quot; &gt;Aide HTML sur la variable M_N4&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N4">
+        <ToolTip value="Effectif d'étudiants de degré 4 restant dans la même académie entre deux années consécutives" />
+        <Propriete value="Effectif d'étudiants de degré 4 restant dans la même académie entre deux années consécutives" />
+        <Formula>STABLE_N4: Effectif d'étudiants de degré 4 restant dans la même académie entre deux années consécutives</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N4.html&quot; &gt;Aide HTML sur la variable STABLE_N4&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N4_J">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 4" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N4_J.html&quot; &gt;Aide HTML sur la variable X_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N4_IJ">
+        <ToolTip value="Effectif total au degré 4" />
+        <Propriete value="Effectif total au degré 4" />
+        <Formula>ACC_N4 + ARR_N4 + REO_N4 + REP_N4 + RED_N4 + PASS_N4</Formula>
+        <Link value="&lt;a href=&quot;EFF_N4_J.html&quot; &gt;Aide HTML sur la variable EFF_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N4_J">
+        <ToolTip value="Effectif total au degré 4" />
+        <Propriete value="Effectif total au degré 4" />
+        <Formula>ACC_N4 + ARR_N4 + REO_N4 + REP_N4 + RED_N4 + PASS_N4</Formula>
+        <Link value="&lt;a href=&quot;EFF_N4_J.html&quot; &gt;Aide HTML sur la variable EFF_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N5_J">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 5" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N5_J.html&quot; &gt;Aide HTML sur la variable ARR_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N5_J">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 5" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 5" />
+        <Formula>T_RED_N5*EFF_N5[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N5_J.html&quot; &gt;Aide HTML sur la variable RED_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N5_J">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 5" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N5_J.html&quot; &gt;Aide HTML sur la variable REO_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N5_J">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 5 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 5 de la même filière" />
+        <Formula>T_PASS_N5*EFF_N4[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N5_J.html&quot; &gt;Aide HTML sur la variable PASS_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N5_J">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 5" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 5" />
+        <Formula>PASS_N5 + ARR_N5</Formula>
+        <Link value="&lt;a href=&quot;ENT_N5_J.html&quot; &gt;Aide HTML sur la variable ENT_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N5_J">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 5" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N5_J.html&quot; &gt;Aide HTML sur la variable REP_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N5_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 5" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N5_J.html&quot; &gt;Aide HTML sur la variable ACC_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N5_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 5" />
+        <Propriete value="Effectif diplomé de la filière J au degré 5" />
+        <Formula>EFF_N5*T_DIP_N5</Formula>
+        <Link value="&lt;a href=&quot;DIP_N5_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N5_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 5" />
+        <Propriete value="Effectif diplomé de la filière J au degré 5" />
+        <Formula>EFF_N5*T_DIP_N5</Formula>
+        <Link value="&lt;a href=&quot;DIP_N5_IJ.html&quot; &gt;Aide HTML sur la variable DIP_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="MASTER_N5_J">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Formula>EFF_N5*T_MASTER_N5</Formula>
+        <Link value="&lt;a href=&quot;MASTER_N5_J.html&quot; &gt;Aide HTML sur la variable MASTER_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N5_J">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 5" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N5_J.html&quot; &gt;Aide HTML sur la variable T_RED_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N5_J">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 5" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 5" />
+        <Formula>ACC_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N5_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N5_J">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 5" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 5" />
+        <Formula>ARR_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N5_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N5_J">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 5" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N5_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N5_J">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 5" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 5" />
+        <Formula>PASS_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N5_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N5_J">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 5" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 5" />
+        <Formula>RED_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N5_J.html&quot; &gt;Aide HTML sur la variable P_RED_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N5_J">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 5" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 5" />
+        <Formula>REO_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N5_J.html&quot; &gt;Aide HTML sur la variable P_REO_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N5_J">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 5" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 5" />
+        <Formula>REP_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N5_J.html&quot; &gt;Aide HTML sur la variable P_REP_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N5_J">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 5" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N5_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_MASTER_N5_J">
+        <ToolTip value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 5" />
+        <Propriete value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_MASTER_N5_J.html&quot; &gt;Aide HTML sur la variable T_MASTER_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N5_J">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 5" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N5_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N5_J">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 5" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N5_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N5">
+        <ToolTip value="Part d'importation d'étudiants en 5ème année" />
+        <Propriete value="Part d'importation d'étudiants en 5ème année" />
+        <Formula>p_M_n5=M_n5/EFF_n5</Formula>
+        <Link value="&lt;a href=&quot;P_M_N5.html&quot; &gt;Aide HTML sur la variable P_M_N5&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N5">
+        <ToolTip value="Part d'exportation d'étudiants en 5ème année " />
+        <Propriete value="Part d'exportation d'étudiants en 5ème année " />
+        <Formula>p_X_n5=X_n5/(stable_n5+x_n5)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N5.html&quot; &gt;Aide HTML sur la variable P_X_N5&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N5">
+        <ToolTip value="Importation d'étudiants au degré 5 provenant d'autres académies selon la filière J" />
+        <Propriete value="Importation d'étudiants au degré 5 provenant d'autres académies selon la filière J" />
+        <Formula>M_N5: Importation d'étudiants au degré 5 provenant d'autres académies selon la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_N5.html&quot; &gt;Aide HTML sur la variable M_N5&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N5">
+        <ToolTip value="Effectif d'étudiants de degré 5 restant dans la même académie entre deux années consécutives" />
+        <Propriete value="Effectif d'étudiants de degré 5 restant dans la même académie entre deux années consécutives" />
+        <Formula>STABLE_N5: Effectif d'étudiants de degré 5 restant dans la même académie entre deux années consécutives</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N5.html&quot; &gt;Aide HTML sur la variable STABLE_N5&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N5">
+        <ToolTip value="Exportation d'étudiants du degré 5  dans d'autres académies" />
+        <Propriete value="Exportation d'étudiants du degré 5  dans d'autres académies" />
+        <Formula>X_N5: Exportation d'étudiants du degré 5  dans d'autres académies</Formula>
+        <Link value="&lt;a href=&quot;X_N5.html&quot; &gt;Aide HTML sur la variable X_N5&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N5_IJ">
+        <ToolTip value="Effectif total au degré 5" />
+        <Propriete value="Effectif total au degré 5" />
+        <Formula>ACC_N5 + ARR_N5 + REO_N5 + REP_N5 + RED_N5 + PASS_N5</Formula>
+        <Link value="&lt;a href=&quot;EFF_N5_J.html&quot; &gt;Aide HTML sur la variable EFF_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N5_J">
+        <ToolTip value="Effectif total au degré 5" />
+        <Propriete value="Effectif total au degré 5" />
+        <Formula>ACC_N5 + ARR_N5 + REO_N5 + REP_N5 + RED_N5 + PASS_N5</Formula>
+        <Link value="&lt;a href=&quot;EFF_N5_J.html&quot; &gt;Aide HTML sur la variable EFF_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N6_IJ">
+        <ToolTip value="Effectif total au degré 6" />
+        <Propriete value="Effectif total au degré 6" />
+        <Formula>ACC_N6 + ARR_N6 + REO_N6 + REP_N6 + RED_N6 + PASS_N6</Formula>
+        <Link value="&lt;a href=&quot;EFF_N6_J.html&quot; &gt;Aide HTML sur la variable EFF_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N6_J">
+        <ToolTip value="Effectif total au degré 6" />
+        <Propriete value="Effectif total au degré 6" />
+        <Formula>ACC_N6 + ARR_N6 + REO_N6 + REP_N6 + RED_N6 + PASS_N6</Formula>
+        <Link value="&lt;a href=&quot;EFF_N6_J.html&quot; &gt;Aide HTML sur la variable EFF_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N6_J">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 6" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N6_J.html&quot; &gt;Aide HTML sur la variable ARR_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N6_J">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 6" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 6" />
+        <Formula>T_RED_N6*EFF_N6[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N6_J.html&quot; &gt;Aide HTML sur la variable RED_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DEJA_N6_J">
+        <ToolTip value="Effectifs des étudiants de doctorat déjà inscrits en doctorat l'année précédente" />
+        <Propriete value="Effectifs des étudiants de doctorat déjà inscrits en doctorat l'année précédente" />
+        <Formula>DEJA_N6_J: Effectifs des étudiants de doctorat déjà inscrits en doctorat l'année précédente</Formula>
+        <Link value="&lt;a href=&quot;DEJA_N6_J.html&quot; &gt;Aide HTML sur la variable DEJA_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N6_J">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 6" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N6_J.html&quot; &gt;Aide HTML sur la variable REO_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N6_J">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 6 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 6 de la même filière" />
+        <Formula>T_PASS_N6*EFF_N5[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N6_J.html&quot; &gt;Aide HTML sur la variable PASS_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N6_J">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 6" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 6" />
+        <Formula>PASS_N6 + ARR_N6</Formula>
+        <Link value="&lt;a href=&quot;ENT_N6_J.html&quot; &gt;Aide HTML sur la variable ENT_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N6_J">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 6" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N6_J.html&quot; &gt;Aide HTML sur la variable REP_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N6_J">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 6" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N6_J.html&quot; &gt;Aide HTML sur la variable ACC_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N6_IJ">
+        <ToolTip value="Effectif diplomé de la filière J au degré 6" />
+        <Propriete value="Effectif diplomé de la filière J au degré 6" />
+        <Formula>EFF_N6*T_DIP_N6</Formula>
+        <Link value="&lt;a href=&quot;DIP_N6_J.html&quot; &gt;Aide HTML sur la variable DIP_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N6_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 6" />
+        <Propriete value="Effectif diplomé de la filière J au degré 6" />
+        <Formula>EFF_N6*T_DIP_N6</Formula>
+        <Link value="&lt;a href=&quot;DIP_N6_J.html&quot; &gt;Aide HTML sur la variable DIP_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="MASTER_N6_J">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Formula>EFF_N6*T_MASTER_N6</Formula>
+        <Link value="&lt;a href=&quot;MASTER_N6_J.html&quot; &gt;Aide HTML sur la variable MASTER_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DOC_N6_J">
+        <ToolTip value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Formula>EFF_N6*T_DOC_N6</Formula>
+        <Link value="&lt;a href=&quot;DOC_N6_J.html&quot; &gt;Aide HTML sur la variable DOC_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N6_J">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 6" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N6_J.html&quot; &gt;Aide HTML sur la variable T_RED_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DEJA_N6_J">
+        <ToolTip value="Taux d'étudiants déjà présents en doctorat dans la filière J l'année précédente au degré 6" />
+        <Propriete value="Taux d'étudiants déjà présents en doctorat dans la filière J l'année précédente au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DEJA_N6_J.html&quot; &gt;Aide HTML sur la variable T_DEJA_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_DEJA_N6_J">
+        <ToolTip value="Part des effectifs déjà présents en doctorat dans la filière J l'année précédente dans l'effectif total au degré 6" />
+        <Propriete value="Part des effectifs déjà présents en doctorat dans la filière J l'année précédente dans l'effectif total au degré 6" />
+        <Formula>DEJA_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_DEJA_N6_J.html&quot; &gt;Aide HTML sur la variable P_DEJA_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N6_J">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 6" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 6" />
+        <Formula>ACC_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N6_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N6_J">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 6" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 6" />
+        <Formula>ARR_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N6_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N6_J">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 6" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N6_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N6_J">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 6" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 6" />
+        <Formula>PASS_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N6_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N6_J">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 6" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 6" />
+        <Formula>RED_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N6_J.html&quot; &gt;Aide HTML sur la variable P_RED_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N6_J">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 6" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 6" />
+        <Formula>REO_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N6_J.html&quot; &gt;Aide HTML sur la variable P_REO_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N6_J">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 6" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 6" />
+        <Formula>REP_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N6_J.html&quot; &gt;Aide HTML sur la variable P_REP_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N6_J">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 6" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N6_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_MASTER_N6_J">
+        <ToolTip value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 6" />
+        <Propriete value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_MASTER_N6_J.html&quot; &gt;Aide HTML sur la variable T_MASTER_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DOC_N6_J">
+        <ToolTip value="Taux de diplômés d'un doctorat de la filière J parmi l'effectif total au degré 6" />
+        <Propriete value="Taux de diplômés d'un doctorat de la filière J parmi l'effectif total au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DOC_N6_J.html&quot; &gt;Aide HTML sur la variable T_DOC_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N6_J">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 6" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N6_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N6_J">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 6" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N6_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N6">
+        <ToolTip value="Part d'importation d'étudiants en 6ème année" />
+        <Propriete value="Part d'importation d'étudiants en 6ème année" />
+        <Formula>P_M_N6=M_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_M_N6.html&quot; &gt;Aide HTML sur la variable P_M_N6&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N6">
+        <ToolTip value="Part d'exportation d'étudiants en 6ème année " />
+        <Propriete value="Part d'exportation d'étudiants en 6ème année " />
+        <Formula>P_X_N6=X_N6/(STABLE_N6+X_N6)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N6.html&quot; &gt;Aide HTML sur la variable P_X_N6&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N6">
+        <ToolTip value="Importation d'étudiants provenant d'autres académies" />
+        <Propriete value="Importation d'étudiants provenant d'autres académies" />
+        <Formula>M_N6: Importation d'étudiants provenant d'autres académies</Formula>
+        <Link value="&lt;a href=&quot;M_N6.html&quot; &gt;Aide HTML sur la variable M_N6&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N6">
+        <ToolTip value="Effectif d'étudiants de degré 6 restant dans la même académie entre deux années consécutives" />
+        <Propriete value="Effectif d'étudiants de degré 6 restant dans la même académie entre deux années consécutives" />
+        <Formula>STABLE_N6: Effectif d'étudiants de degré 6 restant dans la même académie entre deux années consécutives</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N6.html&quot; &gt;Aide HTML sur la variable STABLE_N6&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N6">
+        <ToolTip value="Exportation d'étudiants du degré 6  dans d'autres académies" />
+        <Propriete value="Exportation d'étudiants du degré 6  dans d'autres académies" />
+        <Formula>X_N6: Exportation d'étudiants du degré 6  dans d'autres académies</Formula>
+        <Link value="&lt;a href=&quot;X_N6.html&quot; &gt;Aide HTML sur la variable X_N6&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N0_J">
+        <ToolTip value="Effectif total au degré 0" />
+        <Propriete value="Effectif total au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_N0_J.html&quot; &gt;Aide HTML sur la variable EFF_N0_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_N0_IJ">
+        <ToolTip value="Effectif total au degré 0" />
+        <Propriete value="Effectif total au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_N0_J.html&quot; &gt;Aide HTML sur la variable EFF_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_N0_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 0" />
+        <Propriete value="Effectif diplomé de la filière J au degré 0" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_N1_J">
+        <ToolTip value="Effectif diplomé de la filière J au degré 1" />
+        <Propriete value="Effectif diplomé de la filière J au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_L_N0_J">
+        <ToolTip value="Effectif dans la licence J au degré 0" />
+        <Propriete value="Effectif dans la licence J au degré 0" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_L_N1_J">
+        <ToolTip value="Effectif dans la licence J au degré 1" />
+        <Propriete value="Effectif dans la licence J au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_L_N2_J">
+        <ToolTip value="Effectif dans la licence J au degré 2" />
+        <Propriete value="Effectif dans la licence J au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_L_N3_J">
+        <ToolTip value="Effectif dans la licence J au degré 3" />
+        <Propriete value="Effectif dans la licence J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_N1_J">
+        <ToolTip value="Effectif dans le master J au degré 1" />
+        <Propriete value="Effectif dans le master J au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_N2_J">
+        <ToolTip value="Effectif dans le master J au degré 2" />
+        <Propriete value="Effectif dans le master J au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_N3_J">
+        <ToolTip value="Effectif dans le master J au degré 3" />
+        <Propriete value="Effectif dans le master J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_N4_J">
+        <ToolTip value="Effectif dans le master J au degré 4" />
+        <Propriete value="Effectif dans le master J au degré 4" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_N5_J">
+        <ToolTip value="Effectif dans le master J au degré 5" />
+        <Propriete value="Effectif dans le master J au degré 5" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_N6_J">
+        <ToolTip value="Effectif dans le master J au degré 6" />
+        <Propriete value="Effectif dans le master J au degré 6" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_D_N6_J">
+        <ToolTip value="Effectif dans le doctorat J au degré 6" />
+        <Propriete value="Effectif dans le doctorat J au degré 6" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_C_N0_J">
+        <ToolTip value="Effectif dans la CPGE J au degré 0" />
+        <Propriete value="Effectif dans la CPGE J au degré 0" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_C_N1_J">
+        <ToolTip value="Effectif dans la CPGE J au degré 1" />
+        <Propriete value="Effectif dans la CPGE J au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_C_N2_J">
+        <ToolTip value="Effectif dans la CPGE J au degré 2" />
+        <Propriete value="Effectif dans la CPGE J au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_S_N0_J">
+        <ToolTip value="Effectif dans le BTS J au degré 0" />
+        <Propriete value="Effectif dans le BTS J au degré 0" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_S_N1_J">
+        <ToolTip value="Effectif dans le BTS J au degré 1" />
+        <Propriete value="Effectif dans le BTS J au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_S_N2_J">
+        <ToolTip value="Effectif dans le BTS J au degré 2" />
+        <Propriete value="Effectif dans le BTS J au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_S_N3_J">
+        <ToolTip value="Effectif dans le BTS J au degré 3" />
+        <Propriete value="Effectif dans le BTS J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_I_N1_J">
+        <ToolTip value="Effectif dans le DUT/BUT J au degré 1" />
+        <Propriete value="Effectif dans le DUT/BUT J au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_I_N2_J">
+        <ToolTip value="Effectif dans le DUT/BUT J au degré 2" />
+        <Propriete value="Effectif dans le DUT/BUT J au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_I_N3_J">
+        <ToolTip value="Effectif dans le DUT/BUT J au degré 3" />
+        <Propriete value="Effectif dans le DUT/BUT J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N0_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 0" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 0" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N1_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 1" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 1" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N2_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 2" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N3_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 3" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N4_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 4" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 4" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N5_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 5" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 5" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_N6_J">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 6" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 6" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_M_N5_J">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_M_N6_J">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_D_N6_J">
+        <ToolTip value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_S_N2_J">
+        <ToolTip value="Effectif diplômé d'un BTS au degré 2" />
+        <Propriete value="Effectif diplômé d'un BTS au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_S_N3_J">
+        <ToolTip value="Effectif diplômé d'un BTS au degré 3" />
+        <Propriete value="Effectif diplômé d'un BTS au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_I_N2_J">
+        <ToolTip value="Effectif diplômé d'un DUT/BUT au degré 2" />
+        <Propriete value="Effectif diplômé d'un DUT/BUT au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_I_N3_J">
+        <ToolTip value="Effectif diplômé d'un DUT/BUT au degré 3" />
+        <Propriete value="Effectif diplômé d'un DUT/BUT au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_A_N2_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 2" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 2" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_A_N3_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_A_N4_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 4" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 4" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_A_N5_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 5" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 5" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_A_N6_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 6" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_LI_N3_J">
+        <ToolTip value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="DIP_LP_N3_J">
+        <ToolTip value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_C_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total de la CPGE J" />
+        <Propriete value="Part de l'académie A dans l'effectif total de la CPGE J" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_S_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total du BTS J" />
+        <Propriete value="Part de l'académie A dans l'effectif total du BTS J" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_I_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total du BUT/DUT J" />
+        <Propriete value="Part de l'académie A dans l'effectif total du BUT/DUT J" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_L_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total de la licence J" />
+        <Propriete value="Part de l'académie A dans l'effectif total de la licence J" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_M_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total du master J" />
+        <Propriete value="Part de l'académie A dans l'effectif total du master J" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_D_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total du doctorat J" />
+        <Propriete value="Part de l'académie A dans l'effectif total du doctorat J" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="P_ACA_A_JA">
+        <ToolTip value="Part de l'académie A dans l'effectif total de la filière J d'un cursus &quot;Autres&quot;" />
+        <Propriete value="Part de l'académie A dans l'effectif total de la filière J d'un cursus &quot;Autres&quot;" />
+        <Formula />
+        <Link value="" />
+    </Key>
+    <Key name="EFF_C_JA">
+        <ToolTip value="Effectif total en CPGE dans l'académie A" />
+        <Propriete value="Effectif total en CPGE dans l'académie A" />
+        <Formula>P_ACA_C*(EFF_C_N0 + EFF_C_N1 + EFF_C_N2)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="EFF_S_JA">
+        <ToolTip value="Effectif total en STS dans l'académie A" />
+        <Propriete value="Effectif total en STS dans l'académie A" />
+        <Formula>P_ACA_S*(EFF_S_N0 + EFF_S_N1 + EFF_S_N2 + EFF_S_N3)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="EFF_I_JA">
+        <ToolTip value="Effectif total en IUT dans l'académie A" />
+        <Propriete value="Effectif total en IUT dans l'académie A" />
+        <Formula>P_ACA_I*(EFF_I_N1 + EFF_I_N2 + EFF_I_N3)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="EFF_L_JA">
+        <ToolTip value="Effectif total en licence dans l'académie A" />
+        <Propriete value="Effectif total en licence dans l'académie A" />
+        <Formula>P_ACA_L*(EFF_L_N0 + EFF_L_N1 + EFF_L_N2 + EFF_L_N3)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="EFF_M_JA">
+        <ToolTip value="Effectif total en master dans l'académie A" />
+        <Propriete value="Effectif total en master dans l'académie A" />
+        <Formula>P_ACA_M*(EFF_M_N1 + EFF_M_N2 + EFF_M_N3 + EFF_M_N4 + EFF_M_N5 + EFF_M_N6)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="EFF_D_JA">
+        <ToolTip value="Effectif total en doctorat dans l'académie A" />
+        <Propriete value="Effectif total en doctorat dans l'académie A" />
+        <Formula>P_ACA_D*(EFF_D_N6)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="EFF_A_JA">
+        <ToolTip value="Effectif total d'un cursus &quot;Autres&quot;" />
+        <Propriete value="Effectif total d'un cursus &quot;Autres&quot;" />
+        <Formula>P_ACA_A*(EFF_A_N0 + EFF_A_N1 + EFF_A_N2 + EFF_A_N3 + EFF_A_N4 + EFF_A_N5 + EFF_A_N6)</Formula>
+        <Link value="" />
+    </Key>
+    <Key name="DÉJÀ_N6_J">
+        <ToolTip value="Effectif étudiant déjà présent en doctorat dans la filière J au degré 6 l'année précédente" />
+        <Propriete value="Effectif étudiant déjà présent en doctorat dans la filière J au degré 6 l'année précédente" />
+        <Formula>T_DEJA_N6*EFF_N6[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;DÉJÀ_N6_J.html&quot; &gt;Aide HTML sur la variable DÉJÀ_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N0_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 0" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N0_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N0_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N1_J">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 1" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N1_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N1_J&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_S_N1_J">
+        <ToolTip value="Effectif diplômé d'un BTS au degré 1" />
+        <Propriete value="Effectif diplômé d'un BTS au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_S_N1_J.html&quot; &gt;Aide HTML sur la variable DIP_S_N1_J&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_TOT_FIL">
+        <ToolTip value="Effectif total" />
+        <Propriete value="Effectif total" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_TOT_FIL.html&quot; &gt;Aide HTML sur la variable EFF_TOT_FIL&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N1A_IJ">
+        <ToolTip value="Effectif non néo-bachelier venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 1" />
+        <Propriete value="Effectif non néo-bachelier venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N1A_IJ.html&quot; &gt;Aide HTML sur la variable M_N1A_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N1B_IJ">
+        <ToolTip value="Importation de bacheliers d'autres académies dans la filière J" />
+        <Propriete value="Importation de bacheliers d'autres académies dans la filière J" />
+        <Formula>M_n1b_j: Importation de bacheliers d'autres académies dans la filière J</Formula>
+        <Link value="&lt;a href=&quot;M_N1B_IJ.html&quot; &gt;Aide HTML sur la variable M_N1B_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N2_J">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 2" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N2_J.html&quot; &gt;Aide HTML sur la variable M_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N3_J">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 3" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N3_J.html&quot; &gt;Aide HTML sur la variable M_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N4_J">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 4" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N4_J.html&quot; &gt;Aide HTML sur la variable M_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N5_J">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 5" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N5_J.html&quot; &gt;Aide HTML sur la variable M_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N6_J">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 6" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N6_J.html&quot; &gt;Aide HTML sur la variable M_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="NBT_N1_JI">
+        <ToolTip value="Effectif néo-bacheliers poursuivant dans la filière J au degré 1" />
+        <Propriete value="Effectif néo-bacheliers poursuivant dans la filière J au degré 1" />
+        <Formula>NBA_N1_IJ + M_N1B_IJ</Formula>
+        <Link value="&lt;a href=&quot;NBT_N1_JI.html&quot; &gt;Aide HTML sur la variable NBT_N1_JI&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N1A_IJ">
+        <ToolTip value="Part de l'effectif non néo-bacheliers venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 1" />
+        <Propriete value="Part de l'effectif non néo-bacheliers venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 1" />
+        <Formula>M_N1A/EFF_N1</Formula>
+        <Link value="&lt;a href=&quot;P_M_N1A_IJ.html&quot; &gt;Aide HTML sur la variable P_M_N1A_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N1B_IJ">
+        <ToolTip value="Taux importation des bacheliers de la serie I dans la filière J dans l'académie" />
+        <Propriete value="Taux importation des bacheliers de la serie I dans la filière J dans l'académie" />
+        <Formula>P_M_N1B_IJ=M_N1B_IJ/NBT_N1_IJ</Formula>
+        <Link value="&lt;a href=&quot;P_M_N1B_IJ.html&quot; &gt;Aide HTML sur la variable P_M_N1B_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N2_J">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 2" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 2" />
+        <Formula>M_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_M_N2_J.html&quot; &gt;Aide HTML sur la variable P_M_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N3_J">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 3" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 3" />
+        <Formula>M_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_M_N3_J.html&quot; &gt;Aide HTML sur la variable P_M_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N4_J">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 4" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 4" />
+        <Formula>M_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_M_N4_J.html&quot; &gt;Aide HTML sur la variable P_M_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N5_J">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 5" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 5" />
+        <Formula>M_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_M_N5_J.html&quot; &gt;Aide HTML sur la variable P_M_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N6_J">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 6" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 6" />
+        <Formula>M_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_M_N6_J.html&quot; &gt;Aide HTML sur la variable P_M_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N1A_IJ">
+        <ToolTip value="Part de l'effectif non néo-bachelier venant de l'académie et allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 1" />
+        <Propriete value="Part de l'effectif non néo-bachelier venant de l'académie et allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 1" />
+        <Formula>X_N1A/(X_N1A + STABLE_N1A)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N1A_IJ.html&quot; &gt;Aide HTML sur la variable P_X_N1A_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N1B_IJ">
+        <ToolTip value="Taux d'exportation des bacheliers de la série i de l'académie dans la filière j " />
+        <Propriete value="Taux d'exportation des bacheliers de la série i de l'académie dans la filière j " />
+        <Formula>P_X_N1B_IJ=X_N1B_IJ/B_N1_I</Formula>
+        <Link value="&lt;a href=&quot;P_X_N1B_IJ.html&quot; &gt;Aide HTML sur la variable P_X_N1B_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N2_J">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 2" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 2" />
+        <Formula>X_N2/(X_N2 + STABLE_N2)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N2_J.html&quot; &gt;Aide HTML sur la variable P_X_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N3_J">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 3" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 3" />
+        <Formula>X_N3/(X_N3 + STABLE_N3)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N3_J.html&quot; &gt;Aide HTML sur la variable P_X_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N4_J">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 4" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 4" />
+        <Formula>X_N4/(X_N4 + STABLE_N4)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N4_J.html&quot; &gt;Aide HTML sur la variable P_X_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N5_J">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 5" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 5" />
+        <Formula>X_N5/(X_N5 + STABLE_N5)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N5_J.html&quot; &gt;Aide HTML sur la variable P_X_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N6_J">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 6" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 6" />
+        <Formula>X_N6/(X_N6 + STABLE_N6)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N6_J.html&quot; &gt;Aide HTML sur la variable P_X_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N1A_IJ">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 1" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 1" />
+        <Formula>EFF_N1-M_N1A</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N1A_IJ.html&quot; &gt;Aide HTML sur la variable STABLE_N1A_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N2_J">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 2" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 2" />
+        <Formula>EFF_N2-M_N2</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N2_J.html&quot; &gt;Aide HTML sur la variable STABLE_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N3_J">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 3" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 3" />
+        <Formula>EFF_N3-M_N3</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N3_J.html&quot; &gt;Aide HTML sur la variable STABLE_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N4_J">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 4" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 4" />
+        <Formula>EFF_N4-M_N4</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N4_J.html&quot; &gt;Aide HTML sur la variable STABLE_N4_J&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N5_J">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 5" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 5" />
+        <Formula>EFF_N5-M_N5</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N5_J.html&quot; &gt;Aide HTML sur la variable STABLE_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N6_J">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 6" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 6" />
+        <Formula>EFF_N6-M_N6</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N6_J.html&quot; &gt;Aide HTML sur la variable STABLE_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="T_BT_N1_JI">
+        <ToolTip value="Taux d’accueil total des nouveaux bacheliers de la série I accueillis dans la filière J dans l’académie" />
+        <Propriete value="Taux d’accueil total des nouveaux bacheliers de la série I accueillis dans la filière J dans l’académie" />
+        <Formula>NBT_N1/B_N1</Formula>
+        <Link value="&lt;a href=&quot;T_BT_N1_JI.html&quot; &gt;Aide HTML sur la variable T_BT_N1_JI&lt;/a&gt;" />
+    </Key>
+    <Key name="T_P_N1_IJ">
+        <ToolTip value="" />
+        <Propriete value="" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_P_N1_IJ.html&quot; &gt;Aide HTML sur la variable T_P_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PA_N1_IJ">
+        <ToolTip value="Taux d’accueil total des nouveaux bacheliers de la série I de l'académie, accueillis dans la filière J dans la même académie" />
+        <Propriete value="Taux d’accueil total des nouveaux bacheliers de la série I de l'académie, accueillis dans la filière J dans la même académie" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PA_N1_IJ.html&quot; &gt;Aide HTML sur la variable T_PA_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N3_J">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 3" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N3_J.html&quot; &gt;Aide HTML sur la variable T_RED_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N1A_IJ">
+        <ToolTip value="Effectif non néo-bachelier venant de l'académie et allant étudier dans la filière J dans une académie au degré 1" />
+        <Propriete value="Effectif non néo-bachelier venant de l'académie et allant étudier dans la filière J dans une académie au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N1A_IJ.html&quot; &gt;Aide HTML sur la variable X_N1A_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N1B_IJ">
+        <ToolTip value="Exportation des bacheliers de l'académie A vers la filière J des autres académies" />
+        <Propriete value="Exportation des bacheliers de l'académie A vers la filière J des autres académies" />
+        <Formula>X_n1b_j: Exportation des bacheliers de l'académie A vers la filière J des autres académies</Formula>
+        <Link value="&lt;a href=&quot;X_N1B_IJ.html&quot; &gt;Aide HTML sur la variable X_N1B_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N2_J">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 2" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N2_J.html&quot; &gt;Aide HTML sur la variable X_N2_J&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N3_J">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 3" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N3_J.html&quot; &gt;Aide HTML sur la variable X_N3_J&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N5_J">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 5" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N5_J.html&quot; &gt;Aide HTML sur la variable X_N5_J&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N6_J">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 6" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N6_J.html&quot; &gt;Aide HTML sur la variable X_N6_J&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N2_IJ">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 2" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N2_J.html&quot; &gt;Aide HTML sur la variable ARR_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N2_IJ">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 2" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 2" />
+        <Formula>T_RED_N2*EFF_N2[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N2_J.html&quot; &gt;Aide HTML sur la variable RED_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N2_IJ">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 2" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N2_J.html&quot; &gt;Aide HTML sur la variable REO_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N2_IJ">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 2 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 2 de la même filière" />
+        <Formula>T_PASS_N2*EFF_N1[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N2_J.html&quot; &gt;Aide HTML sur la variable PASS_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N2_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 2" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N2_J.html&quot; &gt;Aide HTML sur la variable ACC_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N2_IJ">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 2" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 2" />
+        <Formula>PASS_N2 + ARR_N2</Formula>
+        <Link value="&lt;a href=&quot;ENT_N2_J.html&quot; &gt;Aide HTML sur la variable ENT_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N2_IJ">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 2" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N2_J.html&quot; &gt;Aide HTML sur la variable REP_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N2_IJ">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 2" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N2_J.html&quot; &gt;Aide HTML sur la variable T_RED_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N2_IJ">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 2" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N2_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N2_IJ">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 2" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 2" />
+        <Formula>ACC_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N2_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N2_IJ">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 2" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 2" />
+        <Formula>ARR_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N2_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N2_IJ">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 2" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 2" />
+        <Formula>PASS_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N2_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N2_IJ">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 2" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 2" />
+        <Formula>RED_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N2_J.html&quot; &gt;Aide HTML sur la variable P_RED_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N2_IJ">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 2" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 2" />
+        <Formula>REO_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N2_J.html&quot; &gt;Aide HTML sur la variable P_REO_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N2_IJ">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 2" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 2" />
+        <Formula>REP_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N2_J.html&quot; &gt;Aide HTML sur la variable P_REP_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N2_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 2" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N2_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N2_IJ">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 2" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N2_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N2_IJ">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 2" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N2_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N3_IJ">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 3" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N3_J.html&quot; &gt;Aide HTML sur la variable ARR_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N3_IJ">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 3" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 3" />
+        <Formula>T_RED_N3*EFF_N3[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N3_J.html&quot; &gt;Aide HTML sur la variable RED_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N3_IJ">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 3" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N3_J.html&quot; &gt;Aide HTML sur la variable REO_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N3_IJ">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 3 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 3 de la même filière" />
+        <Formula>T_PASS_N3*EFF_N2[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N3_J.html&quot; &gt;Aide HTML sur la variable PASS_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N3_IJ">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 3" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 3" />
+        <Formula>PASS_N3 + ARR_N3</Formula>
+        <Link value="&lt;a href=&quot;ENT_N3_J.html&quot; &gt;Aide HTML sur la variable ENT_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N3_IJ">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 3" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N3_J.html&quot; &gt;Aide HTML sur la variable REP_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_AUT_N3_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une filière autre que CPGE, STS ou IUT au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une filière autre que CPGE, STS ou IUT au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_AUT_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_AUT_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_CPGE_N3_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une CPGE au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une CPGE au degré 3" />
+        <Formula>T_ACC_CPGE_N3*EFF_N2[année précédente, J=300]</Formula>
+        <Link value="&lt;a href=&quot;ACC_CPGE_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_CPGE_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_IUT_N3_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis un IUT au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis un IUT au degré 3" />
+        <Formula>T_ACC_IUT_N3*EFF_N2[année précédente, J=200]</Formula>
+        <Link value="&lt;a href=&quot;ACC_IUT_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_IUT_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_STS_N3_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une STS au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une STS au degré 3" />
+        <Formula>T_ACC_STS_N3*EFF_N2[année précédente, J=400]</Formula>
+        <Link value="&lt;a href=&quot;ACC_STS_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_STS_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_ACC_CPGE_N3_IJ">
+        <ToolTip value="Taux d'accès depuis une CPGE à la filière J au degré 3" />
+        <Propriete value="Taux d'accès depuis une CPGE à la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_ACC_CPGE_N3_J.html&quot; &gt;Aide HTML sur la variable T_ACC_CPGE_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N3_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 3" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 3" />
+        <Formula>ACC_AUT_N3 + ACC_IUT_N3 + ACC_CPGE_N3 + ACC_STS_N3</Formula>
+        <Link value="&lt;a href=&quot;ACC_N3_J.html&quot; &gt;Aide HTML sur la variable ACC_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="LICENCE_N3_IJ">
+        <ToolTip value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Formula>EFF_N3*T_LICENCE_N3</Formula>
+        <Link value="&lt;a href=&quot;LICENCE_N3_J.html&quot; &gt;Aide HTML sur la variable LICENCE_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="LICPRO_N3_IJ">
+        <ToolTip value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Formula>EFF_N3*T_LICPRO_N3</Formula>
+        <Link value="&lt;a href=&quot;LICPRO_N3_J.html&quot; &gt;Aide HTML sur la variable LICPRO_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_n3_IJ">
+        <ToolTip value="Taux de redoublement en 3ème année " />
+        <Propriete value="Taux de redoublement en 3ème année " />
+        <Formula>T_RED_n3 =RED_N3(A)/EFF_N3(A-1) </Formula>
+        <Link value="&lt;a href=&quot;T_RED_n3_J.html&quot; &gt;Aide HTML sur la variable T_RED_n3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N3_IJ">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 3" />
+        <Formula>ACC_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_CPGE_N3_IJ">
+        <ToolTip value="Part des accédants d'une CPGE dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'une CPGE dans l'effectif total au degré 3" />
+        <Formula>ACC_CPGE_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_CPGE_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_CPGE_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_STS_N3_IJ">
+        <ToolTip value="Part des accédants d'un STS dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'un STS dans l'effectif total au degré 3" />
+        <Formula>ACC_STS_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_STS_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_STS_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_IUT_N3_IJ">
+        <ToolTip value="Part des accédants d'un IUT dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'un IUT dans l'effectif total au degré 3" />
+        <Formula>ACC_IUT_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_IUT_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_IUT_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_AUT_N3_IJ">
+        <ToolTip value="Part des accédants d'une autre filière dans l'effectif total au degré 3" />
+        <Propriete value="Part des accédants d'une autre filière dans l'effectif total au degré 3" />
+        <Formula>ACC_AUT_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_AUT_N3_J.html&quot; &gt;Aide HTML sur la variable P_ACC_AUT_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_LP_N3_IJ">
+        <ToolTip value="Part des étudiants en licence professionnelle parmi l'effectif total au degré 3" />
+        <Propriete value="Part des étudiants en licence professionnelle parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;P_LP_N3_J.html&quot; &gt;Aide HTML sur la variable P_LP_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N3_IJ">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 3" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 3" />
+        <Formula>ARR_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N3_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N3_IJ">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 3" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N3_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N3_IJ">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 3" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 3" />
+        <Formula>PASS_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N3_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N3_IJ">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 3" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 3" />
+        <Formula>RED_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N3_J.html&quot; &gt;Aide HTML sur la variable P_RED_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N3_IJ">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 3" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 3" />
+        <Formula>REO_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N3_J.html&quot; &gt;Aide HTML sur la variable P_REO_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N3_IJ">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 3" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 3" />
+        <Formula>REP_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N3_J.html&quot; &gt;Aide HTML sur la variable P_REP_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N3_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 3" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N3_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_LICENCE_N3_IJ">
+        <ToolTip value="Taux de diplômés d'une licence de la filière J parmi l'effectif total au degré 3" />
+        <Propriete value="Taux de diplômés d'une licence de la filière J parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_LICENCE_N3_J.html&quot; &gt;Aide HTML sur la variable T_LICENCE_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_LICPRO_N3_IJ">
+        <ToolTip value="Taux de diplômés d'une licence professionnelle de la filière J parmi l'effectif total au degré 3" />
+        <Propriete value="Taux de diplômés d'une licence professionnelle de la filière J parmi l'effectif total au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_LICPRO_N3_J.html&quot; &gt;Aide HTML sur la variable T_LICPRO_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N3_IJ">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 3" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N3_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N3_IJ">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 3" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N3_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N4_IJ">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 4" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N4_J.html&quot; &gt;Aide HTML sur la variable ARR_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N4_IJ">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 4" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 4" />
+        <Formula>T_RED_N4*EFF_N4[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N4_J.html&quot; &gt;Aide HTML sur la variable RED_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N4_IJ">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 4" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N4_J.html&quot; &gt;Aide HTML sur la variable REO_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N4_IJ">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 4 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 4 de la même filière" />
+        <Formula>T_PASS_N4*EFF_N3[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N4_J.html&quot; &gt;Aide HTML sur la variable PASS_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N4_IJ">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 4" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 4" />
+        <Formula>PASS_N4 + ARR_N4</Formula>
+        <Link value="&lt;a href=&quot;ENT_N4_J.html&quot; &gt;Aide HTML sur la variable ENT_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N4_IJ">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 4" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N4_J.html&quot; &gt;Aide HTML sur la variable REP_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N4_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 4" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N4_J.html&quot; &gt;Aide HTML sur la variable ACC_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N4_IJ">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 4" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N4_J.html&quot; &gt;Aide HTML sur la variable T_RED_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N4_IJ">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 4" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 4" />
+        <Formula>ACC_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N4_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N4_IJ">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 4" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 4" />
+        <Formula>ARR_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N4_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N4_IJ">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 4" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N4_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N4_IJ">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 4" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 4" />
+        <Formula>PASS_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N4_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N4_IJ">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 4" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 4" />
+        <Formula>RED_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N4_J.html&quot; &gt;Aide HTML sur la variable P_RED_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N4_IJ">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 4" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 4" />
+        <Formula>REO_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N4_J.html&quot; &gt;Aide HTML sur la variable P_REO_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N4_IJ">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 4" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 4" />
+        <Formula>REP_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N4_J.html&quot; &gt;Aide HTML sur la variable P_REP_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N4_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 4" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N4_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N4_IJ">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 4" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N4_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N4_IJ">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 4" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N4_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N4_IJ">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 4" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N4_J.html&quot; &gt;Aide HTML sur la variable X_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N5_IJ">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 5" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N5_J.html&quot; &gt;Aide HTML sur la variable ARR_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N5_IJ">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 5" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 5" />
+        <Formula>T_RED_N5*EFF_N5[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N5_J.html&quot; &gt;Aide HTML sur la variable RED_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N5_IJ">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 5" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N5_J.html&quot; &gt;Aide HTML sur la variable REO_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N5_IJ">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 5 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 5 de la même filière" />
+        <Formula>T_PASS_N5*EFF_N4[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N5_J.html&quot; &gt;Aide HTML sur la variable PASS_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N5_IJ">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 5" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 5" />
+        <Formula>PASS_N5 + ARR_N5</Formula>
+        <Link value="&lt;a href=&quot;ENT_N5_J.html&quot; &gt;Aide HTML sur la variable ENT_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N5_IJ">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 5" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N5_J.html&quot; &gt;Aide HTML sur la variable REP_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N5_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 5" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N5_J.html&quot; &gt;Aide HTML sur la variable ACC_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="MASTER_N5_IJ">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Formula>EFF_N5*T_MASTER_N5</Formula>
+        <Link value="&lt;a href=&quot;MASTER_N5_J.html&quot; &gt;Aide HTML sur la variable MASTER_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N5_IJ">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 5" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N5_J.html&quot; &gt;Aide HTML sur la variable T_RED_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N5_IJ">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 5" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 5" />
+        <Formula>ACC_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N5_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N5_IJ">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 5" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 5" />
+        <Formula>ARR_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N5_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N5_IJ">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 5" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N5_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N5_IJ">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 5" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 5" />
+        <Formula>PASS_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N5_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N5_IJ">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 5" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 5" />
+        <Formula>RED_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N5_J.html&quot; &gt;Aide HTML sur la variable P_RED_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N5_IJ">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 5" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 5" />
+        <Formula>REO_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N5_J.html&quot; &gt;Aide HTML sur la variable P_REO_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N5_IJ">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 5" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 5" />
+        <Formula>REP_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N5_J.html&quot; &gt;Aide HTML sur la variable P_REP_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N5_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 5" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N5_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_MASTER_N5_IJ">
+        <ToolTip value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 5" />
+        <Propriete value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_MASTER_N5_J.html&quot; &gt;Aide HTML sur la variable T_MASTER_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N5_IJ">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 5" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N5_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N5_IJ">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 5" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N5_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ARR_N6_IJ">
+        <ToolTip value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 6" />
+        <Propriete value="Effectif jamais inscrit dans l'enseignement supérieur auparavant arrivant dans la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ARR_N6_J.html&quot; &gt;Aide HTML sur la variable ARR_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="RED_N6_IJ">
+        <ToolTip value="Effectif redoublant dans la même filière J au degré 6" />
+        <Propriete value="Effectif redoublant dans la même filière J au degré 6" />
+        <Formula>T_RED_N6*EFF_N6[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;RED_N6_J.html&quot; &gt;Aide HTML sur la variable RED_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DEJA_N6_IJ">
+        <ToolTip value="Effectifs des étudiants de doctorat déjà inscrits en doctorat l'année précédente" />
+        <Propriete value="Effectifs des étudiants de doctorat déjà inscrits en doctorat l'année précédente" />
+        <Formula>DEJA_N6_J: Effectifs des étudiants de doctorat déjà inscrits en doctorat l'année précédente</Formula>
+        <Link value="&lt;a href=&quot;DEJA_N6_J.html&quot; &gt;Aide HTML sur la variable DEJA_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REO_N6_IJ">
+        <ToolTip value="Effectif réorienté depuis une autre filière vers la filière J au degré 6" />
+        <Propriete value="Effectif réorienté depuis une autre filière vers la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REO_N6_J.html&quot; &gt;Aide HTML sur la variable REO_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="PASS_N6_IJ">
+        <ToolTip value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 6 de la même filière" />
+        <Propriete value="Effectif inscrit dans la filière J à un degré infénieur l'année précédente et passant au degré 6 de la même filière" />
+        <Formula>T_PASS_N6*EFF_N5[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;PASS_N6_J.html&quot; &gt;Aide HTML sur la variable PASS_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ENT_N6_IJ">
+        <ToolTip value="Ensemble des nouveaux entrants dans la filière J au degré 6" />
+        <Propriete value="Ensemble des nouveaux entrants dans la filière J au degré 6" />
+        <Formula>PASS_N6 + ARR_N6</Formula>
+        <Link value="&lt;a href=&quot;ENT_N6_J.html&quot; &gt;Aide HTML sur la variable ENT_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="REP_N6_IJ">
+        <ToolTip value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 6" />
+        <Propriete value="Effectif déjà inscrit auparavant dans l'enseignement supérieur, reprenant leurs études dans la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;REP_N6_J.html&quot; &gt;Aide HTML sur la variable REP_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ACC_N6_IJ">
+        <ToolTip value="Effectif accédant à la filière J depuis une autre filière au degré 6" />
+        <Propriete value="Effectif accédant à la filière J depuis une autre filière au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ACC_N6_J.html&quot; &gt;Aide HTML sur la variable ACC_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="MASTER_N6_IJ">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Formula>EFF_N6*T_MASTER_N6</Formula>
+        <Link value="&lt;a href=&quot;MASTER_N6_J.html&quot; &gt;Aide HTML sur la variable MASTER_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DOC_N6_IJ">
+        <ToolTip value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Formula>EFF_N6*T_DOC_N6</Formula>
+        <Link value="&lt;a href=&quot;DOC_N6_J.html&quot; &gt;Aide HTML sur la variable DOC_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N6_IJ">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 6" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N6_J.html&quot; &gt;Aide HTML sur la variable T_RED_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DEJA_N6_IJ">
+        <ToolTip value="Taux d'étudiants déjà présents en doctorat dans la filière J l'année précédente au degré 6" />
+        <Propriete value="Taux d'étudiants déjà présents en doctorat dans la filière J l'année précédente au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DEJA_N6_J.html&quot; &gt;Aide HTML sur la variable T_DEJA_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_DEJA_N6_IJ">
+        <ToolTip value="Part des effectifs déjà présents en doctorat dans la filière J l'année précédente dans l'effectif total au degré 6" />
+        <Propriete value="Part des effectifs déjà présents en doctorat dans la filière J l'année précédente dans l'effectif total au degré 6" />
+        <Formula>DEJA_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_DEJA_N6_J.html&quot; &gt;Aide HTML sur la variable P_DEJA_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ACC_N6_IJ">
+        <ToolTip value="Part des accédants dans l'effectif total au degré 6" />
+        <Propriete value="Part des accédants dans l'effectif total au degré 6" />
+        <Formula>ACC_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_ACC_N6_J.html&quot; &gt;Aide HTML sur la variable P_ACC_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_ARR_N6_IJ">
+        <ToolTip value="Part des arrivants dans l'effectif total au degré 6" />
+        <Propriete value="Part des arrivants dans l'effectif total au degré 6" />
+        <Formula>ARR_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_ARR_N6_J.html&quot; &gt;Aide HTML sur la variable P_ARR_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_PASS_N6_IJ">
+        <ToolTip value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 6" />
+        <Propriete value="Taux de passage depuis un degré inférieur dans la même filière, pour la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_PASS_N6_J.html&quot; &gt;Aide HTML sur la variable T_PASS_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_PASS_N6_IJ">
+        <ToolTip value="Part des étudiants passants dans l'effectif total au degré 6" />
+        <Propriete value="Part des étudiants passants dans l'effectif total au degré 6" />
+        <Formula>PASS_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_PASS_N6_J.html&quot; &gt;Aide HTML sur la variable P_PASS_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_RED_N6_IJ">
+        <ToolTip value="Part des redoublants dans l'effectif total au degré 6" />
+        <Propriete value="Part des redoublants dans l'effectif total au degré 6" />
+        <Formula>RED_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_RED_N6_J.html&quot; &gt;Aide HTML sur la variable P_RED_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REO_N6_IJ">
+        <ToolTip value="Part des réorientés dans l'effectif total au degré 6" />
+        <Propriete value="Part des réorientés dans l'effectif total au degré 6" />
+        <Formula>REO_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_REO_N6_J.html&quot; &gt;Aide HTML sur la variable P_REO_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_REP_N6_IJ">
+        <ToolTip value="Part des reprises d'étude dans l'effectif total au degré 6" />
+        <Propriete value="Part des reprises d'étude dans l'effectif total au degré 6" />
+        <Formula>REP_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_REP_N6_J.html&quot; &gt;Aide HTML sur la variable P_REP_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DIP_N6_IJ">
+        <ToolTip value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 6" />
+        <Propriete value="Taux de diplômés (tous diplômes confondus) de la filière J parmi l'effectif total au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DIP_N6_J.html&quot; &gt;Aide HTML sur la variable T_DIP_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_MASTER_N6_IJ">
+        <ToolTip value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 6" />
+        <Propriete value="Taux de diplômés d'un master de la filière J parmi l'effectif total au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_MASTER_N6_J.html&quot; &gt;Aide HTML sur la variable T_MASTER_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_DOC_N6_IJ">
+        <ToolTip value="Taux de diplômés d'un doctorat de la filière J parmi l'effectif total au degré 6" />
+        <Propriete value="Taux de diplômés d'un doctorat de la filière J parmi l'effectif total au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_DOC_N6_J.html&quot; &gt;Aide HTML sur la variable T_DOC_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCBAC_N6_IJ">
+        <ToolTip value="Ancienneté moyenne du bac des étudiants de la filière J au degré 6" />
+        <Propriete value="Ancienneté moyenne du bac des étudiants de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCBAC_N6_J.html&quot; &gt;Aide HTML sur la variable ANCBAC_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="ANCINSC_N6_IJ">
+        <ToolTip value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 6" />
+        <Propriete value="Ancienneté moyenne d'inscription dans l'enseignement supérieur des étudiants de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;ANCINSC_N6_J.html&quot; &gt;Aide HTML sur la variable ANCINSC_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_L_N0_IJ">
+        <ToolTip value="Effectif dans la licence J au degré 0" />
+        <Propriete value="Effectif dans la licence J au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_L_N0_J.html&quot; &gt;Aide HTML sur la variable EFF_L_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_L_N1_IJ">
+        <ToolTip value="Effectif dans la licence J au degré 1" />
+        <Propriete value="Effectif dans la licence J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_L_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_L_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_L_N2_IJ">
+        <ToolTip value="Effectif dans la licence J au degré 2" />
+        <Propriete value="Effectif dans la licence J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_L_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_L_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_L_N3_IJ">
+        <ToolTip value="Effectif dans la licence J au degré 3" />
+        <Propriete value="Effectif dans la licence J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_L_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_L_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_M_N1_IJ">
+        <ToolTip value="Effectif dans le master J au degré 1" />
+        <Propriete value="Effectif dans le master J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_M_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_M_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_M_N2_IJ">
+        <ToolTip value="Effectif dans le master J au degré 2" />
+        <Propriete value="Effectif dans le master J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_M_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_M_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_M_N3_IJ">
+        <ToolTip value="Effectif dans le master J au degré 3" />
+        <Propriete value="Effectif dans le master J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_M_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_M_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_M_N4_IJ">
+        <ToolTip value="Effectif dans le master J au degré 4" />
+        <Propriete value="Effectif dans le master J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_M_N4_J.html&quot; &gt;Aide HTML sur la variable EFF_M_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_M_N5_IJ">
+        <ToolTip value="Effectif dans le master J au degré 5" />
+        <Propriete value="Effectif dans le master J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_M_N5_J.html&quot; &gt;Aide HTML sur la variable EFF_M_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_M_N6_IJ">
+        <ToolTip value="Effectif dans le master J au degré 6" />
+        <Propriete value="Effectif dans le master J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_M_N6_J.html&quot; &gt;Aide HTML sur la variable EFF_M_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_D_N6_IJ">
+        <ToolTip value="Effectif dans le doctorat J au degré 6" />
+        <Propriete value="Effectif dans le doctorat J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_D_N6_J.html&quot; &gt;Aide HTML sur la variable EFF_D_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_C_N0_IJ">
+        <ToolTip value="Effectif dans la CPGE J au degré 0" />
+        <Propriete value="Effectif dans la CPGE J au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_C_N0_J.html&quot; &gt;Aide HTML sur la variable EFF_C_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_C_N1_IJ">
+        <ToolTip value="Effectif dans la CPGE J au degré 1" />
+        <Propriete value="Effectif dans la CPGE J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_C_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_C_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_C_N2_IJ">
+        <ToolTip value="Effectif dans la CPGE J au degré 2" />
+        <Propriete value="Effectif dans la CPGE J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_C_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_C_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_S_N0_IJ">
+        <ToolTip value="Effectif dans le BTS J au degré 0" />
+        <Propriete value="Effectif dans le BTS J au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_S_N0_J.html&quot; &gt;Aide HTML sur la variable EFF_S_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_S_N1_IJ">
+        <ToolTip value="Effectif dans le BTS J au degré 1" />
+        <Propriete value="Effectif dans le BTS J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_S_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_S_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_S_N2_IJ">
+        <ToolTip value="Effectif dans le BTS J au degré 2" />
+        <Propriete value="Effectif dans le BTS J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_S_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_S_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_S_N3_IJ">
+        <ToolTip value="Effectif dans le BTS J au degré 3" />
+        <Propriete value="Effectif dans le BTS J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_S_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_S_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_I_N1_IJ">
+        <ToolTip value="Effectif dans le DUT/BUT J au degré 1" />
+        <Propriete value="Effectif dans le DUT/BUT J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_I_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_I_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_I_N2_IJ">
+        <ToolTip value="Effectif dans le DUT/BUT J au degré 2" />
+        <Propriete value="Effectif dans le DUT/BUT J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_I_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_I_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_I_N3_IJ">
+        <ToolTip value="Effectif dans le DUT/BUT J au degré 3" />
+        <Propriete value="Effectif dans le DUT/BUT J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_I_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_I_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N0_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 0" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N0_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N1_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 1" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N1_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N2_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 2" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N2_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N3_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 3" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N3_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N4_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 4" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N4_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N5_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 5" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N5_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF_A_N6_IJ">
+        <ToolTip value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 6" />
+        <Propriete value="Effectif dans la filière J d'un cursus &quot;Autres&quot; au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;EFF_A_N6_J.html&quot; &gt;Aide HTML sur la variable EFF_A_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_M_N5_IJ">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_M_N5_J.html&quot; &gt;Aide HTML sur la variable DIP_M_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_M_N6_IJ">
+        <ToolTip value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un master de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_M_N6_J.html&quot; &gt;Aide HTML sur la variable DIP_M_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_D_N6_IJ">
+        <ToolTip value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'un doctorat de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_D_N6_J.html&quot; &gt;Aide HTML sur la variable DIP_D_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_S_N2_IJ">
+        <ToolTip value="Effectif diplômé d'un BTS au degré 2" />
+        <Propriete value="Effectif diplômé d'un BTS au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_S_N2_J.html&quot; &gt;Aide HTML sur la variable DIP_S_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_S_N3_IJ">
+        <ToolTip value="Effectif diplômé d'un BTS au degré 3" />
+        <Propriete value="Effectif diplômé d'un BTS au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_S_N3_J.html&quot; &gt;Aide HTML sur la variable DIP_S_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_I_N2_IJ">
+        <ToolTip value="Effectif diplômé d'un DUT/BUT au degré 2" />
+        <Propriete value="Effectif diplômé d'un DUT/BUT au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_I_N2_J.html&quot; &gt;Aide HTML sur la variable DIP_I_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_I_N3_IJ">
+        <ToolTip value="Effectif diplômé d'un DUT/BUT au degré 3" />
+        <Propriete value="Effectif diplômé d'un DUT/BUT au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_I_N3_J.html&quot; &gt;Aide HTML sur la variable DIP_I_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N2_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 2" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N2_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N3_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N3_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N4_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 4" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N4_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N5_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 5" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N5_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N6_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 6" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N6_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_LI_N3_IJ">
+        <ToolTip value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_LI_N3_J.html&quot; &gt;Aide HTML sur la variable DIP_LI_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_LP_N3_IJ">
+        <ToolTip value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Propriete value="Effectif diplômé d'une licence professionnelle de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_LP_N3_J.html&quot; &gt;Aide HTML sur la variable DIP_LP_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DÉJÀ_N6_IJ">
+        <ToolTip value="Effectif étudiant déjà présent en doctorat dans la filière J au degré 6 l'année précédente" />
+        <Propriete value="Effectif étudiant déjà présent en doctorat dans la filière J au degré 6 l'année précédente" />
+        <Formula>T_DEJA_N6*EFF_N6[année précédente]</Formula>
+        <Link value="&lt;a href=&quot;DÉJÀ_N6_J.html&quot; &gt;Aide HTML sur la variable DÉJÀ_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N0_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 0" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 0" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N0_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N0_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_A_N1_IJ">
+        <ToolTip value="Effectif diplômé d'autres diplômes de la filière J au degré 1" />
+        <Propriete value="Effectif diplômé d'autres diplômes de la filière J au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_A_N1_J.html&quot; &gt;Aide HTML sur la variable DIP_A_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="DIP_S_N1_IJ">
+        <ToolTip value="Effectif diplômé d'un BTS au degré 1" />
+        <Propriete value="Effectif diplômé d'un BTS au degré 1" />
+        <Formula />
+        <Link value="&lt;a href=&quot;DIP_S_N1_J.html&quot; &gt;Aide HTML sur la variable DIP_S_N1_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N2_IJ">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 2" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N2_J.html&quot; &gt;Aide HTML sur la variable M_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N3_IJ">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 3" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N3_J.html&quot; &gt;Aide HTML sur la variable M_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N4_IJ">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 4" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 4" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N4_J.html&quot; &gt;Aide HTML sur la variable M_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N5_IJ">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 5" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N5_J.html&quot; &gt;Aide HTML sur la variable M_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="M_N6_IJ">
+        <ToolTip value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 6" />
+        <Propriete value="Effectif venant d'une autre académie, étudiant dans l'académie dans la filière J au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;M_N6_J.html&quot; &gt;Aide HTML sur la variable M_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N2_IJ">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 2" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 2" />
+        <Formula>M_N2/EFF_N2</Formula>
+        <Link value="&lt;a href=&quot;P_M_N2_J.html&quot; &gt;Aide HTML sur la variable P_M_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N3_IJ">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 3" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 3" />
+        <Formula>M_N3/EFF_N3</Formula>
+        <Link value="&lt;a href=&quot;P_M_N3_J.html&quot; &gt;Aide HTML sur la variable P_M_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N4_IJ">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 4" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 4" />
+        <Formula>M_N4/EFF_N4</Formula>
+        <Link value="&lt;a href=&quot;P_M_N4_J.html&quot; &gt;Aide HTML sur la variable P_M_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N5_IJ">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 5" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 5" />
+        <Formula>M_N5/EFF_N5</Formula>
+        <Link value="&lt;a href=&quot;P_M_N5_J.html&quot; &gt;Aide HTML sur la variable P_M_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_M_N6_IJ">
+        <ToolTip value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 6" />
+        <Propriete value="Part de l'effectif venant d'une autre académie, étudiant dans l'académie dans la filière J, par rapport à l'effectif total de l'académie au degré 6" />
+        <Formula>M_N6/EFF_N6</Formula>
+        <Link value="&lt;a href=&quot;P_M_N6_J.html&quot; &gt;Aide HTML sur la variable P_M_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N2_IJ">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 2" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 2" />
+        <Formula>X_N2/(X_N2 + STABLE_N2)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N2_J.html&quot; &gt;Aide HTML sur la variable P_X_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N3_IJ">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 3" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 3" />
+        <Formula>X_N3/(X_N3 + STABLE_N3)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N3_J.html&quot; &gt;Aide HTML sur la variable P_X_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N4_IJ">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 4" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 4" />
+        <Formula>X_N4/(X_N4 + STABLE_N4)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N4_J.html&quot; &gt;Aide HTML sur la variable P_X_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N5_IJ">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 5" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 5" />
+        <Formula>X_N5/(X_N5 + STABLE_N5)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N5_J.html&quot; &gt;Aide HTML sur la variable P_X_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="P_X_N6_IJ">
+        <ToolTip value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 6" />
+        <Propriete value="Part de l'effectif de l'académie allant étudier dans la filière J dans une autre académie par rapport à l'effectif total de l'académie au degré 6" />
+        <Formula>X_N6/(X_N6 + STABLE_N6)</Formula>
+        <Link value="&lt;a href=&quot;P_X_N6_J.html&quot; &gt;Aide HTML sur la variable P_X_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N2_IJ">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 2" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 2" />
+        <Formula>EFF_N2-M_N2</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N2_J.html&quot; &gt;Aide HTML sur la variable STABLE_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N3_IJ">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 3" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 3" />
+        <Formula>EFF_N3-M_N3</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N3_J.html&quot; &gt;Aide HTML sur la variable STABLE_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N4_IJ">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 4" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 4" />
+        <Formula>EFF_N4-M_N4</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N4_J.html&quot; &gt;Aide HTML sur la variable STABLE_N4_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N5_IJ">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 5" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 5" />
+        <Formula>EFF_N5-M_N5</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N5_J.html&quot; &gt;Aide HTML sur la variable STABLE_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="STABLE_N6_IJ">
+        <ToolTip value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 6" />
+        <Propriete value="Effectif de la filière J n'ayant pas changé d'académie par rapport à l'année précédente au degré 6" />
+        <Formula>EFF_N6-M_N6</Formula>
+        <Link value="&lt;a href=&quot;STABLE_N6_J.html&quot; &gt;Aide HTML sur la variable STABLE_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="T_RED_N3_IJ">
+        <ToolTip value="Taux de redoublement des étudiants de la filière J au degré 3" />
+        <Propriete value="Taux de redoublement des étudiants de la filière J au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;T_RED_N3_J.html&quot; &gt;Aide HTML sur la variable T_RED_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N2_IJ">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 2" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 2" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N2_J.html&quot; &gt;Aide HTML sur la variable X_N2_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N3_IJ">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 3" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 3" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N3_J.html&quot; &gt;Aide HTML sur la variable X_N3_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N5_IJ">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 5" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 5" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N5_J.html&quot; &gt;Aide HTML sur la variable X_N5_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="X_N6_IJ">
+        <ToolTip value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 6" />
+        <Propriete value="Effectif de l'académie allant étudier dans la filière J dans une autre académie au degré 6" />
+        <Formula />
+        <Link value="&lt;a href=&quot;X_N6_J.html&quot; &gt;Aide HTML sur la variable X_N6_IJ&lt;/a&gt;" />
+    </Key>
+    <Key name="EFF">
+        <ToolTip value="Effectif total" />
+        <Propriete value="Effectif total" />
+        <Formula />
+        <Link value="" />
+    </Key>
+</Aide>

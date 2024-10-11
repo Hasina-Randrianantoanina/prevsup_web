@@ -1,0 +1,58 @@
+#nav,
+.menu_container,
+#pied_de_page {
+	display:none;
+}
+#zone_centrale{
+	background:none;
+	padding:0;
+}
+#zone_centrale.sans_nav {
+	background:none;
+	padding:0;
+}
+#zone_centrale_contenu{
+	margin:0;
+	padding:0;
+}
+#contenu_avec_menu{
+	padding:0;
+}
+#contenu {
+	padding:0;
+}
+#contenu .col_gauche,
+#contenu_avec_menu #contenu .col_gauche {
+	width: 650px; /*=> on réduit la largeur à cause des options par défaut d'impression sous opéra*/
+}
+#contenu .encadre .submit_bg_gauche,
+#contenu .encadre .submit_bg_droite{
+	background:none;	
+	padding:0;
+}
+#contenu .encadre input.submit {
+	background:#dddddd;
+	padding:0px 10px 0px 10px;
+}
+#connexion_contenu {
+	background:#dddddd;
+}
+#connexion .submit_bg_gauche,
+#connexion .submit_bg_droite {
+	background:none;	
+	padding:0;
+}
+#connexion input.submit {
+	background:#b6b6b6;
+	padding:0px 10px 0px 10px;
+}
+#connexion .title_bg_left,
+#connexion .title_bg_right {
+	background:none;	
+	padding:0;
+}
+#connexion h2 {
+	background:#ff005a;	
+	padding:7px 70px 7px 15px;
+}
+

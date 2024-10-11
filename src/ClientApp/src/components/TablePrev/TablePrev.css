@@ -1,0 +1,43 @@
+table {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.table-container {
+  width: 100%;
+  min-width: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow: scroll;
+  scrollbar-width: 17px !important;
+  /* border: 1px solid black; */
+  /* padding: 7px; */
+}
+
+/* .table-container table th {
+  background-color: grey;
+  top: 0;
+  z-index: 998;
+  border : none !important;
+} */
+/* .table-container table thead, .table-container table thead tr {
+  background-color: grey;
+  z-index: 998;
+} */
+/* .table-container tbody tr td{
+  background-color: grey;
+  top: 0;
+  z-index: 998;
+  border : none !important;
+}
+.table-container table tbody td, .table-container table tbody tr {
+  background-color: grey;
+  z-index: 998;
+} */
+/* .table-container table trPrev {
+ background: rgb(18, 241, 74);
+} */
+
+.table-container tr td:nth-child(1) {
+  /* border-right: 1px solid black !important; */
+}
